@@ -1,0 +1,15 @@
+GenericEntity : "{4AFBDAC4EE3FADBB}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_cargo_canvas.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SlotManagerComponent "{5D834DA0C51F1876}" {
+   Slots {
+    RegisteringComponentSlotInfo Canvas {
+     Prefab "{88F41100B0152A06}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_canvas_closed.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{2CD4A765B4482F53}" {
+   Enabled 0
+  }
+ }
+}

@@ -1,0 +1,119 @@
+$grp Vehicle : "{31C4EE667A6E82C8}Prefabs/Vehicles/Wheeled/M998/TT_M1025_armed_M2HB.et" {
+ TT_M1025_armed_M2HB1 {
+  coords 458.883 112.035 342.051
+  angles -4.219 91.303 0
+  m_sAttachmentGroupName "B_S1"
+ }
+ TT_M1025_armed_M2HB2 {
+  coords 424.156 112.594 341.485
+  angles 0 87.299 0
+  m_sAttachmentGroupName "B_S2"
+ }
+ TT_M1025_armed_M2HB3 {
+  coords 1450.518 38.469 1187.534
+  angles 0 90.853 0
+  m_sAttachmentGroupName "B_S5"
+ }
+}
+$grp SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleSquad.et" {
+ B_S1 {
+  components {
+   PS_GroupCallsignAssigner "{691B2B18E599C780}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 473.271 110.768 345.133
+  angles 0 -179.357 0
+ }
+ B_S2 {
+  components {
+   PS_GroupCallsignAssigner "{691B2B18E1579C64}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 436.597 112.584 345.276
+  angles 0 -179.905 0
+ }
+ B_S5 {
+  components {
+   PS_GroupCallsignAssigner "{691B2B1883BCCBB0}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 1464.889 38.469 1190.034
+  angles 0 -174.954 0
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1458.117 39.751 1189.431
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 448.29 112.317 342.422
+}
+SCR_AIGroup B_S4 : "{CBD2888396F1ADA6}Prefabs/Groups/BLUFOR/TT_Group_USMC_AT_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{691B2B1BF05DC69C}" {
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 607.625 107.406 336.443
+ angles 0 -136.793 0
+}
+SCR_AIGroup B_PL1 : "{DB3A117F4DE37A9D}Prefabs/Groups/BLUFOR/TT_Group_USMC_PL_HQ.et" {
+ components {
+  PS_GroupCallsignAssigner "{691B2B18EC3C9D76}" {
+  }
+ }
+ coords 484.256 109.554 344.813
+ angles 0 -178.504 0
+}
+SCR_AIGroup B_S3 : "{DFF2BB85468B1D49}Prefabs/Groups/BLUFOR/TT_Group_USMC_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{691B2B189F706375}" {
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 615.41 107.406 327.928
+ angles 0 -133.365 0
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 608.703 107.406 332.41
+}
+Vehicle TT_M1025_Landmines1 : "{FB08465031FA4BFF}Prefabs/Vehicles/Wheeled/M998/TT_M1025_Landmines.et" {
+ coords 1464.328 38.469 1186.29
+ angles 0 93.199 0
+ m_sAttachmentGroupName "B_S5"
+}
+$grp Vehicle : "{FB08465031FA4C00}Prefabs/Vehicles/Wheeled/M998/TT_M1025_Explosives.et" {
+ TT_M1025_Explosives1 {
+  coords 482.321 109.756 341.492
+  angles -6.758 90.132 0
+  m_sAttachmentGroupName "B_PL1"
+ }
+ TT_M1025_Explosives2 {
+  coords 472.929 110.907 341.608
+  angles -4.952 91.258 0
+  m_sAttachmentGroupName "B_S1"
+ }
+ TT_M1025_Explosives3 {
+  coords 466.156 111.602 341.856
+  angles -5.322 90.696 -0.193
+  m_sAttachmentGroupName "B_S1"
+ }
+ TT_M1025_Explosives4 {
+  coords 436.727 112.552 341.947
+  angles 0 89.87 0
+  m_sAttachmentGroupName "B_S2"
+ }
+ TT_M1025_Explosives5 {
+  coords 430.391 112.594 341.837
+  angles 0 87.897 0
+  m_sAttachmentGroupName "B_S2"
+ }
+ TT_M1025_Explosives6 {
+  coords 1457.374 38.469 1186.96
+  angles 0 94.108 0
+  m_sAttachmentGroupName "B_S5"
+ }
+}

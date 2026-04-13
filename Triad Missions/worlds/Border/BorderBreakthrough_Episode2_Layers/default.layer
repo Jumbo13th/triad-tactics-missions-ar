@@ -1,0 +1,46 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 1021.766 41.089 1028.484
+ "Map Geometry Data" "{70DC54B99622965A}GameMaster/Border.topo"
+ "Satellite background image" "{DE6EFBB093B169DF}GameMaster/RESULT.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1021.766 41.057 1027.484
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1021.766 41.026 1026.484
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  TMF_BroadcastService "{691B2B1458698CE4}" {
+  }
+ }
+ coords 983.615 38.591 1256.79
+ m_bRemoveRedundantUnits 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bFreezeTimeShootingForbiden 1
+}
