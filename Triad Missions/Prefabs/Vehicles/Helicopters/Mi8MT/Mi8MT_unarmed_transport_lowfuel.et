@@ -1,0 +1,65 @@
+Vehicle : "{B6B8C164FD6377EA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 200
+    }
+    SCR_FuelNode "{5A7CE769E7A9C416}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C414}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F6C7859029DD32}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{89FD00CB2909667D}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v1_TTsKO.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{691C7A0B13895139}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{691C7A0CEC56C75B}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo door_rear {
+     PivotID "Scene_Root"
+     Prefab "{8952883E000BE636}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_rear_door.et"
+    }
+    RegisteringComponentSlotInfo SeatsRear {
+     Prefab "{9503E8AF9FFBA67A}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Seats/VehPart_MI8_seats_cargo.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    SCR_ResourceContainerVehicleLoadAction "{5DAD751A3D2FE182}" : "{A0E53319BFA4E848}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Load.conf" {
+     ParentContextList {
+      "door_l01_door"
+     }
+    }
+    SCR_ResourceContainerVehicleUnloadAction "{5DAD751A3BF8492E}" : "{F10C4B3E2E87F15B}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Unload.conf" {
+     ParentContextList {
+      "door_l01_door"
+     }
+    }
+   }
+  }
+ }
+}

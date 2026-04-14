@@ -1,7 +1,7 @@
 SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
- coords 1021.766 41.089 1028.484
- "Map Geometry Data" "{70DC54B99622965A}GameMaster/Border.topo"
- "Satellite background image" "{DE6EFBB093B169DF}GameMaster/RESULT.edds"
+ coords 5740.454 406.477 3197.792
+ "Map Geometry Data" "{6E432560EA8341B4}worlds/Denali/denali_world.topo"
+ "Satellite background image" "{DE9ACD4254453FC4}worlds/Denali/map_bg.edds"
  {
   CommentEntity {
    coords 0 1 0
@@ -16,7 +16,7 @@ SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
  }
 }
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 1021.766 41.057 1027.484
+ coords 5740.454 406.559 3196.792
  {
   CommentEntity {
    coords 0 1 0
@@ -31,5 +31,5 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  }
 }
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 1021.766 41.026 1026.484
+ coords 5740.454 406.64 3195.792
 }

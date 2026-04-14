@@ -1,0 +1,79 @@
+$grp Tree : "{05A3738C33E15AA8}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3d_fallen_mossy.et" {
+ {
+  coords 5556.986 2.975 5706.679
+  angles 7.894 -57.196 0
+  scale 0.88
+ }
+ {
+  coords 5556.348 0.065 5707.356
+  angles 5.524 -100.308 0
+  scale 0.805
+ }
+ {
+  coords 5559.776 0 5703.762
+  angles 5.064 141.563 0
+  scale 0.949
+ }
+ {
+  coords 5556.609 0.025 5708.394
+  angles 0.639 179.654 0
+  scale 0.877
+ }
+ {
+  coords 5555.595 0 5709.933
+  angles 9.505 134.697 0
+  scale 0.806
+ }
+ {
+  coords 5330.001 0 5858.349
+  angles 5.339 38.354 0
+  scale 0.902
+ }
+ {
+  coords 5081.643 0 4667.441
+  angles 0 173.277 0
+  scale 1.087
+ }
+ {
+  coords 3112.963 -0 5103.802
+  angles 0.563 99.001 0.825
+  scale 0.93
+ }
+ {
+  coords 3113.233 -0 5106.96
+  angles -0.299 143.695 0
+  scale 1.074
+ }
+ {
+  coords 3109.492 -0 5101.267
+  angles 0 169.195 0
+  scale 1.021
+ }
+ {
+  coords 3117.549 -0 5105.133
+  angles 1.526 -82.62 0
+  scale 0.85
+ }
+}
+$grp Tree : "{8368AB77B4188CD0}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abies_3d_fallen_mossy.et" {
+ {
+  coords 5330.614 0.005 5859.155
+ }
+ {
+  coords 5332.143 -0.018 5856.841
+ }
+ {
+  coords 5085.173 0 4660.158
+  angles 0 -58.832 0
+ }
+ {
+  coords 5083.989 -2.609 4661.646
+ }
+ {
+  coords 5084.397 -0 4663.159
+  angles 0 -45.017 0
+ }
+}
+Tree : "{9A7562AC1676F2F3}Prefabs/Vegetation/Tree/t_pinus_sylvestris/T_Pinus_sylvestris_02_2d_fallen.et" {
+ coords 5556.208 0 5706.037
+}

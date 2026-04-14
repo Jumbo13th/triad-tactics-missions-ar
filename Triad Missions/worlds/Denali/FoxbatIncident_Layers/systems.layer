@@ -1,0 +1,11 @@
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  TMF_BroadcastService "{691B2B1458698CE4}" {
+  }
+ }
+ coords 5389.718 428.108 2036.65
+ m_bRemoveRedundantUnits 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bFreezeTimeShootingForbiden 1
+}
