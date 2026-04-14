@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{48536307ECE1D85F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_cargo_canvas_closed_no_seats.et"
+ Name "{D3C1B597F603D028}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_no_arsenal.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

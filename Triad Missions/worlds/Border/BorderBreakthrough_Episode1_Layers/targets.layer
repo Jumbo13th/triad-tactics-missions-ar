@@ -1,51 +1,63 @@
-$grp Vehicle : "{035B64DF9E65B38E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_no_arsenal.et" {
- M923A1_no_arsenal2 {
+$grp Vehicle : "{1FF144F8A209239D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_arsenal.et" {
+ M923A1_arsenal1 {
   components {
-   SlotManagerComponent "{55BCE45E438E4CFF}" {
-    Slots {
-     RegisteringComponentSlotInfo AmmoBox {
-      Prefab "{48536307ECE1D85F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_cargo_canvas_closed_no_seats.et"
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
      }
     }
    }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    Enabled 0
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo AmmoBox {
+      Prefab "{D3C1B597F603D028}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_no_arsenal.et"
+     }
+    }
    }
   }
-  coords 497.792 116.875 278.648
-  angles 0 -134.488 0
+  coords 725.273 96.198 147.088
+  angles 0 -171.186 0
  }
- M923A1_no_arsenal3 {
+ M923A1_arsenal2 {
   components {
-   SlotManagerComponent "{55BCE45E438E4CFF}" {
-    Slots {
-     RegisteringComponentSlotInfo AmmoBox {
-      Prefab "{48536307ECE1D85F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_cargo_canvas_closed_no_seats.et"
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
      }
     }
    }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    Enabled 0
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo AmmoBox {
+      Prefab "{D3C1B597F603D028}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_no_arsenal.et"
+     }
+    }
    }
   }
-  coords 210.688 112.594 204.454
-  angles 0 44.707 0
+  coords 497.678 116.898 278.035
+  angles 0 -134.864 0
  }
- M923A1_no_arsenal1 {
+ M923A1_arsenal3 {
   components {
-   SlotManagerComponent "{55BCE45E438E4CFF}" {
-    Slots {
-     RegisteringComponentSlotInfo AmmoBox {
-      Prefab "{48536307ECE1D85F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_cargo_canvas_closed_no_seats.et"
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
      }
     }
    }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    Enabled 0
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo AmmoBox {
+      Prefab "{D3C1B597F603D028}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_no_arsenal.et"
+     }
+    }
    }
   }
-  coords 725.219 96.198 147.056
-  angles 0 -172.591 0
+  coords 210.709 112.594 204.466
+  angles 0 45.281 0
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {

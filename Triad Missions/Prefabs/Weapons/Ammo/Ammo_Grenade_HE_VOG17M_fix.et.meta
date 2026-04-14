@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{035B64DF9E65B38E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_no_arsenal.et"
+ Name "{AA563DA818C94ABD}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG17M_fix.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
