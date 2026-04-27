@@ -1,0 +1,764 @@
+$grp PolylineShapeEntity {
+ terminal_zone {
+  components {
+   PS_PolyZone "{69369B958017206E}" {
+    m_cPolygonColor 0.259 0.686 0.365 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.502 0.125 1
+    m_fPolygonBorderWidth 10
+    m_aVisibleForFactions {
+     "FIA"
+     "US"
+     ""
+    }
+   }
+  }
+  coords 6074.701 5.406 2977.519
+  Points {
+   ShapePoint "{69369B95B4660A8B}" {
+    Position 0 0 0
+   }
+   ShapePoint "{69369B95B479FEB4}" {
+    Position 19.794 0 0
+   }
+   ShapePoint "{69369B958D3BD2D0}" {
+    Position 19.659 0 -26.63
+   }
+   ShapePoint "{69369B9586D289A3}" {
+    Position -0.092 0 -26.863
+   }
+  }
+  IsClosed 1
+ }
+ flight_control_zone {
+  components {
+   PS_PolyZone "{69369B9521743E7E}" {
+    m_cPolygonColor 0.157 0.624 0.624 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.502 0.502 1
+    m_fPolygonBorderWidth 10
+    m_aVisibleForFactions {
+     "FIA"
+     "US"
+     ""
+    }
+   }
+  }
+  coords 5872.665 6.568 2512.148
+  Points {
+   ShapePoint "{69369B9558346547}" {
+    Position 0 0 0
+   }
+   ShapePoint "{69369B955834559A}" {
+    Position -12.016 0.276 -61.308
+   }
+   ShapePoint "{69369B95547DB5DD}" {
+    Position -114.773 0.276 -40.919
+   }
+   ShapePoint "{69369B9551350D99}" {
+    Position -109.009 0.276 -11.272
+   }
+   ShapePoint "{69369B955016382C}" {
+    Position -95.92 0.276 3.541
+   }
+   ShapePoint "{69369B952F55B869}" {
+    Position -57.136 0.276 -4.301
+   }
+   ShapePoint "{69369B952C82390D}" {
+    Position -54.056 0.165 10.366
+   }
+  }
+  IsClosed 1
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ US_G_030_M {
+  coords 573.29 17.94 7594.398
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Green 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_031_M {
+  coords 573.301 18.154 7549.752
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Green 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_000_M {
+  coords 559.571 17.94 7614.613
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Red 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_010_M {
+  coords 1780.424 2.283 4557.988
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas White 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_001_M {
+  coords 559.208 17.874 7608.441
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Red 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_002_M {
+  coords 559.22 17.959 7592.91
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Red 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_011_M {
+  coords 1770.164 2.193 4547.612
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas White 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_012_M {
+  coords 2973.957 1.224 6011.119
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas White 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_020_M {
+  coords 562.799 18.37 7499.438
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Blue 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_021_M {
+  coords 572.438 18.37 7499.479
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Blue 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ {
+  coords 575.855 18.288 7517.446
+  angles 0 180 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 6.487
+  m_sDescription "#AR-Vehicle_UH1H_Gunship_Name_HEDP"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 575.855 18.288 7536.983
+  angles 0 180 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 6.487
+  m_sDescription "#AR-Vehicle_UH1H_Armed_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 575.85 18.182 7561.645
+  angles 0 180 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 6.487
+  m_sDescription "#AR-Vehicle_UH1H_Gunship_Name_HEDP"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 575.855 18.003 7584.067
+  angles 0 180 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 6.487
+  m_sDescription "#AR-Vehicle_UH1H_Armed_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 551.107 18.475 7475.719
+  m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "circle-2"
+  m_fWorldSize 4.123
+  m_sDescription "#AR-Vehicle_M923A1_Fuel_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 556.384 18.474 7475.719
+  m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "circle-2"
+  m_fWorldSize 4.123
+  m_sDescription "#AR-Vehicle_M923A1_Fuel_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5927.879 5.214 3527.776
+  angles 4.394 -30.415 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 9.387
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5937.84 5.236 3510.603
+  angles 4.394 -30.415 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 9.387
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5871.5 5.232 3628.511
+  angles 4.257 -30.415 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 9.387
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5787.699 5.22 3678.35
+  angles 4.203 234.438 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 9.387
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ FIA_G_000_M {
+  coords 6068.533 5.406 2928.971
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Racek-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ FIA_G_010_M {
+  coords 5830.744 5.443 2550.208
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Racek-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ FIA_G_001_M {
+  coords 6068.572 5.406 2932.511
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Racek-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ FIA_G_002_M {
+  coords 6068.588 5.406 2943.311
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Racek-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ FIA_G_003_M {
+  coords 6068.532 5.406 2954.202
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Racek-14"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ FIA_G_011_M {
+  coords 5857.875 5.524 2554.951
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Racek-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ FIA_G_012_M {
+  coords 5847.25 5.524 2556.884
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Racek-23"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ FIA_G_013_M {
+  coords 5836.521 5.524 2558.762
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Racek-24"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ {
+  coords 6057.13 5.406 2933.576
+  angles 0 -24.759 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_UK59_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6056.69 5.406 2937.783
+  angles 0 -29.189 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_Open_Variant1_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6056.69 5.406 2943.905
+  angles 0 -24.759 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_UK59_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6056.25 5.406 2948.112
+  angles 0 -29.189 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_Open_Variant1_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6056.597 5.406 2954.358
+  angles 0 -24.759 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_UK59_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6056.157 5.406 2958.565
+  angles 0 -29.189 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_Open_Variant1_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5854.224 5.677 2551.389
+  angles 0 189.495 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.265
+  m_sDescription "#AR-Vehicle_UAZ452_Cargo_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5843.779 5.362 2553.427
+  angles 0 188.38 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.265
+  m_sDescription "#AR-Vehicle_UAZ452_Cargo_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5832.31 5.482 2555.516
+  angles 0 190.29 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.265
+  m_sDescription "#AR-Vehicle_UAZ452_Cargo_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5937.84 5.236 3510.603
+  angles 4.394 -30.415 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 70
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+   "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5871.5 5.232 3628.511
+  angles 4.257 -30.415 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 70
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+   "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5787.699 5.22 3678.35
+  angles 4.203 234.438 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 70
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+   "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5927.879 5.214 3527.776
+  angles 4.394 -30.415 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 70
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA"
+   "US"
+   "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+}

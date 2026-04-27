@@ -1,0 +1,284 @@
+$grp SCR_AIGroup : "{48CE75A9C6878E66}Prefabs/Groups/INDFOR/TT_Group_FIA_RifleSquad.et" {
+ AF_S1 {
+  components {
+   PS_GroupCallsignAssigner "{69369B85481CD2D3}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6068.572 5.406 2932.511
+  angles 0 -89.72 0
+  m_aUnitPrefabSlots {
+   "{80F07BE2776D10D5}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SL.et"
+   "{FDE8971A12FE2C4C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SR.et"
+   "{BF6F54E72BA6A625}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_MG.et"
+   "{9071CAB38C479F7C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AMG.et"
+   "{35D0E33C3C60AC9A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AT.et"
+   "{1ACE7D689B8195C3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AAT.et"
+   "{9532A3E8F344669A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_RiflemanAT.et"
+   "{1BDD40F19FD5F5E3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Sniper.et"
+  }
+ }
+ AF_S2 {
+  components {
+   PS_GroupCallsignAssigner "{69369B85481CD2D3}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6068.588 5.406 2943.311
+  angles 0 -89.72 0
+  m_aUnitPrefabSlots {
+   "{80F07BE2776D10D5}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SL.et"
+   "{FDE8971A12FE2C4C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SR.et"
+   "{BF6F54E72BA6A625}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_MG.et"
+   "{9071CAB38C479F7C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AMG.et"
+   "{35D0E33C3C60AC9A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AT.et"
+   "{1ACE7D689B8195C3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AAT.et"
+   "{9532A3E8F344669A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_RiflemanAT.et"
+   "{1BDD40F19FD5F5E3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Sniper.et"
+  }
+ }
+ AF_S3 {
+  components {
+   PS_GroupCallsignAssigner "{69369B85481CD2D3}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6068.532 5.406 2954.202
+  angles 0 -89.72 0
+  m_aUnitPrefabSlots {
+   "{80F07BE2776D10D5}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SL.et"
+   "{FDE8971A12FE2C4C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SR.et"
+   "{BF6F54E72BA6A625}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_MG.et"
+   "{9071CAB38C479F7C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AMG.et"
+   "{35D0E33C3C60AC9A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AT.et"
+   "{1ACE7D689B8195C3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AAT.et"
+   "{9532A3E8F344669A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_RiflemanAT.et"
+   "{1BDD40F19FD5F5E3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Sniper.et"
+  }
+ }
+ AF_S6 {
+  components {
+   PS_GroupCallsignAssigner "{69369B85481CD2D3}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5836.521 5.524 2558.762
+  angles 0 -169.498 0
+  m_aUnitPrefabSlots {
+   "{80F07BE2776D10D5}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SL.et"
+   "{FDE8971A12FE2C4C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SR.et"
+   "{BF6F54E72BA6A625}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_MG.et"
+   "{9071CAB38C479F7C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AMG.et"
+   "{35D0E33C3C60AC9A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AT.et"
+   "{1ACE7D689B8195C3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AAT.et"
+   "{9532A3E8F344669A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_RiflemanAT.et"
+   "{1BDD40F19FD5F5E3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Sniper.et"
+  }
+ }
+ AF_S4 {
+  components {
+   PS_GroupCallsignAssigner "{69369B85481CD2D3}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5857.875 5.524 2554.951
+  angles 0 -169.498 0
+  m_aUnitPrefabSlots {
+   "{80F07BE2776D10D5}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SL.et"
+   "{FDE8971A12FE2C4C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SR.et"
+   "{BF6F54E72BA6A625}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_MG.et"
+   "{9071CAB38C479F7C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AMG.et"
+   "{35D0E33C3C60AC9A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AT.et"
+   "{1ACE7D689B8195C3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AAT.et"
+   "{9532A3E8F344669A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_RiflemanAT.et"
+   "{1BDD40F19FD5F5E3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Sniper.et"
+  }
+ }
+ AF_S5 {
+  components {
+   PS_GroupCallsignAssigner "{69369B85481CD2D3}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5847.25 5.524 2556.884
+  angles 0 -169.498 0
+  m_aUnitPrefabSlots {
+   "{80F07BE2776D10D5}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SL.et"
+   "{FDE8971A12FE2C4C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SR.et"
+   "{BF6F54E72BA6A625}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_MG.et"
+   "{9071CAB38C479F7C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AMG.et"
+   "{35D0E33C3C60AC9A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AT.et"
+   "{1ACE7D689B8195C3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AAT.et"
+   "{9532A3E8F344669A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_RiflemanAT.et"
+   "{1BDD40F19FD5F5E3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Sniper.et"
+  }
+ }
+}
+$grp Vehicle : "{5F5AAFE8465D9D62}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_FIA.et" {
+ AF_VH7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5D7EA3CA68FB9515}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 5854.224 5.677 2551.389
+  angles 0 99.495 0
+  m_sAttachmentGroupName "AF_S4"
+ }
+ AF_VH8 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5D7EA3CA68FB9515}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 5843.779 5.362 2553.427
+  angles 0 98.38 0
+  m_sAttachmentGroupName "AF_S5"
+ }
+ AF_VH9 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5D7EA3CA68FB9515}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 5832.31 5.482 2555.516
+  angles 0 100.29 0
+  m_sAttachmentGroupName "AF_S6"
+ }
+}
+$grp SCR_AIGroup : "{811A2866B3DB99B9}Prefabs/Groups/INDFOR/TT_Group_FIA_Platoon_HQ.et" {
+ AF_PL1 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8580F1F5B1}" {
+   }
+  }
+  coords 6068.533 5.406 2928.971
+  angles 0 -89.535 0
+ }
+ AF_PL2 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8580F1F5B1}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5830.744 5.443 2550.208
+  angles 0 12.437 0
+ }
+}
+$grp Vehicle : "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovered.et" {
+ AF_VH2 {
+  coords 6056.69 5.406 2937.783
+  angles 0 -119.189 0
+  m_sAttachmentGroupName "AF_S1"
+ }
+ AF_VH4 {
+  coords 6056.25 5.406 2948.112
+  angles 0 -119.189 0
+  m_sAttachmentGroupName "AF_S2"
+ }
+ AF_VH6 {
+  coords 6056.157 5.406 2958.565
+  angles 0 -119.189 0
+  m_sAttachmentGroupName "AF_S3"
+ }
+}
+$grp Vehicle : "{E72D78E7F45532EC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_FIA.et" {
+ AF_VH1 {
+  coords 6057.13 5.406 2933.576
+  angles 0 -114.759 0
+  m_sAttachmentGroupName "AF_S1"
+ }
+ AF_VH3 {
+  coords 6056.69 5.406 2943.905
+  angles 0 -114.759 0
+  m_sAttachmentGroupName "AF_S2"
+ }
+ AF_VH5 {
+  coords 6056.597 5.406 2954.358
+  angles 0 -114.759 0
+  m_sAttachmentGroupName "AF_S3"
+ }
+}
+$grp Turret : "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV.et" {
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  coords 5832.186 5.334 2557.964
+  angles 0 99.66 0
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  coords 5843.924 5.314 2555.998
+  angles 0 99.882 0
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  coords 5854.632 5.605 2553.922
+  angles 0 100.323 0
+ }
+}

@@ -1,0 +1,174 @@
+$grp GenericEntity : "{3D78D7D606FF9818}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_NoCapture.et" {
+ flag1 {
+  coords 6077.065 12.909 2974.567
+ }
+ flag2 {
+  coords 6077.06 12.91 2953.179
+ }
+ flag3 {
+  coords 6087.505 12.909 2953.179
+ }
+ flag4 {
+  coords 6087.505 12.909 2974.578
+ }
+ flag5 {
+  coords 5852.653 16.333 2501.14
+ }
+ flag6 {
+  coords 5850.441 16.333 2489.842
+ }
+ flag7 {
+  coords 5797.527 14.296 2484.862
+ }
+ flag8 {
+  coords 5779.578 14.296 2475.072
+ }
+}
+$grp GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ terminal_capture {
+  components {
+   GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+    m_aControlLogics {
+     GUB_ZoneControlLogic "{6936CCE0B74B0E80}" {
+      m_sZonePreviewName "Терминал"
+      m_Timer GUB_ZoneControlTimer "{6936CCE08F13C26B}" {
+       timeToComplete 120
+      }
+      m_ZoneController GUB_ZoneController "{6936CCE0805AAE8A}" {
+       m_sZoneEntityName "terminal_zone"
+      }
+      m_FlagController GUB_FlagController "{6936CCE06CD16803}" {
+       m_aFlagNames {
+        "flag1"
+        "flag2"
+        "flag3"
+        "flag4"
+       }
+       m_fStartFactionKey "FIA"
+       m_fEndFactionKey "US"
+      }
+      m_aConditions {
+       GUB_ZoneControlBetweenFactionsCondition "{6936CCE07EB77D35}" {
+        m_sFirstFactionKey "US"
+        m_sSecondFactionKey "FIA"
+        m_fComparisonMultiplier 2
+        m_iOperator GREATER_OR_EQUALS
+       }
+       GUB_ZoneControlCondition "{6936CCE7CF8C6E61}" {
+        m_sFactionKey "US"
+        m_iOperator GREATER_OR_EQUALS
+        m_iCount 1
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 6181.409 5.406 3042.517
+ }
+ flight_control_capture {
+  components {
+   GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+    m_aControlLogics {
+     GUB_ZoneControlLogic "{6936CCE0B74B0E80}" {
+      m_sZonePreviewName "Командно-диспетчерский пункт"
+      m_Timer GUB_ZoneControlTimer "{6936CCE08F13C26B}" {
+       timeToComplete 120
+      }
+      m_ZoneController GUB_ZoneController "{6936CCE0805AAE8A}" {
+       m_sZoneEntityName "flight_control_zone"
+      }
+      m_FlagController GUB_FlagController "{6936CCE06CD16803}" {
+       m_aFlagNames {
+        "flag5"
+        "flag6"
+        "flag7"
+        "flag8"
+       }
+       m_fStartFactionKey "FIA"
+       m_fEndFactionKey "US"
+      }
+      m_aConditions {
+       GUB_ZoneControlBetweenFactionsCondition "{6936CCE07EB77D35}" {
+        m_sFirstFactionKey "US"
+        m_sSecondFactionKey "FIA"
+        m_fComparisonMultiplier 2
+        m_iOperator GREATER_OR_EQUALS
+       }
+       GUB_ZoneControlCondition "{6936CCE7CF8C6E61}" {
+        m_sFactionKey "US"
+        m_iOperator GREATER_OR_EQUALS
+        m_iCount 1
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 6177.812 5.406 3028.326
+ }
+}
+$grp GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ loss_fia {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_bUseTestingMode 0
+    m_aLossLogics {
+     LossLogic "{6936CCE8A6C307B6}" {
+      m_aLosses {
+       FactionLoss "{6936CCE8A49C5FE7}" {
+        m_sFactionKey "FIA"
+       }
+      }
+      m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+     }
+    }
+   }
+  }
+  coords 6174.707 5.406 3023.45
+ }
+ loss_us {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_aLossLogics {
+     LossLogic "{6936CCE8B4752257}" {
+      m_aLosses {
+       FactionLoss "{6936CCE8B2E538D1}" {
+        m_iCriticalLossCount 7
+        m_sFactionKey "US"
+       }
+      }
+      m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_DefendWin"
+     }
+    }
+   }
+  }
+  coords 6174.902 5.406 3022.317
+ }
+}
+GenericEntity destroy_targets : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{6936CCE8963E736A}" {
+     m_sVehicleEntityNames {
+      "MI8_1"
+      "MI8_2"
+      "MI8_3"
+      "MI8_4"
+     }
+    }
+   }
+  }
+ }
+ coords 5865.059 5.406 3569.46
+}
+GenericEntity timer_condition : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 4800
+   m_sMessage "Победа ФИА. США не смогли выполнить задачу за поставленное время"
+  }
+ }
+ coords 6173.244 5.406 3022.082
+}

@@ -1,0 +1,173 @@
+$grp Vehicle : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ AU_VH5 {
+  coords 551.107 18.475 7475.719
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD16491CCBB"
+    coords 0 2.08 1
+   }
+  }
+ }
+ AU_VH6 {
+  coords 556.384 18.474 7475.719
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD16491CCBB"
+    coords 0 2.08 1
+   }
+  }
+ }
+}
+$grp Vehicle : "{2C00AF038F6C92F9}Prefabs/Vehicles/Helicopters/UH1H/TT_UH1H_armed_sharkNose.et" {
+ AU_VH2 {
+  coords 575.855 18.288 7536.983
+  angles 0 90 0
+  m_sAttachmentGroupName "AU_PIL2"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CC81C957F97"
+    coords 0 1.813 1.073
+   }
+  }
+ }
+ AU_VH4 {
+  coords 575.855 18.003 7584.067
+  angles 0 90 0
+  m_sAttachmentGroupName "AU_PIL1"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CC81C957F97"
+    coords 0 1.813 1.073
+   }
+  }
+ }
+}
+$grp SCR_AIGroup : "{3AB460185960318B}Prefabs/Groups/BLUFOR/TT_Group_USMC_Pilots.et" {
+ AU_PIL1 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8AC2DAB24C}" {
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 573.29 17.94 7594.398
+  angles 0 180 0
+  m_bSnapToTerrain 0
+ }
+ AU_PIL2 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8AC2DAB24C}" {
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 573.301 18.154 7549.752
+  angles 0 180 0
+  m_bSnapToTerrain 0
+ }
+}
+$grp SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleSquad.et" {
+ AU_S1 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8F7F6159A1}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 559.208 17.874 7608.441
+  angles 0 90 0
+  m_bSnapToTerrain 0
+ }
+ AU_S2 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8F7F6159A1}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 559.22 17.959 7592.91
+  angles 0 90 0
+  m_bSnapToTerrain 0
+ }
+ AU_S3 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8F7F6159A1}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1770.164 2.193 4547.612
+  angles 0 -43.767 0
+ }
+ AU_S4 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8F7F6159A1}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2973.957 1.224 6011.119
+  angles 0 -21.046 0
+ }
+}
+$grp Vehicle : "{6A23253CFF961433}Prefabs/Vehicles/Helicopters/UH1H/TT_UH1H_armed_gunship_HEDP.et" {
+ AU_VH1 {
+  coords 575.855 18.288 7517.446
+  angles 0 90 0
+  m_sAttachmentGroupName "AU_PIL2"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CC81C957F97"
+    coords 0 1.813 1.073
+   }
+  }
+ }
+ AU_VH3 {
+  coords 575.85 18.182 7561.645
+  angles 0 90 0
+  m_sAttachmentGroupName "AU_PIL1"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CC81C957F97"
+    coords 0 1.813 1.073
+   }
+  }
+ }
+}
+SCR_AIGroup AU_S5 : "{CBD2888396F1ADA6}Prefabs/Groups/BLUFOR/TT_Group_USMC_AT_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{69369B89628504CA}" {
+   m_iPlatoonCallsign 2
+  }
+ }
+ coords 562.799 18.37 7499.438
+ m_bSnapToTerrain 0
+}
+$grp SCR_AIGroup : "{DB3A117F4DE37A9D}Prefabs/Groups/BLUFOR/TT_Group_USMC_PL_HQ.et" {
+ AU_PL1 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8F6829D848}" {
+   }
+  }
+  coords 559.571 17.94 7614.613
+  angles 0 90 0
+  m_bSnapToTerrain 0
+ }
+ AU_PL2 {
+  components {
+   PS_GroupCallsignAssigner "{69369B8F6829D848}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 1780.424 2.283 4557.988
+  angles 0 -50.559 0
+  m_bSnapToTerrain 0
+ }
+}
+SCR_AIGroup AU_S6 : "{DFF2BB85468B1D49}Prefabs/Groups/BLUFOR/TT_Group_USMC_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{69369B896530E64B}" {
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 572.438 18.37 7499.479
+ m_bSnapToTerrain 0
+}

@@ -1,0 +1,154 @@
+StaticModelEntity : "{236F3EFB09667305}Prefabs/Structures/Military/Vessel/VesselHMAS_Adelaide_01/VessleHMAS_Adelaide_01.et" {
+ coords 563.242 1.185 7537.863
+ angles -0.586 -180 0
+ {
+  GenericEntity {
+   ID "5E24A6379316FC67"
+   coords 0 0 0
+  }
+  GenericEntity {
+   ID "5E24B5E2C72A094D"
+   {
+    LightEntity {
+     ID "5AA6443BC5924E24"
+     coords -0.516 0.189 0.017
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E24B5E2C72A096C"
+   {
+    LightEntity {
+     ID "5AA6443BC5924E24"
+     coords -0.516 0.189 0.016
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E24B5E2C72A0972"
+   {
+    LightEntity {
+     ID "5AA6443BC5924E24"
+     coords -0.516 0.189 0.016
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E24B5E2C72A098F"
+   {
+    LightEntity {
+     ID "5AA6443BC5924E24"
+     coords -0.515 0.189 0.016
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E24B5E2C72A0AA4"
+   {
+    LightEntity {
+     ID "5AA6443BC5924E24"
+     coords -0.516 0.189 0.016
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E24B5E2C72A0ABC"
+   {
+    LightEntity {
+     ID "5AA6443BC5924E24"
+     coords -0.516 0.189 0.016
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E24B5E2C72A0ACD"
+   {
+    LightEntity {
+     ID "5AA6443BC5924E24"
+     coords -0.516 0.189 0.016
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E24B5E2C72A0B84"
+   {
+    LightEntity {
+     ID "5AA6443BC5924E24"
+     coords -0.516 0.189 0.016
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E24A6374A29CDB3"
+   coords 0 0 0
+  }
+  GenericEntity {
+   ID "5E24A637789EF0EC"
+   coords 0 0 0
+  }
+  GenericEntity {
+   ID "5E24A6374EDF48F5"
+   coords 0 0 0
+  }
+  GenericEntity {
+   ID "5E24B5E6C78922C7"
+   coords 0 0 0
+  }
+  GenericEntity {
+   ID "5E24B5E6C5301283"
+   coords 0 0 0
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0AE1"
+   coords -0.866 13.981 -60.36
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0AF0"
+   coords -0.866 13.727 -36.868
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B05"
+   coords -0.866 14.404 -14.364
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B08"
+   coords -0.866 14.404 10.222
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B12"
+   coords -0.866 14.404 36.557
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B24"
+   coords -0.866 14.404 61.865
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B2A"
+   coords -0.866 6.699 62.962
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B47"
+   coords -0.866 6.043 36.104
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B49"
+   coords -0.866 5.696 7.195
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B5C"
+   coords -0.866 5.696 -18.852
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B62"
+   coords -0.866 5.229 -48.936
+  }
+  LightEntity {
+   ID "5E24B5E2C72A0B77"
+   coords -0.866 4.809 -77.864
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "5E24A630ABBAEDE5"
+   coords 0 0 0
+  }
+ }
+}
