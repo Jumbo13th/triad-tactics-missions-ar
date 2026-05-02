@@ -1,0 +1,260 @@
+$grp SCR_AIGroup : "{2EEC7A6DD55A6252}Prefabs/Groups/INDFOR/TT_Group_FIA_Crew.et" {
+ AF_S3 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF7064CBFDC}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2081.308 49.137 254.106
+  angles 0 -33.287 0
+ }
+ AF_S6 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF7064CBFDC}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2126.722 52.855 223.425
+  angles 0 64.624 0
+ }
+ AF_S9 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF7064CBFDC}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2142.986 53.792 181.465
+  angles 0 67.337 0
+ }
+}
+$grp Vehicle : "{3A270294FF141506}Prefabs/Vehicles/Wheeled/BRDM2/TT_BRDM2_FIA.et" {
+ AF_V4 {
+  coords 2079.601 49.176 258.37
+  angles -3.818 -121.526 0.028
+  m_sAttachmentGroupName "AF_S3"
+ }
+ AF_V8 {
+  coords 2130.268 52.987 224.396
+  angles -2.317 -24.721 -0.321
+  m_sAttachmentGroupName "AF_S6"
+ }
+ AF_V11 {
+  coords 2146.739 53.809 182.142
+  angles -2.308 -23.306 -0.378
+  m_sAttachmentGroupName "AF_S9"
+ }
+}
+$grp SCR_AIGroup : "{48CE75A9C6878E66}Prefabs/Groups/INDFOR/TT_Group_FIA_RifleSquad.et" {
+ AF_S1 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF69704AF53}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2057.841 47.241 238.981
+  angles 0 -32.388 0
+ }
+ AF_S2 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF69704AF53}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2070.141 48.158 246.906
+  angles 0 -31.808 0
+ }
+ AF_S4 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF69704AF53}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2116.558 52.154 247.834
+  angles 0 72.203 0
+ }
+ AF_S5 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF69704AF53}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2121.123 52.56 235.248
+  angles 0 65.962 0
+ }
+ AF_S7 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF69704AF53}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2134.095 53.331 204.472
+  angles 0 67.603 0
+ }
+ AF_S8 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF69704AF53}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2138.719 53.506 192.337
+  angles 0 68.47 0
+ }
+}
+$grp SCR_AIGroup : "{811A2866B3DB99B9}Prefabs/Groups/INDFOR/TT_Group_FIA_Platoon_HQ.et" {
+ AF_PL1 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF681FFF650}" {
+   }
+  }
+  coords 2052.367 46.878 235.328
+  angles 0 -27.712 0
+  m_aUnitPrefabSlots +{
+   "{1BDD40F19FD5F5E3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Sniper.et"
+  }
+ }
+ AF_PL2 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF681FFF650}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2114.032 52.004 254.882
+  angles 0 67.079 0
+ }
+ AF_PL3 {
+  components {
+   PS_GroupCallsignAssigner "{69448AF681FFF650}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 2131.739 53.172 210.544
+  angles 0 67.302 0
+ }
+}
+$grp Vehicle : "{B70E6D12A8EC2410}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport_covered.et" {
+ AF_V2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{69448AF72BF2C3ED}" {
+      SlotTemplate InventoryStorageSlot Landmines {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2058.279 47.557 245.485
+  angles -3.038 -122.558 -0.623
+  m_sAttachmentGroupName "AF_S1"
+ }
+ AF_V3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{69448AF72BF2C3ED}" {
+      SlotTemplate InventoryStorageSlot Landmines {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2069.816 48.457 253.26
+  angles -4.897 -122.538 -0.624
+  m_sAttachmentGroupName "AF_S2"
+ }
+ AF_V6 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{69448AF72BF2C3ED}" {
+      SlotTemplate InventoryStorageSlot Landmines {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2121.269 52.361 246.719
+  angles -2.432 -20.099 -0.251
+  m_sAttachmentGroupName "AF_S4"
+ }
+ AF_V7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{69448AF72BF2C3ED}" {
+      SlotTemplate InventoryStorageSlot Landmines {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2126.361 52.746 233.654
+  angles -2.443 -23.951 -0.288
+  m_sAttachmentGroupName "AF_S5"
+ }
+ AF_V9 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{69448AF72BF2C3ED}" {
+      SlotTemplate InventoryStorageSlot Landmines {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2139.355 53.391 202.584
+  angles -2.444 -25.074 -0.039
+  m_sAttachmentGroupName "AF_S7"
+ }
+ AF_V10 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{69448AF72BF2C3ED}" {
+      SlotTemplate InventoryStorageSlot Landmines {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2144.125 53.659 190.557
+  angles -2.437 -21.438 -0.194
+  m_sAttachmentGroupName "AF_S8"
+ }
+}
+$grp Vehicle : "{E72D78E7F45532EC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_FIA.et" {
+ AF_V1 {
+  coords 2050.493 46.999 240.092
+  angles -5.457 -126.029 2.198
+  m_sAttachmentGroupName "AF_PL1"
+ }
+ AF_V5 {
+  coords 2117.834 52.188 255.906
+  angles -1.03 -24.098 -3.04
+  m_sAttachmentGroupName "AF_PL2"
+ }
+ AF_V12 {
+  coords 2135.634 53.194 211.195
+  angles -0.982 -23.202 -3.056
+  m_sAttachmentGroupName "AF_PL3"
+ }
+}

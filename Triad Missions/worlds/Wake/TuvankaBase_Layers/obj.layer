@@ -130,6 +130,7 @@ $grp GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et
  loss_us {
   components {
    DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_bUseTestingMode 0
     m_aLossLogics {
      LossLogic "{6936CCE8B4752257}" {
       m_aLosses {

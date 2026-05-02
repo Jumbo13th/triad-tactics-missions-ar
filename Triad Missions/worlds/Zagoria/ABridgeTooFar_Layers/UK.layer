@@ -1,0 +1,141 @@
+$grp SCR_AIGroup : "{2BF90B60E97135B8}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Marines_TroopHQ.et" {
+ AU_PL1 {
+  components {
+   PS_GroupCallsignAssigner "{6944818C53A2553F}" {
+   }
+  }
+  coords 276.244 68.797 4437.857
+  angles 0 35.233 0
+ }
+ AU_PL2 {
+  components {
+   PS_GroupCallsignAssigner "{6944818C53A2553F}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 342.652 63.932 4405.397
+  angles 0 19.173 0
+ }
+}
+$grp SCR_AIGroup : "{3894DF9CE9CBD5AD}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Marines_RifleSection.et" {
+ AU_S1 {
+  components {
+   PS_GroupCallsignAssigner "{6944818C24B8B70C}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 280.227 68.438 4434.863
+  angles 0 33.475 0
+ }
+ AU_S2 {
+  components {
+   PS_GroupCallsignAssigner "{6944818C24B8B70C}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 289.663 67.529 4428.646
+  angles 0 27.91 0
+ }
+ AU_S3 {
+  components {
+   PS_GroupCallsignAssigner "{6944818C24B8B70C}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 298.309 66.86 4423.886
+  angles 0 27.91 0
+  m_aUnitPrefabSlots {
+   "{6DBFFE5960016CF5}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_SectionCommander.et"
+   "{4F007E97BD400279}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_LMG.et"
+   "{FBD3B0EDD884267C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Grenadier.et"
+   "{B13C871132016F78}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_RiflemanAT.et"
+   "{26E0F6760659F281}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Section2IC.et"
+   "{4F007E97BD400279}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_LMG.et"
+   "{FBD3B0EDD884267C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Grenadier.et"
+  }
+ }
+ AU_S4 {
+  components {
+   PS_GroupCallsignAssigner "{6944818C24B8B70C}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 368.333 62.649 4395.317
+  angles 0 23.085 0
+  m_aUnitPrefabSlots {
+   "{6DBFFE5960016CF5}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_SectionCommander.et"
+   "{4F007E97BD400279}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_LMG.et"
+   "{FBD3B0EDD884267C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Grenadier.et"
+   "{B13C871132016F78}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_RiflemanAT.et"
+   "{26E0F6760659F281}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Section2IC.et"
+   "{4F007E97BD400279}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_LMG.et"
+   "{FBD3B0EDD884267C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Grenadier.et"
+  }
+ }
+ AU_S5 {
+  components {
+   PS_GroupCallsignAssigner "{6944818C24B8B70C}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 347.374 63.535 4403.591
+  angles 0 19.884 0
+ }
+ AU_S6 {
+  components {
+   PS_GroupCallsignAssigner "{6944818C24B8B70C}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 357.787 63.051 4399.624
+  angles 0 20.091 0
+ }
+}
+$grp SCR_AIGroup : "{8178FA7643337352}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Pilots.et" {
+ AU_PIL1 {
+  components {
+   PS_GroupCallsignAssigner "{6944818AEB5A64F7}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 324.618 65.137 4419.035
+  angles 0 -158.615 0
+ }
+ AU_PIL2 {
+  components {
+   PS_GroupCallsignAssigner "{6944818AEB5A64F7}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 363.003 62.895 4405.295
+  angles 0 -158.615 0
+ }
+}
+$grp Vehicle : "{A46FC4DAE7F2022A}Prefabs/Vehicles/Helicopters/Westland_Lynx/Westland_Lynx_845NAS_AH1GT.et" {
+ AU_HEL2 {
+  coords 313.163 65.665 4422.805
+  angles -3.313 116.634 0.071
+  m_sAttachmentGroupName "AU_PIL1"
+ }
+ AU_HEL4 {
+  coords 410.043 62.111 4376.258
+  angles 1.057 118.671 -0.14
+  m_sAttachmentGroupName "AU_PIL4"
+ }
+}
+$grp Vehicle : "{A6B160E0DFC06EFE}Prefabs/Vehicles/Helicopters/Westland_Lynx/Westland_Lynx_Junglies.et" {
+ AU_HEL1 {
+  coords 291.725 67.449 4435.051
+  angles -5.325 123.902 0.026
+  m_sAttachmentGroupName "AU_PIL1"
+ }
+ AU_HEL3 {
+  coords 335.372 64.172 4416.27
+  angles -4.46 110.082 -0.712
+  m_sAttachmentGroupName "AU_PIL3"
+ }
+}

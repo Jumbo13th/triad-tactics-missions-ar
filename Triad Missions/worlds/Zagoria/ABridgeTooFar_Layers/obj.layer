@@ -1,0 +1,47 @@
+$grp GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ loss_fia {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_bUseTestingMode 0
+    m_aLossLogics {
+     LossLogic "{6936CCE8A6C307B6}" {
+      m_aLosses {
+       FactionLoss "{6936CCE8A49C5FE7}" {
+        m_iCriticalLossCount 7
+        m_sFactionKey "FIA"
+       }
+      }
+      m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_DefendWin"
+     }
+    }
+   }
+  }
+  coords 6174.707 5.406 3023.45
+ }
+ loss_uk {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_aLossLogics {
+     LossLogic "{6936CCE8B4752257}" {
+      m_aLosses {
+       FactionLoss "{6936CCE8B2E538D1}" {
+        m_sFactionKey "UK"
+       }
+      }
+      m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+     }
+    }
+   }
+  }
+  coords 6174.902 5.406 3022.317
+ }
+}
+GenericEntity timer_condition : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 4800
+   m_sMessage "Победа Великобритании. ФИА не смогли выполнить задачу за поставленное время"
+  }
+ }
+ coords 6173.244 5.406 3022.082
+}
