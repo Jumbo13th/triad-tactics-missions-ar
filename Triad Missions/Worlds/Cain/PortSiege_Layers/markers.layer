@@ -1,0 +1,102 @@
+PolylineShapeEntity : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 1 0 0 1
+   m_OutlineColor 1 0 0 1
+  }
+ }
+ coords 7335.943 4.038 4220.738
+ Points {
+  ShapePoint "{69A2FA8C998E0919}" {
+   Position 421.198 -3.981 178.453
+  }
+  ShapePoint "{69A2FA8C9F1884CF}" {
+   Position 373.548 -0.852 230.594
+  }
+  ShapePoint "{69A2FA8C805B011A}" {
+   Position 339.664 -0.594 201.672
+  }
+  ShapePoint "{69A2FA8C81548DD5}" {
+   Position 321.015 -0.037 218.132
+  }
+  ShapePoint "{69A2FA8C8215C2F0}" {
+   Position 217.128 2.445 260.471
+  }
+  ShapePoint "{69A2FA8C83D21A03}" {
+   Position 154.56 2.173 98.693
+  }
+  ShapePoint "{69A2FA8C84D2D100}" {
+   Position 111.042 0.993 48.074
+  }
+  ShapePoint "{69A2FA8C866D9CCA}" {
+   Position 81.027 1.622 68.926
+  }
+  ShapePoint "{69A2FA8C874AD107}" {
+   Position 22.947 0.394 26.542
+  }
+  ShapePoint "{69A2FA8CB3190B45}" {
+   Position -0.068 -0.001 -0.067
+  }
+  ShapePoint "{69A2FA8CB10DB2AE}" {
+   Position 57.196 -1.522 -47.802
+  }
+  ShapePoint "{69A2FA8C8F09833B}" {
+   Position 62.414 -1.282 -42.389
+  }
+  ShapePoint "{69A2FA8C8D2B2125}" {
+   Position 161.33 -5.028 -128.587
+  }
+ }
+}
+$grp PolylineShapeEntity : "{ED49F2EA3B80B3A0}Prefabs/Zones/LL_FreezeZone.et" {
+ UKFreeze {
+  components {
+   LL_MapZoneComponent "{699C978BF6DDCE0C}" {
+    m_bShowForAnyFaction 0
+    m_aVisibleForFactions {
+     "UK"
+    }
+   }
+  }
+  coords 8369.565 30.156 6541.791
+  Points {
+   ShapePoint "{69A2FA8D6067D22D}" {
+    Position 1.857 -0.099 -3.019
+   }
+   ShapePoint "{69A2FA8D7FDBC18C}" {
+    Position -10.817 -0.004 1.167
+   }
+   ShapePoint "{69A2FA8D7E50DC9F}" {
+    Position 5.07 -0.125 52.659
+   }
+   ShapePoint "{69A2FA8D7DD579BE}" {
+    Position 17.898 -0.125 49.223
+   }
+  }
+ }
+ USSRFreeze {
+  components {
+   LL_MapZoneComponent "{699C978BF6DDCE0C}" {
+    m_bShowForAnyFaction 0
+    m_aVisibleForFactions {
+     "USSR"
+    }
+   }
+  }
+  coords 7487.622 3.228 4210.543
+  Points {
+   ShapePoint "{69A2FABBFB44B690}" {
+    Position -2.309 -0.12 -9.667
+   }
+   ShapePoint "{69A2FABBFA2F90E9}" {
+    Position -19.334 0.079 5.104
+   }
+   ShapePoint "{69A2FABBF92A656E}" {
+    Position 4.914 0.653 34.909
+   }
+   ShapePoint "{69A2FABBF8ED7A8C}" {
+    Position 23.757 0.067 19.662
+   }
+  }
+ }
+}

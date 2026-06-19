@@ -1,0 +1,46 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ components {
+  SCR_CompassComponent "{699CF6D644610B79}" {
+  }
+  SCR_WristwatchComponent "{699CF6D642659571}" {
+  }
+ }
+ coords 1919.72 372.578 1929.046
+ "Map Geometry Data" "{BEEB151999D5A920}Worlds/armenhof.topo"
+ "Satellite background image" "{06FBAB79C2242CDA}Worlds/armenhof.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1919.72 372.616 1928.046
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1919.72 372.725 1927.046
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ coords 1922.214 372.63 1927.769
+ m_iFreezeTime 300000
+ m_bRemoveRedundantUnits 1
+}

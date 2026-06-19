@@ -1,0 +1,266 @@
+$grp Vehicle : "{29853A7F3C6E8E91}Prefabs/Vehicles/Wheeled/BTR70/TT_BTR70.et" {
+ TT_BTR1 {
+  coords 2683.44 24.219 5428.164
+  angles 0 178.379 0
+  m_sAttachmentGroupName "AR_S1"
+ }
+ TT_BTR2 {
+  coords 2683.215 24.219 5441.648
+  angles 0 178.379 0
+  m_sAttachmentGroupName "AR_S2"
+ }
+ TT_BTR3 {
+  coords 2682.969 24.219 5455.233
+  angles 0 178.379 0
+  m_sAttachmentGroupName "AR_S3"
+ }
+}
+$grp SCR_AIGroup : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et" {
+ AR_PL1 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E24EA08B05E}" {
+   }
+  }
+  coords 2688.211 24.219 5418.694
+  angles 0 -89.411 0
+ }
+ AR_PL2 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E24EA08B05E}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2607.053 24.219 5446.252
+  angles 0 -90.82 0
+  m_aUnitPrefabSlots {
+   "{44F8097F44C7BC02}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_PL.et"
+   "{E69E120B81C06A3F}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_DPL.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 2683.171 24.219 5439.394
+ }
+ {
+  coords 2603.206 24.219 5470.95
+ }
+}
+SCR_AIGroup AR_S7 : "{8D4BF4EB8875C4D0}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_BRDM.et" {
+ components {
+  PS_GroupCallsignAssigner "{698A9E2565B77BDA}" {
+   m_iPlatoonCallsign 2
+  }
+ }
+ coords 3141.889 149.07 5793.084
+ angles 0 44.934 0
+}
+$grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
+ AR_S1 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E24CC65A974}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2688.082 24.219 5424.542
+  angles 0 -91.141 0
+ }
+ AR_S2 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E24CC65A974}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2687.865 24.219 5437.918
+  angles 0 -91.536 0
+ }
+ AR_S3 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E24CC65A974}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2687.686 24.219 5451.725
+  angles 0 -91.536 0
+ }
+ AR_S4 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E24CC65A974}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2606.882 24.219 5455.245
+  angles 0 -90.702 0
+  m_aUnitPrefabSlots {
+   "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
+   "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
+   "{B06E41F96BA42F81}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AR.et"
+   "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et"
+   "{2998488817BC75F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+ AR_S5 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E24CC65A974}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2606.767 24.219 5468.622
+  angles 0 -91.097 0
+  m_aUnitPrefabSlots {
+   "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
+   "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
+   "{B06E41F96BA42F81}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AR.et"
+   "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et"
+   "{2998488817BC75F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+ AR_S6 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E24CC65A974}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2606.694 24.219 5482.431
+  angles 0 -91.097 0
+  m_aUnitPrefabSlots {
+   "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
+   "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
+   "{B06E41F96BA42F81}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AR.et"
+   "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et"
+   "{2998488817BC75F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+}
+Vehicle TT_BRDM2_Expl1 : "{B9D67D95E24ED451}Prefabs/Vehicles/Wheeled/BRDM2/TT_BRDM2_Expl.et" {
+ coords 3148.301 149.175 5797.917
+ angles 0 165.49 0
+ m_sAttachmentGroupName "AR_S7"
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{698A9E2E67595A3F}" {
+      SlotTemplate InventoryStorageSlot NSV {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 2601.631 24.219 5458.201
+  angles 0 179.539 0
+  m_sAttachmentGroupName "AR_S4"
+ }
+ Ural4320_transport_covered2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{698A9E2E976AEA34}" {
+      SlotTemplate InventoryStorageSlot NSV {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 2601.326 24.219 5470.942
+  angles 0 179.539 0
+  m_sAttachmentGroupName "AR_S5"
+ }
+ Ural4320_transport_covered3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{698A9E2E8860BB3C}" {
+      SlotTemplate InventoryStorageSlot NSV {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 2601.29 24.219 5484.984
+  angles 0 179.539 0
+  m_sAttachmentGroupName "AR_S6"
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 3145.534 149.073 5794.398
+}
+$grp Turret : "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV.et" {
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  coords 2604.756 24.219 5485.713
+  angles 0 -179.722 0
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  coords 2604.805 24.219 5471.832
+  angles 0 -179.485 0
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  coords 2604.767 24.219 5458.485
+  angles 0 -179.913 0
+ }
+}

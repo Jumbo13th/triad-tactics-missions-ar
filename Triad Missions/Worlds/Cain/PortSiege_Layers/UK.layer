@@ -1,0 +1,113 @@
+SCR_AIGroup UK_A11 : "{2BF90B60E97135B8}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Marines_TroopHQ.et" {
+ components {
+  LL_GroupCallsign "{69A2FA8E7142EA9A}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 8370.154 30.156 6544.579
+ angles 0 -70.963 0
+}
+$grp SCR_AIGroup : "{3894DF9CE9CBD5AD}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Marines_RifleSection.et" {
+ UK_A12 {
+  components {
+   LL_GroupCallsign "{69A2FA8DF24E0491}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 8372.911 30.156 6553.318
+  angles 0 -72.684 0
+ }
+ UK_A13 {
+  components {
+   LL_GroupCallsign "{69A2FA8DF24E0491}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 8376.892 30.125 6565.441
+  angles 0 -72.684 0
+ }
+ UK_A14 {
+  components {
+   LL_GroupCallsign "{69A2FA8DF24E0491}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 8381.252 30.086 6578.245
+  angles 0 -72.684 0
+ }
+}
+$grp Vehicle : "{6FD91EB9002C3134}Prefabs/Vehicles/Wheeled/LR_3Series/TT_3Series_LWB_Recce_M2HB_Fixed.et" {
+ UK_V3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "UK_A12"
+   }
+  }
+  coords 8370.568 30.131 6561.019
+  angles 0 -162.73 0
+ }
+ UK_V5 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "UK_A13"
+   }
+  }
+  coords 8374.654 30.125 6573.861
+  angles 0 -162.73 0
+ }
+ UK_V6 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "UK_A14"
+   }
+  }
+  coords 8378.912 30.063 6587.17
+  angles 0 -162.73 0
+ }
+}
+$grp Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport.et" {
+ UK_V1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "UK_A11"
+   }
+  }
+  coords 8366.058 30.156 6546.954
+  angles 0 -162.356 0
+ }
+ UK_V2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "UK_A12"
+   }
+  }
+  coords 8368.669 30.156 6554.656
+  angles 0 -161.942 0
+ }
+ UK_V4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "UK_A13"
+   }
+  }
+  coords 8372.755 30.15 6567.499
+  angles 0 -161.942 0
+ }
+ UK_V7 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "UK_A14"
+   }
+  }
+  coords 8377.013 30.088 6580.808
+  angles 0 -161.942 0
+ }
+}

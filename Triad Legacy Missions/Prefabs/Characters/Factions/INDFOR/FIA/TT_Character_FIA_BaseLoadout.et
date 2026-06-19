@@ -1,7 +1,7 @@
 SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
-  LL_PlayableComponent "{69932A0B307ED856}" {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
  }

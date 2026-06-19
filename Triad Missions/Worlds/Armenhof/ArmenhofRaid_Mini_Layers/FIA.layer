@@ -1,0 +1,104 @@
+SCR_AIGroup A21 : "{2EEC7A6DD55A6252}Prefabs/Groups/INDFOR/TT_Group_FIA_Crew.et" {
+ components {
+  LL_GroupCallsign "{69A2F6457AF51403}" {
+   m_iCompany 0
+   m_iPlatoon 1
+   m_iSquad 0
+  }
+ }
+ coords 1334.37 304.75 3752.796
+ angles 0 -71.669 0
+}
+Vehicle TT_BRDM2_FIA1 : "{3A270294FF141506}Prefabs/Vehicles/Wheeled/BRDM2/TT_BRDM2_FIA.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "A21"
+  }
+ }
+ coords 1331.209 304.752 3755.123
+ angles 0 -160.324 0
+}
+$grp SCR_AIGroup : "{48CE75A9C6878E66}Prefabs/Groups/INDFOR/TT_Group_FIA_RifleSquad.et" {
+ A12 {
+  components {
+   LL_GroupCallsign "{69A2F645B0CBDAD4}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 1262.62 304.438 3661.881
+  angles 0 -48.302 0
+ }
+ A13 {
+  components {
+   LL_GroupCallsign "{69A2F6458A71E6CD}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 1272.057 304.406 3672.625
+  angles 0 -47.665 0
+ }
+ A14 {
+  components {
+   LL_GroupCallsign "{69A2F64593283D57}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 3
+   }
+  }
+  coords 1283.174 304.457 3684.616
+  angles 0 -45.125 0
+ }
+}
+SCR_AIGroup A11 : "{811A2866B3DB99B9}Prefabs/Groups/INDFOR/TT_Group_FIA_Platoon_HQ.et" {
+ components {
+  LL_GroupCallsign "{69A2F645B5FB9707}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 1259.107 304.449 3658.075
+ angles 0 -44.886 0
+}
+$grp Vehicle : "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et" {
+ Ural4320_transport_CIV_randomized3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "A14"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 1283.26 304.469 3690.014
+  angles 0 -135.725 0
+ }
+ Ural4320_transport_CIV_randomized5 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "A13"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 1272.216 304.406 3677.791
+  angles 0 -138.402 0
+ }
+ Ural4320_transport_CIV_randomized6 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "A12"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 1262.888 304.437 3667.829
+  angles 0 -137.209 0
+ }
+}

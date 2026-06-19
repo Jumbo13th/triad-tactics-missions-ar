@@ -1,0 +1,67 @@
+$grp SCR_AIGroup : "{00EED2BC36014B00}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad_Naval.et" {
+ USSR_A12 {
+  components {
+   LL_GroupCallsign "{69A2FA8CF8537735}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 7490.227 3.388 4227.021
+  angles 0 130.485 0
+  m_aUnitPrefabSlots {
+   "{EB476CF0773C1787}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SL_Naval.et"
+   "{E8C7E441F8356C17}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SR_Naval.et"
+   "{07CEE97DD0C93F1E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AR_Naval.et"
+   "{862EAB36BCF03B90}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AT_Naval.et"
+   "{C04173C26D3786CB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AAT_Naval.et"
+   "{EDABFB2F99D9DDE2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Rifleman_Naval.et"
+  }
+ }
+ USSR_A13 {
+  components {
+   LL_GroupCallsign "{69A2FA8CF8537735}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 7484.438 3.354 4220.276
+  angles 0 130.485 0
+  m_aUnitPrefabSlots {
+   "{EB476CF0773C1787}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SL_Naval.et"
+   "{E8C7E441F8356C17}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SR_Naval.et"
+   "{07CEE97DD0C93F1E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AR_Naval.et"
+   "{862EAB36BCF03B90}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AT_Naval.et"
+   "{C04173C26D3786CB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AAT_Naval.et"
+   "{EDABFB2F99D9DDE2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Rifleman_Naval.et"
+  }
+ }
+}
+SCR_AIGroup USSR_A11 : "{6EB364594D6B099D}Prefabs/Groups/OPFOR/TT_Group_USSR_PL_Naval.et" {
+ components {
+  LL_GroupCallsign "{69A2FA8D0B97E6DA}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 7494.41 3.465 4232.083
+ angles 0 131.627 0
+}
+Vehicle Target : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 7520.15 3.674 4243.024
+ angles 0 129.069 0
+}

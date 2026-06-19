@@ -1,0 +1,283 @@
+$grp Vehicle : "{0FBF8F010F81A4E6}Prefabs/Vehicles/Wheeled/LAV25/TT_LAV25.et" {
+ TT_LAV25_1 {
+  coords 5663.47 420.577 6924.183
+  angles 0 -176.799 0
+  m_sAttachmentGroupName "AB_S6"
+ }
+ TT_LAV25_2 {
+  coords 5673.311 420.569 6923.983
+  angles 0 -176.799 0
+  m_sAttachmentGroupName "AB_S7"
+ }
+ TT_LAV25_3 {
+  coords 5692.603 420.663 6923.778
+  angles 0 -179.961 0
+  m_sAttachmentGroupName "AB_S8"
+ }
+}
+SCR_AIGroup AB_S9 : "{3AB460185960318B}Prefabs/Groups/BLUFOR/TT_Group_USMC_Pilots.et" {
+ components {
+  PS_GroupCallsignAssigner "{698A9E29157BCF30}" {
+   m_iPlatoonCallsign 3
+  }
+ }
+ coords 7737.73 312.286 8175.441
+ angles 0 96.033 0
+}
+$grp SCR_AIGroup : "{3E633C93DBB63042}Prefabs/Groups/BLUFOR/TT_Group_USMC_Crew.et" {
+ AB_S6 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E27CD8F6A78}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 5667.481 420.571 6921.75
+  angles 0 -91.215 0
+ }
+ AB_S7 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E27C31470FA}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5678.025 420.647 6921.915
+  angles 0 -91.215 0
+ }
+ AB_S8 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E27C31470FA}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5698.807 420.67 6922.216
+  angles 0 -91.215 0
+ }
+}
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 7390.67 2.209 4154.074
+  angles 0 -50.888 0
+  m_sAttachmentGroupName "AB_S1"
+ }
+ M1025_armed_M2HB2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 7395.791 2.219 4149.905
+  angles 0 -50.888 0
+  m_sAttachmentGroupName "AB_S1"
+ }
+ M1025_armed_M2HB3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 7408.152 2.107 4139.674
+  angles 0 -50.555 0
+  m_sAttachmentGroupName "AB_S2"
+ }
+ M1025_armed_M2HB4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 7413.247 2.117 4135.476
+  angles 0 -50.555 0
+  m_sAttachmentGroupName "AB_S2"
+ }
+ M1025_armed_M2HB5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 7425.28 2.045 4124.989
+  angles 0 -50.888 0
+  m_sAttachmentGroupName "AB_S3"
+ }
+ M1025_armed_M2HB6 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 7430.401 2.055 4120.82
+  angles 0 -50.888 0
+  m_sAttachmentGroupName "AB_S3"
+ }
+}
+$grp SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleSquad.et" {
+ AB_S1 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E20F4692C53}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7385.403 2.188 4149.546
+  angles 0 38.367 0
+ }
+ AB_S2 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E20F4692C53}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7401.767 2.156 4135.314
+  angles 0 38.866 0
+ }
+ AB_S3 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E20F4692C53}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 7418.346 2.062 4121.468
+  angles 0 38.866 0
+ }
+}
+Vehicle TT_UH1H_armed_gunship_HEDP1 : "{6A23253CFF961433}Prefabs/Vehicles/Helicopters/UH1H/TT_UH1H_armed_gunship_HEDP.et" {
+ coords 7753.964 312.097 8174.019
+ angles -1.411 0.002 1.651
+ m_sAttachmentGroupName "AB_S9"
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 5647.727 420.387 6923.704
+  angles 0 -178.118 0
+  m_sAttachmentGroupName "AB_S4"
+ }
+ M923A1_transport_covered2 {
+  coords 5654.981 420.492 6923.695
+  angles 0 -178.103 0
+  m_sAttachmentGroupName "AB_S5"
+ }
+}
+$grp Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ {
+  coords 7383.784 2.125 4159.235
+  angles 0 -50.258 0
+  m_sAttachmentGroupName "AB_PL1"
+ }
+ {
+  coords 5625.115 420.094 6919.192
+  angles 0 -94.397 0
+  m_sAttachmentGroupName "AB_PL2"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 5648.869 420.462 6912.114
+ }
+ {
+  coords 7409.852 2.125 4136.272
+ }
+}
+$grp Vehicle : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et" {
+ M998_covered1 {
+  coords 7401.028 2.227 4145.597
+  angles 0 -50.633 0
+  m_sAttachmentGroupName "AB_S1"
+ }
+ M998_covered2 {
+  coords 7418.46 2.125 4131.137
+  angles 0 -50.3 0
+  m_sAttachmentGroupName "AB_S2"
+ }
+ M998_covered3 {
+  coords 7435.638 2.063 4116.512
+  angles 0 -50.633 0
+  m_sAttachmentGroupName "AB_S3"
+ }
+}
+SCR_AIGroup AB_S5 : "{CBD2888396F1ADA6}Prefabs/Groups/BLUFOR/TT_Group_USMC_AT_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{698A9E2133B55E7F}" {
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 2
+  }
+ }
+ coords 5640.763 420.359 6911.089
+ angles 0 -1.284 0
+}
+$grp SCR_AIGroup : "{DB3A117F4DE37A9D}Prefabs/Groups/BLUFOR/TT_Group_USMC_PL_HQ.et" {
+ AB_PL1 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E20F6C83BB4}" {
+   }
+  }
+  coords 7379.064 2.188 4154.803
+  angles 0 37.588 0
+ }
+ AB_PL2 {
+  components {
+   PS_GroupCallsignAssigner "{698A9E20F6C83BB4}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5624.347 420.016 6910.789
+  angles 0 1.717 0
+ }
+}
+SCR_AIGroup AB_S4 : "{DFF2BB85468B1D49}Prefabs/Groups/BLUFOR/TT_Group_USMC_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{698A9E215DB584BC}" {
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 5631.025 420.209 6910.806
+ m_aUnitPrefabSlots +{
+  "{C99E1DE592CCF39F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_MG.et"
+  "{DDA8E68DE0CA0B9B}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AMG.et"
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 7747.966 312.327 8175.892
+}
