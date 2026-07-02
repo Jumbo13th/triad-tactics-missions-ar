@@ -1,0 +1,14 @@
+StaticModelEntity antenna : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Antenna_BARS_01_transmitter.et" {
+ coords 2646.337 0.473 2801.964
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ flag1 {
+  coords 2352.34 151.344 2369.376
+ }
+ flag2 {
+  coords 2331.417 150.887 2345.004
+ }
+ flag3 {
+  coords 2376.998 150.844 2337.143
+ }
+}

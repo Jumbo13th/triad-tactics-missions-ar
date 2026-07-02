@@ -1,0 +1,38 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ USSR_Losses {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Soviet forces have suffered heavy losses."
+    m_iThreshold 5
+   }
+  }
+  coords 2508.381 110.762 2206.744
+ }
+ US_Losses {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "US forces have suffered heavy losses."
+    m_sFactionKey "US"
+    m_iThreshold 3
+   }
+  }
+  coords 2507.431 110.935 2207.003
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_iSeconds 3600
+  }
+ }
+ coords 2508.711 110.479 2205.574
+}
+GenericEntity : "{42877F459BC30CDB}Prefabs/Triggers/LL_Trigger_DefeatGroup.et" {
+ components {
+  LL_TriggerDefeatGroup "{69BD22C33D35A288}" {
+   m_sGroupEntityName "AB_PL1"
+   m_sGroupDisplayName "USMC Platoon Leaders"
+  }
+ }
+ coords 2507.539 110.856 2206.581
+}

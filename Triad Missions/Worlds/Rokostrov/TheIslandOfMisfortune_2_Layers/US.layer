@@ -1,0 +1,100 @@
+$grp SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleSquad.et" {
+ AB_S1 {
+  components {
+   LL_GroupCallsign "{69C368E467A7657C}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 1626.889 107.078 1699.273
+  angles 0 32.475 0
+  m_aUnitPrefabSlots {
+   "{F60132E0CE07456F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_SL.et"
+   "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et"
+   "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et"
+   "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et"
+   "{7EB53A9F8ACFC13F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_RiflemanAT.et"
+   "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et"
+   "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et"
+   "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et"
+   "{7EB53A9F8ACFC13F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_RiflemanAT.et"
+   "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et"
+   "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et"
+   "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et"
+  }
+ }
+ AB_S2 {
+  components {
+   LL_GroupCallsign "{69C368E467A7657C}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 1627.113 106.897 1720.17
+  angles 0 83.578 0
+  m_aUnitPrefabSlots {
+   "{F60132E0CE07456F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_SL.et"
+   "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et"
+   "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et"
+   "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et"
+   "{7EB53A9F8ACFC13F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_RiflemanAT.et"
+   "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et"
+   "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et"
+   "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et"
+   "{7EB53A9F8ACFC13F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_RiflemanAT.et"
+   "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et"
+   "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et"
+   "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et"
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1635.844 106.716 1700.723
+}
+SCR_AIGroup AB_S3 : "{CBD2888396F1ADA6}Prefabs/Groups/BLUFOR/TT_Group_USMC_AT_Squad.et" {
+ components {
+  LL_GroupCallsign "{69C368ED9CF474C7}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 3
+  }
+ }
+ coords 1647.399 106.933 1701.431
+ angles 0 -139.481 0
+}
+SCR_AIGroup AB_PL1 : "{DB3A117F4DE37A9D}Prefabs/Groups/BLUFOR/TT_Group_USMC_PL_HQ.et" {
+ components {
+  LL_GroupCallsign "{69C368E49BDE7635}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 1648.191 107.182 1695.154
+ angles 0 -59.435 0
+ m_aUnitPrefabSlots {
+  "{6F1F8B79D3E074FF}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_PL.et"
+  "{98110BD561701EEA}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_DPL.et"
+ }
+}
+Turret : "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   InitialStorageSlots {
+    InventoryStorageSlot Magazine_1 {
+     Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+    }
+    InventoryStorageSlot Magazine_2 {
+     Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+    }
+    InventoryStorageSlot Magazine_3 {
+     Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+    }
+   }
+  }
+ }
+ coords 1632.216 107.007 1713.423
+ angles 0 -30.709 0
+}

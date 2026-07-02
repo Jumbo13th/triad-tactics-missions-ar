@@ -1,0 +1,119 @@
+$grp SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleSquad.et" {
+ AB_S1 {
+  components {
+   LL_GroupCallsign "{69C368E467A7657C}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 1568.764 8.408 1404.215
+  angles 0 -143.07 0
+ }
+ AB_S2 {
+  components {
+   LL_GroupCallsign "{69C368E467A7657C}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 1557.502 8.438 1412.696
+  angles 0 -143.07 0
+ }
+ AB_S3 {
+  components {
+   LL_GroupCallsign "{69C368E467A7657C}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 3
+   }
+  }
+  coords 1560.311 8.42 1398.289
+  angles 0 37.85 0
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1554.212 8.938 1406.189
+}
+SCR_AIGroup AB_PL1 : "{DB3A117F4DE37A9D}Prefabs/Groups/BLUFOR/TT_Group_USMC_PL_HQ.et" {
+ components {
+  LL_GroupCallsign "{69C368E49BDE7635}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 1573.237 8.969 1400.685
+ angles 0 -142.042 0
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AB_S1"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 1571.784 8.438 1395.859
+  angles 0 -55.68 0
+ }
+ M1025_armed_M2HB_MERDC2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AB_S2"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 1565.76 8.437 1399.991
+  angles 0 -55.68 0
+ }
+ M1025_armed_M2HB_MERDC3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AB_S3"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 1559.176 8.366 1404.471
+  angles 0 -55.68 0
+ }
+}
+SCR_AIGroup AB_S4 : "{DFF2BB85468B1D49}Prefabs/Groups/BLUFOR/TT_Group_USMC_MG_Squad.et" {
+ components {
+  LL_GroupCallsign "{69C368E456BF7BD3}" {
+   m_iCompany 0
+   m_iPlatoon 1
+   m_iSquad 0
+  }
+ }
+ coords 1554.286 8.438 1402.325
+ angles 0 35.306 0
+}

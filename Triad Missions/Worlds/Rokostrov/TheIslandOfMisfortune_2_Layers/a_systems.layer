@@ -1,0 +1,21 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ components {
+  SCR_CompassComponent "{69C368E48B19D5A4}" {
+  }
+  SCR_WristwatchComponent "{69C368E489B9C868}" {
+  }
+ }
+ coords 1472.05 11.684 1482.749
+ "Map Geometry Data" "{235BC52F05034136}Terrain/rokostrov.topo"
+ "Satellite background image" "{9B4B7B4F5EF2C4CC}Terrain/rokostrov.edds"
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1472.05 11.317 1481.749
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1472.05 10.77 1480.749
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ coords 1472.867 11.801 1483.066
+ m_iFreezeTime 120000
+}

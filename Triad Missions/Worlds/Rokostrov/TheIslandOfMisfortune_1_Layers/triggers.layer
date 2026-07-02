@@ -1,0 +1,69 @@
+GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
+ components {
+  LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+   m_bBroadcastMessage 0
+   m_sZoneEntityName "post"
+   m_sZoneDisplayName "Узел радиоэлектронной разведки"
+   m_sAttackerFaction "US"
+   m_sDefenderFaction "USSR"
+   m_aConditions {
+    LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+     m_sFaction "US"
+     m_sVersusFaction "USSR"
+    }
+    LL_TriggerFactionCondition "{69BD22C261674367}" {
+     m_sFaction "US"
+    }
+   }
+   m_aFlagNames {
+    "flag1"
+    "flag2"
+    "flag3"
+   }
+  }
+ }
+ coords 2505.997 111.258 2205.911
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ USSR_Losses {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Soviet forces have suffered heavy losses."
+    m_iThreshold 3
+   }
+  }
+  coords 2508.381 110.762 2206.744
+ }
+ US_Losses {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "US forces have suffered heavy losses."
+    m_sFactionKey "US"
+    m_iThreshold 5
+   }
+  }
+  coords 2507.431 110.935 2207.003
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_iSeconds 3600
+  }
+ }
+ coords 2508.711 110.479 2205.574
+}
+GenericEntity : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
+ components {
+  LL_TriggerDestroy "{69BD22C391CCC3CE}" {
+   m_aTargets {
+    LL_TriggerDestroyTarget "{69C368E53C54B508}" {
+     m_sEntityName "antenna"
+     m_sDisplayName "антенна"
+     m_bClickable 1
+    }
+   }
+  }
+ }
+ coords 2505.685 111.34 2206.164
+}

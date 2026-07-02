@@ -1,0 +1,167 @@
+$grp SCR_AIGroup : "{00EED2BC36014B00}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad_Naval.et" {
+ AR_S4 {
+  components {
+   LL_GroupCallsign "{69C368EE30B11796}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 1
+   }
+  }
+  coords 2586.99 2.906 2571.243
+  angles 0 90.818 0
+  m_aUnitPrefabSlots {
+   "{EB476CF0773C1787}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SL_Naval.et"
+   "{E8C7E441F8356C17}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SR_Naval.et"
+   "{07CEE97DD0C93F1E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AR_Naval.et"
+   "{862EAB36BCF03B90}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AT_Naval.et"
+   "{C04173C26D3786CB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AAT_Naval.et"
+   "{EDABFB2F99D9DDE2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Rifleman_Naval.et"
+  }
+ }
+ AR_S5 {
+  components {
+   LL_GroupCallsign "{69C368EE30B11796}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 2
+   }
+  }
+  coords 2587.026 2.906 2578.666
+  angles 0 90.818 0
+  m_aUnitPrefabSlots {
+   "{EB476CF0773C1787}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SL_Naval.et"
+   "{E8C7E441F8356C17}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SR_Naval.et"
+   "{07CEE97DD0C93F1E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AR_Naval.et"
+   "{862EAB36BCF03B90}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AT_Naval.et"
+   "{C04173C26D3786CB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AAT_Naval.et"
+   "{EDABFB2F99D9DDE2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Rifleman_Naval.et"
+  }
+ }
+ AR_S6 {
+  components {
+   LL_GroupCallsign "{69C368EE30B11796}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 3
+   }
+  }
+  coords 2587.056 2.906 2585.812
+  angles 0 90.818 0
+  m_aUnitPrefabSlots {
+   "{EB476CF0773C1787}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SL_Naval.et"
+   "{E8C7E441F8356C17}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SR_Naval.et"
+   "{07CEE97DD0C93F1E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AR_Naval.et"
+   "{862EAB36BCF03B90}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AT_Naval.et"
+   "{C04173C26D3786CB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AAT_Naval.et"
+   "{EDABFB2F99D9DDE2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Rifleman_Naval.et"
+  }
+ }
+}
+SCR_AIGroup AR_S7 : "{3DDEB73AA033F34A}Prefabs/Groups/OPFOR/TT_Group_USSR_MG_Naval.et" {
+ components {
+  LL_GroupCallsign "{69C368EFE11412DE}" {
+   m_iCompany 0
+   m_iPlatoon 2
+   m_iSquad 0
+  }
+ }
+ coords 2593.166 2.904 2594.56
+ angles 0 131.105 0
+ m_aUnitPrefabSlots {
+  "{EB476CF0773C1787}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SL_Naval.et"
+  "{08A43C8C1D83048B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_MG_Naval.et"
+  "{F9856ED71640879E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AMG_Naval.et"
+  "{08A43C8C1D83048B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_MG_Naval.et"
+  "{F9856ED71640879E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AMG_Naval.et"
+  "{08A43C8C1D83048B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_MG_Naval.et"
+  "{F9856ED71640879E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AMG_Naval.et"
+ }
+}
+SCR_AIGroup AR_PL2 : "{6EB364594D6B099D}Prefabs/Groups/OPFOR/TT_Group_USSR_PL_Naval.et" {
+ components {
+  LL_GroupCallsign "{69C368EE22B9B57C}" {
+   m_iCompany 0
+   m_iPlatoon 1
+   m_iSquad 0
+  }
+ }
+ coords 2589.574 2.906 2562.26
+ angles 0 -0.72 0
+}
+$grp SCR_AIGroup : "{8D4BF4EB8875C4D0}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_BRDM.et" {
+ AR_S1 {
+  components {
+   LL_GroupCallsign "{69C368EEDACD18FA}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 2655.25 2.906 2639.68
+  angles 0 146.06 0
+  m_aUnitPrefabSlots {
+   "{B4927424B27B945E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_SL.et"
+   "{C98A98DCD7E8A8C7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_SR.et"
+   "{01B2ECFAF9762811}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_AT.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+  }
+ }
+ AR_S2 {
+  components {
+   LL_GroupCallsign "{69C368EEDACD18FA}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 2649.281 2.906 2635.746
+  angles 0 146.06 0
+  m_aUnitPrefabSlots {
+   "{B4927424B27B945E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_SL.et"
+   "{C98A98DCD7E8A8C7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_SR.et"
+   "{01B2ECFAF9762811}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_AT.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+  }
+ }
+ AR_S3 {
+  components {
+   LL_GroupCallsign "{69C368EEDACD18FA}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 3
+   }
+  }
+  coords 2645.035 2.906 2630.528
+  angles 0 54.856 0
+  m_aUnitPrefabSlots {
+   "{B4927424B27B945E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_SL.et"
+   "{C98A98DCD7E8A8C7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_SR.et"
+   "{01B2ECFAF9762811}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_AT.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+   "{D1C72C10DA740A44}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF.et"
+  }
+ }
+}
+SCR_AIGroup AR_PL1 : "{9D7A7CAA1EB9C5B3}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_PL_BRDM.et" {
+ components {
+  LL_GroupCallsign "{69C368EEFB8A64C6}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 2662.535 3.092 2645.62
+ angles 0 145.855 0
+ m_aUnitPrefabSlots {
+  "{2D8CCDBDAF9CA5CE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_PL.et"
+  "{54B30E6BA41963E3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_DPL.et"
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 2614.515 3.425 2618.199
+}
