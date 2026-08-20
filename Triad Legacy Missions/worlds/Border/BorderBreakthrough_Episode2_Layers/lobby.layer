@@ -1,4 +1,51 @@
-$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Победа США. СССР понесли тяжелые потери"
+    m_iThreshold 5
+   }
+  }
+  coords 1299.283 285.767 1599.535
+ }
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Победа СССР. США понесли тяжелые потери"
+    m_sFactionKey "US"
+    m_iThreshold 7
+   }
+  }
+  coords 1299.234 285.754 1599.029
+ }
+}
+GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
+ components {
+  LL_TriggerZoneContest "{6A0F2E564940880E}" {
+   m_sZoneEntityName "trigger"
+   m_sZoneDisplayName "Штаб"
+   m_sAttackerFaction "US"
+   m_sDefenderFaction "USSR"
+   m_aFlagNames {
+    "flag"
+    "flag1"
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 3
+  }
+ }
+ coords 1295.772 284.931 1604.146
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время вышло."
+   m_iSeconds 4800
+  }
+ }
+ coords 1296.297 284.947 1603.954
+}
+$grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescription.et" {
  Description {
   coords 94.786 73.95 610.882
   m_sTitle "Справка"
@@ -6,56 +53,51 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""\
   "Ситуация стремительно выходит за рамки локального инцидента, превращаясь в опасное противостояние, где любое неверное решение может стать искрой для более широкого конфликта."
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
  Conditions {
-  coords 95.064 73.825 608.976
+  coords 1386.576 46.987 1628.336
   m_sTitle "Общие условности"
   m_sTextData "Условности для всех:"\
-  "- Запрещено каким либо образом блокировать входы в здание штаба дивизии (отмечено красным флагом)."\
+  "- Запрещено каким либо образом блокировать входы в здание штаба дивизии."\
   "- Запрещено снимать или переодевать форму. Смена головных уборов на союзные разрешена."\
   "- Запрещено использовать вражескую форму, бронежилеты, разгрузки и головные уборы. Рюкзаки использовать можно."\
   "- Не используйте игровой чат. Сообщить админу о проблеме можно иным способом."\
   ""\
   "Время:"\
   "- Подготовка к эпизоду — 5 минут."\
-  "- Активная фаза эпизода — 60 минут."
-  m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
+  "- Активная фаза эпизода — 80 минут."
   m_iOrder 1
+  m_bShowForAnyFaction 1
  }
  Conditions_USSR {
   coords 94.651 73.788 607.903
   m_sTitle "Условности красных, СССР"
   m_sTextData "Условности для СССР:"\
-  "- Запрещено пересекать красный маркер (разделительная полоса границы)."\
+  "- Запрещено пересекать <link=zone1>красный маркер</link> (разделительная полоса границы)."\
   ""\
   "Условия для победы в эпизоде:"\
-  "- К концу эпизода, в здании штаба дивизии находится более двух игроков СССР или численность игроков США в здании меньше численности игроков СССР."\
+  "- К концу эпизода <link=trigger>здание штаба дивизии</link> под контролем СССР."\
   "- Нахождением в здании считается непосредственное пребывание в самом строении, не на прилегающей территории."\
-  "- В живых осталось пять или менее игроков США."
-  m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
+  "- В живых осталось семь или менее игроков США."
   m_iOrder 2
+  m_bShowForAnyFaction 1
  }
  Conditions_US {
   coords 95.428 73.623 609.684
   m_sTitle "Условности для синих, США"
   m_sTextData "Условия для победы в эпизоде:"\
-  "- К концу эпизода, число игроков США в здании штаба дивизии больше, чем игроков СССР, при этом, количество игроков СССР не более двух человек."\
+  "- К концу эпизода <link=trigger>здание штаба дивизии</link> под контролем США."\
   "- Нахождением в здании считается непосредственное пребывание в самом строении, не на прилегающей территории."\
-  "- В живых осталось трое или менее игроков СССР."
-  m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
+  "- В живых осталось пять или менее игроков СССР."
   m_iOrder 3
+  m_bShowForAnyFaction 1
  }
  Help {
   coords 94.07 73.623 609.187
   m_sTitle "Помощь во время игры"
-  m_sTextData "Если во время игры вам потребуется техническая помощь, зажмите кнопку U и напишите сообщение администратору. Также, можно обратиться к администратору в Discord, или в прямом чате Telegram. Администратор всегда на связи во время игры."
-  m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
+  m_sTextData "Если во время игры вам потребуется техническая помощь, зажмите кнопку Y и напишите сообщение администратору. Также, можно обратиться к администратору в Discord, или в прямом чате Telegram. Администратор всегда на связи во время игры."
   m_iOrder 5
+  m_bShowForAnyFaction 1
  }
 }

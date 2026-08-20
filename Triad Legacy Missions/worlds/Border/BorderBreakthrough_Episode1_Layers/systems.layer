@@ -1,11 +1,58 @@
-PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ coords 1025.287 41.255 1035.553
+ m_iFreezeTime 300000
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Победа США. СССР понесли большие потери.Help"
+    m_iThreshold 7
+   }
+  }
+  coords 588.37 120.107 119.422
+ }
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Победа СССР. США понесли большие потери.Help"
+    m_sFactionKey "US"
+    m_iThreshold 5
+   }
+  }
+  coords 589.08 120.028 119.279
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
-  TMF_BroadcastService "{691B2B1458698CE4}" {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Победа США. Цели не уничтожены."
+   m_iSeconds 4800
   }
  }
- coords 983.615 38.591 1256.79
- m_bRemoveRedundantUnits 1
- m_iFreezeTime 300000
- m_bDisableChat 1
- m_bFreezeTimeShootingForbiden 1
+ coords 701.43 105.778 170.489
+}
+GenericEntity : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
+ components {
+  LL_TriggerDestroy "{69BD22C391CCC3CE}" {
+   m_sMessage "Победа СССР. Техника уничтожена"
+   m_aTargets {
+    LL_TriggerDestroyTarget "{6A28040CB3677A54}" {
+     m_sEntityName "M923A1_arsenal1"
+     m_sDisplayName "Грузовик 1"
+    }
+    LL_TriggerDestroyTarget "{6A28040CB2E9AED4}" {
+     m_sEntityName "M923A1_arsenal2"
+     m_sDisplayName "Грузовик 2"
+    }
+    LL_TriggerDestroyTarget "{6A28040CB18B4D71}" {
+     m_sEntityName "M923A1_arsenal3"
+     m_sDisplayName "Грузовик 3"
+    }
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 3
+  }
+ }
+ coords 690.166 110.386 169.829
 }

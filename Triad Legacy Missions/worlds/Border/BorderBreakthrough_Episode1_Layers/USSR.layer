@@ -1,7 +1,10 @@
 $grp SCR_AIGroup : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et" {
  R_PL1 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1D5D1EB321}" {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 0
    }
   }
   coords 410.288 35.217 1977.116
@@ -9,8 +12,10 @@ $grp SCR_AIGroup : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et" 
  }
  R_PL2 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1FF666D27C}" {
-    m_iPlatoonCallsign 1
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 0
    }
   }
   coords 348.925 36.331 2011.781
@@ -23,9 +28,10 @@ SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/Restriction
 $grp SCR_AIGroup : "{8D4BF4EB8875C4D0}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_BRDM.et" {
  R_S6 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1C1FDEFF86}" {
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 1
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 2
+    m_iPlatoon 0
+    m_iSquad 1
    }
   }
   coords 1234.638 33.969 1946.701
@@ -33,9 +39,10 @@ $grp SCR_AIGroup : "{8D4BF4EB8875C4D0}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_B
  }
  R_S7 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1C1A8EFDF9}" {
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 2
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 2
+    m_iPlatoon 0
+    m_iSquad 2
    }
   }
   coords 1235.579 34.063 1957.072
@@ -43,19 +50,33 @@ $grp SCR_AIGroup : "{8D4BF4EB8875C4D0}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_B
  }
  R_S8 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1C13AF422F}" {
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 3
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 2
+    m_iPlatoon 0
+    m_iSquad 3
    }
   }
   coords 1236.586 34.125 1968.731
   angles 0 -85.088 0
  }
+ R_S9 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 2
+    m_iPlatoon 1
+    m_iSquad 0
+   }
+  }
+  coords 1237.436 34.156 1978.945
+  angles 0 -85.088 0
+ }
 }
 SCR_AIGroup R_PL3 : "{9D7A7CAA1EB9C5B3}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_PL_BRDM.et" {
  components {
-  PS_GroupCallsignAssigner "{691B2B1C33F62C6D}" {
-   m_iPlatoonCallsign 2
+  LL_GroupCallsign "{6A2804058E9FFCC5}" {
+   m_iCompany 2
+   m_iPlatoon 0
+   m_iSquad 0
   }
  }
  coords 1233.779 33.906 1936.531
@@ -63,26 +84,40 @@ SCR_AIGroup R_PL3 : "{9D7A7CAA1EB9C5B3}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_
 }
 $grp Vehicle : "{A43D2AFEA85AD890}Prefabs/Vehicles/Wheeled/BTR70/TT_BTR70_AGS17.et" {
  TT_BTR70_AGS1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S1"
+   }
+  }
   coords 398.957 35.05 1978.093
   angles 0 120.386 0
-  m_sAttachmentGroupName "R_S1"
  }
  TT_BTR70_AGS2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S2"
+   }
+  }
   coords 381.518 35.613 1988.499
   angles 0 122.43 0
-  m_sAttachmentGroupName "R_S2"
  }
  TT_BTR70_AGS3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S3"
+   }
+  }
   coords 362.954 36.08 1999.468
   angles 0 118.432 0
-  m_sAttachmentGroupName "R_S3"
  }
 }
 $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
  R_S1 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1D5AFB6AE1}" {
-    m_iSquadCallsign 1
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
    }
   }
   coords 404.631 35.031 1980.264
@@ -90,8 +125,10 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
  }
  R_S2 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1D5AFB6AE1}" {
-    m_iSquadCallsign 2
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
    }
   }
   coords 387.782 35.347 1990.386
@@ -99,8 +136,10 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
  }
  R_S3 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1D5AFB6AE1}" {
-    m_iSquadCallsign 3
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 3
    }
   }
   coords 368.574 36.039 2001.4
@@ -108,9 +147,10 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
  }
  R_S4 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1F5F82D631}" {
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 1
    }
   }
   coords 342.777 36.422 2015.027
@@ -127,9 +167,10 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
  }
  R_S5 {
   components {
-   PS_GroupCallsignAssigner "{691B2B1F596BF782}" {
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 2
    }
   }
   coords 325.648 36.344 2024.434
@@ -150,29 +191,57 @@ SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restriction
 }
 $grp Vehicle : "{B9D67D95E24ED451}Prefabs/Vehicles/Wheeled/BRDM2/TT_BRDM2_Expl.et" {
  TT_BRDM2_Expl1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_PL3"
+   }
+  }
   coords 1230.362 33.906 1938.244
   angles 0 -176.347 0
-  m_sAttachmentGroupName "R_PL3"
  }
  TT_BRDM2_Expl2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S6"
+   }
+  }
   coords 1231.29 33.977 1948.296
   angles 0 -174.096 0
-  m_sAttachmentGroupName "R_S6"
  }
  TT_BRDM2_Expl3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S7"
+   }
+  }
   coords 1231.885 34.047 1958.539
   angles 0 -175.082 0
-  m_sAttachmentGroupName "R_S7"
  }
  TT_BRDM2_Expl4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S8"
+   }
+  }
   coords 1232.891 34.122 1970.134
   angles 0 -175.95 0
-  m_sAttachmentGroupName "R_S8"
+ }
+ TT_BRDM2_Expl5 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S9"
+   }
+  }
+  coords 1233.866 34.151 1980.634
+  angles 0 -175.95 0
  }
 }
 $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
  Ural4320_transport_covered1 {
   components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S4"
+   }
    SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
     MultiSlots {
      MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
@@ -188,14 +257,23 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
       NumSlots 3
      }
     }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
   }
   coords 337.768 36.449 2012.448
   angles 0 118.345 0
-  m_sAttachmentGroupName "R_S4"
  }
  Ural4320_transport_covered2 {
   components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S5"
+   }
    SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
     MultiSlots {
      MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
@@ -212,9 +290,15 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
      }
     }
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 320.351 36.344 2021.944
   angles 0 118.345 0
-  m_sAttachmentGroupName "R_S5"
  }
 }

@@ -33,14 +33,7 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1021.766 41.026 1026.484
 }
-PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
- components {
-  TMF_BroadcastService "{691B2B1458698CE4}" {
-  }
- }
- coords 983.615 38.591 1256.79
- m_bRemoveRedundantUnits 1
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ coords 1011.481 41.956 1037.534
  m_iFreezeTime 300000
- m_bDisableChat 1
- m_bFreezeTimeShootingForbiden 1
 }

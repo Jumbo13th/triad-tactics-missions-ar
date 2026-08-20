@@ -3,7 +3,7 @@ GameProject {
  GUID "691B29EAF89017A9"
  TITLE "Triad Legacy Missions"
  Dependencies {
-  "691A7CDFD9F82352" "58D0FB3206B6F859" "688296142AB1751F" "5EE13DDF41732F9C" "5ED8BE1DDFEFBE4C" "7777777777777774" "6946021B7234447F"
+  "691A7CDFD9F82352" "58D0FB3206B6F859" "6946021B7234447F" "69FF2C2B633BBC25" "66C258D897075778"
  }
  Configurations {
   GameProjectConfig PC {
@@ -17,6 +17,9 @@ GameProject {
   GameProjectConfig PS5 {
   }
   GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
+   PlatformHardware XBOX_ONE
   }
  }
 }
