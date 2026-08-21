@@ -1,0 +1,118 @@
+$grp Vehicle : "{1FF144F8A209239D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_arsenal.et" {
+ M923A1_arsenal1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo AmmoBox {
+      Prefab "{D3C1B597F603D028}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_no_arsenal.et"
+     }
+    }
+   }
+  }
+  coords 725.273 96.198 147.088
+  angles 0 -171.186 0
+ }
+ M923A1_arsenal2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo AmmoBox {
+      Prefab "{D3C1B597F603D028}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_no_arsenal.et"
+     }
+    }
+   }
+  }
+  coords 497.678 116.898 278.035
+  angles 0 -134.864 0
+ }
+ M923A1_arsenal3 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo AmmoBox {
+      Prefab "{D3C1B597F603D028}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_no_arsenal.et"
+     }
+    }
+   }
+  }
+  coords 210.709 112.594 204.466
+  angles 0 45.281 0
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 725.219 96.198 147.056
+  angles 0 -82.591 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 10
+  m_sDescription "#AR-Vehicle_M923A1_Arsenal_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 497.792 116.875 278.648
+  angles 0 -44.488 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 10
+  m_sDescription "#AR-Vehicle_M923A1_Arsenal_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 210.688 112.594 204.454
+  angles 0 134.707 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 10
+  m_sDescription "#AR-Vehicle_M923A1_Arsenal_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+}

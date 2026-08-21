@@ -1,0 +1,12 @@
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+   m_iStartingMinutes 45
+   m_iDay 8
+   m_iMonth 6
+   m_iYear 1990
+  }
+ }coords 3396.955 5.249 3244.086
+ m_iFreezeTime 300000
+}

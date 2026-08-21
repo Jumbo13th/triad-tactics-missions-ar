@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1E2174CAACFDD5BA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport_lowfuel.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

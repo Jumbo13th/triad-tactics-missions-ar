@@ -1,0 +1,103 @@
+$grp PolylineShapeEntity {
+ barracks {
+  components {
+   LL_MapZoneComponent "{6A2B1B553CB4F048}" {
+    m_FillColor 0.761 0.392 0.078 0
+    m_OutlineColor 0.502 0 0 1
+   }
+  }
+  coords 2657.856 24.706 5711.061
+  Points {
+   ShapePoint "{698A9E2AEAAE8058}" {
+    Position 0 0 0
+   }
+   ShapePoint "{698A9E2AEAAE714D}" {
+    Position -8.077 -0.255 -15.93
+   }
+   ShapePoint "{698A9E2AE8C797D0}" {
+    Position -13.171 -0.258 -22.462
+   }
+   ShapePoint "{698A9E2AE7CFEAEE}" {
+    Position -11.332 -0.052 -32.936
+   }
+   ShapePoint "{698A9E2AE6DD2A9A}" {
+    Position -11.911 -0.456 -83.287
+   }
+   ShapePoint "{698A9E2AE588877E}" {
+    Position 6.383 -0.488 -106.375
+   }
+   ShapePoint "{698A9E2AE3E91FAD}" {
+    Position 111.805 -0.019 -104.979
+   }
+   ShapePoint "{698A9E2AE216ED24}" {
+    Position 115.567 -0.041 -100.283
+   }
+   ShapePoint "{698A9E2AE1C58426}" {
+    Position 123.211 -0.05 -91.101
+   }
+   ShapePoint "{698A9E2AE0D01988}" {
+    Position 143.71 0.198 -89.001
+   }
+   ShapePoint "{698A9E2AFF38C6AE}" {
+    Position 142.912 0.075 -29.689
+   }
+   ShapePoint "{698A9E2AFE7A8C59}" {
+    Position 112.168 1.052 2.856
+   }
+  }
+  IsClosed 1
+ }
+ maintenance_facility {
+  components {
+   LL_MapZoneComponent "{6A2B1B55C88D481F}" {
+    m_FillColor 0.761 0.392 0.078 0
+    m_OutlineColor 0 0.168 0.046 1
+   }
+  }
+  coords 3009.162 24.219 4856.384
+  Points {
+   ShapePoint "{698A9E2ABEAF728A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{698A9E2ABEAF480A}" {
+    Position 85.102 0 -111.501
+   }
+   ShapePoint "{698A9E2AB8EFAE41}" {
+    Position 118.152 -0.819 -86.983
+   }
+   ShapePoint "{698A9E2AB2C82403}" {
+    Position 43.124 0.133 17.031
+   }
+   ShapePoint "{698A9E2A8EAD9C8B}" {
+    Position 20.419 0 16.134
+   }
+  }
+  IsClosed 1
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ flag8 {
+  coords 3099.512 29.896 4804.499
+ }
+ flag7 {
+  coords 3088.979 30.02 4796.19
+ }
+ flag6 {
+  coords 3066.118 29.956 4824.885
+ }
+ flag5 {
+  coords 3076.563 29.975 4833.159
+ }
+ flag4 {
+  coords 2693.69 33.414 5696.676
+ }
+ flag3 {
+  coords 2735.231 33.399 5697.558
+ }
+ flag2 {
+  coords 2735.49 33.358 5684.976
+ }
+ flag1 {
+  coords 2693.96 33.311 5684.199
+ }
+}

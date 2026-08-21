@@ -1,0 +1,302 @@
+$grp Vehicle : "{29853A7F3C6E8E91}Prefabs/Vehicles/Wheeled/BTR70/TT_BTR70.et" {
+ TT_BTR1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S1"
+   }
+  }
+  coords 1441.765 35.403 1832.847
+  angles 0 88.295 0
+ }
+ TT_BTR2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S2"
+   }
+  }
+  coords 1422.715 35.022 1832.206
+  angles 0 87.875 0
+ }
+}
+$grp SCR_AIGroup : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et" {
+ R_PL2 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 0
+   }
+  }
+  coords 1382.863 35.048 1834.61
+  angles 0 175.479 0
+ }
+ R_PL1 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 0
+   }
+  }
+  coords 1452.981 35.61 1837.914
+  angles 0 177.866 0
+ }
+}
+$grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
+ R_S4 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 1375.835 35.159 1834.092
+  angles 0 177.669 0
+  m_aUnitPrefabSlots {
+   "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
+   "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
+   "{B06E41F96BA42F81}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AR.et"
+   "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et"
+   "{2998488817BC75F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+ R_S2 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 1426.965 35.309 1836.946
+  angles 0 179.836 0
+ }
+ R_S3 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 3
+   }
+  }
+  coords 1404.83 35.147 1835.984
+  angles 0 177.355 0
+  m_aUnitPrefabSlots {
+   "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
+   "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
+   "{B06E41F96BA42F81}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AR.et"
+   "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et"
+   "{2998488817BC75F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+ R_S1 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 1446.54 35.424 1837.688
+  angles 0 176.393 0
+ }
+ R_S5 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 1356.396 34.914 1833.023
+  angles 0 177.669 0
+  m_aUnitPrefabSlots {
+   "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
+   "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
+   "{B06E41F96BA42F81}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AR.et"
+   "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et"
+   "{2998488817BC75F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+ R_S6 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 1
+    m_iPlatoon 0
+    m_iSquad 3
+   }
+  }
+  coords 1340.662 34.937 1832.427
+  angles 0 177.669 0
+  m_aUnitPrefabSlots {
+   "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
+   "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
+   "{B06E41F96BA42F81}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AR.et"
+   "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et"
+   "{2998488817BC75F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+ R_S7 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 1
+    m_iPlatoon 1
+    m_iSquad 0
+   }
+  }
+  coords 1393.247 34.938 1814.416
+  angles 0 -89.635 0
+  m_aUnitPrefabSlots {
+   "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
+   "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
+   "{B06E41F96BA42F81}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AR.et"
+   "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et"
+   "{2998488817BC75F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT.et"
+   "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et"
+   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1400.095 35.15 1831.752
+ angles 0 -31.226 0
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S5"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
+      SlotTemplate InventoryStorageSlot Explosives {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{691B2B1F301A6736}" {
+      SlotTemplate InventoryStorageSlot Explosives {
+       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1353.313 34.96 1828.429
+  angles 0 87.119 0
+ }
+ Ural4320_transport_covered1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S4"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
+      SlotTemplate InventoryStorageSlot Explosives {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{691B2B1F301A6736}" {
+      SlotTemplate InventoryStorageSlot Explosives {
+       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1372.367 34.968 1829.22
+  angles 0 87.119 0
+ }
+ Ural4320_transport_covered4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S6"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
+      SlotTemplate InventoryStorageSlot Explosives {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{691B2B1F301A6736}" {
+      SlotTemplate InventoryStorageSlot Explosives {
+       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1337.643 34.906 1827.65
+  angles 0 87.119 0
+ }
+ Ural4320_transport_covered3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S3"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
+      SlotTemplate InventoryStorageSlot Explosives {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{691B2B1F301A6736}" {
+      SlotTemplate InventoryStorageSlot Explosives {
+       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1402.049 34.938 1831.247
+  angles 0 87.119 0
+ }
+}

@@ -1,0 +1,73 @@
+$grp PolylineShapeEntity {
+ zone1 {
+  components {
+   LL_MapZoneComponent "{6A28041F2FFB182B}" {
+    m_OutlineColor 1 0 0 1
+    m_bLineMode 1
+   }
+  }
+  coords 0.027 40.031 1456.36
+  Points {
+   ShapePoint "{691B2B16F93E7392}" {
+    Position 0 0 0
+   }
+   ShapePoint "{691B2B16F93E6950}" {
+    Position 284.805 -0.186 -16.604
+   }
+   ShapePoint "{691B2B16F391895A}" {
+    Position 531.789 -2.228 -41.007
+   }
+   ShapePoint "{691B2B16F2009A34}" {
+    Position 802.424 -2.935 -68.873
+   }
+   ShapePoint "{691B2B16F0B5EBC2}" {
+    Position 1090.827 -1.543 -95.904
+   }
+   ShapePoint "{691B2B16CFFA5784}" {
+    Position 1359.377 -1.421 -127.779
+   }
+   ShapePoint "{691B2B16CE6AC568}" {
+    Position 1665.008 -2.462 -161.172
+   }
+   ShapePoint "{691B2B16CCA15D7E}" {
+    Position 1815.698 -3.513 -175.649
+   }
+   ShapePoint "{691B2B16CBF767DE}" {
+    Position 1968.802 -4.506 -170.803
+   }
+   ShapePoint "{691B2B16CAEDA2C6}" {
+    Position 2047.768 -5.125 -164.513
+   }
+  }
+ }
+ trigger {
+  components {
+   LL_MapZoneComponent "{6A28041E5AD904E1}" {
+   }
+  }
+  coords 1375.341 34.937 1634.484
+  Points {
+   ShapePoint "{6A28041E4E005B9C}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A28041E4E009240}" {
+    Position 22.072 0 0.049
+   }
+   ShapePoint "{6A28041E54D84046}" {
+    Position 22.622 0 -22.189
+   }
+   ShapePoint "{6A28041E52612D91}" {
+    Position 0.544 0 -22.022
+   }
+  }
+  IsClosed 1
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ flag {
+  coords 1388.992 34.938 1636.92
+ }
+ flag1 {
+  coords 1378.247 34.938 1614.178
+ }
+}

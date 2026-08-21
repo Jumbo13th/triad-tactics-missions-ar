@@ -1,4 +1,4 @@
-$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+$grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescription.et" {
  Description {
   coords 94.786 73.95 610.882
   m_sTitle "Справка"
@@ -69,15 +69,5 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 5
- }
- Periscopes {
-  coords 5683.742 420.714 6918.199
-  m_sTitle "Зеркала и триплексы"
-  m_sTextData "На миссии используется мод для зеркал и триплексов реализованный по принципу PiP (Picture-in-Picture). "\
-  ""\
-  "Мод может повлиять на ваш FPS. В настройках графики, в самом низу, был добавлен новый параметр, который позволяет регулировать качество PiP. Воспользуйтесь им, чтобы отключить данный эффект или понизить его качество."
-  m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
-  m_iOrder 6
  }
 }

@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{27AD9C06D2B18CC1}Worlds/Armenhof/miniMap.conf"
+ Configurations {
+  CONFResourceClass PC {
+   Present No
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,92 @@
+$grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
+ {
+  components {
+   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_bBroadcastMessage 0
+    m_sMessage ""
+    m_sZoneEntityName "barracks"
+    m_sZoneDisplayName "Бараки"
+    m_sAttackerFaction "US"
+    m_sDefenderFaction "USSR"
+    m_aFlagNames {
+     "flag1"
+     "flag2"
+     "flag3"
+     "flag4"
+    }
+    m_fStatPoints 20
+    m_fStatMaxPerPlayer 3
+    m_aConditions {
+     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+      m_sFaction "US"
+      m_sVersusFaction "USSR"
+     }
+     LL_TriggerFactionCondition "{69BD22C261674367}" {
+      m_sFaction "US"
+     }
+    }
+   }
+  }
+  coords 6172.322 2.515 3021.882
+ }
+ {
+  components {
+   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_bBroadcastMessage 0
+    m_sMessage ""
+    m_sZoneEntityName "maintenance_facility"
+    m_sZoneDisplayName "Аэропорт"
+    m_sAttackerFaction "US"
+    m_sDefenderFaction "USSR"
+    m_aFlagNames {
+     "flag5"
+     "flag6"
+     "flag7"
+     "flag8"
+    }
+    m_fStatPoints 20
+    m_fStatMaxPerPlayer 3
+    m_aConditions {
+     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+      m_sFaction "US"
+      m_sVersusFaction "USSR"
+     }
+     LL_TriggerFactionCondition "{69BD22C261674367}" {
+      m_sFaction "US"
+     }
+    }
+   }
+  }
+  coords 6175.235 3.189 3018.919
+ }
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Победа США. СССР понесли большие потери.Help"
+    m_iThreshold 5
+   }
+  }
+  coords 6174.902 5.406 3022.317
+ }
+ {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Победа СССР. США понесли большие потери.Help"
+    m_sFactionKey "US"
+    m_iThreshold 7
+   }
+  }
+  coords 6174.707 5.406 3023.45
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Победа CCCР. США не смогли выполнить задачу за поставленное время"
+   m_iSeconds 4800
+  }
+ }
+ coords 6173.244 5.406 3022.082
+}
