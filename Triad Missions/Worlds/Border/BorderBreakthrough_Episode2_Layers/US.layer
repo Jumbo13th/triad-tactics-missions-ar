@@ -187,6 +187,13 @@ Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/
    }
    m_fDustTopSpeed 60
   }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_aWheels +{
+    4
+    5
+   }
+   m_fDustTopSpeed 60
+  }
  }
  coords 613.31 107.406 339.771
  angles 0 -137.823 0
@@ -229,6 +236,16 @@ Vehicle TT_M1025_Landmines1 : "{FB08465031FA4BFF}Prefabs/Vehicles/Wheeled/M998/T
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "B_S3"
   }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6A2B4A034FAA9BE2}" {
+     SlotTemplate InventoryStorageSlot Radio {
+      Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
  }
  coords 405.344 112.594 339.634
  angles 0 81.35 0
@@ -248,6 +265,16 @@ $grp Vehicle : "{FB08465031FA4C00}Prefabs/Vehicles/Wheeled/M998/TT_M1025_Explosi
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "B_S1"
    }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A2B4A033E692C05}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
   }
   coords 472.929 110.907 341.608
   angles -4.952 91.258 0
@@ -265,6 +292,16 @@ $grp Vehicle : "{FB08465031FA4C00}Prefabs/Vehicles/Wheeled/M998/TT_M1025_Explosi
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "B_S2"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A2B4A033E692C05}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
    }
   }
   coords 436.727 112.552 341.947
@@ -292,6 +329,16 @@ $grp Vehicle : "{FB08465031FA4C00}Prefabs/Vehicles/Wheeled/M998/TT_M1025_Explosi
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "B_S4"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A2B4A033E692C05}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
    }
   }
   coords 612.231 107.406 326.047

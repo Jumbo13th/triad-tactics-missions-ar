@@ -1,4 +1,10 @@
 SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ components {
+  SCR_CompassComponent "{6A2B4A05506CB35D}" {
+  }
+  SCR_WristwatchComponent "{6A2B4A052DF82D34}" {
+  }
+ }
  coords 1021.766 41.089 1028.484
  "Map Geometry Data" "{70DC54B99622965A}GameMaster/Border.topo"
  "Satellite background image" "{DE6EFBB093B169DF}GameMaster/RESULT.edds"

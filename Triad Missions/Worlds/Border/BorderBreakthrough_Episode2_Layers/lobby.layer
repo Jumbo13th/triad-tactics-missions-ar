@@ -1,3 +1,7 @@
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ coords 1011.481 41.956 1037.534
+ m_iFreezeTime 300000
+}
 $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
  {
   components {
@@ -22,6 +26,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
 GenericEntity : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
  components {
   LL_TriggerZoneContest "{6A0F2E564940880E}" {
+   m_bBroadcastMessage 0
    m_sZoneEntityName "trigger"
    m_sZoneDisplayName "Штаб"
    m_sAttackerFaction "US"
@@ -59,7 +64,7 @@ $grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescriptio
   coords 1386.576 46.987 1628.336
   m_sTitle "Общие условности"
   m_sTextData "Условности для всех:"\
-  "- Запрещено каким либо образом блокировать входы в здание штаба дивизии."\
+  "- Запрещено каким либо образом блокировать входы в <link=trigger>здание штаба дивизии</link>."\
   "- Запрещено снимать или переодевать форму. Смена головных уборов на союзные разрешена."\
   "- Запрещено использовать вражескую форму, бронежилеты, разгрузки и головные уборы. Рюкзаки использовать можно."\
   "- Не используйте игровой чат. Сообщить админу о проблеме можно иным способом."\
@@ -78,7 +83,6 @@ $grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescriptio
   ""\
   "Условия для победы в эпизоде:"\
   "- К концу эпизода <link=trigger>здание штаба дивизии</link> под контролем СССР."\
-  "- Нахождением в здании считается непосредственное пребывание в самом строении, не на прилегающей территории."\
   "- В живых осталось семь или менее игроков США."
   m_iOrder 2
   m_bShowForAnyFaction 1
@@ -88,7 +92,6 @@ $grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescriptio
   m_sTitle "Условности для синих, США"
   m_sTextData "Условия для победы в эпизоде:"\
   "- К концу эпизода <link=trigger>здание штаба дивизии</link> под контролем США."\
-  "- Нахождением в здании считается непосредственное пребывание в самом строении, не на прилегающей территории."\
   "- В живых осталось пять или менее игроков СССР."
   m_iOrder 3
   m_bShowForAnyFaction 1
@@ -99,5 +102,25 @@ $grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescriptio
   m_sTextData "Если во время игры вам потребуется техническая помощь, зажмите кнопку Y и напишите сообщение администратору. Также, можно обратиться к администратору в Discord, или в прямом чате Telegram. Администратор всегда на связи во время игры."
   m_iOrder 5
   m_bShowForAnyFaction 1
+ }
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа США. Создано трехкратное преимущество над СССР"
+   }
+  }
+  coords 1304.793 36.75 1607.99
+ }
+ {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа СССР. Создано трехкратное преимущество над США"
+    m_sFactionKey "USSR"
+    m_sVersusFaction "US"
+   }
+  }
+  coords 1307.726 35.159 1604.319
  }
 }

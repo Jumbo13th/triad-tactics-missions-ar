@@ -44,6 +44,8 @@ $grp PolylineShapeEntity {
   components {
    LL_MapZoneComponent "{6A28041E5AD904E1}" {
    }
+   LL_StatZoneComponent "{6A2B4A0266C3BE9E}" {
+   }
   }
   coords 1375.341 34.937 1634.484
   Points {

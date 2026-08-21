@@ -7,8 +7,8 @@ $grp SCR_AIGroup : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et" 
     m_iSquad 0
    }
   }
-  coords 410.288 35.217 1977.116
-  angles 0 -150.664 0
+  coords 1877.841 33.094 1919.401
+  angles 0 -4.8 0
  }
  R_PL2 {
   components {
@@ -18,12 +18,80 @@ $grp SCR_AIGroup : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et" 
     m_iSquad 0
    }
   }
-  coords 348.925 36.331 2011.781
-  angles 0 -153.295 0
+  coords 1947.774 32.625 1914.593
+  angles 0 3.603 0
  }
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 1230.156 34.031 1954.223
+}
+$grp Turret : "{61556EC6CC70DDFA}Prefabs/Weapons/Tripods/6G10/Deployable_Tripod_6G10_AGS17_PAG17.et" {
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6A2B4A07E8DF4308}" {
+    m_sGroupName "R_S1"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+    }
+   }
+  }
+  coords 1887.746 33.035 1922.254
+  angles 0.892 -85.209 0.075
+ }
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6A2B4A07E8DF4308}" {
+    m_sGroupName "R_S2"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+    }
+   }
+  }
+  coords 1908.253 32.906 1920.599
+  angles 0 -85.19 0
+ }
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6A2B4A07E8DF4308}" {
+    m_sGroupName "R_S3"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+    }
+   }
+  }
+  coords 1929.947 32.75 1919.608
+  angles 0.895 -89.554 0.007
+ }
 }
 $grp SCR_AIGroup : "{8D4BF4EB8875C4D0}Prefabs/Groups/OPFOR/TT_Group_USSR_Recon_BRDM.et" {
  R_S6 {
@@ -89,8 +157,8 @@ $grp Vehicle : "{A43D2AFEA85AD890}Prefabs/Vehicles/Wheeled/BTR70/TT_BTR70_AGS17.
     m_sGroupName "R_S1"
    }
   }
-  coords 398.957 35.05 1978.093
-  angles 0 120.386 0
+  coords 1888.286 33.031 1925.15
+  angles 0 -86.483 0
  }
  TT_BTR70_AGS2 {
   components {
@@ -98,8 +166,8 @@ $grp Vehicle : "{A43D2AFEA85AD890}Prefabs/Vehicles/Wheeled/BTR70/TT_BTR70_AGS17.
     m_sGroupName "R_S2"
    }
   }
-  coords 381.518 35.613 1988.499
-  angles 0 122.43 0
+  coords 1908.545 32.906 1923.749
+  angles 0 -84.439 0
  }
  TT_BTR70_AGS3 {
   components {
@@ -107,8 +175,8 @@ $grp Vehicle : "{A43D2AFEA85AD890}Prefabs/Vehicles/Wheeled/BTR70/TT_BTR70_AGS17.
     m_sGroupName "R_S3"
    }
   }
-  coords 362.954 36.08 1999.468
-  angles 0 118.432 0
+  coords 1930.063 32.75 1922.354
+  angles 0 -88.437 0
  }
 }
 $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
@@ -120,8 +188,8 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
     m_iSquad 1
    }
   }
-  coords 404.631 35.031 1980.264
-  angles 0 -150.663 0
+  coords 1884.205 33.063 1919.508
+  angles 0 -1.245 0
  }
  R_S2 {
   components {
@@ -131,8 +199,8 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
     m_iSquad 2
    }
   }
-  coords 387.782 35.347 1990.386
-  angles 0 -148.938 0
+  coords 1903.674 32.94 1918.904
+  angles -0.065 6.622 0.893
  }
  R_S3 {
   components {
@@ -142,8 +210,8 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
     m_iSquad 3
    }
   }
-  coords 368.574 36.039 2001.4
-  angles 0 -151.419 0
+  coords 1925.854 32.783 1917.429
+  angles -0.1 1.71 0.89
  }
  R_S4 {
   components {
@@ -153,8 +221,8 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
     m_iSquad 1
    }
   }
-  coords 342.777 36.422 2015.027
-  angles 0 -151.105 0
+  coords 1954.823 32.581 1913.843
+  angles -0.048 3.063 0.894
   m_aUnitPrefabSlots {
    "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
    "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
@@ -173,8 +241,8 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
     m_iSquad 2
    }
   }
-  coords 325.648 36.344 2024.434
-  angles 0 -151.105 0
+  coords 1974.13 32.438 1911.882
+  angles 0 3.729 0
   m_aUnitPrefabSlots {
    "{DDE6B0E659208D92}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SL.et"
    "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_SR.et"
@@ -187,7 +255,8 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
  }
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 361.896 35.987 1999.299
+ coords 1930.93 32.75 1922.983
+ angles 0 153.131 0
 }
 $grp Vehicle : "{B9D67D95E24ED451}Prefabs/Vehicles/Wheeled/BRDM2/TT_BRDM2_Expl.et" {
  TT_BRDM2_Expl1 {
@@ -242,6 +311,9 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "R_S4"
    }
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    Enabled 0
+   }
    SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
     MultiSlots {
      MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
@@ -265,15 +337,25 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
-  coords 337.768 36.449 2012.448
-  angles 0 118.345 0
+  coords 1958.487 32.563 1920.795
+  angles 0 -88.524 0
  }
  Ural4320_transport_covered2 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "R_S5"
    }
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    Enabled 0
+   }
    SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
     MultiSlots {
      MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
@@ -297,8 +379,15 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
-  coords 320.351 36.344 2021.944
-  angles 0 118.345 0
+  coords 1976.761 32.425 1919.696
+  angles 0.894 -86.577 0.054
  }
 }

@@ -6,7 +6,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
  {
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-    m_sMessage "Победа США. СССР понесли большие потери.Help"
+    m_sMessage "Победа США. СССР понесли большие потери"
     m_iThreshold 7
    }
   }
@@ -15,7 +15,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
  {
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-    m_sMessage "Победа СССР. США понесли большие потери.Help"
+    m_sMessage "Победа СССР. США понесли большие потери"
     m_sFactionKey "US"
     m_iThreshold 5
    }
@@ -32,6 +32,26 @@ GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.e
  }
  coords 701.43 105.778 170.489
 }
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа США. Создано трехкратное преимущество над СССР"
+   }
+  }
+  coords 586.993 120.289 120.054
+ }
+ {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа СССР. Создано трехкратное преимущество над США"
+    m_sFactionKey "USSR"
+    m_sVersusFaction "US"
+   }
+  }
+  coords 589.926 118.699 116.384
+ }
+}
 GenericEntity : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
  components {
   LL_TriggerDestroy "{69BD22C391CCC3CE}" {
@@ -39,15 +59,15 @@ GenericEntity : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
    m_aTargets {
     LL_TriggerDestroyTarget "{6A28040CB3677A54}" {
      m_sEntityName "M923A1_arsenal1"
-     m_sDisplayName "Грузовик 1"
+     m_sDisplayName "Первый грузовик"
     }
     LL_TriggerDestroyTarget "{6A28040CB2E9AED4}" {
      m_sEntityName "M923A1_arsenal2"
-     m_sDisplayName "Грузовик 2"
+     m_sDisplayName "Второй грузовик"
     }
     LL_TriggerDestroyTarget "{6A28040CB18B4D71}" {
      m_sEntityName "M923A1_arsenal3"
-     m_sDisplayName "Грузовик 3"
+     m_sDisplayName "Третий грузовик"
     }
    }
    m_fStatPoints 20
