@@ -66,7 +66,7 @@ Missions that run on West Zagoria require the following addons:
 	{
 		"modId": "6044F5AB4E6F9D5A",
 		"name": "West Zagoria",
-		"version": "1.1.149"
+		"version": "1.1.167"
 	},
 	{
 		"modId": "654D61CA53B795FF",
@@ -76,7 +76,7 @@ Missions that run on West Zagoria require the following addons:
 	{
 		"modId": "684ED9A94F5BB31D",
 		"name": "1st RM Helicopters",
-		"version": "1.0.1"
+		"version": "1.0.2"
 	}
 ]
 ```
@@ -85,3 +85,38 @@ Links:
 - [West Zagoria](https://reforger.armaplatform.com/workshop/6044F5AB4E6F9D5A)
 - [GTG_Destructible_Bridges](https://reforger.armaplatform.com/workshop/654D61CA53B795FF)
 - [1st RM Helicopters](https://reforger.armaplatform.com/workshop/684ED9A94F5BB31D)
+
+## Armenhof Mission Requirements
+
+Missions that run on Armenhof require the following addons:
+
+```json
+[
+	{
+		"modId": "656514EAA451A2B2",
+		"name": "Armenhof",
+		"version": "1.0.2"
+	}
+]
+```
+
+Links:
+- [Armenhof](https://reforger.armaplatform.com/workshop/656514EAA451A2B2)
+
+## Rokostrov Mission Requirements
+
+Missions that run on Rokostrov require the following addons:
+
+```json
+[
+	{
+		"modId": "59B01CB8A9436880",
+		"name": "Rokostrov",
+		"version": "1.0.7"
+	}
+]
+```
+
+Links:
+- [Rokostrov](https://reforger.armaplatform.com/workshop/59B01CB8A9436880)
+
