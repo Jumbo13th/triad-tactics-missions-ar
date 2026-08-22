@@ -43,6 +43,104 @@ SCR_AIGroup R_PL1 : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et"
  coords 1452.981 35.61 1837.914
  angles 0 177.866 0
 }
+$grp Vehicle : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ Ural4320_transport_covered_closed3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S6"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1349.9 34.938 1827.8
+  angles 0 87.307 0
+ }
+ Ural4320_transport_covered_closed7 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S5"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1363.684 34.937 1828.77
+  angles 0 87.307 0
+ }
+ Ural4320_transport_covered_closed2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S4"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1383.484 34.937 1829.571
+  angles 0 87.307 0
+ }
+ Ural4320_transport_covered_closed4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S3"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1403.413 34.937 1831.081
+  angles 0 87.307 0
+ }
+ Ural4320_transport_covered_closed5 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S7"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1388.489 34.937 1817.958
+  angles 0 0.939 0
+ }
+ Ural4320_transport_covered_closed6 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "R_S8"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 1388.689 34.937 1803.815
+  angles 0 0.939 0
+ }
+}
 $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
  R_S4 {
   components {
@@ -208,258 +306,4 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 1400.095 35.15 1831.752
  angles 0 -31.226 0
-}
-$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
- Ural4320_transport_covered2 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "R_S5"
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    Enabled 0
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{691B2B1F301A6736}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-  }
-  coords 1363.904 34.96 1828.962
-  angles 0 87.119 0
- }
- Ural4320_transport_covered1 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "R_S4"
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    Enabled 0
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{691B2B1F301A6736}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-  }
-  coords 1382.958 34.968 1829.752
-  angles 0 87.119 0
- }
- Ural4320_transport_covered4 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "R_S6"
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    Enabled 0
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{691B2B1F301A6736}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-  }
-  coords 1348.234 34.906 1828.182
-  angles 0 87.119 0
- }
- Ural4320_transport_covered3 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "R_S3"
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    Enabled 0
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{691B2B1F301A6736}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-  }
-  coords 1402.049 34.938 1831.247
-  angles 0 87.119 0
- }
- Ural4320_transport_covered5 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "R_S7"
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    Enabled 0
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{691B2B1F301A6736}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-  }
-  coords 1387.7 34.938 1818.549
-  angles 0 -2.076 0
- }
- Ural4320_transport_covered6 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "R_S8"
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    Enabled 0
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{691B2B1F3D4B45E5}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{691B2B1F301A6736}" {
-      SlotTemplate InventoryStorageSlot Explosives {
-       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-    m_aWheels +{
-     4
-     5
-    }
-    m_fDustTopSpeed 60
-   }
-  }
-  coords 1387.829 34.938 1804.194
-  angles 0 -1.382 0
- }
 }
