@@ -5,6 +5,8 @@ $grp PolylineShapeEntity {
     m_FillColor 0.761 0.392 0.078 0
     m_OutlineColor 0.502 0 0 1
    }
+   LL_StatZoneComponent "{6A2C7E110497B28D}" {
+   }
   }
   coords 2657.856 24.706 5711.061
   Points {
@@ -53,6 +55,8 @@ $grp PolylineShapeEntity {
     m_FillColor 0.761 0.392 0.078 0
     m_OutlineColor 0 0.168 0.046 1
    }
+   LL_StatZoneComponent "{6A2C7E111F904ADE}" {
+   }
   }
   coords 3009.162 24.219 4856.384
   Points {
@@ -76,28 +80,28 @@ $grp PolylineShapeEntity {
  }
 }
 $grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
- flag8 {
-  coords 3099.512 29.896 4804.499
- }
- flag7 {
-  coords 3088.979 30.02 4796.19
- }
- flag6 {
-  coords 3066.118 29.956 4824.885
- }
- flag5 {
-  coords 3076.563 29.975 4833.159
- }
- flag4 {
-  coords 2693.69 33.414 5696.676
- }
- flag3 {
-  coords 2735.231 33.399 5697.558
+ flag1 {
+  coords 2664.775 24.219 5606.334
  }
  flag2 {
-  coords 2735.49 33.358 5684.976
+  coords 2771.119 24.688 5621.34
  }
- flag1 {
-  coords 2693.96 33.311 5684.199
+ flag3 {
+  coords 2653.112 24.486 5693.881
+ }
+ flag4 {
+  coords 2756.683 24.656 5670.915
+ }
+ flag5 {
+  coords 3047.156 24.219 4808.658
+ }
+ flag6 {
+  coords 3071.706 24.219 4776.031
+ }
+ flag7 {
+  coords 3118.478 24.211 4770.365
+ }
+ flag8 {
+  coords 3037.488 24.219 4868.436
  }
 }

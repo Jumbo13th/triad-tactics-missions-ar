@@ -223,6 +223,16 @@ Vehicle TT_UH1H_armed_gunship_HEDP1 : "{6A23253CFF961433}Prefabs/Vehicles/Helico
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S9"
   }
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6A2C7E17A5E80659}" {
+     SlotTemplate InventoryStorageSlot Radio {
+      Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
  }
  coords 7753.964 312.097 8174.019
  angles -1.411 0.002 1.651
@@ -240,6 +250,13 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 5647.727 420.387 6923.704
   angles 0 -178.118 0
@@ -248,6 +265,13 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "AB_S5"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_aWheels +{
@@ -290,6 +314,16 @@ $grp Vehicle : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et"
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "AB_S1"
    }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A2C7E179D7AF405}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
   }
   coords 7401.028 2.227 4145.597
   angles 0 -50.633 0
@@ -299,6 +333,16 @@ $grp Vehicle : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et"
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "AB_S2"
    }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A2C7E179D7AF405}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
   }
   coords 7418.46 2.125 4131.137
   angles 0 -50.3 0
@@ -307,6 +351,16 @@ $grp Vehicle : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et"
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "AB_S3"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A2C7E179D7AF405}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
    }
   }
   coords 7435.638 2.063 4116.512

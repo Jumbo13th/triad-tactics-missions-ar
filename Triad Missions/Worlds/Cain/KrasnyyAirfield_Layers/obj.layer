@@ -35,7 +35,7 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
     m_bBroadcastMessage 0
     m_sMessage ""
     m_sZoneEntityName "maintenance_facility"
-    m_sZoneDisplayName "Аэропорт"
+    m_sZoneDisplayName "Пункт техобслуживания"
     m_sAttackerFaction "US"
     m_sDefenderFaction "USSR"
     m_aFlagNames {
@@ -89,4 +89,24 @@ GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.e
   }
  }
  coords 6173.244 5.406 3022.082
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа США. Создано трехкратное преимущество над СССР"
+   }
+  }
+  coords 6174.791 5.965 3025.095
+ }
+ {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа СССР. Создано трехкратное преимущество над США"
+    m_sFactionKey "USSR"
+    m_sVersusFaction "US"
+   }
+  }
+  coords 6172.46 5.701 3025.13
+ }
 }
