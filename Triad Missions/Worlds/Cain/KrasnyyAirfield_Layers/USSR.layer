@@ -394,6 +394,13 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 2601.968 24.219 5446.895
   angles 0 178.723 0
@@ -424,6 +431,13 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
       NumSlots 1
      }
     }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_aWheels +{
@@ -484,6 +498,13 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 2601.246 24.219 5473.67
   angles 0 178.723 0
@@ -514,6 +535,13 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
       NumSlots 1
      }
     }
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_aWheels +{

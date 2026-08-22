@@ -196,13 +196,6 @@ $grp SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleS
   angles 0 38.367 0
  }
  AB_S2 {
-  components {
-   LL_GroupCallsign "{6A280405EE40B466}" {
-    m_iCompany 0
-    m_iPlatoon 0
-    m_iSquad 2
-   }
-  }
   coords 7401.767 2.156 4135.314
   angles 0 38.866 0
  }
@@ -257,6 +250,13 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 5647.727 420.387 6923.704
   angles 0 -178.118 0
@@ -265,6 +265,13 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "AB_S5"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_aWheels +{
