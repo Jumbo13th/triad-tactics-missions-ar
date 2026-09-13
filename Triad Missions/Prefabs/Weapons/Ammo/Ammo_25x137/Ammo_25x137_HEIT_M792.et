@@ -1,0 +1,14 @@
+TracerProjectile : "{AB7BB1272DA3F564}Prefabs/Weapons/Ammo/Ammo_25x137/Ammo_25x137_base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{5EC4ED74DDD6DD27}" {
+   Enabled 0
+  }
+  CollisionTriggerComponent "{62B0F25E05EF1700}" {
+   PROJECTILE_EFFECTS {
+    PS_ReplayProjectileCollisionTrigger "{6A2F268707EF375A}" {
+    }
+   }
+  }
+ }
+}

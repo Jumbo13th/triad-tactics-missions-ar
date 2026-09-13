@@ -6,6 +6,13 @@ GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
    m_sZoneDisplayName "Узел радиоэлектронной разведки"
    m_sAttackerFaction "US"
    m_sDefenderFaction "USSR"
+   m_aFlagNames {
+    "flag1"
+    "flag2"
+    "flag3"
+   }
+   m_fStatPoints 1
+   m_fStatMaxPerPlayer 20
    m_aConditions {
     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
      m_sFaction "US"
@@ -14,11 +21,6 @@ GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
     LL_TriggerFactionCondition "{69BD22C261674367}" {
      m_sFaction "US"
     }
-   }
-   m_aFlagNames {
-    "flag1"
-    "flag2"
-    "flag3"
    }
   }
  }
@@ -63,6 +65,8 @@ GenericEntity : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
      m_bClickable 1
     }
    }
+   m_fStatPoints 2
+   m_fStatMaxPerPlayer 20
   }
  }
  coords 2505.685 111.34 2206.164

@@ -5,6 +5,8 @@ PolylineShapeEntity post : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
    m_OutlineColor 1 0 0 1
    m_bLineMode 0
   }
+  LL_StatZoneComponent "{6A5B0E7634371E90}" {
+  }
  }
  coords 2345.966 150.887 2342.023
  Points {
