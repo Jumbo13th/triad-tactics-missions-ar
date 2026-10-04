@@ -1,0 +1,31 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ loss_fia {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Победа Великобритании. ФИА понесли большие потери."
+    m_sFactionKey "FIA"
+    m_iThreshold 7
+   }
+  }
+  coords 6174.707 5.406 3023.45
+ }
+ loss_uk {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Победа ФИА. Великобритания понесла большие потери."
+    m_sFactionKey "UK"
+    m_iThreshold 5
+   }
+  }
+  coords 6174.902 5.406 3022.317
+ }
+}
+GenericEntity timer_condition : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Победа Великобритании. ФИА не смогли выполнить задачу за поставленное время"
+   m_iSeconds 4800
+  }
+ }
+ coords 6173.244 5.406 3022.082
+}
