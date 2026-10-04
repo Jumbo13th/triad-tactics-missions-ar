@@ -1,0 +1,65 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesUSSR {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Силы СССР понесли критические потери. Победа FIA"
+    m_sFactionKey "USSR"
+    m_iThreshold 2
+   }
+  }
+  coords 1925.214 372.63 1930.769
+ }
+ LossesFIA {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Силы FIA понесли критические потери. Победа СССР"
+    m_sFactionKey "FIA"
+    m_iThreshold 3
+   }
+  }
+  coords 1927.214 372.63 1930.769
+ }
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Командование СССР уцелело. Победа СССР"
+   m_iSeconds 2400
+  }
+ }
+ coords 1929.214 372.63 1930.769
+}
+GenericEntity DefeatCommand : "{42877F459BC30CDB}Prefabs/Triggers/LL_Trigger_DefeatGroup.et" {
+ components {
+  LL_TriggerDefeatGroup "{69BD22C33D35A288}" {
+   m_sMessage "Командир и заместитель командира СССР ликвидированы. Победа FIA"
+   m_sGroupEntityName "A_A11"
+   m_sGroupDisplayName "Командир и заместитель командира СССР"
+  }
+ }
+ coords 1931.214 372.63 1930.769
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ FIASupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа FIA. Создан четырёхкратный перевес численности над СССР"
+    m_sFactionKey "FIA"
+    m_sVersusFaction "USSR"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 1933.214 372.63 1930.769
+ }
+ USSRSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа СССР. Создан четырёхкратный перевес численности над FIA"
+    m_sFactionKey "USSR"
+    m_sVersusFaction "FIA"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 1935.214 372.63 1930.769
+ }
+}

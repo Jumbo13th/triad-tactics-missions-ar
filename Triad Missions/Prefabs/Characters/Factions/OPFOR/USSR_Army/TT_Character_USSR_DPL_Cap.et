@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{E69E120B81C06A3F}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_DPL.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3523CB7D5961246B}Prefabs/Characters/HeadGear/Hat_PeakedCap_USSR_01/Hat_PeakedCap_USSR_01.et"
+    }
+   }
+  }
+ }
+}

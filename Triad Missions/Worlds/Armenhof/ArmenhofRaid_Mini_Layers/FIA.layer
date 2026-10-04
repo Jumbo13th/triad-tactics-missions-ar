@@ -102,3 +102,6 @@ $grp Vehicle : "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angles 0 -137.209 0
  }
 }
+SCR_EditorRestrictionZoneEntity FIAFreeze1 : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1290 304.469 3700
+}

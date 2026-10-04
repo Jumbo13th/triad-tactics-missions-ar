@@ -20,8 +20,7 @@ $grp SCR_AIGroup : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et" 
   angles 0 53.479 0
   m_aUnitPrefabSlots {
    "{5EF36F3A231DCF48}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_PL_Cap.et"
-   "{E69E120B81C06A3F}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_DPL.et"
-   "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+   "{ACB938F5D0FEC1CD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_DPL_Cap.et"
   }
  }
  A_A21 {
@@ -34,6 +33,116 @@ $grp SCR_AIGroup : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et" 
   }
   coords 1887.72 360.078 775.556
   angles 0 53.336 0
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ USSRFreeze1 {
+  coords 1870 358.838 797
+ }
+ USSRFreeze2 {
+  coords 1885 360.078 776
+ }
+}
+$grp Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6A88AC8DA4564AC8}" {
+    m_sGroupName "A_A13"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  coords 1871.254 358.705 797.729
+  angles -2.524 -40.855 -0.183
+ }
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6A88AC8DAB22A4DD}" {
+    m_sGroupName "A_A12"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  coords 1863.956 358.15 806.168
+  angles -2.524 -40.855 -0.183
+ }
+}
+$grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
+ USSR_NSVAmmo_A_A13 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A73A88BE8E711BA}" {
+      SlotTemplate InventoryStorageSlot NSVAmmo {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1872.615 358.695 798.906
+  angles -3.199 -40.877 0.403
+ }
+ USSR_NSVAmmo_A_A12 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A17E9E861C06215}" {
+      SlotTemplate InventoryStorageSlot NSVAmmo {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1865.317 358.156 807.345
+  angles -2.524 -40.847 -0.183
  }
 }
 $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
@@ -149,11 +258,196 @@ $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSq
   angles 0 47.334 0
  }
 }
+$grp GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Equipment_01_USSR.et" {
+ USSR_Building_A_A12 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A50FBF6BB559366}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1865.667 358.28 804.471
+  angles -0.34 50.272 -3.207
+ }
+ USSR_Building_A_A13 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A41FB14EF574FE6}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1873.158 358.839 795.539
+  angles -0.228 52.267 -3.216
+ }
+ USSR_Building_A_A14 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A38A65B0BEDDEFF}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1879.974 359.376 786.957
+  angles 0.294 51.672 -2.513
+ }
+ USSR_Building_A_A22 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6AF8BE87312AA324}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1892.453 360.326 772.012
+  angles 0.286 51.487 -2.514
+ }
+ USSR_Building_A_A23 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A1CCF98B7FE398E}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1898.434 360.791 764.746
+  angles -0.269 51.529 -3.213
+ }
+ USSR_Building_A_A24 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A1368B5EFDFB622}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1904.9 361.29 757.048
+  angles 0.762 47.343 -3.133
+ }
+}
 $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
  Ural4320_transport_covered1 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "A_A23"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
   }
   coords 1902.115 360.915 763.643
@@ -164,6 +458,27 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "A_A22"
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 1896.108 360.449 771.41
   angles 0 -36.688 0
@@ -172,6 +487,27 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "A_A14"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
   }
   coords 1883.413 359.528 785.679
@@ -182,6 +518,27 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "A_A13"
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
   }
   coords 1876.24 358.968 794.834
   angles 0 -37.392 0
@@ -190,6 +547,27 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "A_A12"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
    }
   }
   coords 1869.169 358.417 803.874

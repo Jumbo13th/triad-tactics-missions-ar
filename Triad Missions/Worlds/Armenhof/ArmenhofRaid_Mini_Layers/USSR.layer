@@ -10,8 +10,7 @@ SCR_AIGroup A_A11 : "{4069AB650949FF83}Prefabs/Groups/OPFOR/TT_Group_USSR_PL.et"
  angles 0 53.479 0
  m_aUnitPrefabSlots {
   "{5EF36F3A231DCF48}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_PL_Cap.et"
-  "{E69E120B81C06A3F}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_DPL.et"
-  "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+  "{ACB938F5D0FEC1CD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_DPL_Cap.et"
  }
 }
 $grp SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
@@ -75,4 +74,90 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   coords 1869.169 358.417 803.874
   angles 0 -38.109 0
  }
+}
+$grp GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Equipment_01_USSR.et" {
+ USSR_Building_A_A11 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A3D3FF94C1C4762}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1858.674 358.045 805.785
+  angles 0 53.479 0
+ }
+ USSR_Building_A_A12 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A16FD13DA577E68}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1862.584 358.248 801.906
+  angles 0 50.25 0
+ }
+ USSR_Building_A_A13 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6A0FFE46A69C68EA}" {
+      SlotTemplate InventoryStorageSlot Sandbags {
+       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+      }
+      NumSlots 180
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1869.901 358.838 793.016
+  angles 0 52.25 0
+ }
+}
+SCR_EditorRestrictionZoneEntity USSRFreeze1 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1867 358.248 801
 }

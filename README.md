@@ -95,7 +95,7 @@ Missions that run on Armenhof require the following addons:
 	{
 		"modId": "656514EAA451A2B2",
 		"name": "Armenhof",
-		"version": "1.0.2"
+		"version": "1.0.3"
 	}
 ]
 ```
