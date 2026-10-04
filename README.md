@@ -76,7 +76,7 @@ Missions that run on West Zagoria require the following addons:
 	{
 		"modId": "684ED9A94F5BB31D",
 		"name": "1st RM Helicopters",
-		"version": "1.0.2"
+		"version": "1.0.3"
 	}
 ]
 ```
