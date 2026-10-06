@@ -1,0 +1,183 @@
+$grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
+ HQCapture {
+  components {
+   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_sMessage "Британские силы захватили штаб морской пехоты"
+    m_sZoneEntityName "HQMap"
+    m_sZoneDisplayName "Штаб морской пехоты"
+    m_sAttackerFaction "UK"
+    m_sDefenderFaction "USSR"
+    m_aFlagNames {
+     "HQFlag1"
+     "HQFlag2"
+    }
+    m_aConditions {
+     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+      m_sFaction "UK"
+      m_sVersusFaction "USSR"
+      m_fVersusMultiplier 2
+     }
+     LL_TriggerFactionCondition "{69BD22C261674367}" {
+      m_sFaction "UK"
+     }
+    }
+   }
+  }
+  coords 7484 3.4 4210
+ }
+ PowerPlantCapture {
+  components {
+   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_sMessage "Британские силы захватили электростанцию"
+    m_sZoneEntityName "PowerPlantMap"
+    m_sZoneDisplayName "Электростанция"
+    m_sAttackerFaction "UK"
+    m_sDefenderFaction "USSR"
+    m_aFlagNames {
+     "PowerPlantFlag"
+    }
+    m_aConditions {
+     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+      m_sFaction "UK"
+      m_sVersusFaction "USSR"
+      m_fVersusMultiplier 2
+     }
+     LL_TriggerFactionCondition "{69BD22C261674367}" {
+      m_sFaction "UK"
+     }
+    }
+   }
+  }
+  coords 7484 3.4 4212
+ }
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesUSSR {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Силы СССР понесли критические потери. Победа Великобритании"
+    m_sFactionKey "USSR"
+    m_iThreshold 3
+   }
+  }
+  coords 7486 3.4 4210
+ }
+ LossesUK {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Силы Великобритании понесли критические потери. Победа СССР"
+    m_sFactionKey "UK"
+    m_iThreshold 5
+   }
+  }
+  coords 7488 3.4 4210
+ }
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Морская пехота удержала порт. Победа СССР"
+   m_iSeconds 3600
+  }
+ }
+ coords 7490 3.4 4210
+}
+$grp PolylineShapeEntity : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ HQMap {
+  components {
+   LL_MapZoneComponent "{699CA7457093C9DF}" {
+    m_FillColor 1 0 0 0.275
+    m_OutlineColor 1 0 0 1
+    m_fOutlineWidth 7
+    m_bLineMode 0
+   }
+   LL_StatZoneComponent "{5C396A6E89224B3A}" {
+   }
+  }
+  coords 7444.995 3.321 4217.344
+  Points {
+   ShapePoint "{6A88C1940DE681CD}" {
+    Position -22.958 -0.038 -15.506
+   }
+   ShapePoint "{6A88C1940C0DEE8A}" {
+    Position -13.285 -0.044 -23.557
+   }
+   ShapePoint "{6A88C1940A2177A2}" {
+    Position 20.509 0.092 17.337
+   }
+   ShapePoint "{6A88C19407E28D83}" {
+    Position 10.827 0.129 25.362
+   }
+  }
+  IsClosed 1
+ }
+ PowerPlantMap {
+  components {
+   LL_MapZoneComponent "{699CA7457093C9DF}" {
+    m_FillColor 0 0.502 0.125 0.275
+    m_OutlineColor 0 0.502 0.125 1
+    m_fOutlineWidth 7
+    m_bLineMode 0
+   }
+   LL_StatZoneComponent "{F16F2C25342AB609}" {
+   }
+  }
+  coords 7616.072 5.696 4506.792
+  Points {
+   ShapePoint "{6A88C19328699B53}" {
+    Position 14.436 -0.683 -11.943
+   }
+   ShapePoint "{6A88C19326F7B85B}" {
+    Position 17.405 -0.54 -3.131
+   }
+   ShapePoint "{6A88C19325D4375A}" {
+    Position 9.691 -0.539 -0.536
+   }
+   ShapePoint "{6A88C19324FFA6B9}" {
+    Position 14.199 -0.446 12.536
+   }
+   ShapePoint "{6A88C193231DC20A}" {
+    Position -4.633 -0.686 18.991
+   }
+   ShapePoint "{6A88C19322431B4A}" {
+    Position -11.98 -0.786 -3.039
+   }
+  }
+  IsClosed 1
+ }
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ UKSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа Великобритании. Создан четырёхкратный перевес численности над СССР"
+    m_sFactionKey "UK"
+    m_sVersusFaction "USSR"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 7492 3.4 4210
+ }
+ USSRSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа СССР. Создан четырёхкратный перевес численности над Великобританией"
+    m_sFactionKey "USSR"
+    m_sVersusFaction "UK"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 7494 3.4 4210
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ HQFlag1 {
+  coords 7422.386 14.573 4201.769
+ }
+ HQFlag2 {
+  coords 7465.088 14.573 4234.648
+ }
+ PowerPlantFlag {
+  coords 7625.057 20.449 4506.249
+ }
+}

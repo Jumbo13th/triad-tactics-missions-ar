@@ -24,7 +24,7 @@ GenericEntity timer_condition : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_M
  components {
   LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
    m_sMessage "Победа Великобритании. ФИА не смогли выполнить задачу за поставленное время"
-   m_iSeconds 4800
+   m_iSeconds 3600
   }
  }
  coords 6173.244 5.406 3022.082

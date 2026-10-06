@@ -16,4 +16,5 @@ LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/
  }
  coords 2304 55 2187.94
  m_iFreezeTime 300000
+ m_bSessionSaves 1
 }

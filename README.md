@@ -120,3 +120,19 @@ Missions that run on Rokostrov require the following addons:
 Links:
 - [Rokostrov](https://reforger.armaplatform.com/workshop/59B01CB8A9436880)
 
+## Cain Mission Requirements
+
+Cain is a vanilla map. Malaya Zemlya additionally requires the following addon:
+
+```json
+[
+	{
+		"modId": "6934F9C61CE24DE5",
+		"name": "REAPER_RHIB",
+		"version": "1.0.2"
+	}
+]
+```
+
+Links:
+- [REAPER_RHIB](https://reforger.armaplatform.com/workshop/6934F9C61CE24DE5)

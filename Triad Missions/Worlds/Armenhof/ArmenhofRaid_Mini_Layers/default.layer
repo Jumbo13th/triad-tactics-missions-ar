@@ -42,6 +42,5 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
  coords 1922.214 372.63 1927.769
  m_iFreezeTime 300000
- m_bRemoveRedundantUnits 1
  m_bSessionSaves 1
 }

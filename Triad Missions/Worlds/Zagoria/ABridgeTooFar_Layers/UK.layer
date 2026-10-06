@@ -182,3 +182,419 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   angles 0 0 0.895
  }
 }
+$grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
+ UK_Ammo_AU_S1 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{B9A988E34708A57E}" {
+      SlotTemplate InventoryStorageSlot L85 {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{C6A32DB13EF55AF4}" {
+      SlotTemplate InventoryStorageSlot L85Tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1E768E6E5C09A40A}" {
+      SlotTemplate InventoryStorageSlot L2A2 {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{973624C1ABB6D341}" {
+      SlotTemplate InventoryStorageSlot No80 {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2383E2CAD2B91F6D}" {
+      SlotTemplate InventoryStorageSlot M406 {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{45292CF649C22D75}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{902CB04C971BF594}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{53E1F93CB914F41C}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 281.606 68.105 4436.948
+  angles 0 33.475 0
+ }
+ UK_Ammo_AU_S2 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{B9A988E34708A57E}" {
+      SlotTemplate InventoryStorageSlot L85 {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{C6A32DB13EF55AF4}" {
+      SlotTemplate InventoryStorageSlot L85Tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1E768E6E5C09A40A}" {
+      SlotTemplate InventoryStorageSlot L2A2 {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{973624C1ABB6D341}" {
+      SlotTemplate InventoryStorageSlot No80 {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2383E2CAD2B91F6D}" {
+      SlotTemplate InventoryStorageSlot M406 {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{45292CF649C22D75}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{902CB04C971BF594}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{53E1F93CB914F41C}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 290.833 67.802 4430.855
+  angles 0 27.91 0
+ }
+ UK_Ammo_AU_S3 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{B9A988E34708A57E}" {
+      SlotTemplate InventoryStorageSlot L85 {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{C6A32DB13EF55AF4}" {
+      SlotTemplate InventoryStorageSlot L85Tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1E768E6E5C09A40A}" {
+      SlotTemplate InventoryStorageSlot L2A2 {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{973624C1ABB6D341}" {
+      SlotTemplate InventoryStorageSlot No80 {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2383E2CAD2B91F6D}" {
+      SlotTemplate InventoryStorageSlot M406 {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{45292CF649C22D75}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{902CB04C971BF594}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{53E1F93CB914F41C}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 299.479 66.86 4426.095
+  angles 0 27.91 0
+ }
+ UK_Ammo_AU_S4 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{B9A988E34708A57E}" {
+      SlotTemplate InventoryStorageSlot L85 {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{C6A32DB13EF55AF4}" {
+      SlotTemplate InventoryStorageSlot L85Tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1E768E6E5C09A40A}" {
+      SlotTemplate InventoryStorageSlot L2A2 {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{973624C1ABB6D341}" {
+      SlotTemplate InventoryStorageSlot No80 {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2383E2CAD2B91F6D}" {
+      SlotTemplate InventoryStorageSlot M406 {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{45292CF649C22D75}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{902CB04C971BF594}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{53E1F93CB914F41C}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 369.313 62.626 4397.617
+  angles 0 23.085 0
+ }
+ UK_Ammo_AU_S5 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{B9A988E34708A57E}" {
+      SlotTemplate InventoryStorageSlot L85 {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{C6A32DB13EF55AF4}" {
+      SlotTemplate InventoryStorageSlot L85Tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1E768E6E5C09A40A}" {
+      SlotTemplate InventoryStorageSlot L2A2 {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{973624C1ABB6D341}" {
+      SlotTemplate InventoryStorageSlot No80 {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2383E2CAD2B91F6D}" {
+      SlotTemplate InventoryStorageSlot M406 {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{45292CF649C22D75}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{902CB04C971BF594}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{53E1F93CB914F41C}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 348.224 63.612 4405.942
+  angles 0 19.884 0
+ }
+ UK_Ammo_AU_S6 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{B9A988E34708A57E}" {
+      SlotTemplate InventoryStorageSlot L85 {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{C6A32DB13EF55AF4}" {
+      SlotTemplate InventoryStorageSlot L85Tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1E768E6E5C09A40A}" {
+      SlotTemplate InventoryStorageSlot L2A2 {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{973624C1ABB6D341}" {
+      SlotTemplate InventoryStorageSlot No80 {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2383E2CAD2B91F6D}" {
+      SlotTemplate InventoryStorageSlot M406 {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{45292CF649C22D75}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{902CB04C971BF594}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{53E1F93CB914F41C}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 358.646 63.063 4401.972
+  angles 0 20.091 0
+ }
+}
