@@ -1,0 +1,96 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesCDF {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "CDF понесли критические потери. Победа NAPA"
+    m_sFactionKey "CDF"
+    m_iThreshold 5
+   }
+  }
+  coords 4638.195 177.222 3490.915
+ }
+ LossesNAPA {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "NAPA понесли критические потери. Победа CDF"
+    m_sFactionKey "NAPA"
+    m_iThreshold 3
+   }
+  }
+  coords 4640.195 177.222 3490.915
+ }
+}
+GenericEntity LosevoContest : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
+ components {
+  LL_TriggerZoneContest "{6A0F2E564940880E}" {
+   m_bBroadcastMessage 0
+   m_sZoneEntityName "Trigger"
+   m_sZoneDisplayName "Центр Лосево"
+   m_sAttackerFaction "CDF"
+   m_sDefenderFaction "NAPA"
+   m_aFlagNames {
+    "LosevoFlag"
+    "LosevoFlag1"
+    "LosevoFlag2"
+    "LosevoFlag3"
+    "LosevoFlag4"
+    "LosevoFlag5"
+   }
+   m_fCaptureSeconds 60
+  }
+ }
+ coords 4636.195 177.222 3490.915
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая центр Лосево"
+   m_iSeconds 3600
+  }
+ }
+ coords 4642.195 177.222 3490.915
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ CDFSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа CDF. Создан четырёхкратный перевес численности над NAPA"
+    m_sFactionKey "CDF"
+    m_sVersusFaction "NAPA"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 4644.195 177.222 3490.915
+ }
+ NAPASupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа NAPA. Создан четырёхкратный перевес численности над CDF"
+    m_sFactionKey "NAPA"
+    m_sVersusFaction "CDF"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 4646.195 177.222 3490.915
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ LosevoFlag1 {
+  coords 4751.985 177.263 3530.463
+ }
+ LosevoFlag {
+  coords 4596.554 181.438 3610.625
+ }
+ LosevoFlag2 {
+  coords 4638.178 177.876 3441.011
+ }
+ LosevoFlag3 {
+  coords 4695.56 177.412 3520.088
+ }
+ LosevoFlag4 {
+  coords 4711.701 178.488 3603.873
+ }
+ LosevoFlag5 {
+  coords 4612.534 182.819 3531.476
+ }
+}

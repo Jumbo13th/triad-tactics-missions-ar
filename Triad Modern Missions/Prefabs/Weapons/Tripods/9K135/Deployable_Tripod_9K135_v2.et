@@ -1,0 +1,317 @@
+Turret : "{16CAF1AAD82A3127}Prefabs/Weapons/Core/Tripod_Base.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  SoundComponent "{58E0961DB6C453D6}" {
+   Filenames {
+    "{A643A4362569739A}Sounds/Weapons/Tripods/6T5/Weapons_Tripod_6T5.acp" "{1B4D2E3FE51ABC31}Sounds/Weapons/_SharedData/CSW/Weapons_CSW_Deploy.acp" "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+   }
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{1AFCBB4CD2E41BE4}Assets/Weapons/HeavyWeapons/9K135/9K135_tripod_v2.xob"
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{6A8D4B7A4739CF8F}" {
+     ResourceName "{F41BA441BB78161D}anims/proc/turret.pap"
+     BoneNames {
+      "w_hor_rotation" "w_base_el"
+     }
+     SimulationDistance 1000
+    }
+    ProcAnimParams "{6A8D4B7A4739CFDB}" {
+     ResourceName "{B4FD37702AF22E5A}Anims/proc/turret_kornet_valve.pap"
+     BoneNames {
+      "w_el_valve" "w_hor_valve" "w_el_valve_small" "w_hor_valve_small"
+     }
+     SimulationDistance 1000
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{51ACFBB1D6C27024}" {
+      PivotID "position"
+      Offset -0.1422 0 0.1195
+      Angles 0 35.1494 0
+     }
+     SidestepRayZOffset -0.3
+     HeightAdjustmentRayZOffset -0.4
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6596EE465FC7EF54}" {
+      m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+     }
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{6A8D4B7A4739CFC7}" {
+     m_ModelPrefabs {
+      "{2A47A0B1FB0E5BA9}Prefabs/Weapons/Tripods/dst/Tripod_9k135_damag.et"
+     }
+    }
+    SCR_DebrisSpawnable "{6A8D4B7A4739CFC9}" {
+     m_ModelPrefabs {
+      "{EA0BF7A695A78CB3}Prefabs/Weapons/Tripods/dst/atgm_Body_Damaged.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-Weapon-ATGM_Tripod_9K135_name"
+    Icon "{025ACCF1833E9C84}UI/Textures/Editor/EditableEntities/Vehicles/atgm_icon.edds"
+    m_Image "{0B59FAEF90CC7AD5}UI/Textures/EditorPreviews/Weapons/Tripods/9K135/Kornet_Prev.edds"
+    m_sFaction "TF_RF"
+    m_aAuthoredLabels + {
+     FACTION_TF_RF TRAIT_ARMED TRAIT_ARMORPIERCING ROLE_ANTITANK
+    }
+    m_aAutoLabels {
+     SIZE_S VEHICLE_TURRET
+    }
+    m_aOccupantFillCompartmentTypes + {
+     TURRET
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{6A8D4B7A4739CFCE}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_MultiPartDeployableItemComponent "{6A8D4B7A4739CFF5}" {
+   m_bRemoveAllItemsWhenDeleted 1
+   m_aVariants {
+    SCR_DeployableVariantContainer "{6A8D4B7A4739CFF9}" {
+     m_iVariantId 33
+     m_sReplacementPrefab "{F54BE3402DBB59EF}Prefabs/Weapons/Tripods/9K135/Part_1_9K135_Tripod.et"
+     m_aAdditionalPrefabs {
+      SCR_AdditionalDeployablePart "{6A8D4B7A4739CFF8}" {
+       m_sPrefab "{9A45B2669EBA2001}Prefabs/Props/Military/9K135_Sight_part.et"
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins 2 0 0
+     m_vReplacementPrefabBoundingBoxMaxs 3 0 0
+     m_bUsePartRotationAndPosition 0
+    }
+   }
+   m_eSurfaceObservationBehaviour DISMANTLE
+  }
+  SCR_PreviewEntityComponent "{6A8D4B7A4739CFFA}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6A8D4B7A4739CFFF}" {
+     m_iParentID -1
+     m_Mesh "{D3F109F4B162818F}Assets/Weapons/HeavyWeapons/9K135/9K135_preview.xob"
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{6A8D4B7A4739CFE1}" {
+     m_Mesh ""
+     m_iPivotID "w_weapon_holder_tripod"
+    }
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -180 180
+   LimitsVert -5 20
+   LimitsHorizProne -180 180
+   LimitsVertProne -5 20
+   TurretReloadPosition 500 9
+  }
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   Attributes SCR_ItemAttributeCollection "{6A8D4B7A4739CFE4}" {
+    ItemDisplayName WeaponUIInfo "{6A8D4B7A4739CFEB}" {
+     Name "#TF-Weapon-ATGM_Tripod_9K135_name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A8D4B7A4739CF08}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A8D4B7A4739CF0D}" {
+      CameraPreset Right
+      CameraOrbitAngles 0 -50 0
+      CameraDistanceToItem 2.2
+      CameraOffset 0.1 0.1 0
+      FOV 40
+      PreviewPrefab "{07260C68FCC746A4}Prefabs/Weapons/Tripods/9K135/Deployable_Tripod_9K135.et"
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_WEAPONS_STORAGE
+    m_bDraggable 0
+   }
+   StoragePurpose 0 0x1
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 0
+   MaxItemSize 15 15 15
+   InitialStorageSlots {
+    InventoryStorageSlot Magazine_1 {
+     Prefab ""
+    }
+    InventoryStorageSlot Magazine_2 {
+     Prefab ""
+    }
+    InventoryStorageSlot Magazine_3 {
+     Prefab ""
+    }
+   }
+   m_fMaxWeight 0
+  }
+  SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+   m_fHeight 0.5
+   m_fDist_Max 5
+   m_fDist_Min 2
+   m_fDist_Desired 3
+  }
+  SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+   "faction affiliation" "TF_RF"
+  }
+  TF_SACLOS_MissileController "{6A8D4B7A4739CF35}" {
+   m_bDeactivePrevMissile 1
+   m_bIsATGM 1
+   m_bCanReloadWhenActive 0
+  }
+  TF_TurretWeaponMoveComponent "{6A8D4B7A4739CF37}" {
+   m_sPreviewObject "{D3F109F4B162818F}Assets/Weapons/HeavyWeapons/9K135/9K135_preview.xob"
+   m_fMaxAllowedTilt 50
+  }
+  TurretComponent "{6A8D4B7A4739CF38}" {
+   components {
+    SCR_2DSightsComponent "{6A8D4B7A4739CF3D}" {
+     SightsPosition PointInfo "{6A8D4B7A4739CF3C}" {
+      PivotID "w_sight"
+      Offset 0 0 0
+     }
+     SightsRanges {
+      SightRangeInfo "{6A8D4B7A4739CF20}" {
+       WeaponPosition PointInfo "{6A8D4B7A4739CF23}" {
+       }
+      }
+     }
+     SightsFOVInfo TF_SightsZoomFOVInfo "{6A8D4B7A4739CF24}" {
+      m_fBaseZoom 12
+      m_fZoomMax 20
+      m_fStepZoomSize 1
+      m_fStepZoomSizeGEA 8
+     }
+     SightsPointFront PointInfo "{6A8D4B7A4739CF26}" {
+      PivotID "w_sight"
+      Offset 0 0 0.0147
+     }
+     SightsPointRear PointInfo "{6A8D4B7A4739CF51}" {
+      PivotID "w_sight"
+      Offset 0 0 -0.4411
+     }
+     ADSTime 0
+     CameraRecoilAmount 0
+     m_sReticleTexture "{A0532661110A3075}UI/Textures/Sights/9K135/kornet-reticle.edds"
+     m_sReticleGlowTexture "{A0532661110A3075}UI/Textures/Sights/9K135/kornet-reticle.edds"
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 0.88 0.423 0.031 1
+     m_fReticleTextureGlowAlpha 0.5
+     m_fVignetteScale 10
+     m_bShouldHideParentObject 0
+     m_bShouldHideParentCharacter 1
+     m_fRotationScale 0.3
+     m_fMovementScale 0.4
+     m_fVignetteMoveSpeed 2.6
+     m_fMotionBlurScale 0
+     m_fObjectiveScale 1.5
+     m_fReticleAngularSize 5
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom -6.3426
+     m_fMagnification 2.6
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{6A8D4B7A4739CF55}" {
+    signalsSuffix "Turret"
+   }
+   ProvideAimingType MainTurret
+   AimingMaxSpeed 1.2 1.2
+   AimingSpeedControls 0.1 0.1
+   ikTargets {
+    AnimationIKTargetInfo "{6A8D4B7A4739CF58}" {
+     BindingName "LHandIKTarget"
+     PositionInfo PointInfo "{6A8D4B7A4739CF5A}" {
+      PivotID "w_el_valve_small"
+      Offset -0.1423 0.0002 0.0804
+      Angles 64.7901 -99.0553 -24.0286
+     }
+    }
+    AnimationIKTargetInfo "{6A8D4B7A4739CF5C}" {
+     BindingName "RHandIKTarget"
+     PositionInfo PointInfo "{6A8D4B7A4739CF5F}" {
+      PivotID "w_hor_valve_small"
+      Offset 0 0.1273 -0.0493
+      Angles -15.109 -83.6622 -0.0012
+     }
+    }
+   }
+   TurretSpeed 4 4
+   TurretAcceleration 60 60
+   TurretDeceleration 120 120
+   TurretCrankRatio 4 4
+  }
+  TF_ATGMWeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType RocketLauncher
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "w_base_el"
+    Offset 0.0649 -1.0325 0.0318
+    DisablePhysicsInteraction 1
+    ActivatePhysicsOnDetaching 1
+    DeactivatePhysicsOnAtaching 1
+   }
+   WeaponTemplate "{3FA8E6F4B417BC09}Prefabs/Weapons/HeavyWeapons/9K135/9K135_Launcher.et"
+  }
+  InventoryStorageManagerComponent "{570EB718136CC976}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset -0.0327 0.8842 -0.1663
+     }
+    }
+    UserActionContext "{6A8D4B7A4739CF47}" {
+     ContextName "Reload"
+     Position PointInfo "{6A8D4B7A4739CF46}" {
+      PivotID "w_launcher"
+      Offset -0.1774 -0.0713 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_OpenTurretStorageAction "{570EACF46E2143AC}" {
+     ParentContextList {
+      ""
+     }
+     UIInfo UIInfo "{570EACF479DB7276}" {
+      Name ""
+     }
+     m_bShowFromOutside 0
+    }
+    TF_DeployMultiPartInventoryItemAction "{6556B9374AF3327D}" : "{53ACE069C87D43A3}Prefabs/Weapons/Core/Configs/Actions/DismantleMultipartInventoryItemAction.conf" {
+     UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" {
+      Description "#TF-Weapon-ATGM_Tripod_9K135"
+     }
+     Duration 2
+     "Sort Priority" 5
+     m_iVariantId 33
+     m_eRequiredGadget NONE
+    }
+   }
+   AllowCrossHierarchy 0
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{058B32F53E5413A2}Assets/Weapons/HeavyWeapons/anim/ATGM_kornet.agr"
+   AnimInstance "{FB33341378BED852}Assets/Weapons/HeavyWeapons/anim/ATGM_kornet_weapon.asi"
+   AnimUpdate Disabled
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{058B32F53E5413A2}Assets/Weapons/HeavyWeapons/anim/ATGM_kornet.agr"
+    AnimInstance "{006DA522E0BFBCBE}Assets/Weapons/HeavyWeapons/anim/ATGM_kornet_player.asi"
+   }
+  }
+ }
+ coords 656.927 0.894 20
+}

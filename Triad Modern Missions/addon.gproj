@@ -1,0 +1,25 @@
+GameProject {
+ ID "TriadModernMissions"
+ GUID "6AC4AF88BE9645B3"
+ TITLE "Triad Modern Missions"
+ Dependencies {
+  "58D0FB3206B6F859" "69FF2C2B633BBC25" "69AD3D402EBF15A9" "69853A83EF75418F"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
+   PlatformHardware XBOX_ONE
+  }
+ }
+}
