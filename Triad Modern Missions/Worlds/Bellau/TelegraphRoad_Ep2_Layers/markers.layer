@@ -1,0 +1,90 @@
+PolylineShapeEntity Trigger : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 0 0.502 0.125 0.392
+   m_OutlineColor 0 0.502 0.125 1
+  }
+ }
+ coords 6947.155 133.197 4149.296
+ Points {
+  ShapePoint "{6A8EEB41F917EC97}" {
+   Position -38.738 -4.979 62.56
+  }
+  ShapePoint "{6A8EEB41F5F1E9EC}" {
+   Position -19.043 -3.128 60.362
+  }
+  ShapePoint "{6A8EEB41F4AE3B3C}" {
+   Position 0.695 -1.389 57.172
+  }
+  ShapePoint "{6A8EEB41F3D2131C}" {
+   Position 33.208 0.227 49.962
+  }
+  ShapePoint "{6A8EEB41F28C923F}" {
+   Position 58.416 0.6 43.686
+  }
+  ShapePoint "{6A8EEB41F18284BD}" {
+   Position 49.819 0.88 15.437
+  }
+  ShapePoint "{6A8EEB41F0B262D8}" {
+   Position 47.105 0.901 4.816
+  }
+  ShapePoint "{6A8EEB41F0D573F9}" {
+   Position 40.008 0.966 -3.72
+  }
+  ShapePoint "{6A8EEB41CFD33034}" {
+   Position 17.004 1.436 -32.232
+  }
+  ShapePoint "{6A8EEB41CE9E2CFD}" {
+   Position 8.27 0.658 -45.119
+  }
+  ShapePoint "{6A8EEB41CEDFFDF9}" {
+   Position 6.732 0.479 -47.885
+  }
+  ShapePoint "{6A8EEB41CD05A34F}" {
+   Position 4.172 0.229 -55.935
+  }
+  ShapePoint "{6A8EEB41CC89A411}" {
+   Position 6.062 0.6 -63.864
+  }
+  ShapePoint "{6A8EEB41CC74A70D}" {
+   Position 6.221 0.837 -69.471
+  }
+  ShapePoint "{6A8EEB41CB872F8B}" {
+   Position 2.077 0.629 -77.788
+  }
+  ShapePoint "{6A8EEB41CB629268}" {
+   Position -5.832 -0.192 -88.349
+  }
+  ShapePoint "{6A8EEB41CA60A40D}" {
+   Position -11.289 -0.955 -81.739
+  }
+  ShapePoint "{6A8EEB41C931F266}" {
+   Position -22.439 -2.462 -65.991
+  }
+  ShapePoint "{6A8EEB41C894805A}" {
+   Position -31.258 -3.309 -57.861
+  }
+  ShapePoint "{6A8EEB41C8428100}" {
+   Position -43.893 -4.519 -51.601
+  }
+  ShapePoint "{6A8EEB41C7436A3E}" {
+   Position -59.449 -6.033 -47.598
+  }
+  ShapePoint "{6A8EEB41C6217A30}" {
+   Position -69.079 -6.723 -46.069
+  }
+  ShapePoint "{6A8EEB41C4B54084}" {
+   Position -60.141 -5.971 -30.922
+  }
+  ShapePoint "{6A8EEB41C2A41DD8}" {
+   Position -49.675 -4.473 -11.065
+  }
+  ShapePoint "{6A8EEB41C1D832C2}" {
+   Position -43.429 -4.437 11.708
+  }
+  ShapePoint "{6A8EEB41C1418868}" {
+   Position -41.992 -5.057 33.546
+  }
+ }
+ IsClosed 1
+}
