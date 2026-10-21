@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{194469A207812FC2}Prefabs/Characters/Factions/SFP_SE/SFP_Character_SE_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  LL_PlayableComponent "{69932A0B307ED856}" {
+   m_bIsPlayable 1
+  }
+ }
+}

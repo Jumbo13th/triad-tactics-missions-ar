@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B003873BC211B73C}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_BaseLoadout.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

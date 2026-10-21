@@ -141,6 +141,41 @@ Cain is a vanilla map. Malaya Zemlya additionally requires the following addon:
 Links:
 - [REAPER_RHIB](https://reforger.armaplatform.com/workshop/6934F9C61CE24DE5)
 
+### Ven Mission Requirements
+
+Landing on Ven, Episode 1 (`LandingOnVen_Ep1`) runs on Ven Island and requires the following addons:
+
+```json
+[
+	{
+		"modId": "69EEAA01F4A11001",
+		"name": "Grey Man's Chute Framework",
+		"version": "0.2.8"
+	},
+	{
+		"modId": "5E5C154FEE1094BB",
+		"name": "M113 APC",
+		"version": "1.1.3"
+	},
+	{
+		"modId": "69293EC27DC1A8EB",
+		"name": "Triad Swedish Faction",
+		"version": "1.0.2"
+	},
+	{
+		"modId": "11053359C1AFF8E1",
+		"name": "Ven Island",
+		"version": "1.0.0"
+	}
+]
+```
+
+Links:
+- [Grey Man's Chute Framework](https://reforger.armaplatform.com/workshop/69EEAA01F4A11001)
+- [M113 APC](https://reforger.armaplatform.com/workshop/5E5C154FEE1094BB)
+- [Triad Swedish Faction](https://reforger.armaplatform.com/workshop/69293EC27DC1A8EB)
+- [Ven Island](https://reforger.armaplatform.com/workshop/11053359C1AFF8E1)
+
 ---
 
 ## Triad Modern Missions

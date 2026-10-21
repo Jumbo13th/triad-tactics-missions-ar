@@ -1,0 +1,127 @@
+$grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
+ FirstCapture {
+  components {
+   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_sMessage "Силы Швеции захватили красный триггер"
+    m_sZoneEntityName "FirstTrigger"
+    m_sZoneDisplayName "Красный триггер"
+    m_sAttackerFaction "SFP_SE_ARMY"
+    m_sDefenderFaction "USSR"
+    m_aFlagNames {
+     "FirstFlag1"
+     "FirstFlag2"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_aConditions {
+     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+      m_sFaction "SFP_SE_ARMY"
+      m_sVersusFaction "USSR"
+      m_fVersusMultiplier 2
+     }
+     LL_TriggerFactionCondition "{69BD22C261674367}" {
+      m_sFaction "SFP_SE_ARMY"
+     }
+    }
+   }
+  }
+  coords 1884 24 1240
+ }
+ SecondCapture {
+  components {
+   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_sMessage "Силы Швеции захватили зелёный триггер"
+    m_sZoneEntityName "SecondTrigger"
+    m_sZoneDisplayName "Зелёный триггер"
+    m_sAttackerFaction "SFP_SE_ARMY"
+    m_sDefenderFaction "USSR"
+    m_aFlagNames {
+     "SecondFlag1"
+     "SecondFlag2"
+    }
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
+    m_aConditions {
+     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+      m_sFaction "SFP_SE_ARMY"
+      m_sVersusFaction "USSR"
+      m_fVersusMultiplier 2
+     }
+     LL_TriggerFactionCondition "{69BD22C261674367}" {
+      m_sFaction "SFP_SE_ARMY"
+     }
+    }
+   }
+  }
+  coords 1884 24 1242
+ }
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesUSSR {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Силы СССР понесли критические потери. Победа Швеции"
+    m_sFactionKey "USSR"
+    m_iThreshold 3
+   }
+  }
+  coords 1886 24 1240
+ }
+ LossesSWE {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Силы Швеции понесли критические потери. Победа СССР"
+    m_sFactionKey "SFP_SE_ARMY"
+    m_iThreshold 5
+   }
+  }
+  coords 1886 24 1242
+ }
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Победа СССР"
+   m_iSeconds 4800
+  }
+ }
+ coords 1888 24 1240
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ SWESupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа Швеции. Создан четырёхкратный перевес численности над СССР"
+    m_sFactionKey "SFP_SE_ARMY"
+    m_sVersusFaction "USSR"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 1890 24 1240
+ }
+ USSRSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа СССР. Создан четырёхкратный перевес численности над Швецией"
+    m_sFactionKey "USSR"
+    m_sVersusFaction "SFP_SE_ARMY"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 1890 24 1242
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ FirstFlag1 {
+  coords 3357.62 25.768 1556.869
+ }
+ FirstFlag2 {
+  coords 3394.506 25.16 1515.827
+ }
+ SecondFlag1 {
+  coords 2606.395 20.692 793.923
+ }
+ SecondFlag2 {
+  coords 2668.704 22.338 811.302
+ }
+}
