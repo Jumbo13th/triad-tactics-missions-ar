@@ -1,0 +1,87 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesIPSEC {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "IPSec понесли критические потери. Победа Wolverine"
+    m_sFactionKey "IPSEC"
+    m_iThreshold 5
+   }
+  }
+  coords 6070 100 6000
+ }
+ LossesWOLVERINE {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Wolverine понесли критические потери. Победа IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_iThreshold 3
+   }
+  }
+  coords 6072 100 6000
+ }
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Победа Wolverine"
+   m_iSeconds 3600
+  }
+ }
+ coords 6076 100 6000
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ IPSECSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа IPSec. Создан четырёхкратный перевес численности над Wolverine"
+    m_sFactionKey "IPSEC"
+    m_sVersusFaction "WOLVERINE"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 6078 100 6000
+ }
+ WOLVERINESupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа Wolverine. Создан четырёхкратный перевес численности над IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_sVersusFaction "IPSEC"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 6080 100 6000
+ }
+}
+GenericEntity ValsDestroyed : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
+ components {
+  LL_TriggerDestroy "{69BD22C391CCC3CE}" {
+   m_sMessage "Все четыре «Вала» уничтожены. Победа IPSec"
+   m_aTargets {
+    LL_TriggerDestroyTarget "{DE7A031C62D9B966}" {
+     m_sEntityName "Val1"
+     m_sDisplayName "3К360 «Вал» №1"
+     m_bClickable 0
+    }
+    LL_TriggerDestroyTarget "{2B7E1A82FD5D9D26}" {
+     m_sEntityName "Val2"
+     m_sDisplayName "3К360 «Вал» №2"
+     m_bClickable 0
+    }
+    LL_TriggerDestroyTarget "{991F8C181B5DEFD3}" {
+     m_sEntityName "Val3"
+     m_sDisplayName "3К360 «Вал» №3"
+     m_bClickable 0
+    }
+    LL_TriggerDestroyTarget "{44EA717BBFEC62DB}" {
+     m_sEntityName "Val4"
+     m_sDisplayName "3К360 «Вал» №4"
+     m_bClickable 0
+    }
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 3
+  }
+ }
+ coords 6074 100 6000
+}
