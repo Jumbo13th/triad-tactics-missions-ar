@@ -2,3 +2,6 @@ Triad Missions/resourceDatabase.rdb
 Triad Missions/UserMaps.desc
 Triad Modern Missions/resourceDatabase.rdb
 Triad Modern Missions/UserMaps.desc
+*.txo
+# 3K360 Val texture sources: rebuilt by the asset pipeline, only the imported .edds ship
+Triad Modern Missions/Assets/Props/Military/3K360_Val/Data/*.png

@@ -1,0 +1,34 @@
+MatPBRMulti "{7379B4C6FA8A8490}Assets/Props/Military/3K360_Val/Data/3K360_Val_Wreck_Chassis.emat" {
+ DisablePriorityProbes 1
+ VFXMap "{0FC15A352AF490C4}Assets/Props/Military/3K360_Val/Data/3K360_Val_Chassis_VFX.edds"
+ RoughnessScale 1.3
+ MetalnessScale 0
+ CavityFromAO 0.7
+ MudOpacity 0.7
+ MudColor 0.095 0.055 0.035 1
+ MudRoughness 1.45
+ MudMetalness 0
+ MudAO 0.571
+ MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MudUVTransform MatUVTransform "{6AB779A09F025326}" {
+  TilingU 6.6
+  TilingV 6.6
+ }
+ UVSrcMud "UV set 2"
+ DirtOpacity 0.9
+ DirtLayerSharpness 0.2
+ DirtColor 0.045 0.04 0.036 1
+ DirtRoughness 1.4
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{6AB779A09F025277}" {
+  TilingU 3.3
+  TilingV 3.3
+ }
+ UVSrcDirt "UV set 2"
+ Color_1 0.17 0.15 0.135 1
+ BCR_1 "{476BE40FAFE77336}Assets/Props/Military/3K360_Val/Data/3K360_Val_Chassis_BCR.edds"
+ NMO_1 "{7FB35F9D769021A8}Assets/Props/Military/3K360_Val/Data/3K360_Val_Chassis_NMO.edds"
+}

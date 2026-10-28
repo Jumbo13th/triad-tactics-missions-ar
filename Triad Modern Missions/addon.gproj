@@ -7,6 +7,67 @@ GameProject {
  }
  Configurations {
   GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{4A79000000000071}" {
+    StringTables {
+     StringTableDefinition "{6AB88DEA75097C41}" {
+      StringTableSource "{2D48D9A3922F5ABB}Language/tmm_localization.st"
+      Languages {
+       LanguageDefinition "{6AB88DEA738A303D}" {
+        Code "cs_cz"
+        StringTableRuntime "{936E5854CFF70B2D}Language/tmm_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A3049}" {
+        Code "de_de"
+        StringTableRuntime "{46104267DC541A0D}Language/tmm_localization.de_de.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A3077}" {
+        Code "en_us"
+        StringTableRuntime "{18E0C82CB6A71F0C}Language/tmm_localization.en_us.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A3067}" {
+        Code "es_es"
+        StringTableRuntime "{DDAC85A558A57413}Language/tmm_localization.es_es.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A3192}" {
+        Code "fr_fr"
+        StringTableRuntime "{66047092BE269711}Language/tmm_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A3181}" {
+        Code "it_it"
+        StringTableRuntime "{E618FFA6130414E8}Language/tmm_localization.it_it.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A318A}" {
+        Code "ja_jp"
+        StringTableRuntime "{F60342342D752443}Language/tmm_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A31B7}" {
+        Code "ko_kr"
+        StringTableRuntime "{56BD6A98BE58277C}Language/tmm_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A31A5}" {
+        Code "pl_pl"
+        StringTableRuntime "{0ACCCC6200B7BB00}Language/tmm_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A31D0}" {
+        Code "pt_br"
+        StringTableRuntime "{DFBB56AE3B4971BA}Language/tmm_localization.pt_br.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A31C1}" {
+        Code "ru_ru"
+        StringTableRuntime "{8AFA4206A63014CC}Language/tmm_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A3167}" {
+        Code "uk_ua"
+        StringTableRuntime "{00A217F0CA1EAA99}Language/tmm_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{6AB88DEA738A3294}" {
+        Code "zh_cn"
+        StringTableRuntime "{DA1279CDF3BE7A84}Language/tmm_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
   }
   GameProjectConfig XBOX_ONE {
   }

@@ -1,0 +1,312 @@
+MetaFileClass {
+ Name "{33B5CACB7B6CEBD5}Assets/Props/Military/3K360_Val/3K360_Val.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AB746A9B06B7287}" {
+     SourceMaterial "3K360_Val_Cab"
+     AssignedMaterial "{5ED35A6F3651A278}Assets/Props/Military/3K360_Val/Data/3K360_Val_Cab.emat"
+    }
+    MaterialAssignClass "{6AB746A9B06B72B7}" {
+     SourceMaterial "3K360_Val_Wheels"
+     AssignedMaterial "{F05C7EEFAC8BE821}Assets/Props/Military/3K360_Val/Data/3K360_Val_Wheels.emat"
+    }
+    MaterialAssignClass "{6AB746A9B06B72B9}" {
+     SourceMaterial "3K360_Val_Chassis"
+     AssignedMaterial "{B1745640A4BB875B}Assets/Props/Military/3K360_Val/Data/3K360_Val_Chassis.emat"
+    }
+    MaterialAssignClass "{6AB746A9B06B72BE}" {
+     SourceMaterial "3K360_Val_Shelter"
+     AssignedMaterial "{EE21D48738AFDB52}Assets/Props/Military/3K360_Val/Data/3K360_Val_Shelter.emat"
+    }
+    MaterialAssignClass "{6AB746A9B06B72A3}" {
+     SourceMaterial "3K360_Val_Launcher"
+     AssignedMaterial "{8CB7999B46F0729A}Assets/Props/Military/3K360_Val/Data/3K360_Val_Launcher.emat"
+    }
+    MaterialAssignClass "{6AB746A9B06B72A9}" {
+     SourceMaterial "3K360_Val_Glass"
+     AssignedMaterial "{5FFE166F500B1E01}Assets/Props/Military/3K360_Val/Data/3K360_Val_Glass.emat"
+    }
+    MaterialAssignClass "{6AB779AF657380C8}" {
+     SourceMaterial "3K360_Val_Interior"
+     AssignedMaterial "{6750414D7358E3ED}Assets/Props/Military/3K360_Val/Data/3K360_Val_Interior.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "3K360_Val" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Cab {
+     LayerPreset "BuildingView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_CarrierDeck {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Engine {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Frame {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Shelter {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CabBelly {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Canister_0_0 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Canister_0_1 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Canister_1_0 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Canister_1_1 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Canister_2_0 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Canister_2_1 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Canister_3_0 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Canister_3_1 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Wheel_-1_0" {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Wheel_-1_1" {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Wheel_-1_2" {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Wheel_-1_3" {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Wheel_1_0 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Wheel_1_1 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Wheel_1_2 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Wheel_1_3 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CabFire {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CabGlass_DoorL {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CabGlass_DoorR {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CabGlass_QuarterlightL {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CabGlass_QuarterlightR {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CabGlass_Windscreen0 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CabGlass_Windscreen1 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CabGlass_Windscreen2 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6AB746A8660B75F1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AB746A8660B84D9}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AB746A8660B85A9}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AB746A8660B8693}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AB746A8660B86D4}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AB746A8660B8647}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{6AB746A8660B8739}" {
+   }
+  }
+ }
+}

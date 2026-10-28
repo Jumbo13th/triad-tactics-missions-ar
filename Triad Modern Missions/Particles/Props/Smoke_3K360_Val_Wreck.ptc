@@ -1,0 +1,83 @@
+EffectDef {
+ Emitters {
+  EmitterDef fast_smoke {
+   ShapeType Sphere
+   ShapeSize 1 0.2 0.7
+   ConeAngle 360 0 90
+   MaxNum 30
+   BirthRate 3
+   BirthRateVel 0
+   Offset 0 0 0
+   Angles 45 0 0
+   Material "{896ED2720AFADD2C}Particles/_Materials/Gas/Smoke_Cloud_Dark_02.emat"
+   SizeMultiplier 3
+   SizeRND 2
+   RotMultiplier 60
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0.05
+   VelocityRND 0.05
+   VelAffect 0.5
+   AirResistance 0.3
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply -0.01
+   AnimOnce 1
+   AnimFPS 25
+   RandomFrame 0
+   Lifetime 2
+   LifetimeRND 1
+   Color {
+    0 0.023 0.023 0.023 1 0.023 0.023 0.023
+   }
+   Alpha {
+    0 0 0.161 0.6 1 0
+   }
+   RotationSpeed {
+    0 0.025 1 1
+   }
+   Size {
+    0 0.452 1 1
+   }
+  }
+  EmitterDef smoke_big {
+   ShapeType Sphere
+   ShapeSize 1 0.2 0.7
+   ConeAngle 360 0 120
+   MaxNum 60
+   BirthRate 4
+   BirthRateVel 1
+   Offset 0 0 0
+   Angles 0 0 0
+   Material "{029D33C344E15DFB}Particles/_Materials/Gas/Smoke_loop_01.emat"
+   SizeMultiplier 14
+   SizeRND 3
+   RotMultiplier 20
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0.25
+   VelocityRND 0.25
+   VelAffect 0.2
+   AirResistance 0.6
+   AirResistanceRND 0
+   WindInfluence 1
+   ParentVelRelToAir 0.35
+   GravityMultiply -0.1
+   AnimFPS 60
+   Lifetime 3
+   LifetimeRND 2
+   Color {
+    0 0.168 0.168 0.168 1 0.11 0.11 0.11
+   }
+   Alpha {
+    0 0 0.203 0.5 1 0
+   }
+   RotationSpeed {
+    0 0.025 1 1
+   }
+   Size {
+    0 0.133 0.302 0.504 0.59 0.778 1 1
+   }
+  }
+ }
+}

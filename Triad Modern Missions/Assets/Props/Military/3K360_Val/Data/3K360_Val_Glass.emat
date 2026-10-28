@@ -1,0 +1,24 @@
+MatPBRBasicGlass "{5FFE166F500B1E01}Assets/Props/Military/3K360_Val/Data/3K360_Val_Glass.emat" {
+ Color 0.035 0.039 0.04 1
+ ZWrite 0
+ Sort translucent
+ AlphaMul 0.045
+ BlendMode AlphaBlend
+ VFXMap "{E82A725C2C4E2C66}Assets/Props/Military/3K360_Val/Data/3K360_Val_Glass_VFX.edds"
+ RoughnessScale 0.08
+ MetalnessScale 0
+ DirtOpacity 0.5
+ DirtLayerSharpness 0.2
+ DirtColor 0.06 0.054 0.044 1
+ DirtRoughness 1.2
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{6AB779EE748CDD60}" {
+  TilingU 3.3
+  TilingV 3.3
+ }
+ UVSrcDirt "UV set 2"
+ BCRMap "{A080CC66A95DCF94}Assets/Props/Military/3K360_Val/Data/3K360_Val_Glass_BCR.edds"
+ FresnelPower 2
+ Backscatterig 0
+}

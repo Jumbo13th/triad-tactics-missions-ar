@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{BC8B589CD82DBCD1}Assets/Props/Military/3K360_Val/Data/3K360_Val_Cab_VFX.edds"
+ Configurations {
+  PNGResourceClass PC : "{4EC6C20A754D338D}Configs/System/ResourceTypes/PC/TextureEffect.conf" {
+  }
+  PNGResourceClass XBOX_ONE : "{CA41B00C72F6D179}Configs/System/ResourceTypes/XBOX_ONE/TextureEffect.conf" {
+  }
+  PNGResourceClass XBOX_SERIES : "{5DF0BD2327CD114A}Configs/System/ResourceTypes/XBOX_SERIES/TextureEffect.conf" {
+  }
+  PNGResourceClass PS4 : "{0FAC34EBBDAC6F40}Configs/System/ResourceTypes/PS4/TextureEffect.conf" {
+  }
+  PNGResourceClass PS5 : "{0BB4B87850AF8CF9}Configs/System/ResourceTypes/PS5/TextureEffect.conf" {
+  }
+  PNGResourceClass HEADLESS : "{3C96FCD2DDBE3074}Configs/System/ResourceTypes/HEADLESS/TextureEffect.conf" {
+  }
+  PNGResourceClass Xbox : PC {
+  }
+ }
+}

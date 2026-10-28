@@ -1,0 +1,33 @@
+GenericEntity : "{54C8EDB2135A8C00}Prefabs/Props/Military/3K360_Val/3K360_Val.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{82B0520B392ECB7E}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{9F922BBC3AB4203B}" {
+    Name "#TTM_3K360_Val"
+    Description "#TTM_3K360_Val_Description"
+    m_Image "{38AF55CF18AD4928}UI/Textures/EditorPreviews/Auto/Props/Military/E_3K360_Val.edds"
+    m_aAuthoredLabels {
+     31 1001
+    }
+    m_aAutoLabels {
+     108 1 123
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{CDF980012D091559}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{EB0118DD964B32F7}" {
+     m_iParentID -1
+     m_Mesh "{33B5CACB7B6CEBD5}Assets/Props/Military/3K360_Val/3K360_Val.xob"
+     m_Flags EDITABLE
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,75 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{82E892751E99DB66}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default : "{027E75D7EBD9D450}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Metal_Heavy.conf" {
+    }
+   }
+   m_fBaseHealth 7000
+   m_fDamageThresholdMaximum 10000000
+   m_bDeleteAfterFinalPhase 0
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{3E2C08C6D28E6CD0}" {
+     m_fPhaseHealth 4000
+     m_PhaseModel "{9CB37293A2473B18}Assets/Props/Military/3K360_Val/3K360_Val_Wreck.xob"
+     m_PhaseDestroySpawnObjects {
+      SCR_ParticleSpawnable "{6CB09034C1D49089}" {
+       m_vOffsetPosition 0 2.3 3.2
+       m_Particle "{3528DFF4EE2BBD7C}Particles/Vehicle/Vehicle_explosion_medium_01.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      SCR_PrefabSpawnable "{1BE3780B97AAC05D}" {
+       m_vOffsetPosition 0 3.07 -5.43
+       m_Prefabs {
+        "{BCE4E0823FCFBCB7}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Large.et"
+       }
+      }
+      SCR_PrefabSpawnable "{E2B92A51687F453A}" {
+       m_vOffsetPosition 0 3.07 -5.43
+       m_Prefabs {
+        "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et"
+       }
+      }
+      SCR_PrefabSpawnable "{0794A3C632E1963A}" {
+       m_vOffsetPosition 0 2.2 -4.7
+       m_Prefabs {
+        "{B44691D651158B52}Prefabs/Weapons/Warheads/Fires/Fire_Ammo_Large.et"
+       }
+      }
+      SCR_ParticleSpawnable "{588906A3CDA51704}" {
+       m_vOffsetPosition 0.55 3.22 -2.26
+       m_Particle "{DF2651A331B271D9}Particles/Props/Smoke_3K360_Val_Wreck.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_HUGE
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{33B5CACB7B6CEBD5}Assets/Props/Military/3K360_Val/3K360_Val.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{E66AC7F00828D43B}" : "{3B686EF5E3C610B9}Prefabs/Props/Core/DestructionMultiPhase_Rpl_Base.ct" {
+   Enabled 1
+  }
+ }
+ {
+  GameEnvironmentProbeEntity : "{79BB71A18DF7E99C}Prefabs/Vehicles/Core/Vehicle_Probe_base.et" {
+   ID "F1DB00E8E5606E62"
+   coords 0 2.1 5.05
+   LVReflectionBrightness -0.1
+   LVDiffuseBrightness -0.1
+   EnableHDRModifications 1
+   VisiblePercentWhite 100
+   VisiblePercentBlack 40
+  }
+ }
+}
