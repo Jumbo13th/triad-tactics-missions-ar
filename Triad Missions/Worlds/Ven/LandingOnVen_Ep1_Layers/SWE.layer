@@ -544,7 +544,7 @@ $grp GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equi
      }
      MultiSlotConfiguration "{E52941EE39A4FEE8}" {
       SlotTemplate InventoryStorageSlot SHOVEL {
-       Prefab "{FCCDE4E4D10E698A}Prefabs/Items/Equipment/Accessories/ETool_KLAS/ETool_KLAS_FreeRoamBuilding_Gadge.et"
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 12
      }
@@ -682,7 +682,7 @@ $grp GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equi
      }
      MultiSlotConfiguration "{E52941EE39A4FEE8}" {
       SlotTemplate InventoryStorageSlot SHOVEL {
-       Prefab "{FCCDE4E4D10E698A}Prefabs/Items/Equipment/Accessories/ETool_KLAS/ETool_KLAS_FreeRoamBuilding_Gadge.et"
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 12
      }
@@ -820,7 +820,7 @@ $grp GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equi
      }
      MultiSlotConfiguration "{E52941EE39A4FEE8}" {
       SlotTemplate InventoryStorageSlot SHOVEL {
-       Prefab "{FCCDE4E4D10E698A}Prefabs/Items/Equipment/Accessories/ETool_KLAS/ETool_KLAS_FreeRoamBuilding_Gadge.et"
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 12
      }
@@ -958,7 +958,7 @@ $grp GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equi
      }
      MultiSlotConfiguration "{E52941EE39A4FEE8}" {
       SlotTemplate InventoryStorageSlot SHOVEL {
-       Prefab "{FCCDE4E4D10E698A}Prefabs/Items/Equipment/Accessories/ETool_KLAS/ETool_KLAS_FreeRoamBuilding_Gadge.et"
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 10
      }
@@ -1084,7 +1084,7 @@ $grp GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equi
      }
      MultiSlotConfiguration "{E52941EE39A4FEE8}" {
       SlotTemplate InventoryStorageSlot SHOVEL {
-       Prefab "{FCCDE4E4D10E698A}Prefabs/Items/Equipment/Accessories/ETool_KLAS/ETool_KLAS_FreeRoamBuilding_Gadge.et"
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 7
      }
@@ -1222,7 +1222,7 @@ $grp GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equi
      }
      MultiSlotConfiguration "{E52941EE39A4FEE8}" {
       SlotTemplate InventoryStorageSlot SHOVEL {
-       Prefab "{FCCDE4E4D10E698A}Prefabs/Items/Equipment/Accessories/ETool_KLAS/ETool_KLAS_FreeRoamBuilding_Gadge.et"
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 10
      }
@@ -1354,7 +1354,7 @@ $grp GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equi
      }
      MultiSlotConfiguration "{E52941EE39A4FEE8}" {
       SlotTemplate InventoryStorageSlot SHOVEL {
-       Prefab "{FCCDE4E4D10E698A}Prefabs/Items/Equipment/Accessories/ETool_KLAS/ETool_KLAS_FreeRoamBuilding_Gadge.et"
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
       }
       NumSlots 7
      }

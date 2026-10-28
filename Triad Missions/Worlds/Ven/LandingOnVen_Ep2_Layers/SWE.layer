@@ -1,0 +1,511 @@
+$grp Tank : "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et" {
+ SWE_M113_1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "SWE_A12"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "SFP_SE_ARMY"
+   }
+  }
+  coords 1696.236 19.187 2933.982
+  angles 0 -139.904 0
+ }
+ SWE_M113_2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "SWE_A13"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "SFP_SE_ARMY"
+   }
+  }
+  coords 1705.319 19.115 2944.642
+  angles 0.141 -138.183 2.527
+ }
+}
+$grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
+ SWE_Ammo_A12 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADFCB758D3719BD}" {
+      SlotTemplate InventoryStorageSlot AK4MAG {
+       Prefab "{9C70044B31806F33}Prefabs/Weapons/Magazines/Magazine_762x51_AK4_20rnd_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6ADF954649CDCF7A}" {
+      SlotTemplate InventoryStorageSlot GPMGBOX {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{6ADF81E537857B41}" {
+      SlotTemplate InventoryStorageSlot M45MAG {
+       Prefab "{C13B20AA8E4851D8}Prefabs/Weapons/Magazines/Magazine_9x19_m45_36rnd_Base.et"
+      }
+      NumSlots 6
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1696.393 19.193 2929.502
+  angles -0.668 -48.245 -0.596
+ }
+ SWE_Ammo_A13 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADFCB758D3719BD}" {
+      SlotTemplate InventoryStorageSlot AK4MAG {
+       Prefab "{9C70044B31806F33}Prefabs/Weapons/Magazines/Magazine_762x51_AK4_20rnd_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6ADF954649CDCF7A}" {
+      SlotTemplate InventoryStorageSlot GPMGBOX {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{6ADF81E537857B41}" {
+      SlotTemplate InventoryStorageSlot M45MAG {
+       Prefab "{C13B20AA8E4851D8}Prefabs/Weapons/Magazines/Magazine_9x19_m45_36rnd_Base.et"
+      }
+      NumSlots 6
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1706.31 19.156 2940.763
+  angles 0 -49.117 0
+ }
+ SWE_Ammo_A22 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADFCB758D3719BD}" {
+      SlotTemplate InventoryStorageSlot AK4MAG {
+       Prefab "{9C70044B31806F33}Prefabs/Weapons/Magazines/Magazine_762x51_AK4_20rnd_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6ADF954649CDCF7A}" {
+      SlotTemplate InventoryStorageSlot GPMGBOX {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 3
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1648.27 18.858 2914.786
+  angles 0.078 -48.513 1.263
+ }
+ SWE_Ammo_A23 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADFCB758D3719BD}" {
+      SlotTemplate InventoryStorageSlot AK4MAG {
+       Prefab "{9C70044B31806F33}Prefabs/Weapons/Magazines/Magazine_762x51_AK4_20rnd_Ball.et"
+      }
+      NumSlots 20
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1655.227 18.682 2923.522
+  angles -1.26 -50.648 0.125
+ }
+ SWE_Ammo_A32 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADFCB758D3719BD}" {
+      SlotTemplate InventoryStorageSlot AK4MAG {
+       Prefab "{9C70044B31806F33}Prefabs/Weapons/Magazines/Magazine_762x51_AK4_20rnd_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6ADF954649CDCF7A}" {
+      SlotTemplate InventoryStorageSlot GPMGBOX {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 3
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1664.11 18.774 2932.189
+  angles -0.485 -49.407 1.941
+ }
+ SWE_Ammo_A33 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADFCB758D3719BD}" {
+      SlotTemplate InventoryStorageSlot AK4MAG {
+       Prefab "{9C70044B31806F33}Prefabs/Weapons/Magazines/Magazine_762x51_AK4_20rnd_Ball.et"
+      }
+      NumSlots 20
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1672.4 18.552 2942.976
+  angles -0.042 -46.884 -1.265
+ }
+ SWE_M2Ammo_A22 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADF2C3B96CD5E8E}" {
+      SlotTemplate InventoryStorageSlot M2Ammo {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1645.803 18.955 2916.051
+  angles 0.928 -138.795 -5.123
+ }
+ SWE_M2Ammo_A32 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADF2C3B96CD5E8E}" {
+      SlotTemplate InventoryStorageSlot M2Ammo {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1662.325 18.628 2934.75
+  angles -1.097 -138.755 2.607
+ }
+}
+$grp SCR_AIGroup : "{5E300C360823F191}Prefabs/Groups/SFP_SE_ARMY/Group_SFP_SE_ARMY_RifleSquad.et" {
+ SWE_A12 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 1697.409 19.163 2928.596
+  angles 0 -48.252 0
+  m_aUnitPrefabSlots {
+   "{6E43F17C5DC4E50A}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_SL.et"
+   "{135B1D843857D993}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_SR.et"
+   "{51DCDE79010F53FA}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_MG.et"
+   "{9DCA2BABD23C4607}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_AMG.et"
+   "{F0BD4568112F4F03}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_RiflemanAT.et"
+   "{7242AE94CB95727A}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_S.et"
+   "{D7C84E8637309652}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_Driver.et"
+   "{D7C84E8637309652}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_Driver.et"
+  }
+ }
+ SWE_A13 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 1707.325 19.161 2939.885
+  angles 0 -49.117 0
+  m_aUnitPrefabSlots {
+   "{6E43F17C5DC4E50A}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_SL.et"
+   "{135B1D843857D993}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_SR.et"
+   "{51DCDE79010F53FA}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_MG.et"
+   "{9DCA2BABD23C4607}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_AMG.et"
+   "{F0BD4568112F4F03}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_RiflemanAT.et"
+   "{7242AE94CB95727A}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_S.et"
+   "{D7C84E8637309652}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_Driver.et"
+   "{D7C84E8637309652}Prefabs/Characters/Factions/SFP_SE/TT_SFP_Character_SE_Driver.et"
+  }
+ }
+ SWE_A22 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 1
+   }
+  }
+  coords 1648.905 18.751 2914.224
+  angles 0 -48.515 0
+ }
+ SWE_A32 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 2
+    m_iSquad 1
+   }
+  }
+  coords 1664.836 18.681 2933.416
+  angles 0 -49.391 0
+ }
+}
+$grp Vehicle : "{5E78F260129DA61F}Prefabs/Vehicles/Wheeled/Tgb40/Tgb40_Transport_Troop.et" {
+ Tgb40_Transport_Troop1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "SWE_A32"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "SFP_SE_ARMY"
+   }
+  }
+  coords 1665.15 18.593 2939.145
+  angles 0.089 -139.046 1.263
+ }
+ Tgb40_Transport_Troop2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "SWE_A22"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "SFP_SE_ARMY"
+   }
+  }
+  coords 1648.509 18.773 2921.04
+  angles 2.416 -139.811 -1.472
+ }
+}
+$grp Turret : "{7F5786A00B36D0D8}Prefabs/Weapons/Tripods/Deployable_Tripod_M3_M2HB.et" {
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6AAAE61E2FB687FA}" {
+    m_sGroupName "SWE_A22"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "SFP_SE_ARMY"
+   }
+  }
+  coords 1645.932 18.943 2914.055
+  angles 4.209 -138.712 -3.432
+ }
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6AAAE61E5338D2BD}" {
+    m_sGroupName "SWE_A32"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "SFP_SE_ARMY"
+   }
+  }
+  coords 1662.454 18.673 2932.754
+  angles -1.69 -138.705 3.276
+ }
+}
+$grp SCR_AIGroup : "{821D7CD99AB52DA4}Prefabs/Groups/SFP_SE_ARMY/Group_SFP_SE_ARMY_AT_Squad.et" {
+ SWE_A23 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 2
+   }
+  }
+  coords 1656.129 18.688 2922.782
+  angles 0 -50.645 0
+ }
+ SWE_A33 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 2
+    m_iSquad 2
+   }
+  }
+  coords 1673.091 18.518 2942.524
+  angles 0 -46.805 0
+ }
+}
+$grp SCR_AIGroup : "{968C5D59C249C792}Prefabs/Groups/SFP_SE_ARMY/Group_SFP_SE_ARMY_PL_HQ.et" {
+ SWE_A11 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 0
+   }
+  }
+  coords 1693.615 19.213 2924.449
+  angles 0 -47.458 0
+ }
+ SWE_A21 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 0
+   }
+  }
+  coords 1645.116 19.126 2909.854
+  angles 0 -50.013 0
+ }
+ SWE_A31 {
+  components {
+   LL_GroupCallsign "{6AD7BEFEFE51079E}" {
+    m_iCompany 0
+    m_iPlatoon 2
+    m_iSquad 0
+   }
+  }
+  coords 1661.422 18.708 2929.055
+  angles 0 -49.041 0
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1685.047 19.117 2924.296
+ angles -1.788 0.056 -1.791
+}

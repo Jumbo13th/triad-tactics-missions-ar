@@ -1,0 +1,484 @@
+$grp SCR_AIGroup : "{00EED2BC36014B00}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad_Naval.et" {
+ NAV_S1 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 3577.473 2.028 1571.621
+  angles 0 116.474 0
+ }
+ NAV_S2 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 3570.693 2 1557.705
+  angles 0 113.132 0
+ }
+ NAV_S3 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 3
+   }
+  }
+  coords 3564.513 2 1544.123
+  angles 0 112.677 0
+ }
+}
+$grp SCR_AIGroup : "{03DEFB08D458F0D4}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad_VDV.et" {
+ VDV_S1 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 1
+   }
+  }
+  coords 3556.216 1.969 1524.908
+  angles 0 113.751 0
+ }
+ VDV_S2 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 2
+   }
+  }
+  coords 3551.684 1.937 1514.956
+  angles 0 112.166 0
+ }
+ VDV_S3 {
+  components {
+   LL_GroupCallsign "{6A2804058E9FFCC5}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 3
+   }
+  }
+  coords 3547.102 1.937 1503.818
+  angles 0 104.675 0
+ }
+}
+$grp Vehicle : "{29853A7F3C6E8E91}Prefabs/Vehicles/Wheeled/BTR70/TT_BTR70.et" {
+ NAV_BTR1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "NAV_S1"
+   }
+  }
+  coords 3579.407 2 1566.185
+  angles 0 26.297 0
+ }
+ NAV_BTR2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "NAV_S2"
+   }
+  }
+  coords 3573.309 2 1553.115
+  angles 0 21.102 0
+ }
+ NAV_BTR3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "NAV_S3"
+   }
+  }
+  coords 3567.277 1.988 1539.25
+  angles 0.818 23.913 0.363
+ }
+}
+SCR_AIGroup VDV_PL : "{2EA65BFB5EEB1560}Prefabs/Groups/OPFOR/TT_Group_USSR_PL_VDV.et" {
+ components {
+  LL_GroupCallsign "{6A2804058E9FFCC5}" {
+   m_iCompany 0
+   m_iPlatoon 1
+   m_iSquad 0
+  }
+ }
+ coords 3559.501 1.969 1532.296
+ angles 0 112.285 0
+}
+Turret : "{61556EC6CC70DDFA}Prefabs/Weapons/Tripods/6G10/Deployable_Tripod_6G10_AGS17_PAG17.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{6AAAE61F12E9F5FA}" {
+   m_sGroupName "VDV_S3"
+  }
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   InitialStorageSlots {
+    InventoryStorageSlot Magazine_1 {
+     Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+    }
+    InventoryStorageSlot Magazine_2 {
+     Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+    }
+    InventoryStorageSlot Magazine_3 {
+     Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+   "faction affiliation" "USSR"
+  }
+ }
+ coords 3548.947 1.937 1499.98
+ angles 0 13.163 0
+}
+$grp Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6AAAE61F3A7F8C7C}" {
+    m_sGroupName "VDV_S1"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 3556.91 1.969 1521.067
+  angles 0 24.842 0
+ }
+ {
+  components {
+   LL_VehicleSquadLinkComponent "{6AAAE61F0CAAD458}" {
+    m_sGroupName "VDV_S2"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 3552.378 1.969 1511.279
+  angles 0 21.977 0
+ }
+}
+SCR_AIGroup NAV_PL : "{6EB364594D6B099D}Prefabs/Groups/OPFOR/TT_Group_USSR_PL_Naval.et" {
+ components {
+  LL_GroupCallsign "{6A2804058E9FFCC5}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 3580.606 2.031 1578.131
+ angles 0 116.39 0
+}
+$grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
+ USSR_Ammo_VDV_S1 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADF881B2B407B2B}" {
+      SlotTemplate InventoryStorageSlot AKBALL {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6ADF3A33D91B7DCF}" {
+      SlotTemplate InventoryStorageSlot AKTRACER {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6ADFC8A50A4E7328}" {
+      SlotTemplate InventoryStorageSlot RPK4B1T {
+       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6ADFF9D2038D5FF7}" {
+      SlotTemplate InventoryStorageSlot VOG25 {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 3557.031 1.969 1524.549
+  angles 0 113.751 0
+ }
+ USSR_Ammo_VDV_S2 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADF881B2B407B2B}" {
+      SlotTemplate InventoryStorageSlot AKBALL {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6ADF3A33D91B7DCF}" {
+      SlotTemplate InventoryStorageSlot AKTRACER {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6ADFC8A50A4E7328}" {
+      SlotTemplate InventoryStorageSlot RPK4B1T {
+       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6ADFF9D2038D5FF7}" {
+      SlotTemplate InventoryStorageSlot VOG25 {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 3553.292 1.937 1514.301
+  angles 0 112.166 0
+ }
+ USSR_Ammo_VDV_S3 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADF881B2B407B2B}" {
+      SlotTemplate InventoryStorageSlot AKBALL {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6ADF3A33D91B7DCF}" {
+      SlotTemplate InventoryStorageSlot AKTRACER {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6ADFC8A50A4E7328}" {
+      SlotTemplate InventoryStorageSlot RPK4B1T {
+       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6ADFF9D2038D5FF7}" {
+      SlotTemplate InventoryStorageSlot VOG25 {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 3549.83 1.937 1503.104
+  angles 0 104.675 0
+ }
+ USSR_NSVAmmo_VDV_S1 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADF4370CF8311AD}" {
+      SlotTemplate InventoryStorageSlot NSVAmmo {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 3555.008 1.969 1519.61
+  angles 0 24.842 0
+ }
+ USSR_NSVAmmo_VDV_S2 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADF4370CF8311AD}" {
+      SlotTemplate InventoryStorageSlot NSVAmmo {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 3551.364 1.937 1509.349
+  angles 0 21.977 0
+ }
+ USSR_AGSAmmo_VDV_S3 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6ADFF15A2D6F7B0D}" {
+      SlotTemplate InventoryStorageSlot AGSAmmo {
+       Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 3548.658 1.96 1497.868
+  angles -1.075 13.151 0.668
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 3569.016 2 1544.046
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "VDV_S1"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 3559.858 1.969 1520.424
+  angles 0 22.224 0
+ }
+ Ural4320_transport_covered2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "VDV_S2"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 3555.5 1.969 1509.957
+  angles 0 22.055 0
+ }
+ Ural4320_transport_covered3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "VDV_S3"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
+   }
+  }
+  coords 3551.657 1.937 1499.417
+  angles 0 15.445 0
+ }
+}
