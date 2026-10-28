@@ -1,0 +1,41 @@
+PolylineShapeEntity Trigger : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 1 0 0 0.392
+   m_OutlineColor 1 0 0 1
+   m_fOutlineWidth 7
+   m_bLineMode 0
+  }
+  LL_StatZoneComponent "{11D0FF038F9549CC}" {
+  }
+ }
+ coords 5784.452 10.282 8719.71
+ angles 2.681 -0.084 -1.792
+ Points {
+  ShapePoint "{E259E4F749F38E19}" {
+   Position 58.787 -3.273 10.085
+  }
+  ShapePoint "{66413B025741D1B5}" {
+   Position 51.161 -5.361 33.646
+  }
+  ShapePoint "{E70B8CB233841876}" {
+   Position 12.203 -2.566 45.805
+  }
+  ShapePoint "{B1FFD17D42D22C01}" {
+   Position -21.188 -2.767 36.738
+  }
+  ShapePoint "{F5FC8C4155BB1270}" {
+   Position -27.728 0.637 -18.345
+  }
+  ShapePoint "{8D4C3FC345A197AB}" {
+   Position -7.063 0 -22.037
+  }
+  ShapePoint "{049F61A223AE23DA}" {
+   Position 11.187 -0.132 -21.218
+  }
+  ShapePoint "{69D400A2CF3052DD}" {
+   Position 47.932 -1.204 -21.676
+  }
+ }
+ IsClosed 1
+}

@@ -246,3 +246,38 @@ Links:
 - [WCS_AH-6M](https://reforger.armaplatform.com/workshop/6273146ADFE8241D)
 - [ZU-23](https://reforger.armaplatform.com/workshop/5C9AD9EF76F6B5EA)
 - [WCS_Armbands](https://reforger.armaplatform.com/workshop/61E42AE6714A3CC2)
+
+### Gogland Mission Requirements
+
+Missions that run on Gogland require the following addons in addition to Triad Modern Missions itself:
+
+```json
+[
+	{
+		"modId": "623EEDF242F6265E",
+		"name": "Gogland",
+		"version": "1.4.12"
+	},
+	{
+		"modId": "65AD60E204191D37",
+		"name": "Realistic Combat Drones",
+		"version": "2.3.9"
+	},
+	{
+		"modId": "6273146ADFE8241D",
+		"name": "WCS_AH-6M",
+		"version": "8.4.0"
+	},
+	{
+		"modId": "DEADC0DE00000003",
+		"name": "Tactical Flava - TIGR",
+		"version": "1.6.1"
+	}
+]
+```
+
+Links:
+- [Gogland](https://reforger.armaplatform.com/workshop/623EEDF242F6265E)
+- [Realistic Combat Drones](https://reforger.armaplatform.com/workshop/65AD60E204191D37)
+- [WCS_AH-6M](https://reforger.armaplatform.com/workshop/6273146ADFE8241D)
+- [Tactical Flava - TIGR](https://reforger.armaplatform.com/workshop/DEADC0DE00000003)

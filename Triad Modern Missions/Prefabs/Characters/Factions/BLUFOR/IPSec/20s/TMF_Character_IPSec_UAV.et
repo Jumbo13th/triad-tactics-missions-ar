@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{752E10A38DAE1993}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et" "{EF1E4AA6DCD2D982}Prefabs/Drones/DJIBase/DJIBattery.et" "{EF1E4AA6DCD2D982}Prefabs/Drones/DJIBase/DJIBattery.et" "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et" "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et"
+     }
+    }
+   }
+  }
+ }
+}

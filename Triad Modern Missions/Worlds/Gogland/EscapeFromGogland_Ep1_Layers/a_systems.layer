@@ -1,0 +1,47 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 5213.396 101.13 7986.825
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5213.396 101.13 7985.825
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 4
+   m_iStartingMinutes 0
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{A4F6886FB3CADF54}" {
+     m_sWeatherPresetName "Overcast"
+     m_iStartingHour 4
+     m_iStartingMinutes 0
+    }
+   }
+   m_iDay 15
+   m_iMonth 8
+   m_iYear 2023
+  }
+  LL_VehicleAccess "{0CABBDB4A1E4A47C}" {
+   m_aCrewRoles {
+    LL_CrewRoleEntry "{6D7F513513AE2C38}" {
+     m_sPrefab "{6ADFBED311DB0F70}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Pilot.et"
+     m_eGrants PILOT
+    }
+   }
+   m_aRestrictedVehicles {
+    LL_RestrictedVehicleEntry "{F973A5545638CAE6}" {
+     m_sPrefab "{FAA52C8EBB0EBCF7}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKTO.et"
+     m_ePilotRequires PILOT
+     m_eTurretRequires PILOT
+    }
+    LL_RestrictedVehicleEntry "{4B057B269DA0E207}" {
+     m_sPrefab "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et"
+     m_ePilotRequires PILOT
+     m_eTurretRequires PILOT
+    }
+   }
+  }
+ }
+ coords 5213.396 101.13 7984.825
+ m_iFreezeTime 300000
+}

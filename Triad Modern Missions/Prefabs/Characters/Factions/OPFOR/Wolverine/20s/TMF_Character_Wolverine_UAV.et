@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{BC0B85F8764E2D77}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
+     PrefabsToSpawn {
+      "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et" "{EF1E4AA6DCD2D982}Prefabs/Drones/DJIBase/DJIBattery.et" "{EF1E4AA6DCD2D982}Prefabs/Drones/DJIBase/DJIBattery.et" "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et" "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et"
+     }
+    }
+   }
+  }
+ }
+}
