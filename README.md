@@ -272,6 +272,16 @@ Missions that run on Gogland require the following addons in addition to Triad M
 		"modId": "DEADC0DE00000003",
 		"name": "Tactical Flava - TIGR",
 		"version": "1.6.1"
+	},
+	{
+		"modId": "DEADC0DE00000005",
+		"name": "Tactical Flava - HMMWV",
+		"version": "1.6.1"
+	},
+	{
+		"modId": "DEADC0DE00000006",
+		"name": "Tactical Flava - M-ATV",
+		"version": "1.6.0"
 	}
 ]
 ```
@@ -281,3 +291,5 @@ Links:
 - [Realistic Combat Drones](https://reforger.armaplatform.com/workshop/65AD60E204191D37)
 - [WCS_AH-6M](https://reforger.armaplatform.com/workshop/6273146ADFE8241D)
 - [Tactical Flava - TIGR](https://reforger.armaplatform.com/workshop/DEADC0DE00000003)
+- [Tactical Flava - HMMWV](https://reforger.armaplatform.com/workshop/DEADC0DE00000005)
+- [Tactical Flava - M-ATV](https://reforger.armaplatform.com/workshop/DEADC0DE00000006)

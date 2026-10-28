@@ -1,0 +1,92 @@
+GenericEntity EvacCapture : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
+ components {
+  LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+   m_sMessage "Wolverine захватили руины крепости. Победа Wolverine"
+   m_sZoneEntityName "Trigger"
+   m_sZoneDisplayName "Руины крепости"
+   m_sAttackerFaction "WOLVERINE"
+   m_sDefenderFaction "IPSEC"
+   m_aFlagNames {
+    "EvacFlag1"
+    "EvacFlag2"
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 1
+   m_aConditions {
+    LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+     m_sFaction "WOLVERINE"
+     m_sVersusFaction "IPSEC"
+     m_fVersusMultiplier 3
+    }
+    LL_TriggerFactionCondition "{69BD22C261674367}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+  }
+ }
+ coords 6074 100 6000
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesWOLVERINE {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Wolverine понесли критические потери. Победа IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_iThreshold 5
+   }
+  }
+  coords 6070 100 6000
+ }
+ LossesIPSEC {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "IPSec понесли критические потери. Победа Wolverine"
+    m_sFactionKey "IPSEC"
+    m_iThreshold 3
+   }
+  }
+  coords 6072 100 6000
+ }
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Победа IPSec"
+   m_iSeconds 3600
+  }
+ }
+ coords 6076 100 6000
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ WOLVERINESupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа Wolverine. Создан четырёхкратный перевес численности над IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_sVersusFaction "IPSEC"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 6078 100 6000
+ }
+ IPSECSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа IPSec. Создан четырёхкратный перевес численности над Wolverine"
+    m_sFactionKey "IPSEC"
+    m_sVersusFaction "WOLVERINE"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 6080 100 6000
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ EvacFlag1 {
+  coords 5865.418 78.568 4243.905
+  angles -0.892 -0.056 3.577
+ }
+ EvacFlag2 {
+  coords 5907.25 78.438 4261.072
+ }
+}
