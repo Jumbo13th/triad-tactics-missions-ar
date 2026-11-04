@@ -1,0 +1,196 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesRF90 {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Федеральные войска понесли критические потери. Победа ЧРИ"
+    m_sFactionKey "RF90"
+    m_iThreshold 5
+   }
+  }
+  coords 4917.363 322.781 5598.006
+ }
+ LossesCHRI {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Отряды ЧРИ понесли критические потери. Победа федеральных войск"
+    m_sFactionKey "CHRI"
+    m_iThreshold 3
+   }
+  }
+  coords 4919.363 322.781 5598.006
+ }
+}
+GenericEntity ArshtyContest : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
+ components {
+  LL_TriggerZoneContest "{6A0F2E564940880E}" {
+   m_bBroadcastMessage 0
+   m_sZoneEntityName "Arshty"
+   m_sZoneDisplayName "Аршты"
+   m_sAttackerFaction "RF90"
+   m_sDefenderFaction "CHRI"
+   m_aFlagNames {
+    "ArshtyFlag1"
+    "ArshtyFlag2"
+    "ArshtyFlag3"
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 1
+   m_fCaptureSeconds 60
+  }
+ }
+ coords 4921.363 322.781 5598.006
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая Аршты"
+   m_iSeconds 3600
+  }
+ }
+ coords 4923.363 322.781 5598.006
+}
+$grp PolylineShapeEntity : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ Arshty {
+  components {
+   LL_MapZoneComponent "{699CA7457093C9DF}" {
+    m_FillColor 0 0.502 0.125 0.392
+    m_OutlineColor 0 0.502 0.125 1
+    m_fOutlineWidth 7
+    m_bLineMode 0
+   }
+   LL_StatZoneComponent "{6AEB47C65CDCBD54}" {
+   }
+  }
+  coords 4917.363 322.781 5605.006
+  Points {
+   ShapePoint "{6AC755702DD9584E}" {
+    Position -68.14 -2.013 75.85
+   }
+   ShapePoint "{6AC755702CCAFD57}" {
+    Position -52.925 -0.466 37.951
+   }
+   ShapePoint "{6AC755702BF42849}" {
+    Position -40.652 0.814 10.374
+   }
+   ShapePoint "{6AC755702AA66805}" {
+    Position -0.6 1.405 -27.914
+   }
+   ShapePoint "{6AC7557029F647EF}" {
+    Position 30.45 0.472 -48.817
+   }
+   ShapePoint "{6AC755702954EC48}" {
+    Position 65.081 -1.347 -51.899
+   }
+   ShapePoint "{6AC755702829AFEE}" {
+    Position 84.88 -2.39 -50.949
+   }
+   ShapePoint "{6AC7557026C828F9}" {
+    Position 88.828 -4.082 -21.668
+   }
+   ShapePoint "{6AC7557023F88B83}" {
+    Position 82.75 -5.573 11.729
+   }
+   ShapePoint "{6AC7557022AE90CC}" {
+    Position 47.711 -4.359 39.53
+   }
+   ShapePoint "{6AC75570224A9699}" {
+    Position 19.182 -2.718 40.435
+   }
+   ShapePoint "{6AC75570214E7E22}" {
+    Position 7.151 -2.894 54.235
+   }
+   ShapePoint "{6AC755703FFC2931}" {
+    Position 0.048 -2.878 58.792
+   }
+   ShapePoint "{6AC755703E2196E0}" {
+    Position -39.887 -2.866 85.426
+   }
+  }
+ }
+ Bamut {
+  coords 5838.559 134.619 4770.222
+  Points {
+   ShapePoint "{6AC8E6DD79FD1939}" {
+    Position 344.047 36.407 130.677
+   }
+   ShapePoint "{6AC8E6DD7917FE91}" {
+    Position 224.734 54.854 345.416
+   }
+   ShapePoint "{6AC8E6DD795E13F5}" {
+    Position 58.901 35.033 403.388
+   }
+   ShapePoint "{6AC8E6DD78F4BA3A}" {
+    Position -146.813 45.599 390.309
+   }
+   ShapePoint "{6AC8E6DD77A1A2C4}" {
+    Position -291.54 87.229 317.513
+   }
+   ShapePoint "{6AC8E6DD77D70896}" {
+    Position -376.766 93.084 170.821
+   }
+   ShapePoint "{6AC8E6DD75BD22EC}" {
+    Position -375.719 112.758 -14.886
+   }
+   ShapePoint "{6AC8E6DD75289582}" {
+    Position -321.93 65.987 -329.834
+   }
+   ShapePoint "{6AC8E6DD74EC26F8}" {
+    Position -229.404 -24.151 -625.704
+   }
+   ShapePoint "{6AC8E6DD740330BF}" {
+    Position -61.118 -54.786 -709.636
+   }
+   ShapePoint "{6AC8E6DD73BD681E}" {
+    Position 106.319 3.822 -619.369
+   }
+   ShapePoint "{6AC8E6DD73DD831E}" {
+    Position 283.493 33.612 -490.681
+   }
+   ShapePoint "{6AC8E6DD72E1C181}" {
+    Position 370.741 124.653 -214.262
+   }
+   ShapePoint "{6AC8E6DD72116075}" {
+    Position 372.905 128.109 -87.401
+   }
+   ShapePoint "{6AC8E6DD718AA2BC}" {
+    Position 367.672 50.858 61.486
+   }
+  }
+  IsClosed 1
+ }
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ RF90Supremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа федеральных войск. Создан четырёхкратный перевес численности над отрядами ЧРИ"
+    m_sFactionKey "RF90"
+    m_sVersusFaction "CHRI"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 4925.363 322.781 5598.006
+ }
+ CHRISupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа ЧРИ. Создан четырёхкратный перевес численности над федеральными войсками"
+    m_sFactionKey "CHRI"
+    m_sVersusFaction "RF90"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 4927.363 322.781 5598.006
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ ArshtyFlag1 {
+  coords 4890.029 321.58 5629.271
+ }
+ ArshtyFlag2 {
+  coords 4934.269 320.64 5617.196
+ }
+ ArshtyFlag3 {
+  coords 4967.4 320.58 5585.13
+ }
+}

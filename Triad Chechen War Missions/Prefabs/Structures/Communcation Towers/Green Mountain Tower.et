@@ -1,0 +1,4 @@
+SCR_DestructibleBuildingEntity : "{B27040BDEAB2EEAA}Prefabs/Structures/Communcation Towers/Green Mountain Tower_base.et" {
+ ID "0000000000000001"
+ scale 0.001
+}

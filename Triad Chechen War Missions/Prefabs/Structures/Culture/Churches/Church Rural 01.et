@@ -1,0 +1,10 @@
+SCR_DestructibleBuildingEntity : "{1AE5E8E62572F9A4}Prefabs/Structures/Culture/Churches/Church Rural 01_base.et" {
+ ID "644B6430764D8196"
+ scale 0.01
+ {
+  GenericEntity {
+   ID "644B644ED5B3C192"
+   scale 0.01
+  }
+ }
+}

@@ -1,5 +1,7 @@
 SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
  coords 7680.001 269.312 11524.001
+ "Map Geometry Data" "{D7BDB57563289496}Worlds/MapData/ChernarusA2.topo"
+ "Satellite background image" "{096230E40A49DAC9}Worlds/MapData/ChernarusMinusMap.edds"
  {
   CommentEntity {
    coords 0 1 0
@@ -31,6 +33,7 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 7680.001 269.125 11522.001
 }
-SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
  coords 7680.001 269.047 11521.001
+ m_iFreezeTime 600000
 }

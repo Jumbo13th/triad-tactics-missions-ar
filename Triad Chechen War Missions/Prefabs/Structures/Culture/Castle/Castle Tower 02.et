@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity : "{5D6CB5852692360C}Prefabs/Structures/Culture/Castle/Castle Tower 02_base.et" {
+ ID "610F5843C72654A8"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Enabled 0
+  }
+ }
+}

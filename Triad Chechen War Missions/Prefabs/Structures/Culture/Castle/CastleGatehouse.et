@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity : "{F1C1ED54E5EEC41D}Prefabs/Structures/Culture/Castle/CastleGatehouse_base.et" {
+ ID "610F5843247C2E60"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Enabled 0
+  }
+ }
+}

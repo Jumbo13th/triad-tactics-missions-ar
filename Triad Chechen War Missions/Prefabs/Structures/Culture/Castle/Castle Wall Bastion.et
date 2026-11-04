@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity {
+ ID "610F58433E6C0AD4"
+ components {
+  MeshObject "{610F5840AA3BE514}" {
+   Enabled 0
+  }
+ }
+}
