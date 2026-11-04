@@ -20,30 +20,46 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
   coords 4919.363 322.781 5598.006
  }
 }
-GenericEntity ArshtyContest : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
+GenericEntity BamutCapture : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
  components {
-  LL_TriggerZoneContest "{6A0F2E564940880E}" {
+  LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
    m_bBroadcastMessage 0
-   m_sZoneEntityName "Arshty"
-   m_sZoneDisplayName "Аршты"
+   m_sMessage "Федеральные войска захватили Бамут"
+   m_sZoneEntityName "Bamut"
+   m_sZoneDisplayName "Бамут"
    m_sAttackerFaction "RF90"
    m_sDefenderFaction "CHRI"
    m_aFlagNames {
-    "ArshtyFlag1"
-    "ArshtyFlag2"
-    "ArshtyFlag3"
+    "BamutFlag1"
+    "BamutFlag2"
+    "BamutFlag3"
    }
-   m_fStatPoints 20
+   m_fStatPoints 10
    m_fStatMaxPerPlayer 1
-   m_fCaptureSeconds 60
+   m_aConditions {
+    LL_TriggerFactionCondition "{6AEB6D8F0D0CE00A}" {
+     m_sFaction "RF90"
+     m_sVersusFaction "CHRI"
+     m_fVersusMultiplier 2
+    }
+    LL_TriggerFactionCondition "{6AEB6D90A9AC7324}" {
+     m_sFaction "RF90"
+    }
+    LL_TriggerFactionCondition "{6AEB6D915E4C0571}" {
+     m_sFaction "CHRI"
+     m_eOperator LESS
+     m_iVersusNumber 2
+    }
+   }
+   m_fHoldSeconds 60
   }
  }
- coords 4921.363 322.781 5598.006
+ coords 5854.277 137.176 4686.494
 }
 GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
   LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
-   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая Аршты"
+   m_sMessage "Время эпизода истекло. Федеральные войска не захватили Бамут. Победа ЧРИ"
    m_iSeconds 3600
   }
  }
@@ -55,6 +71,8 @@ PolylineShapeEntity Bamut : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
    m_FillColor 0 0.125 0.502 0.392
    m_OutlineColor 0 0.125 0.502 1
    m_bLineMode 0
+  }
+  LL_StatZoneComponent "{6AEB6D922F8249A8}" {
   }
  }
  coords 5854.277 137.176 4686.494
@@ -162,13 +180,13 @@ $grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et
  }
 }
 $grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
- ArshtyFlag1 {
-  coords 4890.029 321.58 5629.271
+ BamutFlag1 {
+  coords 5835.57 136.54 4760.91
  }
- ArshtyFlag2 {
-  coords 4934.269 320.64 5617.196
+ BamutFlag2 {
+  coords 5863.42 136.56 4753.63
  }
- ArshtyFlag3 {
-  coords 4967.4 320.58 5585.13
+ BamutFlag3 {
+  coords 5884.01 136.85 4707.61
  }
 }

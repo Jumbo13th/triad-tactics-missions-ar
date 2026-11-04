@@ -13,15 +13,6 @@ $grp Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6
     "faction affiliation" "CHRI"
    }
   }
-  coords 4998.427 319.324 5576.468
-  angles 0 0 2.684
- }
- {
-  components {
-   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
-    "faction affiliation" "CHRI"
-   }
-  }
   coords 5844.398 136.254 4715.878
   angles -1.753 -11.648 0.361
  }
@@ -867,7 +858,7 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5955.308 177.036 5628.919
+  coords 5955.308 177.037 5628.919
   angles 0.491 -62.669 -6.768
  }
  CHRI_Mines_CH_S6 {
@@ -1060,6 +1051,36 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
   }
   coords 5857.66 137.79 4667.023
   angles -2.683 0.042 -0.896
+ }
+ CHRI_Mines_CH_S7 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6AEB45EB637C1452}" {
+      SlotTemplate InventoryStorageSlot TM62M {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 5960.02 178.263 5638.128
+  angles 0.085 -62.627 -5.983
  }
 }
 Vehicle S1203_transport_brown1 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {

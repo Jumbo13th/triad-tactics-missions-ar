@@ -253,8 +253,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6927.232 293.581 7631.052
-  angles 0 -18.136 0
+  coords 6926.032 293.408 7633.636
+  angles -0.834 -18.099 -2.551
  }
  RF90_Ammo_RF_S2 {
   components {
@@ -337,8 +337,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6941.104 293.844 7635.604
-  angles 0 -19.025 0
+  coords 6939.963 293.843 7638.088
+  angles -0.292 -19.021 -0.846
  }
  RF90_Ammo_RF_S3 {
   components {
@@ -421,7 +421,7 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6958.696 293.949 7641.361
+  coords 6957.314 293.937 7643.906
   angles 0 -18.304 0
  }
  RF90_Ammo_RF_S4 {
@@ -499,7 +499,7 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6985.482 294 7650.357
+  coords 6983.728 294 7652.764
   angles 0 -19.297 0
  }
  RF90_Ammo_RF_S5 {
@@ -583,7 +583,7 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 7000.773 294 7655.411
+  coords 6999.164 294 7657.882
   angles 0 -16.234 0
  }
  RF90_Ammo_RF_S6 {
@@ -667,7 +667,7 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 7014.892 294 7659.5
+  coords 7013.755 294 7662.059
   angles 0 -16.03 0
  }
  RF90_Ammo_RF_S7 {
@@ -757,8 +757,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4893.893 321.277 5655.117
-  angles 0 -111.408 0
+  coords 4891.393 321.445 5654.137
+  angles 1.16 -111.398 0.507
  }
  RF90_Ammo_RF_S8 {
   components {
@@ -847,8 +847,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4890.265 320.913 5664.391
-  angles 0 -111.358 0
+  coords 4887.608 321.014 5663.352
+  angles -0.182 -111.364 1.993
  }
  RF90_Ammo_RF_S9 {
   components {
@@ -937,8 +937,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4886.078 320.606 5674.324
-  angles 0 -112.596 0
+  coords 4883.621 320.578 5673.301
+  angles -0.138 -112.601 1.996
  }
  RF90_Radios_RF_S10 {
   components {
@@ -967,38 +967,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 7028.538 294 7663.498
+  coords 7027.134 294 7666.139
   angles 0 -17.062 0
- }
- CHRI_Mines_CH_S7 {
-  components {
-   SCR_SoundDataComponent "{5C53391603B5CF41}" {
-    Enabled 1
-   }
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 1
-    UseCapacityCoefficient 0
-    MaxCumulativeVolume 1000000
-    MaxItemSize 40 40 40
-    MultiSlots {
-     MultiSlotConfiguration "{6AEB45EB637C1452}" {
-      SlotTemplate InventoryStorageSlot TM62M {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-      NumSlots 10
-     }
-    }
-    m_fMaxWeight 10000
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 1
-   }
-   RplComponent "{5476B36C54387F41}" {
-    Enabled 1
-   }
-  }
-  coords 5960.02 178.263 5638.128
-  angles 0.085 -62.627 -5.983
  }
 }
 Vehicle SEI_T62M1 : "{A662006200000001}Prefabs/Vehicles/INS_T62/T62M/SEI_T62M.et" {
@@ -1065,6 +1035,9 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
+   }
   }
   coords 6986.153 294 7659.599
   angles 0 -108.002 0
@@ -1073,6 +1046,9 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   components {
    LL_VehicleSquadLinkComponent "{6AEB456D05D4A0CF}" {
     m_sGroupName "RF_S5"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
    }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_fDustTopSpeed 60
@@ -1097,6 +1073,9 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   components {
    LL_VehicleSquadLinkComponent "{6AEB456E1F1D0F28}" {
     m_sGroupName "RF_S6"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_fDustTopSpeed 60
    }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_fDustTopSpeed 60
