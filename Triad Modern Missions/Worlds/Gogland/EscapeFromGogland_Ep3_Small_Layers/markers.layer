@@ -1,0 +1,74 @@
+PolylineShapeEntity Trigger : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 0 0.125 0.502 0.392
+   m_OutlineColor 0 0.125 0.502 1
+   m_fOutlineWidth 7
+   m_bLineMode 0
+  }
+  LL_StatZoneComponent "{C92EB074AE01BB5B}" {
+  }
+ }
+ coords 5865.554 78.316 4246.906
+ angles 2.681 -0.084 -1.792
+ Points {
+  ShapePoint "{378F67999DCD8A06}" {
+   Position -24.497 -0.984 54.681
+  }
+  ShapePoint "{6AB8DA09473BEAA4}" {
+   Position -33.476 -0.428 34.068
+  }
+  ShapePoint "{6AB8DA0946D05ED3}" {
+   Position -36.959 0.205 21.217
+  }
+  ShapePoint "{6AB8DA0945A5028C}" {
+   Position -35.431 1.028 5.971
+  }
+  ShapePoint "{6AB8DA09456819C0}" {
+   Position -25.911 1.449 -10.221
+  }
+  ShapePoint "{6AB8DA09441577F1}" {
+   Position -13.794 1.437 -19.272
+  }
+  ShapePoint "{6AB8DA0943D5656A}" {
+   Position 5.368 1.151 -25.389
+  }
+  ShapePoint "{6AB8DA09422F43B7}" {
+   Position 21.573 0.703 -26.815
+  }
+  ShapePoint "{6AB8DA0941ECF2C3}" {
+   Position 33.945 0.157 -23.423
+  }
+  ShapePoint "{6AB8DA0940879A97}" {
+   Position 44.294 -0.501 -16.283
+  }
+  ShapePoint "{6AB8DA0940699C12}" {
+   Position 53.015 -1.843 -3.864
+  }
+  ShapePoint "{6AB8DA095F209540}" {
+   Position 63.841 -1.137 15.505
+  }
+  ShapePoint "{6AB8DA095E0A6DA7}" {
+   Position 70.968 -3.414 28.222
+  }
+  ShapePoint "{6AB8DA095CDFF13C}" {
+   Position 60.368 -2.799 34.665
+  }
+  ShapePoint "{6AB8DA095B980D82}" {
+   Position 57.168 -2.844 36.575
+  }
+  ShapePoint "{6AB8DA095B7DAA7D}" {
+   Position 50.076 -2.835 40.417
+  }
+  ShapePoint "{6AB8DA095908289C}" {
+   Position 37.575 -3.106 47.51
+  }
+  ShapePoint "{6AB8DA09581DC750}" {
+   Position 30.151 -3.105 52.181
+  }
+  ShapePoint "{874B6C92C17EE6EF}" {
+   Position 18.072 -1.933 31.786
+  }
+ }
+ IsClosed 1
+}

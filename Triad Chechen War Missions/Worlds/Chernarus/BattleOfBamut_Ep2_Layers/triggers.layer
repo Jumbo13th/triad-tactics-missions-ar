@@ -1,0 +1,174 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesRF90 {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Федеральные войска понесли критические потери. Победа ЧРИ"
+    m_sFactionKey "RF90"
+    m_iThreshold 5
+   }
+  }
+  coords 4917.363 322.781 5598.006
+ }
+ LossesCHRI {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Отряды ЧРИ понесли критические потери. Победа федеральных войск"
+    m_sFactionKey "CHRI"
+    m_iThreshold 3
+   }
+  }
+  coords 4919.363 322.781 5598.006
+ }
+}
+GenericEntity ArshtyContest : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
+ components {
+  LL_TriggerZoneContest "{6A0F2E564940880E}" {
+   m_bBroadcastMessage 0
+   m_sZoneEntityName "Arshty"
+   m_sZoneDisplayName "Аршты"
+   m_sAttackerFaction "RF90"
+   m_sDefenderFaction "CHRI"
+   m_aFlagNames {
+    "ArshtyFlag1"
+    "ArshtyFlag2"
+    "ArshtyFlag3"
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 1
+   m_fCaptureSeconds 60
+  }
+ }
+ coords 4921.363 322.781 5598.006
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая Аршты"
+   m_iSeconds 3600
+  }
+ }
+ coords 4923.363 322.781 5598.006
+}
+PolylineShapeEntity Bamut : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 0 0.125 0.502 0.392
+   m_OutlineColor 0 0.125 0.502 1
+   m_bLineMode 0
+  }
+ }
+ coords 5854.277 137.176 4686.494
+ Points {
+  ShapePoint "{6AC8E6C3AB5965B5}" {
+   Position 28.065 3.046 250.692
+  }
+  ShapePoint "{6AC8E6C3AAD48EAE}" {
+   Position 16.71 1.232 255.537
+  }
+  ShapePoint "{6AC8E6C3AA2FA3E9}" {
+   Position 4.263 1.075 254.176
+  }
+  ShapePoint "{6AC8E6C3A992ADA2}" {
+   Position -12.37 -0.369 245.043
+  }
+  ShapePoint "{6AC8E6C3A8A70EBE}" {
+   Position -33.206 1.179 230.985
+  }
+  ShapePoint "{6AC8E6C3A80B684D}" {
+   Position -37.544 0.521 207.165
+  }
+  ShapePoint "{6AC8E6C3A73E9967}" {
+   Position -34.221 -4.532 169.422
+  }
+  ShapePoint "{6AC8E6C3A68CCA59}" {
+   Position -37.725 -7.328 118.216
+  }
+  ShapePoint "{6AC8E6C3A6CAB7F2}" {
+   Position -46.57 -7.108 81.698
+  }
+  ShapePoint "{6AC8E6C3A57BECFB}" {
+   Position -31.748 -4.876 -23.396
+  }
+  ShapePoint "{6AC8E6C3A285288C}" {
+   Position -30.589 -3.246 -115.101
+  }
+  ShapePoint "{6AC8E6C3A2C7C31F}" {
+   Position -15.416 3.346 -136.298
+  }
+  ShapePoint "{6AC8E6C3A1C9CAED}" {
+   Position 6.92 6.476 -136.155
+  }
+  ShapePoint "{6AC8E6C3A165BC58}" {
+   Position 26.763 9.499 -119.941
+  }
+  ShapePoint "{6AC8E6C3A0CCACB7}" {
+   Position 38.469 8.373 -85.527
+  }
+  ShapePoint "{6AC8E6C3A0684883}" {
+   Position 41.81 7.631 -49.944
+  }
+  ShapePoint "{6AC8E6C3BF1CA5B1}" {
+   Position 50.322 8.759 -24.907
+  }
+  ShapePoint "{6AC8E6C3BF422BD4}" {
+   Position 80.327 12.779 1.261
+  }
+  ShapePoint "{6AC8E6C3BDA93A7B}" {
+   Position 64.654 9.433 47.774
+  }
+  ShapePoint "{6AC8E6C3BDC15E61}" {
+   Position 51.747 6.992 68.256
+  }
+  ShapePoint "{6AC8E6C3BD70CAD3}" {
+   Position 34.115 4.416 73.125
+  }
+  ShapePoint "{6AC8E6C3BA24F1DC}" {
+   Position 32.908 2.068 108.625
+  }
+  ShapePoint "{6AC8E6C3BA69514D}" {
+   Position 49.319 0.035 131.579
+  }
+  ShapePoint "{6AC8E6C3B976DB95}" {
+   Position 72.074 1.756 182.71
+  }
+  ShapePoint "{6AC8E6C3B8B608B6}" {
+   Position 65.61 0.877 209.468
+  }
+ }
+ IsClosed 1
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ RF90Supremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа федеральных войск. Создан четырёхкратный перевес численности над отрядами ЧРИ"
+    m_sFactionKey "RF90"
+    m_sVersusFaction "CHRI"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 4925.363 322.781 5598.006
+ }
+ CHRISupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа ЧРИ. Создан четырёхкратный перевес численности над федеральными войсками"
+    m_sFactionKey "CHRI"
+    m_sVersusFaction "RF90"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 4927.363 322.781 5598.006
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ ArshtyFlag1 {
+  coords 4890.029 321.58 5629.271
+ }
+ ArshtyFlag2 {
+  coords 4934.269 320.64 5617.196
+ }
+ ArshtyFlag3 {
+  coords 4967.4 320.58 5585.13
+ }
+}

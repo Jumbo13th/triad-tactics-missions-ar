@@ -108,6 +108,14 @@ $grp PolylineShapeEntity : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
   }
  }
  Bamut {
+  components {
+   LL_MapZoneComponent "{699CA7457093C9DF}" {
+    m_FillColor 0 0.125 0.502 0.392
+    m_OutlineColor 0 0.125 0.502 1
+    m_fOutlineWidth 7
+    m_bLineMode 0
+   }
+  }
   coords 5838.559 134.619 4770.222
   Points {
    ShapePoint "{6AC8E6DD79FD1939}" {

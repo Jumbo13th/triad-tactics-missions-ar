@@ -1,0 +1,27 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 5213.396 101.13 7986.825
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5213.396 101.13 7985.825
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 20
+   m_iStartingMinutes 0
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{E73ACEB897EFEA6C}" {
+     m_sWeatherPresetName "Overcast"
+     m_iStartingHour 20
+     m_iStartingMinutes 0
+    }
+   }
+   m_iDay 15
+   m_iMonth 8
+   m_iYear 2023
+  }
+ }
+ coords 5213.396 101.13 7984.825
+ m_iFreezeTime 300000
+}

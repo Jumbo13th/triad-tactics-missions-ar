@@ -3,6 +3,9 @@ Vehicle Ural4320_transport_covered_CIV_orange1 : "{66241E0CEDFCEDFF}Prefabs/Vehi
   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
    m_fDustTopSpeed 60
   }
+  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+   m_fDustTopSpeed 60
+  }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "CHRI"
   }
@@ -919,25 +922,6 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
   coords 5007.713 318.831 5578.916
   angles 0.059 -0.944 3.576
  }
-}
-$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- CHRIFreeze1 {
-  coords 4985 320.4 5574
- }
- CHRIFreeze2 {
-  coords 4490 294.4 6410
- }
-}
-Vehicle UAZ469_covered_CIV_blue1 : "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et" {
- components {
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "CHRI"
-  }
- }
- coords 4985.124 320.02 5580.686
- angles 2.827 -94.9 1.552
-}
-$grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
  CHRI_NSVAmmo_1 {
   components {
    SCR_SoundDataComponent "{5C53391603B5CF41}" {
@@ -966,7 +950,7 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    }
   }
   coords 4988.913 319.832 5574.468
-  angles 0 0 0
+  angles 0 0 2.684
  }
  CHRI_NSVAmmo_2 {
   components {
@@ -996,6 +980,29 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
    }
   }
   coords 4998.427 319.324 5574.468
-  angles 0 0 0
+  angles 0 0 2.684
  }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ CHRIFreeze1 {
+  coords 4985 320.4 5574
+  m_fWarnRadius 300
+  m_fZoneRadius 400
+  m_fZoneTeleportedRadius 350
+ }
+ CHRIFreeze2 {
+  coords 4490 294.4 6410
+  m_fWarnRadius 300
+  m_fZoneRadius 400
+  m_fZoneTeleportedRadius 350
+ }
+}
+Vehicle UAZ469_covered_CIV_blue1 : "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "CHRI"
+  }
+ }
+ coords 4985.124 320.02 5580.686
+ angles 2.827 -94.9 1.552
 }
