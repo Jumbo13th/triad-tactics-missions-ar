@@ -2,7 +2,7 @@ $grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescriptio
  MissionIntroduction {
   coords 2048 143 2044
   m_sTitle "Описание события"
-  m_sTextData "<h>Star of Wormwood</h>"\
+  m_sTextData "<h>Звезда «Полынь»</h>"\
   "<color=180,188,193>Эпизод 1</color>"\
   "<gap/>"\
   "Сентябрь 1989 года. Калининградская область, село Новоинновка."\
