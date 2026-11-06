@@ -203,8 +203,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 7114.373 204.029 4518.564
-  angles 0 -36.95 0
+  coords 7112.423 204.055 4521.156
+  angles 0.177 -36.954 -1.253
  }
  CHRI_Ammo_CH_S2 {
   components {
@@ -305,7 +305,7 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 7123.521 204.13 4525.089
+  coords 7121.411 204.156 4527.124
   angles 0 -34.438 0
  }
  CHRI_Ammo_CH_S3 {
@@ -407,8 +407,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 7133.136 204.219 4531.387
-  angles 0 -33.53 0
+  coords 7131.534 204.239 4533.805
+  angles 0.252 -33.535 -1.241
  }
  CHRI_Ammo_CH_S4 {
   components {
@@ -509,8 +509,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4277.311 244.785 4794.87
-  angles 0 40.734 0
+  coords 4283.059 244.683 4794.362
+  angles 0.772 40.759 1.846
  }
  CHRI_Ammo_CH_S5 {
   components {
@@ -575,8 +575,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4284.565 244.415 4788.065
-  angles 0 41.717 0
+  coords 4287.914 244.429 4789.764
+  angles 0.811 41.761 3.121
  }
  CHRI_Ammo_CH_S7 {
   components {
@@ -665,7 +665,7 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 7142.753 204.273 4537.925
+  coords 7141.224 204.312 4540.176
   angles 0 -34.184 0
  }
  CHRI_Ammo_CH_S6 {
@@ -755,8 +755,115 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4291.864 243.704 4780.826
-  angles 0 44.064 0
+  coords 4295.266 243.798 4782.545
+  angles 0.683 44.102 3.151
+ }
+ CHRI_PKMAmmo_1 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6AEB87E102491E46}" {
+      SlotTemplate InventoryStorageSlot PKM {
+       Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{6AEB87E25AADFBA1}" {
+      SlotTemplate InventoryStorageSlot PKMTracer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 2
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 4280.258 244.79 4796.392
+  angles 1.789 0.028 0.896
+ }
+ CHRI_PKMAmmo_2 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6AEB87E320F7FF73}" {
+      SlotTemplate InventoryStorageSlot PKM {
+       Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{6AEB87E4146B496F}" {
+      SlotTemplate InventoryStorageSlot PKMTracer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 2
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 7113.537 204.094 4522.455
+  angles 0.895 -0.014 -0.895
+ }
+ CHRI_PKMAmmo_3 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{6AEB87E5FD48C9F1}" {
+      SlotTemplate InventoryStorageSlot PKM {
+       Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{6AEB87E662B58BED}" {
+      SlotTemplate InventoryStorageSlot PKMTracer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 2
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 7122.605 204.156 4528.645
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
@@ -798,115 +905,5 @@ $grp Turret : "{B52FEF50C91833EE}Prefabs/Weapons/Tripods/Deployable_Tripod_6T5_P
   }
   coords 7120.605 204.156 4528.645
   angles 0 -125.259 0
- }
-}
-$grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
- CHRI_PKMAmmo_1 {
-  components {
-   SCR_SoundDataComponent "{5C53391603B5CF41}" {
-    Enabled 1
-   }
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 1
-    UseCapacityCoefficient 0
-    MaxCumulativeVolume 1000000
-    MaxItemSize 40 40 40
-    MultiSlots {
-     MultiSlotConfiguration "{6AEB87E102491E46}" {
-      SlotTemplate InventoryStorageSlot PKM {
-       Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{6AEB87E25AADFBA1}" {
-      SlotTemplate InventoryStorageSlot PKMTracer {
-       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
-      }
-      NumSlots 2
-     }
-    }
-    m_fMaxWeight 10000
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 1
-   }
-   RplComponent "{5476B36C54387F41}" {
-    Enabled 1
-   }
-  }
-  coords 4280.258 244.748 4796.392
-  angles 0 0 0
- }
- CHRI_PKMAmmo_2 {
-  components {
-   SCR_SoundDataComponent "{5C53391603B5CF41}" {
-    Enabled 1
-   }
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 1
-    UseCapacityCoefficient 0
-    MaxCumulativeVolume 1000000
-    MaxItemSize 40 40 40
-    MultiSlots {
-     MultiSlotConfiguration "{6AEB87E320F7FF73}" {
-      SlotTemplate InventoryStorageSlot PKM {
-       Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{6AEB87E4146B496F}" {
-      SlotTemplate InventoryStorageSlot PKMTracer {
-       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
-      }
-      NumSlots 2
-     }
-    }
-    m_fMaxWeight 10000
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 1
-   }
-   RplComponent "{5476B36C54387F41}" {
-    Enabled 1
-   }
-  }
-  coords 7113.537 204.062 4522.455
-  angles 0 0 0
- }
- CHRI_PKMAmmo_3 {
-  components {
-   SCR_SoundDataComponent "{5C53391603B5CF41}" {
-    Enabled 1
-   }
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 1
-    UseCapacityCoefficient 0
-    MaxCumulativeVolume 1000000
-    MaxItemSize 40 40 40
-    MultiSlots {
-     MultiSlotConfiguration "{6AEB87E5FD48C9F1}" {
-      SlotTemplate InventoryStorageSlot PKM {
-       Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
-      }
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{6AEB87E662B58BED}" {
-      SlotTemplate InventoryStorageSlot PKMTracer {
-       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
-      }
-      NumSlots 2
-     }
-    }
-    m_fMaxWeight 10000
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 1
-   }
-   RplComponent "{5476B36C54387F41}" {
-    Enabled 1
-   }
-  }
-  coords 7122.605 204.156 4528.645
-  angles 0 0 0
  }
 }

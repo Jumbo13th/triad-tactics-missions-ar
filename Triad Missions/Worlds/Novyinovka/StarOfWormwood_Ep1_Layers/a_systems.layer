@@ -1,0 +1,31 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 2048.489 143.789 2017.608
+ "Map Geometry Data" "{D67B2AE4EE7FADE5}worlds/NovyinovkaGM.topo"
+ "Satellite background image" "{52F5A2762AD1F11C}worlds/Novyinovka2DMap.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_iStartingMinutes 30
+   m_bWindOverride 1
+   m_iDay 17
+   m_iMonth 11
+   m_iYear 1989
+  }
+ }
+ coords 2048.489 143.489 2014.608
+ m_iFreezeTime 300000
+}

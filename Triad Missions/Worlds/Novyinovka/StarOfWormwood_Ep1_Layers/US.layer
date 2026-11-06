@@ -1,0 +1,287 @@
+$grp Vehicle : "{31C4EE667A6E82C8}Prefabs/Vehicles/Wheeled/M998/TT_M1025_armed_M2HB.et" {
+ TT_M1025_armed_M2HB1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S1"
+   }
+  }
+  coords 1712.461 142.143 2946.301
+  angles 1.065 167.692 0.684
+ }
+ TT_M1025_armed_M2HB2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S2"
+   }
+  }
+  coords 1705.323 141.921 2970.251
+  angles 0 161.102 0
+ }
+ TT_M1025_armed_M2HB3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S3"
+   }
+  }
+  coords 1698.801 141.484 2997.203
+  angles 0 160.657 0
+ }
+ TT_M1025_armed_M2HB4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S5"
+   }
+  }
+  coords 2076.537 146.234 2404.015
+  angles 0 -177.492 0
+ }
+ TT_M1025_armed_M2HB5 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S4"
+   }
+  }
+  coords 1688.047 141.797 3023.836
+  angles 0.454 149.524 0.771
+ }
+}
+$grp SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleSquad.et" {
+ B_S1 {
+  components {
+   LL_GroupCallsign "{6A280405EE40B466}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 1
+   }
+  }
+  coords 1717.372 142.052 2949.343
+  angles 0 -108.785 0
+ }
+ B_S2 {
+  components {
+   LL_GroupCallsign "{6A280405EE40B466}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
+  coords 1710.014 141.875 2971.956
+  angles 0 -107.503 0
+ }
+ B_S3 {
+  components {
+   LL_GroupCallsign "{6A280405EE40B466}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 3
+   }
+  }
+  coords 1703.388 141.455 2998.686
+  angles 0 -108.689 0
+ }
+ B_S5 {
+  components {
+   LL_GroupCallsign "{6A280405EE40B466}" {
+    m_iCompany 0
+    m_iPlatoon 2
+    m_iSquad 0
+   }
+  }
+  coords 2081.552 146.187 2404.372
+  angles 0 -84.853 0
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 2079.87 146.219 2410.983
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1706.359 141.757 2979.512
+ angles -0.895 0 0
+}
+SCR_AIGroup B_S4 : "{CBD2888396F1ADA6}Prefabs/Groups/BLUFOR/TT_Group_USMC_AT_Squad.et" {
+ components {
+  LL_GroupCallsign "{6A280405EE40B466}" {
+   m_iCompany 0
+   m_iPlatoon 1
+   m_iSquad 0
+  }
+ }
+ coords 1693.214 141.775 3024.412
+ angles 0 -120.576 0
+}
+SCR_AIGroup B_PL1 : "{DB3A117F4DE37A9D}Prefabs/Groups/BLUFOR/TT_Group_USMC_PL_HQ.et" {
+ components {
+  LL_GroupCallsign "{6A280405EE40B466}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 0
+  }
+ }
+ coords 1719.126 142.291 2939.396
+ angles 0 -97.917 0
+}
+Vehicle TT_M1025_Landmines1 : "{FB08465031FA4BFF}Prefabs/Vehicles/Wheeled/M998/TT_M1025_Landmines.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "B_S5"
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{691B1391A109BF68}" {
+    }
+    MultiSlotConfiguration "{691B1391961E3407}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 2077.299 146.31 2418.877
+ angles -0.895 -179.407 -0.009
+}
+$grp Vehicle : "{FB08465031FA4C00}Prefabs/Vehicles/Wheeled/M998/TT_M1025_Explosives.et" {
+ TT_M1025_Explosives1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_PL1"
+   }
+  }
+  coords 1713.891 142.322 2938.366
+  angles 0.865 165.074 -0.231
+ }
+ TT_M1025_Explosives2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S1"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B13912D8D54BE}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{6A2B4A07933D7F62}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 1710.707 142.046 2953.016
+  angles 0 163.761 0
+ }
+ TT_M1025_Explosives3 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S1"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B13912D8D54BE}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 1708.42 141.99 2960.214
+  angles 0.289 161.141 0.847
+ }
+ TT_M1025_Explosives4 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S2"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B13912D8D54BE}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{6A2B4A07933D7F62}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 1703.213 141.834 2976.857
+  angles 1.121 162.644 0.587
+ }
+ TT_M1025_Explosives5 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S2"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B13912D8D54BE}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 1700.998 141.707 2983.727
+  angles 0.853 162.331 -0.272
+ }
+ TT_M1025_Explosives6 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S3"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B13912D8D54BE}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{6A2B4A07933D7F62}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 1696.801 141.57 3003.537
+  angles -0.854 162.622 0.267
+ }
+ TT_M1025_Explosives7 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S3"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B13912D8D54BE}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 1694.763 141.67 3009.933
+  angles -0.854 162.535 0.269
+ }
+ TT_M1025_Explosives8 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "B_S5"
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{691B13912D8D54BE}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{6A2B4A07933D7F62}" {
+      SlotTemplate InventoryStorageSlot Radio {
+       Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 2076.925 146.265 2411.761
+  angles 0 -178.476 0
+ }
+}

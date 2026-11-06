@@ -158,8 +158,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5861.918 137.402 4679.644
-  angles 0 -106.471 0
+  coords 5859.284 137.437 4678.665
+  angles -0.35 -106.483 1.97
  }
  RF90_Ammo_RF_S2 {
   components {
@@ -242,8 +242,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5857.786 136.986 4693.937
-  angles 0 -106.131 0
+  coords 5855.057 137.001 4692.993
+  angles 0.497 -106.116 1.719
  }
  RF90_Ammo_RF_S3 {
   components {
@@ -326,8 +326,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5852.123 136.33 4714.214
-  angles 0 -105.247 0
+  coords 5849.546 136.443 4712.862
+  angles 0.544 -105.196 5.402
  }
  RF90_Ammo_RF_S4 {
   components {
@@ -416,8 +416,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5847.799 135.969 4729.184
-  angles 0 -104.547 0
+  coords 5845.612 135.946 4727.074
+  angles -0.641 -104.559 1.091
  }
  RF90_Ammo_RF_S5 {
   components {
@@ -506,14 +506,12 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5845.045 135.68 4740.094
-  angles 0 -102.978 0
+  coords 5842.117 135.634 4738.703
+  angles 0.402 -102.966 1.744
  }
 }
-$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- RF90Freeze1 {
-  coords 5851.5 136.7 4706
- }
+SCR_EditorRestrictionZoneEntity RF90Freeze1 : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 5851.5 136.7 4706
 }
 Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  components {
