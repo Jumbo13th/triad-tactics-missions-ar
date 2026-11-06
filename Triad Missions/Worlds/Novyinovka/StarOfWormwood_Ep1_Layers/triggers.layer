@@ -30,8 +30,8 @@ GenericEntity FactoryContest : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_Zo
    m_sAttackerFaction "USSR"
    m_sDefenderFaction "US"
    m_aFlagNames {
-    "DepotFlag1"
-    "DepotFlag2"
+    "FactoryFlag1"
+    "FactoryFlag2"
    }
    m_fStatPoints 20
    m_fStatMaxPerPlayer 1
@@ -43,7 +43,7 @@ GenericEntity FactoryContest : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_Zo
 GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
   LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
-   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая склад «Полынь»"
+   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая промышленную зону"
    m_iSeconds 4800
   }
  }

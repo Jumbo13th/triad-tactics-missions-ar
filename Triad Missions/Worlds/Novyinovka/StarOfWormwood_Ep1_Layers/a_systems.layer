@@ -18,11 +18,11 @@ SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
 LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 5
-   m_iStartingMinutes 30
+   m_iStartingHours 7
+   m_iStartingMinutes 0
    m_bWindOverride 1
    m_iDay 17
-   m_iMonth 11
+   m_iMonth 9
    m_iYear 1989
   }
  }
