@@ -196,6 +196,13 @@ $grp SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleS
   angles 0 38.367 0
  }
  AB_S2 {
+  components {
+   LL_GroupCallsign "{6A280405EE40B466}" {
+    m_iCompany 0
+    m_iPlatoon 0
+    m_iSquad 2
+   }
+  }
   coords 7401.767 2.156 4135.314
   angles 0 38.866 0
  }

@@ -1,5 +1,5 @@
 $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
- {
+ BarracksCapture {
   components {
    LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
     m_bBroadcastMessage 0
@@ -14,12 +14,13 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
      "flag3"
      "flag4"
     }
-    m_fStatPoints 20
-    m_fStatMaxPerPlayer 3
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
     m_aConditions {
      LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
       m_sFaction "US"
       m_sVersusFaction "USSR"
+      m_fVersusMultiplier 2
      }
      LL_TriggerFactionCondition "{69BD22C261674367}" {
       m_sFaction "US"
@@ -29,7 +30,7 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
   }
   coords 6172.322 2.515 3021.882
  }
- {
+ MaintenanceCapture {
   components {
    LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
     m_bBroadcastMessage 0
@@ -44,12 +45,13 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
      "flag7"
      "flag8"
     }
-    m_fStatPoints 20
-    m_fStatMaxPerPlayer 3
+    m_fStatPoints 10
+    m_fStatMaxPerPlayer 1
     m_aConditions {
      LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
       m_sFaction "US"
       m_sVersusFaction "USSR"
+      m_fVersusMultiplier 2
      }
      LL_TriggerFactionCondition "{69BD22C261674367}" {
       m_sFaction "US"
@@ -61,19 +63,19 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
  }
 }
 $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
- {
+ LossesUSSR {
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-    m_sMessage "Победа США. СССР понесли большие потери.Help"
+    m_sMessage "Победа США. СССР понесли большие потери."
     m_iThreshold 5
    }
   }
   coords 6174.902 5.406 3022.317
  }
- {
+ LossesUS {
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-    m_sMessage "Победа СССР. США понесли большие потери.Help"
+    m_sMessage "Победа СССР. США понесли большие потери."
     m_sFactionKey "US"
     m_iThreshold 7
    }
@@ -81,30 +83,32 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
   coords 6174.707 5.406 3023.45
  }
 }
-GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
   LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
-   m_sMessage "Победа CCCР. США не смогли выполнить задачу за поставленное время"
+   m_sMessage "Победа СССР. США не смогли выполнить задачу за поставленное время"
    m_iSeconds 4800
   }
  }
  coords 6173.244 5.406 3022.082
 }
 $grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
- {
+ USSupremacy {
   components {
    LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
-    m_sMessage "Победа США. Создано трехкратное преимущество над СССР"
+    m_sMessage "Победа США. Создано четырёхкратное преимущество над СССР"
+    m_fSupremacyRatio 4
    }
   }
   coords 6174.791 5.965 3025.095
  }
- {
+ USSRSupremacy {
   components {
    LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
-    m_sMessage "Победа СССР. Создано трехкратное преимущество над США"
+    m_sMessage "Победа СССР. Создано четырёхкратное преимущество над США"
     m_sFactionKey "USSR"
     m_sVersusFaction "US"
+    m_fSupremacyRatio 4
    }
   }
   coords 6172.46 5.701 3025.13

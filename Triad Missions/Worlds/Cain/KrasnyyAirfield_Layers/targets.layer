@@ -79,17 +79,18 @@ $grp PolylineShapeEntity {
   IsClosed 1
  }
 }
-PolylineShapeEntity : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+PolylineShapeEntity BlueLine : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
  components {
   LL_MapZoneComponent "{699CA7457093C9DF}" {
    m_FillColor 0 0.125 0.502 1
    m_OutlineColor 0 0.125 0.502 1
+   m_fOutlineWidth 7
   }
  }
  coords 3674.227 294.49 6009.867
  Points {
   ShapePoint "{6ACD1BEB5734F130}" {
-   Position -195.949 -294.835 -2081.203
+   Position -212.544 -296.129 -2096.3
   }
   ShapePoint "{6ACD1BEB5660EC8C}" {
    Position -169.126 -293.294 -2062.299
