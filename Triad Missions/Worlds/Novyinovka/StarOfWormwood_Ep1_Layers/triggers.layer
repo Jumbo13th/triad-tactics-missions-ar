@@ -26,7 +26,7 @@ GenericEntity FactoryContest : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_Zo
    m_bBroadcastMessage 0
    m_sMessage "СССР захватил промышленную зону"
    m_sZoneEntityName "FactoryZone"
-   m_sZoneDisplayName "Промышенная зона"
+   m_sZoneDisplayName "Промышленная зона"
    m_sAttackerFaction "USSR"
    m_sDefenderFaction "US"
    m_aFlagNames {

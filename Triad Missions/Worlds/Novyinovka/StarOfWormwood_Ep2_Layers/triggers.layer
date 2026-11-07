@@ -1,0 +1,123 @@
+GenericEntity HQCapture : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
+ components {
+  LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+   m_bBroadcastMessage 0
+   m_sMessage "США захватили госпиталь"
+   m_sZoneEntityName "HospitalZone"
+   m_sZoneDisplayName "Госпиталь"
+   m_sAttackerFaction "US"
+   m_sDefenderFaction "USSR"
+   m_aFlagNames {
+    "HospitalFlag1"
+    "HospitalFlag2"
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 1
+   m_aConditions {
+    LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+     m_sFaction "US"
+     m_sVersusFaction "USSR"
+     m_fVersusMultiplier 3
+    }
+    LL_TriggerFactionCondition "{69BD22C261674367}" {
+     m_sFaction "US"
+     m_iVersusNumber 1
+    }
+   }
+   m_fHoldSeconds 120
+  }
+ }
+ coords 2048 143 2048
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesUS {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "США понесли критические потери. Победа СССР"
+    m_sFactionKey "US"
+    m_iThreshold 5
+   }
+  }
+  coords 2050 143 2048
+ }
+ LossesUSSR {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "СССР понёс критические потери. Победа США"
+    m_sFactionKey "USSR"
+    m_iThreshold 3
+   }
+  }
+  coords 2052 143 2048
+ }
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Госпиталь удержан СССР. Победа СССР"
+   m_iSeconds 4800
+  }
+ }
+ coords 2054 143 2048
+}
+PolylineShapeEntity HospitalZone : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 0 0.502 0.125 0.392
+   m_OutlineColor 0 0.502 0.125 1
+   m_fOutlineWidth 7
+   m_bLineMode 0
+  }
+  LL_StatZoneComponent "{6AEB47C65CDCBD54}" {
+  }
+ }
+ coords 2129.85 157.377 2407.403
+ angles 0.122 0.004 1.68
+ Points {
+  ShapePoint "{6ACD7074E665D6DE}" {
+   Position 5.989 -16.043 -27.575
+  }
+  ShapePoint "{6ACD7074FCA66130}" {
+   Position 9.637 -13.338 28.66
+  }
+  ShapePoint "{6ACD7074F7FD5CD1}" {
+   Position -4.523 -16.83 29.686
+  }
+  ShapePoint "{6ACD7074F06EA1B8}" {
+   Position -8.647 -13.726 -26.31
+  }
+ }
+ IsClosed 1
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ USSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа США. Создан трёхкратный перевес численности над СССР"
+    m_sFactionKey "US"
+    m_sVersusFaction "USSR"
+    m_fSupremacyRatio 3
+   }
+  }
+  coords 2056 143 2048
+ }
+ USSRSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа СССР. Создан трёхкратный перевес численности над США"
+    m_sFactionKey "USSR"
+    m_sVersusFaction "US"
+    m_fSupremacyRatio 3
+   }
+  }
+  coords 2058 143 2048
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ HospitalFlag2 {
+  coords 2115.749 145.937 2404.622
+ }
+ HospitalFlag1 {
+  coords 2146.248 145.937 2420.794
+ }
+}
