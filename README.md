@@ -178,7 +178,7 @@ Links:
 
 ### Novyinovka Mission Requirements
 
-Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) run on Novyinovka and require the following addon:
+Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) run on Novyinovka and require the following addons:
 
 ```json
 [
@@ -186,12 +186,18 @@ Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) 
 		"modId": "689E376275A6AF90",
 		"name": "Novyinovka",
 		"version": "0.5.30"
+	},
+	{
+		"modId": "64ED6553B8AF6B62",
+		"name": "Atmospheric Weather Mod",
+		"version": "1.0.38"
 	}
 ]
 ```
 
 Links:
 - [Novyinovka](https://reforger.armaplatform.com/workshop/689E376275A6AF90)
+- [Atmospheric Weather Mod](https://reforger.armaplatform.com/workshop/64ED6553B8AF6B62)
 
 ---
 
