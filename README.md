@@ -70,7 +70,7 @@ Missions that run on West Zagoria require the following addons:
 	{
 		"modId": "6044F5AB4E6F9D5A",
 		"name": "West Zagoria",
-		"version": "1.1.167"
+		"version": "1.1.175"
 	},
 	{
 		"modId": "654D61CA53B795FF",
@@ -133,7 +133,7 @@ Cain is a vanilla map. Malaya Zemlya additionally requires the following addon:
 	{
 		"modId": "6934F9C61CE24DE5",
 		"name": "REAPER_RHIB",
-		"version": "1.0.2"
+		"version": "1.0.3"
 	}
 ]
 ```
@@ -160,7 +160,7 @@ Landing on Ven, Episode 1 (`LandingOnVen_Ep1`) runs on Ven Island and requires t
 	{
 		"modId": "69293EC27DC1A8EB",
 		"name": "Triad Swedish Faction",
-		"version": "1.0.2"
+		"version": "1.0.5"
 	},
 	{
 		"modId": "11053359C1AFF8E1",
@@ -175,6 +175,23 @@ Links:
 - [M113 APC](https://reforger.armaplatform.com/workshop/5E5C154FEE1094BB)
 - [Triad Swedish Faction](https://reforger.armaplatform.com/workshop/69293EC27DC1A8EB)
 - [Ven Island](https://reforger.armaplatform.com/workshop/11053359C1AFF8E1)
+
+### Novyinovka Mission Requirements
+
+Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) run on Novyinovka and require the following addon:
+
+```json
+[
+	{
+		"modId": "689E376275A6AF90",
+		"name": "Novyinovka",
+		"version": "0.5.30"
+	}
+]
+```
+
+Links:
+- [Novyinovka](https://reforger.armaplatform.com/workshop/689E376275A6AF90)
 
 ---
 
@@ -191,12 +208,12 @@ Missions that run on Belleau Wood require the following addons in addition to Tr
 	{
 		"modId": "629EDC37CDE3AD35",
 		"name": "Belleau Wood",
-		"version": "2.3.39"
+		"version": "2.3.41"
 	},
 	{
 		"modId": "65AD60E204191D37",
 		"name": "Realistic Combat Drones",
-		"version": "2.3.7"
+		"version": "2.3.9"
 	},
 	{
 		"modId": "DEADC0DE00000005",
@@ -221,7 +238,7 @@ Missions that run on Belleau Wood require the following addons in addition to Tr
 	{
 		"modId": "6273146ADFE8241D",
 		"name": "WCS_AH-6M",
-		"version": "8.3.0"
+		"version": "9.0.1"
 	},
 	{
 		"modId": "5C9AD9EF76F6B5EA",
@@ -231,7 +248,7 @@ Missions that run on Belleau Wood require the following addons in addition to Tr
 	{
 		"modId": "61E42AE6714A3CC2",
 		"name": "WCS_Armbands",
-		"version": "8.3.0"
+		"version": "9.0.1"
 	}
 ]
 ```
@@ -256,7 +273,7 @@ Missions that run on Gogland require the following addons in addition to Triad M
 	{
 		"modId": "623EEDF242F6265E",
 		"name": "Gogland",
-		"version": "1.4.12"
+		"version": "1.4.13"
 	},
 	{
 		"modId": "65AD60E204191D37",
@@ -266,7 +283,7 @@ Missions that run on Gogland require the following addons in addition to Triad M
 	{
 		"modId": "6273146ADFE8241D",
 		"name": "WCS_AH-6M",
-		"version": "8.4.0"
+		"version": "9.0.1"
 	},
 	{
 		"modId": "DEADC0DE00000003",
