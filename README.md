@@ -126,7 +126,22 @@ Links:
 
 ### Cain Mission Requirements
 
-Cain is a vanilla map. Malaya Zemlya additionally requires the following addon:
+Cain (Kolguyev) is a vanilla map. Missions that run on Cain require the following addon:
+
+```json
+[
+	{
+		"modId": "6946021B7234447F",
+		"name": "Immersive Mirrors & Periscopes",
+		"version": "1.0.49"
+	}
+]
+```
+
+Links:
+- [Immersive Mirrors & Periscopes](https://reforger.armaplatform.com/workshop/6946021B7234447F)
+
+Malaya Zemlya additionally requires the following addon:
 
 ```json
 [
@@ -191,6 +206,11 @@ Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) 
 		"modId": "64ED6553B8AF6B62",
 		"name": "Atmospheric Weather Mod",
 		"version": "1.0.38"
+	},
+	{
+		"modId": "6946021B7234447F",
+		"name": "Immersive Mirrors & Periscopes",
+		"version": "1.0.49"
 	}
 ]
 ```
@@ -198,6 +218,7 @@ Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) 
 Links:
 - [Novyinovka](https://reforger.armaplatform.com/workshop/689E376275A6AF90)
 - [Atmospheric Weather Mod](https://reforger.armaplatform.com/workshop/64ED6553B8AF6B62)
+- [Immersive Mirrors & Periscopes](https://reforger.armaplatform.com/workshop/6946021B7234447F)
 
 ---
 
