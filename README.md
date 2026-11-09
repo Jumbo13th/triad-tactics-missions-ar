@@ -133,7 +133,7 @@ Cain (Kolguyev) is a vanilla map. Missions that run on Cain require the followin
 	{
 		"modId": "6946021B7234447F",
 		"name": "Immersive Mirrors & Periscopes",
-		"version": "1.0.49"
+		"version": "1.0.50"
 	}
 ]
 ```
@@ -200,17 +200,17 @@ Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) 
 	{
 		"modId": "689E376275A6AF90",
 		"name": "Novyinovka",
-		"version": "0.5.30"
+		"version": "0.5.40"
 	},
 	{
 		"modId": "64ED6553B8AF6B62",
 		"name": "Atmospheric Weather Mod",
-		"version": "1.0.38"
+		"version": "1.0.39"
 	},
 	{
 		"modId": "6946021B7234447F",
 		"name": "Immersive Mirrors & Periscopes",
-		"version": "1.0.49"
+		"version": "1.0.50"
 	}
 ]
 ```
@@ -260,12 +260,12 @@ Missions that run on Belleau Wood require the following addons in addition to Tr
 	{
 		"modId": "64ED6553B8AF6B62",
 		"name": "Atmospheric Weather Mod",
-		"version": "1.0.38"
+		"version": "1.0.39"
 	},
 	{
 		"modId": "6273146ADFE8241D",
 		"name": "WCS_AH-6M",
-		"version": "9.0.1"
+		"version": "9.0.2"
 	},
 	{
 		"modId": "5C9AD9EF76F6B5EA",
@@ -275,6 +275,11 @@ Missions that run on Belleau Wood require the following addons in addition to Tr
 	{
 		"modId": "61E42AE6714A3CC2",
 		"name": "WCS_Armbands",
+		"version": "9.0.1"
+	},
+	{
+		"modId": "63120AE07E6C0966",
+		"name": "WCS_M2A2",
 		"version": "9.0.1"
 	}
 ]
@@ -290,6 +295,7 @@ Links:
 - [WCS_AH-6M](https://reforger.armaplatform.com/workshop/6273146ADFE8241D)
 - [ZU-23](https://reforger.armaplatform.com/workshop/5C9AD9EF76F6B5EA)
 - [WCS_Armbands](https://reforger.armaplatform.com/workshop/61E42AE6714A3CC2)
+- [WCS_M2A2](https://reforger.armaplatform.com/workshop/63120AE07E6C0966)
 
 ### Gogland Mission Requirements
 
@@ -310,7 +316,7 @@ Missions that run on Gogland require the following addons in addition to Triad M
 	{
 		"modId": "6273146ADFE8241D",
 		"name": "WCS_AH-6M",
-		"version": "9.0.1"
+		"version": "9.0.2"
 	},
 	{
 		"modId": "DEADC0DE00000003",
