@@ -1,0 +1,40 @@
+PolylineShapeEntity HQZone : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 1 0 0 0.392
+   m_OutlineColor 1 0 0 1
+   m_fOutlineWidth 7
+   m_bLineMode 0
+  }
+  LL_StatZoneComponent "{F13693DCB70DF326}" {
+  }
+ }
+ coords 6844.375 138.112 2474.5
+ Points {
+  ShapePoint "{F1826C09EC5F61DB}" {
+   Position -66.375 0 -96.5
+  }
+  ShapePoint "{13ADBB1476A13EF8}" {
+   Position 5.625 0 -106.5
+  }
+  ShapePoint "{93B7828CD7596E41}" {
+   Position 60.625 0 -44.5
+  }
+  ShapePoint "{6EB033D81314B9D5}" {
+   Position 63.625 0 40.5
+  }
+  ShapePoint "{2C791E18CC667B5C}" {
+   Position 35.625 0 93.5
+  }
+  ShapePoint "{5EB9936BA068A550}" {
+   Position -14.375 0 97.5
+  }
+  ShapePoint "{3E21F433A08BD6B9}" {
+   Position -44.375 0 40.5
+  }
+  ShapePoint "{B6F99A0FD7F6D0A6}" {
+   Position -64.375 0 -24.5
+  }
+ }
+ IsClosed 1
+}

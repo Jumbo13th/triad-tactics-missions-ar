@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{6ADFBED3F1F0209B}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_AMG.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{39B2D3AC8D888C70}Prefabs/Characters/HeadGear/BlackBox/BB_Hat_VKPO_Cap_balaclava.et"
+    }
+   }
+  }
+ }
+}

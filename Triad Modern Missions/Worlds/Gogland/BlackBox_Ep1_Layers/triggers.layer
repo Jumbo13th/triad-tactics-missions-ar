@@ -1,0 +1,86 @@
+GenericEntity CrashContest : "{2B3F9CB67479CFE7}Prefabs/Triggers/LL_Trigger_ZoneContest.et" {
+ components {
+  LL_TriggerZoneContest "{6A0F2E564940880E}" {
+   m_sZoneEntityName "CrashZone"
+   m_sZoneDisplayName "Место падения"
+   m_sAttackerFaction "IPSEC"
+   m_sDefenderFaction "WOLVERINE"
+   m_aFlagNames {
+    "CrashFlag1"
+    "CrashFlag2"
+    "CrashFlag3"
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 1
+   m_bStartsNeutral 1
+   m_fCaptureSeconds 120
+   m_iMinPresence 3
+   m_fDominationRatio 1.5
+  }
+ }
+ coords 7470 200 3195
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Побеждает сторона, удерживающая место падения"
+   m_iSeconds 3600
+  }
+ }
+ coords 7471 200 3195
+}
+GenericEntity LossesIPSEC : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ components {
+  LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+   m_sMessage "IPSec понесли критические потери. Победа Wolverine"
+   m_sFactionKey "IPSEC"
+   m_iThreshold 5
+  }
+ }
+ coords 7472 200 3195
+}
+GenericEntity IPSECSupremacy : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ components {
+  LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+   m_sMessage "Победа IPSec. Создан четырёхкратный перевес численности над Wolverine"
+   m_sFactionKey "IPSEC"
+   m_sVersusFaction "WOLVERINE"
+   m_fSupremacyRatio 4
+  }
+ }
+ coords 7474 200 3195
+}
+GenericEntity LossesWOLVERINE : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ components {
+  LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+   m_sMessage "Wolverine понесли критические потери. Победа IPSec"
+   m_sFactionKey "WOLVERINE"
+   m_iThreshold 5
+  }
+ }
+ coords 7473 200 3195
+}
+GenericEntity WOLVERINESupremacy : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ components {
+  LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+   m_sMessage "Победа Wolverine. Создан четырёхкратный перевес численности над IPSec"
+   m_sFactionKey "WOLVERINE"
+   m_sVersusFaction "IPSEC"
+   m_fSupremacyRatio 4
+  }
+ }
+ coords 7475 200 3195
+}
+GenericEntity CrashWreck : "{38E750A0E7C3B350}Prefabs/Props/Wrecks/Mi8MT_wreck/Mi8MT_wreck.et" {
+ coords 7499 18.56 3151
+ angles 0 30 0
+}
+GenericEntity CrashFlag1 : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ coords 7430 18.56 3191
+}
+GenericEntity CrashFlag2 : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ coords 7475 18.56 3228
+}
+GenericEntity CrashFlag3 : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ coords 7535 18.56 3200
+}

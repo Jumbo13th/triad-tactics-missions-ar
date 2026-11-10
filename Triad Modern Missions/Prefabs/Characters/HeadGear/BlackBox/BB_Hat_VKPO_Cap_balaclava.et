@@ -1,0 +1,15 @@
+GameEntity : "{94493910A15ECDC6}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     InspectionWidgetOffset 0 1.6 0
+     AreaType LoadoutHeadCoverArea "{6B1E5C0A4D2F3A01}" {
+     }
+     Prefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
+    }
+   }
+  }
+ }
+}

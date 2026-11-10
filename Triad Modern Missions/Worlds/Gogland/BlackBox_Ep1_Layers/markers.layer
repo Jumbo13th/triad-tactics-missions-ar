@@ -1,0 +1,40 @@
+PolylineShapeEntity CrashZone : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 1 0.5 0 0.392
+   m_OutlineColor 1 0.5 0 1
+   m_fOutlineWidth 7
+   m_bLineMode 0
+  }
+  LL_StatZoneComponent "{BA3F31882E9D7818}" {
+  }
+ }
+ coords 7467.875 0 3192.875
+ Points {
+  ShapePoint "{F6A06FA7F33F3CAF}" {
+   Position -82.875 0 -87.875
+  }
+  ShapePoint "{16052B5E8439F379}" {
+   Position 2.125 0 -107.875
+  }
+  ShapePoint "{0E06BAA51700E0FE}" {
+   Position 92.125 0 -84.875
+  }
+  ShapePoint "{E6F5F388AC32EE0E}" {
+   Position 110.125 0 22.125
+  }
+  ShapePoint "{A8C632EA8F05FB66}" {
+   Position 80.125 0 107.125
+  }
+  ShapePoint "{10ABFB9A67ACF7AC}" {
+   Position -27.875 0 109.125
+  }
+  ShapePoint "{B884810A8A54D5A9}" {
+   Position -77.875 0 65.125
+  }
+  ShapePoint "{A1F600A4EF993F31}" {
+   Position -95.875 0 -22.875
+  }
+ }
+ IsClosed 1
+}
