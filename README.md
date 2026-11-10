@@ -126,7 +126,22 @@ Links:
 
 ### Cain Mission Requirements
 
-Cain is a vanilla map. Malaya Zemlya additionally requires the following addon:
+Cain (Kolguyev) is a vanilla map. Missions that run on Cain require the following addon:
+
+```json
+[
+	{
+		"modId": "6946021B7234447F",
+		"name": "Immersive Mirrors & Periscopes",
+		"version": "1.0.50"
+	}
+]
+```
+
+Links:
+- [Immersive Mirrors & Periscopes](https://reforger.armaplatform.com/workshop/6946021B7234447F)
+
+Malaya Zemlya additionally requires the following addon:
 
 ```json
 [
@@ -185,12 +200,17 @@ Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) 
 	{
 		"modId": "689E376275A6AF90",
 		"name": "Novyinovka",
-		"version": "0.5.30"
+		"version": "0.5.40"
 	},
 	{
 		"modId": "64ED6553B8AF6B62",
 		"name": "Atmospheric Weather Mod",
-		"version": "1.0.38"
+		"version": "1.0.39"
+	},
+	{
+		"modId": "6946021B7234447F",
+		"name": "Immersive Mirrors & Periscopes",
+		"version": "1.0.50"
 	}
 ]
 ```
@@ -198,6 +218,7 @@ Star of Wormwood, Episodes 1 and 2 (`StarOfWormwood_Ep1`, `StarOfWormwood_Ep2`) 
 Links:
 - [Novyinovka](https://reforger.armaplatform.com/workshop/689E376275A6AF90)
 - [Atmospheric Weather Mod](https://reforger.armaplatform.com/workshop/64ED6553B8AF6B62)
+- [Immersive Mirrors & Periscopes](https://reforger.armaplatform.com/workshop/6946021B7234447F)
 
 ---
 
@@ -237,14 +258,19 @@ Missions that run on Belleau Wood require the following addons in addition to Tr
 		"version": "1.6.0"
 	},
 	{
+		"modId": "DEADC0DE00000002",
+		"name": "Tactical Flava - BM-21",
+		"version": "1.6.3"
+	},
+	{
 		"modId": "64ED6553B8AF6B62",
 		"name": "Atmospheric Weather Mod",
-		"version": "1.0.38"
+		"version": "1.0.39"
 	},
 	{
 		"modId": "6273146ADFE8241D",
 		"name": "WCS_AH-6M",
-		"version": "9.0.1"
+		"version": "9.0.2"
 	},
 	{
 		"modId": "5C9AD9EF76F6B5EA",
@@ -254,6 +280,11 @@ Missions that run on Belleau Wood require the following addons in addition to Tr
 	{
 		"modId": "61E42AE6714A3CC2",
 		"name": "WCS_Armbands",
+		"version": "9.0.1"
+	},
+	{
+		"modId": "63120AE07E6C0966",
+		"name": "WCS_M2A2",
 		"version": "9.0.1"
 	}
 ]
@@ -265,10 +296,12 @@ Links:
 - [Tactical Flava - HMMWV](https://reforger.armaplatform.com/workshop/DEADC0DE00000005)
 - [Tactical Flava - TIGR](https://reforger.armaplatform.com/workshop/DEADC0DE00000003)
 - [Tactical Flava - Turrets](https://reforger.armaplatform.com/workshop/DEADC0DE00000007)
+- [Tactical Flava - BM-21](https://reforger.armaplatform.com/workshop/DEADC0DE00000002)
 - [Atmospheric Weather Mod](https://reforger.armaplatform.com/workshop/64ED6553B8AF6B62)
 - [WCS_AH-6M](https://reforger.armaplatform.com/workshop/6273146ADFE8241D)
 - [ZU-23](https://reforger.armaplatform.com/workshop/5C9AD9EF76F6B5EA)
 - [WCS_Armbands](https://reforger.armaplatform.com/workshop/61E42AE6714A3CC2)
+- [WCS_M2A2](https://reforger.armaplatform.com/workshop/63120AE07E6C0966)
 
 ### Gogland Mission Requirements
 
@@ -289,7 +322,7 @@ Missions that run on Gogland require the following addons in addition to Triad M
 	{
 		"modId": "6273146ADFE8241D",
 		"name": "WCS_AH-6M",
-		"version": "9.0.1"
+		"version": "9.0.2"
 	},
 	{
 		"modId": "DEADC0DE00000003",
