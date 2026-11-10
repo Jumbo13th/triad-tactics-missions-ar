@@ -258,6 +258,11 @@ Missions that run on Belleau Wood require the following addons in addition to Tr
 		"version": "1.6.0"
 	},
 	{
+		"modId": "DEADC0DE00000002",
+		"name": "Tactical Flava - BM-21",
+		"version": "1.6.3"
+	},
+	{
 		"modId": "64ED6553B8AF6B62",
 		"name": "Atmospheric Weather Mod",
 		"version": "1.0.39"
@@ -291,6 +296,7 @@ Links:
 - [Tactical Flava - HMMWV](https://reforger.armaplatform.com/workshop/DEADC0DE00000005)
 - [Tactical Flava - TIGR](https://reforger.armaplatform.com/workshop/DEADC0DE00000003)
 - [Tactical Flava - Turrets](https://reforger.armaplatform.com/workshop/DEADC0DE00000007)
+- [Tactical Flava - BM-21](https://reforger.armaplatform.com/workshop/DEADC0DE00000002)
 - [Atmospheric Weather Mod](https://reforger.armaplatform.com/workshop/64ED6553B8AF6B62)
 - [WCS_AH-6M](https://reforger.armaplatform.com/workshop/6273146ADFE8241D)
 - [ZU-23](https://reforger.armaplatform.com/workshop/5C9AD9EF76F6B5EA)

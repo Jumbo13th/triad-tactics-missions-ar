@@ -1,0 +1,12 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5E4A2EC4E1DFBB79}" {
+   components {
+    WCS_Armament_VehicleSightsComponent "{5E4A2EC4E1DFBB7B}" {
+     m_rSightProfile "{4FFC047169C9DB91}Configs/Vision/Sights/TMM_M2A2_ISU_DayOnly.conf"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+SCR_MapEntity : "{21C189074DAB7E90}Prefabs/World/DefaultWorld/MapEntity_Default.et" {
+ ID "52D6BA0EB786B975"
+ components {
+  SCR_CompassComponent "{6AD35ABB32EFC8E8}" {
+  }
+  SCR_WristwatchComponent "{6AD35ABB30CB4027}" {
+  }
+ }
+}
