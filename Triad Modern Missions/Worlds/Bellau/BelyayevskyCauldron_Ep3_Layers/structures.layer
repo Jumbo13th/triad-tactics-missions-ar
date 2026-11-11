@@ -1,0 +1,119 @@
+$grp StaticModelEntity : "{0C8EA73ADEAF4ADD}PrefabsEditable/Auto/Structures/Military/Fortifications/E_Dragonsteeth_01_old_V1.et" {
+ {
+  coords 4283.343 0 8116.326
+  angles -0.895 0 0
+ }
+ {
+  coords 4279.161 0 8121.893
+ }
+ {
+  coords 4282.762 -0.001 8128.619
+ }
+}
+SCR_DestructibleBuildingEntity : "{61C3FFD09864F01E}Prefabs/Structures/Industrial/Houses/Workshop_01/Workshop_01_Garage_damaged.et" {
+ coords 4220.178 -0.252 8129.645
+}
+$grp StaticModelEntity : "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et" {
+ {
+  coords 4293.603 -0.133 8123.904
+  angles -26.297 47.635 0
+ }
+ {
+  coords 4293.086 -0.114 8123.548
+  angles -26.297 47.635 0
+ }
+ {
+  coords 4266.974 -0.033 8127.877
+  angles -14.165 47.635 0
+  scale 1.2
+ }
+ {
+  coords 4267.033 -0.294 8128.447
+  angles -14.165 47.635 0
+  scale 1.2
+ }
+ {
+  coords 4294.939 -0.223 8121.862
+  angles -23.356 48.85 -2.892
+ }
+ {
+  coords 4294.975 -0.179 8123.189
+  angles -26.297 47.635 0
+ }
+ {
+  coords 4276.51 0.093 8150.053
+  angles 20.256 46.185 0
+ }
+ {
+  coords 4275.815 0.268 8149.422
+  angles 20.256 46.185 0
+ }
+ {
+  coords 4275.103 0.05 8150.247
+  angles 20.256 46.185 0
+ }
+ {
+  coords 4273.438 -0.123 8152.026
+  angles 20.254 45.287 -0.311
+ }
+}
+$grp StaticModelEntity : "{7F8D6A0D827EA34B}Prefabs/Props/Military/Fortification/CzechHedgehog_01_base.et" {
+ {
+  coords 4275.858 -0.001 8135.954
+  angles 0.895 -0.014 -0.895
+ }
+ {
+  coords 4285.392 -0.001 8138.334
+  angles 1.789 -0.028 -0.896
+ }
+ {
+  coords 4288.358 0 8150.698
+  angles 1.79 -0.056 -0.002
+ }
+ {
+  coords 4281.175 0.138 8147.693
+  angles 1.791 -0.056 0.893
+ }
+ {
+  coords 4278.921 -0 8113.724
+  angles -0.895 0.014 -0.895
+ }
+}
+$grp GenericEntity : "{A76FBE3B139F227A}PrefabsEditable/Auto/Structures/Signs/Military/E_SignCheckpoint_01_stop.et" {
+ {
+  coords 4279.144 88.286 8109.727
+  angles 0.743 146.126 -0.499
+ }
+ {
+  coords 4281.901 89.241 8156.982
+  angles -0.725 38.949 5.155
+ }
+}
+GenericEntity : "{AB87B392A989CA95}Prefabs/Compositions/Slotted/SlotFlatSmall/GuardTower_S_US_01.et" {
+ coords 4271.942 89.004 8146.784
+ angles 0 100.775 0
+}
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 4273.704 88.082 8128.33
+ angles 0 176.156 0
+}
+GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
+ coords 4295.804 89.275 8120.586
+ angles 0 -141.482 0
+}
+SCR_DestructibleBuildingEntity : "{CF7E43120709D9BE}Prefabs/Structures/Industrial/Houses/Workshop_02/Workshop_02_grey.et" {
+ coords 4229.39 0.857 8141.27
+ angles 0 -92.376 0
+}
+SCR_DestructibleBuildingEntity : "{CFF7F6F7042AFFEF}Prefabs/Structures/Industrial/Houses/Workshop_01/Workshop_01_Main.et" {
+ coords 4251.692 0.522 8128.938
+ angles 0 -179.303 0
+}
+SCR_DestructibleBuildingEntity : "{D445D04331B6809E}Prefabs/Structures/Industrial/Houses/PortableCabin_E_01/PortableCabin_E_01_white.et" {
+ coords 4269.42 0.485 8135.125
+ angles 0 96.4 0
+}
+GenericEntity : "{FD256CE1C386DA49}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_02.et" {
+ coords 4270.776 89.275 8149.037
+ angles 0 5.379 0
+}

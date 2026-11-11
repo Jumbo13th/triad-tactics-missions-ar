@@ -2,6 +2,24 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 4616.195 177.222 3490.915
 }
 LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 12
+   m_iStartingMinutes 30
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6AF3B84588844DF5}" {
+     m_sWeatherPresetName "Overcast"
+     m_iStartingHour 12
+     m_iStartingMinutes 30
+    }
+   }
+   m_bDateOverride 1
+   m_iDay 17
+   m_iMonth 8
+   m_iYear 2021
+  }
+ }
  coords 4616.195 177.222 3488.915
  m_iFreezeTime 300000
 }

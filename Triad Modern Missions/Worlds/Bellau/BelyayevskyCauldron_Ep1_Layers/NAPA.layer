@@ -5,8 +5,14 @@ $grp Vehicle : "{3ADAB98297CE0203}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-
     "faction affiliation" "NAPA"
    }
   }
-  coords 4714.935 113.034 6927.697
-  angles 1.997 120.416 0.134
+  coords 5258.935 121.787 6649.18
+  angles -1.727 -164.75 -0.471
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD3B0316F22"
+    coords 0.006 0 1.452
+   }
+  }
  }
  Grad2 {
   components {
@@ -14,8 +20,14 @@ $grp Vehicle : "{3ADAB98297CE0203}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-
     "faction affiliation" "NAPA"
    }
   }
-  coords 4705.185 112.599 6934.068
-  angles 1.992 122.113 0.193
+  coords 5262.292 122.257 6660.819
+  angles -2.571 -163.337 -0.769
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD3B0316F22"
+    coords 0.012 0.001 1.425
+   }
+  }
  }
  Grad3 {
   components {
@@ -23,17 +35,8 @@ $grp Vehicle : "{3ADAB98297CE0203}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-
     "faction affiliation" "NAPA"
    }
   }
-  coords 5662.295 115.491 6507.699
-  angles -2.629 93.259 -1.045
- }
- Grad4 {
-  components {
-   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-    "faction affiliation" "NAPA"
-   }
-  }
-  coords 5651.666 116.176 6508.209
-  angles -4.469 89.932 -1.779
+  coords 5265.693 122.835 6671.914
+  angles -2.826 -164.03 0.122
  }
 }
 $grp SCR_AIGroup : "{553AD4835A1908ED}Prefabs/Groups/INDFOR/TMF_Group_NAPA_PlatoonHQ.et" {
@@ -45,8 +48,8 @@ $grp SCR_AIGroup : "{553AD4835A1908ED}Prefabs/Groups/INDFOR/TMF_Group_NAPA_Plato
     m_iSquad 0
    }
   }
-  coords 4757.628 113.714 6902.117
-  angles 0 -149.156 0
+  coords 5312.903 124.988 6671.949
+  angles 0 -159.064 0
   m_aUnitPrefabSlots {
    "{C757955506D655FE}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_PL.et"
    "{6F437DFCEFF0ACB5}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_UAV.et"
@@ -60,8 +63,8 @@ $grp SCR_AIGroup : "{553AD4835A1908ED}Prefabs/Groups/INDFOR/TMF_Group_NAPA_Plato
     m_iSquad 0
    }
   }
-  coords 5675.513 116.156 6486.125
-  angles 0 -98.732 0
+  coords 5256.935 123.173 6693.354
+  angles 0 -159.704 0
   m_aUnitPrefabSlots {
    "{C757955506D655FE}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_PL.et"
    "{6F437DFCEFF0ACB5}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_UAV.et"
@@ -125,8 +128,8 @@ $grp SCR_AIGroup : "{6F2DF0D5FA3A7807}Prefabs/Groups/INDFOR/TMF_Group_NAPA_Rifle
     m_iSquad 0
    }
   }
-  coords 4752.444 113.822 6905.17
-  angles 0 -150.335 0
+  coords 5305.053 125.115 6675.076
+  angles 0 -160.613 0
  }
  AG_S2 {
   components {
@@ -136,8 +139,8 @@ $grp SCR_AIGroup : "{6F2DF0D5FA3A7807}Prefabs/Groups/INDFOR/TMF_Group_NAPA_Rifle
     m_iSquad 1
    }
   }
-  coords 4740.562 114.106 6912.33
-  angles 0 -148.843 0
+  coords 5290.317 124.798 6680.175
+  angles 0 -160.258 0
  }
  AG_S3 {
   components {
@@ -147,8 +150,8 @@ $grp SCR_AIGroup : "{6F2DF0D5FA3A7807}Prefabs/Groups/INDFOR/TMF_Group_NAPA_Rifle
     m_iSquad 2
    }
   }
-  coords 4728.297 113.569 6920.174
-  angles 0 -146.945 0
+  coords 5272.201 123.478 6687.566
+  angles 0 -158.618 0
  }
  AG_S4 {
   components {
@@ -158,8 +161,8 @@ $grp SCR_AIGroup : "{6F2DF0D5FA3A7807}Prefabs/Groups/INDFOR/TMF_Group_NAPA_Rifle
     m_iSquad 0
    }
   }
-  coords 5675.056 115.569 6494.64
-  angles 0 -85.815 0
+  coords 5246.542 123.078 6697.33
+  angles 0 -159.804 0
  }
  AG_S5 {
   components {
@@ -169,8 +172,8 @@ $grp SCR_AIGroup : "{6F2DF0D5FA3A7807}Prefabs/Groups/INDFOR/TMF_Group_NAPA_Rifle
     m_iSquad 1
    }
   }
-  coords 5677.265 114.704 6511.58
-  angles 0 -84.666 0
+  coords 5228.653 122.294 6704.42
+  angles 0 -157.886 0
  }
  AG_S6 {
   components {
@@ -180,8 +183,8 @@ $grp SCR_AIGroup : "{6F2DF0D5FA3A7807}Prefabs/Groups/INDFOR/TMF_Group_NAPA_Rifle
     m_iSquad 2
    }
   }
-  coords 5679.234 113.43 6530.003
-  angles 0 -91.546 0
+  coords 5209.255 121.167 6712.235
+  angles 0 -158.715 0
  }
 }
 $grp Vehicle : "{7B4BBFD80FB91FF0}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_SPP_Green.et" {
@@ -194,8 +197,8 @@ $grp Vehicle : "{7B4BBFD80FB91FF0}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2
     "faction affiliation" "NAPA"
    }
   }
-  coords 4738.285 114.094 6908.565
-  angles 1.995 121.163 0.16
+  coords 5288.83 124.411 6676.034
+  angles 3.286 109.98 4.04
  }
  GAZ_TIGR_v2_KORD_SPP_Green2 {
   components {
@@ -206,8 +209,8 @@ $grp Vehicle : "{7B4BBFD80FB91FF0}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2
     "faction affiliation" "NAPA"
    }
   }
-  coords 5672.884 114.896 6511.989
-  angles 1.139 -174.717 -2.59
+  coords 5226.997 121.791 6700.344
+  angles 2.823 112.072 0.179
  }
 }
 $grp Vehicle : "{95A220DF8D6E2543}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet_KORD_Green.et" {
@@ -220,8 +223,8 @@ $grp Vehicle : "{95A220DF8D6E2543}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TI
     "faction affiliation" "NAPA"
    }
   }
-  coords 4750.266 113.861 6901.347
-  angles -1.221 119.658 0.335
+  coords 5303.592 124.81 6670.926
+  angles 0.202 109.397 4.806
  }
  GAZ_TIGR_v2_Arbalet_KORD_Green2 {
   components {
@@ -232,8 +235,8 @@ $grp Vehicle : "{95A220DF8D6E2543}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TI
     "faction affiliation" "NAPA"
    }
   }
-  coords 5670.668 115.689 6494.961
-  angles 3.755 -175.974 -2.421
+  coords 5245.023 122.798 6693.201
+  angles 2.521 110.077 0.921
  }
 }
 $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
@@ -309,8 +312,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4753.737 113.823 6904.409
-  angles -0.335 -150.328 -1.221
+  coords 5306.461 125.127 6674.558
+  angles -2.828 -160.604 -0.047
  }
  NAPA_Ammo_AG_S2 {
   components {
@@ -384,8 +387,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4741.847 114.159 6911.556
-  angles -0.16 -148.849 1.995
+  coords 5291.73 124.75 6679.671
+  angles -3.181 -160.465 3.609
  }
  NAPA_Ammo_AG_S3 {
   components {
@@ -459,8 +462,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 4729.518 113.62 6919.365
-  angles -0.226 -146.953 1.988
+  coords 5273.56 123.542 6687.021
+  angles -0.977 -158.669 2.5
  }
  NAPA_Ammo_AG_S4 {
   components {
@@ -534,8 +537,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5675.136 115.661 6493.142
-  angles 0.938 -90.692 3.565
+  coords 5248.355 122.905 6696.802
+  angles 0.39 -164.668 1.963
  }
  NAPA_Ammo_AG_S5 {
   components {
@@ -609,8 +612,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5677.071 114.747 6510.093
-  angles 1.698 -84.635 1.058
+  coords 5230.021 121.879 6703.805
+  angles -0.518 -157.888 3.649
  }
  NAPA_Ammo_AG_S6 {
   components {
@@ -684,8 +687,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 5678.868 113.929 6528.625
-  angles 3.674 -91.265 4.378
+  coords 5210.53 120.865 6711.735
+  angles 0.174 -158.428 1.993
  }
  NAPA_Ammo_AG_S7 {
   components {
@@ -846,12 +849,10 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 5672.12 114.85 6517.141
-  angles -0.892 -0.056 3.577
+  coords 5226.871 122.172 6703.558
  }
  {
-  coords 4732.396 113.832 6913.503
-  angles -0.894 0.028 -1.79
+  coords 5287.862 124.659 6679.797
  }
 }
 $grp Turret : "{F30D7FB86B0543A7}Prefabs/Weapons/Tripods/9K135/Deployable_Tripod_9K135_v2.et" {
@@ -864,8 +865,8 @@ $grp Turret : "{F30D7FB86B0543A7}Prefabs/Weapons/Tripods/9K135/Deployable_Tripod
     "faction affiliation" "NAPA"
    }
   }
-  coords 4730.207 113.676 6917.571
-  angles 0.523 -146.921 2.476
+  coords 5274.988 123.624 6686.396
+  angles -1.302 -158.67 3.331
  }
  {
   components {
@@ -876,8 +877,8 @@ $grp Turret : "{F30D7FB86B0543A7}Prefabs/Weapons/Tripods/9K135/Deployable_Tripod
     "faction affiliation" "NAPA"
    }
   }
-  coords 5678.915 114.035 6527.02
-  angles 3.658 -91.323 3.486
+  coords 5211.881 120.922 6710.784
+  angles 0.176 -158.486 1.993
  }
 }
 $grp Vehicle : "{FB612B76126F3E26}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_turret_Olive.et" {
@@ -900,8 +901,8 @@ $grp Vehicle : "{FB612B76126F3E26}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "NAPA"
    }
   }
-  coords 4725.897 113.583 6916.486
-  angles 1.988 123.063 0.226
+  coords 5270.89 123.389 6684.217
+  angles 2.171 111.459 1.814
  }
  YoyotaDJ78_turret_Olive2 {
   components {
@@ -922,8 +923,8 @@ $grp Vehicle : "{FB612B76126F3E26}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "NAPA"
    }
   }
-  coords 5674.836 114.082 6529.884
-  angles 4.351 178.172 -3.706
+  coords 5207.658 120.831 6708.135
+  angles 1.992 110.996 -0.194
  }
 }
 $grp Vehicle : "{FDF4BCA73234089F}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_M2_Olive.et" {
@@ -936,8 +937,8 @@ $grp Vehicle : "{FDF4BCA73234089F}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "NAPA"
    }
   }
-  coords 4720.376 113.327 6919.917
-  angles 2.476 123.032 -0.525
+  coords 5264.789 123.219 6686.46
+  angles 1.34 111.394 1.486
  }
  YoyotaDJ78_M2_Olive2 {
   components {
@@ -948,7 +949,7 @@ $grp Vehicle : "{FDF4BCA73234089F}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "NAPA"
    }
   }
-  coords 5674.688 113.418 6536.937
-  angles 6.118 178.052 -3.765
+  coords 5201.1 120.597 6710.736
+  angles 1.672 110.902 0.638
  }
 }

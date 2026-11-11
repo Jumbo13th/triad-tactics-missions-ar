@@ -56,7 +56,7 @@ $grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et
 GenericEntity GradsDestroyed : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
  components {
   LL_TriggerDestroy "{69BD22C391CCC3CE}" {
-   m_sMessage "Все четыре «Града» уничтожены. Победа CDF"
+   m_sMessage "Все три «Града» уничтожены. Победа CDF"
    m_aTargets {
     LL_TriggerDestroyTarget "{DE9557E862E8E758}" {
      m_sEntityName "Grad1"
@@ -71,11 +71,6 @@ GenericEntity GradsDestroyed : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_De
     LL_TriggerDestroyTarget "{43C1D5EBE5E8FD84}" {
      m_sEntityName "Grad3"
      m_sDisplayName "БМ-21 «Град» №3"
-     m_bClickable 0
-    }
-    LL_TriggerDestroyTarget "{7086F79289720465}" {
-     m_sEntityName "Grad4"
-     m_sDisplayName "БМ-21 «Град» №4"
      m_bClickable 0
     }
    }

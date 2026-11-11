@@ -1,0 +1,101 @@
+PolylineShapeEntity Station : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 0 0.502 0.125 0.392
+   m_OutlineColor 0 0.502 0.125 1
+   m_fOutlineWidth 7
+   m_bLineMode 0
+  }
+  LL_StatZoneComponent "{6AD54B746B29E6D3}" {
+  }
+ }
+ coords 4242.505 88.095 8129.046
+ Points {
+  ShapePoint "{6AD54B76BC683FC4}" {
+   Position -32.61 1.474 -29.221
+  }
+  ShapePoint "{6AD54B76BB198EBF}" {
+   Position -17.472 0.909 -29.95
+  }
+  ShapePoint "{6AD54B76BAFBA464}" {
+   Position -0.406 1.122 -33.258
+  }
+  ShapePoint "{6AD54B76BA4960D8}" {
+   Position 21.027 0.28 -39.793
+  }
+  ShapePoint "{6AD54B76B95DBB6D}" {
+   Position 18.972 -0.158 -21.429
+  }
+  ShapePoint "{6AD54B76B08B000D}" {
+   Position 43.428 0.186 -17.028
+  }
+  ShapePoint "{6AD54B76B07BFF7C}" {
+   Position 56.925 1.426 -16.143
+  }
+  ShapePoint "{6AD54B768F38FFFB}" {
+   Position 60.333 1.45 -7.391
+  }
+  ShapePoint "{6AD54B768E2A9E35}" {
+   Position 57.422 0.819 18.406
+  }
+  ShapePoint "{6AD54B768DFD0314}" {
+   Position 25.972 1.941 25.514
+  }
+  ShapePoint "{6AD54B768D626613}" {
+   Position 15.686 2.423 21.915
+  }
+  ShapePoint "{6AD54B768B52CF03}" {
+   Position 5.082 3.709 21.741
+  }
+  ShapePoint "{6AD54B768AC704ED}" {
+   Position -6.555 4.245 20.578
+  }
+  ShapePoint "{6AD54B768A6869F0}" {
+   Position -24.094 3.752 17.285
+  }
+  ShapePoint "{6AD54B768930D813}" {
+   Position -38.318 3.92 17.099
+  }
+  ShapePoint "{6AD54B768807CEF5}" {
+   Position -34.467 1.844 -12.918
+  }
+ }
+ IsClosed 1
+}
+$grp LL_ManualMarker : "{A26B093A4E1F6D20}Prefabs/Map/LL_ManualMarker.et" {
+ Belyaevo {
+  coords 5672.373 115.094 6504.62
+  angles -1.788 -0.056 1.791
+  m_MarkerColor 1 1 1 0
+ }
+ Torcevoe {
+  coords 4732.865 113.835 6914.308
+  angles -1.788 -0.056 1.791
+  m_MarkerColor 1 1 1 0
+ }
+ Losevo {
+  coords 4739.456 176.703 3569.472
+  angles -1.788 -0.056 1.791
+  m_MarkerColor 1 1 1 0
+ }
+ Borschsevoe {
+  coords 6812.578 126.317 4097.329
+  angles -1.788 -0.056 1.791
+  m_MarkerColor 1 1 1 0
+ }
+ Busarovo {
+  coords 3058.433 95.521 7290.444
+  angles -1.788 -0.056 1.791
+  m_MarkerColor 1 1 1 0
+ }
+ Maryino {
+  coords 951.596 173.168 3832.018
+  angles -1.788 -0.056 1.791
+  m_MarkerColor 1 1 1 0
+ }
+ Lisicino {
+  coords 4339.25 94.165 8257.361
+  angles -1.788 -0.056 1.791
+  m_MarkerColor 1 1 1 0
+ }
+}

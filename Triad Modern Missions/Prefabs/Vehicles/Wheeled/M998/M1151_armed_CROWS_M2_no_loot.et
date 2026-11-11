@@ -1,0 +1,44 @@
+Vehicle : "{2CA77F2C87229673}Prefabs/Vehicles/Wheeled/M998/M1151_armed_CROWS_M2.et" {
+ ID "6AF3AED64064C0B0"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68D4DD4BCD7F84AB}" {
+     SlotTemplate InventoryStorageSlot M16ammo {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84A9}" {
+     SlotTemplate InventoryStorageSlot SAWammo {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84A8}" {
+     SlotTemplate InventoryStorageSlot Grenades {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84A7}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenades {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7FA740}" {
+     SlotTemplate InventoryStorageSlot ugl {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7FA742}" {
+     SlotTemplate InventoryStorageSlot ugl_flare {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7FFE15}" {
+     SlotTemplate InventoryStorageSlot ATmine {
+      Prefab ""
+     }
+    }
+   }
+  }
+ }
+}
