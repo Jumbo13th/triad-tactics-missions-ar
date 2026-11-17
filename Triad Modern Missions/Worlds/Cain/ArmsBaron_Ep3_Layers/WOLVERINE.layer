@@ -1,786 +1,823 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ WOLVERINEFreeze1 {
+  coords 1898.234 128.512 7349.436
+ }
+ WOLVERINEFreeze2 {
+  coords 2057.093 110.541 7483.136
+ }
+}
+$grp Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
+ AR_S1_NSV1 {
+  components {
+   LL_VehicleSquadLinkComponent "{E5DF09E68B74EF9A}" {
+    m_sGroupName "AR_S1"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 1909.869 128.842 7344.111
+  angles -0.021 -144.991 1.601
+ }
+ AR_S2_NSV1 {
+  components {
+   LL_VehicleSquadLinkComponent "{E5DF09E68B74EF9A}" {
+    m_sGroupName "AR_S2"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 1894.278 128.369 7354.656
+  angles 0.245 -146.373 1.281
+ }
+ AR_S3_NSV1 {
+  components {
+   LL_VehicleSquadLinkComponent "{E5DF09E68B74EF9A}" {
+    m_sGroupName "AR_S3"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 2041.484 106.711 7497.559
+  angles -0.397 42.19 -9.878
+ }
+}
+$grp SCR_AIGroup : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_Snipers.et" {
+ AR_SNP1 {
+  components {
+   LL_GroupCallsign "{B81A72587CADA0ED}" {
+    m_iCompany 0
+    m_iPlatoon 3
+    m_iSquad 0
+   }
+  }
+  coords 1881.592 127.996 7363.435
+  angles 0 -146.046 0
+ }
+ AR_SNP2 {
+  components {
+   LL_GroupCallsign "{B81A72587CADA0ED}" {
+    m_iCompany 0
+    m_iPlatoon 3
+    m_iSquad 1
+   }
+  }
+  coords 2069.038 112.537 7471.571
+  angles 0 43.71 0
+ }
+}
+$grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
+ AR_S1 {
+  components {
+   LL_GroupCallsign "{C7456AE0BC0848B4}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 0
+   }
+  }
+  coords 1907.764 128.777 7345.787
+  angles 0 -146.155 0
+ }
+ AR_S2 {
+  components {
+   LL_GroupCallsign "{C7456AE0BC0848B4}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 1
+   }
+  }
+  coords 1892.242 128.312 7356.285
+  angles 0 -146.124 0
+ }
+ AR_S3 {
+  components {
+   LL_GroupCallsign "{C7456AE0BC0848B4}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 2
+   }
+  }
+  coords 2043.21 107.187 7495.657
+  angles 0 42.392 0
+ }
+ AR_S4 {
+  components {
+   LL_GroupCallsign "{C7456AE0BC0848B4}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 3
+   }
+  }
+  coords 2051.463 109.316 7488.121
+  angles 0 42.59 0
+ }
+ AR_S5 {
+  components {
+   LL_GroupCallsign "{C7456AE0BC0848B4}" {
+    m_iCompany 0
+    m_iPlatoon 2
+    m_iSquad 0
+   }
+  }
+  coords 2059.576 110.95 7480.618
+  angles 0 43.305 0
+ }
+}
 SCR_AIGroup AR_PL1 : "{6ADFBED3CFE2F6A5}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_PlatoonHQ.et" {
  components {
-  LL_GroupCallsign "{815AF0ED371741AB}" {
+  LL_GroupCallsign "{FBD0FA171ED817F3}" {
    m_iCompany 0
    m_iPlatoon 0
    m_iSquad 0
   }
  }
- coords 1922.187 129.288 7336.036
- angles 0 -147.823 0
+ coords 1920.163 129.202 7337.372
+ angles 0 -145.833 0
 }
-Vehicle AR_PL1_DJ781 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
- components {
-  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-   m_sGroupName "AR_PL1"
+$grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
+ AR_PL1_DJ781 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_PL1"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
   }
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "WOLVERINE"
-  }
+  coords 1916.684 129.16 7335.44
+  angles 1.716 124.299 -0.057
  }
- coords 1919.053 129.544 7333.869
- angles 0 122.177 0
+ AR_S1_DJ781 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_S1"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 1900.666 128.599 7346.279
+  angles 1.369 124.328 0
+ }
+ AR_S1_DJ782 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_S1"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 1906.787 128.806 7342.172
+  angles 1.724 123.59 -0.113
+ }
+ AR_S2_DJ781 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_S2"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 1885.14 128.162 7356.775
+  angles 1.245 123.644 -0.264
+ }
+ AR_S2_DJ782 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_S2"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 1891.263 128.322 7352.671
+  angles 1.245 123.616 -0.264
+ }
+}
+$grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
+ WOLVERINE_Ammo_AR_S1 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{B30B05C499070DD6}" {
+      SlotTemplate InventoryStorageSlot AK {
+       Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
+      SlotTemplate InventoryStorageSlot AKTracer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{897C4D4CA456E753}" {
+      SlotTemplate InventoryStorageSlot PKP {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{C90B180ABD902435}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{83EB4DEF03122428}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{82156FD1E8946E3C}" {
+      SlotTemplate InventoryStorageSlot RDG2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1586AC817EB4422A}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{9EF252676F2763CF}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1908.944 128.812 7345.003
+  angles 0.261 -146.401 1.249
+ }
+ WOLVERINE_Ammo_AR_S2 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{B30B05C499070DD6}" {
+      SlotTemplate InventoryStorageSlot AK {
+       Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
+      SlotTemplate InventoryStorageSlot AKTracer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{897C4D4CA456E753}" {
+      SlotTemplate InventoryStorageSlot PKP {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{C90B180ABD902435}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{83EB4DEF03122428}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{82156FD1E8946E3C}" {
+      SlotTemplate InventoryStorageSlot RDG2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1586AC817EB4422A}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{9EF252676F2763CF}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1893.422 128.343 7355.501
+  angles 0.196 -146.374 1.21
+ }
+ WOLVERINE_Ammo_AR_SNP1 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{B30B05C499070DD6}" {
+      SlotTemplate InventoryStorageSlot AK {
+       Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
+      SlotTemplate InventoryStorageSlot AKTracer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{897C4D4CA456E753}" {
+      SlotTemplate InventoryStorageSlot PKP {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{C90B180ABD902435}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{83EB4DEF03122428}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{82156FD1E8946E3C}" {
+      SlotTemplate InventoryStorageSlot RDG2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1586AC817EB4422A}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{9EF252676F2763CF}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 1882.734 128.032 7362.674
+  angles 0.261 -146.328 1.249
+ }
+ WOLVERINE_Ammo_AR_S3 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{B30B05C499070DD6}" {
+      SlotTemplate InventoryStorageSlot AK {
+       Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
+      SlotTemplate InventoryStorageSlot AKTracer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{897C4D4CA456E753}" {
+      SlotTemplate InventoryStorageSlot PKP {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{C90B180ABD902435}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{83EB4DEF03122428}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{82156FD1E8946E3C}" {
+      SlotTemplate InventoryStorageSlot RDG2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1586AC817EB4422A}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{9EF252676F2763CF}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2042.171 106.916 7496.621
+  angles 0 42.848 -10.497
+ }
+ WOLVERINE_Ammo_AR_S4 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{B30B05C499070DD6}" {
+      SlotTemplate InventoryStorageSlot AK {
+       Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
+      SlotTemplate InventoryStorageSlot AKTracer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{897C4D4CA456E753}" {
+      SlotTemplate InventoryStorageSlot PKP {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{C90B180ABD902435}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{83EB4DEF03122428}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{82156FD1E8946E3C}" {
+      SlotTemplate InventoryStorageSlot RDG2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1586AC817EB4422A}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{9EF252676F2763CF}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2050.412 109.049 7489.072
+  angles 0 42.122 -10.648
+ }
+ WOLVERINE_Ammo_AR_S5 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{B30B05C499070DD6}" {
+      SlotTemplate InventoryStorageSlot AK {
+       Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
+      SlotTemplate InventoryStorageSlot AKTracer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{897C4D4CA456E753}" {
+      SlotTemplate InventoryStorageSlot PKP {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{C90B180ABD902435}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{83EB4DEF03122428}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{82156FD1E8946E3C}" {
+      SlotTemplate InventoryStorageSlot RDG2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1586AC817EB4422A}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{9EF252676F2763CF}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2058.568 110.798 7481.554
+  angles -0.194 42.848 -6.336
+ }
+ WOLVERINE_Ammo_AR_SNP2 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{B30B05C499070DD6}" {
+      SlotTemplate InventoryStorageSlot AK {
+       Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
+      SlotTemplate InventoryStorageSlot AKTracer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{897C4D4CA456E753}" {
+      SlotTemplate InventoryStorageSlot PKP {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{C90B180ABD902435}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{83EB4DEF03122428}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{82156FD1E8946E3C}" {
+      SlotTemplate InventoryStorageSlot RDG2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{1586AC817EB4422A}" {
+      SlotTemplate InventoryStorageSlot Morphines {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{9EF252676F2763CF}" {
+      SlotTemplate InventoryStorageSlot Tourniquets {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2068.023 112.358 7472.56
+  angles -0.45 44.331 -7.26
+ }
 }
 SCR_AIGroup AR_BARON : "{B68E03F426281E71}Prefabs/Groups/OPFOR/ArmsBaron/ARB_Group_Radic.et" {
  components {
-  LL_GroupCallsign "{815AF0ED371741AB}" {
+  LL_GroupCallsign "{FBD0FA171ED817F3}" {
    m_iCompany 0
    m_iPlatoon 0
    m_iSquad 3
   }
  }
- coords 1915.89 129.065 7340.291
- angles 0 -147.823 0
-}
-SCR_AIGroup AR_S1 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
- components {
-  LL_GroupCallsign "{EE8BA4EB1896B59B}" {
-   m_iCompany 0
-   m_iPlatoon 1
-   m_iSquad 0
-  }
- }
- coords 1909.096 128.824 7344.882
- angles 0 -147.823 0
-}
-GenericEntity WOLVERINE_Ammo_AR_S1 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
- components {
-  SCR_SoundDataComponent "{5C53391603B5CF41}" {
-   Enabled 1
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-   UseCapacityCoefficient 0
-   MaxCumulativeVolume 1000000
-   MaxItemSize 40 40 40
-   MultiSlots {
-    MultiSlotConfiguration "{B30B05C499070DD6}" {
-     SlotTemplate InventoryStorageSlot AK {
-      Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
-     SlotTemplate InventoryStorageSlot AKTracer {
-      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{897C4D4CA456E753}" {
-     SlotTemplate InventoryStorageSlot PKP {
-      Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{C90B180ABD902435}" {
-     SlotTemplate InventoryStorageSlot VOG {
-      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{83EB4DEF03122428}" {
-     SlotTemplate InventoryStorageSlot RGD5 {
-      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{82156FD1E8946E3C}" {
-     SlotTemplate InventoryStorageSlot RDG2 {
-      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{1586AC817EB4422A}" {
-     SlotTemplate InventoryStorageSlot Morphines {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{9EF252676F2763CF}" {
-     SlotTemplate InventoryStorageSlot Tourniquets {
-      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
-     }
-     NumSlots 10
-    }
-   }
-   m_fMaxWeight 10000
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 1
-  }
-  RplComponent "{5476B36C54387F41}" {
-   Enabled 1
-  }
- }
- coords 1910.366 128.824 7344.084
- angles 0 -147.823 0
-}
-Turret AR_S1_NSV1 : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
- components {
-  LL_VehicleSquadLinkComponent "{82B0E91B98212823}" {
-   m_sGroupName "AR_S1"
-  }
-  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
-   InitialStorageSlots {
-     InventoryStorageSlot Magazine_1 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-     InventoryStorageSlot Magazine_2 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-     InventoryStorageSlot Magazine_3 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-   }
-  }
-  SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
-   "faction affiliation" "WOLVERINE"
-  }
- }
- coords 1912.059 128.824 7343.019
- angles 0 32.177 0
-}
-Vehicle AR_S1_DJ781 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
- components {
-  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-   m_sGroupName "AR_S1"
-  }
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "WOLVERINE"
-  }
- }
- coords 1905.962 129.079 7342.716
- angles 0 122.177 0
-}
-Vehicle AR_S1_DJ782 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
- components {
-  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-   m_sGroupName "AR_S1"
-  }
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "WOLVERINE"
-  }
- }
- coords 1900.161 128.877 7346.635
- angles 0 122.31 0
-}
-SCR_AIGroup AR_S2 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
- components {
-  LL_GroupCallsign "{EE8BA4EB1896B59B}" {
-   m_iCompany 0
-   m_iPlatoon 1
-   m_iSquad 1
-  }
- }
- coords 1893.434 128.337 7355.446
- angles 0 -147.69 0
-}
-GenericEntity WOLVERINE_Ammo_AR_S2 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
- components {
-  SCR_SoundDataComponent "{5C53391603B5CF41}" {
-   Enabled 1
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-   UseCapacityCoefficient 0
-   MaxCumulativeVolume 1000000
-   MaxItemSize 40 40 40
-   MultiSlots {
-    MultiSlotConfiguration "{B30B05C499070DD6}" {
-     SlotTemplate InventoryStorageSlot AK {
-      Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
-     SlotTemplate InventoryStorageSlot AKTracer {
-      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{897C4D4CA456E753}" {
-     SlotTemplate InventoryStorageSlot PKP {
-      Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{C90B180ABD902435}" {
-     SlotTemplate InventoryStorageSlot VOG {
-      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{83EB4DEF03122428}" {
-     SlotTemplate InventoryStorageSlot RGD5 {
-      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{82156FD1E8946E3C}" {
-     SlotTemplate InventoryStorageSlot RDG2 {
-      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{1586AC817EB4422A}" {
-     SlotTemplate InventoryStorageSlot Morphines {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{9EF252676F2763CF}" {
-     SlotTemplate InventoryStorageSlot Tourniquets {
-      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
-     }
-     NumSlots 10
-    }
-   }
-   m_fMaxWeight 10000
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 1
-  }
-  RplComponent "{5476B36C54387F41}" {
-   Enabled 1
-  }
- }
- coords 1894.701 128.337 7354.644
- angles 0 -147.69 0
-}
-Turret AR_S2_NSV1 : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
- components {
-  LL_VehicleSquadLinkComponent "{82B0E91B98212823}" {
-   m_sGroupName "AR_S2"
-  }
-  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
-   InitialStorageSlots {
-     InventoryStorageSlot Magazine_1 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-     InventoryStorageSlot Magazine_2 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-     InventoryStorageSlot Magazine_3 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-   }
-  }
-  SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
-   "faction affiliation" "WOLVERINE"
-  }
- }
- coords 1896.392 128.337 7353.575
- angles 0 32.31 0
-}
-Vehicle AR_S2_DJ781 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
- components {
-  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-   m_sGroupName "AR_S2"
-  }
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "WOLVERINE"
-  }
- }
- coords 1890.291 128.603 7353.281
- angles 0 122.31 0
-}
-Vehicle AR_S2_DJ782 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
- components {
-  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-   m_sGroupName "AR_S2"
-  }
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "WOLVERINE"
-  }
- }
- coords 1884.484 128.441 7357.191
- angles 0 122.31 0
-}
-SCR_AIGroup AR_SNP1 : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_Snipers.et" {
- components {
-  LL_GroupCallsign "{8FD598B7D5618172}" {
-   m_iCompany 0
-   m_iPlatoon 3
-   m_iSquad 0
-  }
- }
- coords 1879.585 127.938 7364.716
- angles 0 -151.974 0
-}
-GenericEntity WOLVERINE_Ammo_AR_SNP1 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
- components {
-  SCR_SoundDataComponent "{5C53391603B5CF41}" {
-   Enabled 1
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-   UseCapacityCoefficient 0
-   MaxCumulativeVolume 1000000
-   MaxItemSize 40 40 40
-   MultiSlots {
-    MultiSlotConfiguration "{B30B05C499070DD6}" {
-     SlotTemplate InventoryStorageSlot AK {
-      Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
-     SlotTemplate InventoryStorageSlot AKTracer {
-      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{897C4D4CA456E753}" {
-     SlotTemplate InventoryStorageSlot PKP {
-      Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{C90B180ABD902435}" {
-     SlotTemplate InventoryStorageSlot VOG {
-      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{83EB4DEF03122428}" {
-     SlotTemplate InventoryStorageSlot RGD5 {
-      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{82156FD1E8946E3C}" {
-     SlotTemplate InventoryStorageSlot RDG2 {
-      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{1586AC817EB4422A}" {
-     SlotTemplate InventoryStorageSlot Morphines {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{9EF252676F2763CF}" {
-     SlotTemplate InventoryStorageSlot Tourniquets {
-      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
-     }
-     NumSlots 10
-    }
-   }
-   m_fMaxWeight 10000
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 1
-  }
-  RplComponent "{5476B36C54387F41}" {
-   Enabled 1
-  }
- }
- coords 1880.909 127.938 7364.012
- angles 0 -151.974 0
-}
-SCR_AIGroup AR_S3 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
- components {
-  LL_GroupCallsign "{EE8BA4EB1896B59B}" {
-   m_iCompany 0
-   m_iPlatoon 1
-   m_iSquad 2
-  }
- }
- coords 2044.025 107.412 7494.887
- angles 0 42.76 0
-}
-GenericEntity WOLVERINE_Ammo_AR_S3 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
- components {
-  SCR_SoundDataComponent "{5C53391603B5CF41}" {
-   Enabled 1
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-   UseCapacityCoefficient 0
-   MaxCumulativeVolume 1000000
-   MaxItemSize 40 40 40
-   MultiSlots {
-    MultiSlotConfiguration "{B30B05C499070DD6}" {
-     SlotTemplate InventoryStorageSlot AK {
-      Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
-     SlotTemplate InventoryStorageSlot AKTracer {
-      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{897C4D4CA456E753}" {
-     SlotTemplate InventoryStorageSlot PKP {
-      Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{C90B180ABD902435}" {
-     SlotTemplate InventoryStorageSlot VOG {
-      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{83EB4DEF03122428}" {
-     SlotTemplate InventoryStorageSlot RGD5 {
-      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{82156FD1E8946E3C}" {
-     SlotTemplate InventoryStorageSlot RDG2 {
-      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{1586AC817EB4422A}" {
-     SlotTemplate InventoryStorageSlot Morphines {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{9EF252676F2763CF}" {
-     SlotTemplate InventoryStorageSlot Tourniquets {
-      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
-     }
-     NumSlots 10
-    }
-   }
-   m_fMaxWeight 10000
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 1
-  }
-  RplComponent "{5476B36C54387F41}" {
-   Enabled 1
-  }
- }
- coords 2042.923 107.412 7495.905
- angles 0 42.76 0
-}
-Turret AR_S3_NSV1 : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
- components {
-  LL_VehicleSquadLinkComponent "{82B0E91B98212823}" {
-   m_sGroupName "AR_S3"
-  }
-  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
-   InitialStorageSlots {
-     InventoryStorageSlot Magazine_1 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-     InventoryStorageSlot Magazine_2 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-     InventoryStorageSlot Magazine_3 {
-      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
-     }
-   }
-  }
-  SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
-   "faction affiliation" "WOLVERINE"
-  }
- }
- coords 2041.455 107.412 7497.263
- angles 0 -137.24 0
-}
-SCR_AIGroup AR_S4 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
- components {
-  LL_GroupCallsign "{EE8BA4EB1896B59B}" {
-   m_iCompany 0
-   m_iPlatoon 1
-   m_iSquad 3
-  }
- }
- coords 2052.662 109.622 7486.995
- angles 0 42.76 0
-}
-GenericEntity WOLVERINE_Ammo_AR_S4 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
- components {
-  SCR_SoundDataComponent "{5C53391603B5CF41}" {
-   Enabled 1
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-   UseCapacityCoefficient 0
-   MaxCumulativeVolume 1000000
-   MaxItemSize 40 40 40
-   MultiSlots {
-    MultiSlotConfiguration "{B30B05C499070DD6}" {
-     SlotTemplate InventoryStorageSlot AK {
-      Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
-     SlotTemplate InventoryStorageSlot AKTracer {
-      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{897C4D4CA456E753}" {
-     SlotTemplate InventoryStorageSlot PKP {
-      Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{C90B180ABD902435}" {
-     SlotTemplate InventoryStorageSlot VOG {
-      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{83EB4DEF03122428}" {
-     SlotTemplate InventoryStorageSlot RGD5 {
-      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{82156FD1E8946E3C}" {
-     SlotTemplate InventoryStorageSlot RDG2 {
-      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{1586AC817EB4422A}" {
-     SlotTemplate InventoryStorageSlot Morphines {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{9EF252676F2763CF}" {
-     SlotTemplate InventoryStorageSlot Tourniquets {
-      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
-     }
-     NumSlots 10
-    }
-   }
-   m_fMaxWeight 10000
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 1
-  }
-  RplComponent "{5476B36C54387F41}" {
-   Enabled 1
-  }
- }
- coords 2051.561 109.622 7488.013
- angles 0 42.76 0
-}
-SCR_AIGroup AR_S5 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
- components {
-  LL_GroupCallsign "{EE8BA4EB1896B59B}" {
-   m_iCompany 0
-   m_iPlatoon 2
-   m_iSquad 0
-  }
- }
- coords 2061.185 111.226 7479
- angles 0 42.996 0
-}
-GenericEntity WOLVERINE_Ammo_AR_S5 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
- components {
-  SCR_SoundDataComponent "{5C53391603B5CF41}" {
-   Enabled 1
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-   UseCapacityCoefficient 0
-   MaxCumulativeVolume 1000000
-   MaxItemSize 40 40 40
-   MultiSlots {
-    MultiSlotConfiguration "{B30B05C499070DD6}" {
-     SlotTemplate InventoryStorageSlot AK {
-      Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
-     SlotTemplate InventoryStorageSlot AKTracer {
-      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{897C4D4CA456E753}" {
-     SlotTemplate InventoryStorageSlot PKP {
-      Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{C90B180ABD902435}" {
-     SlotTemplate InventoryStorageSlot VOG {
-      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{83EB4DEF03122428}" {
-     SlotTemplate InventoryStorageSlot RGD5 {
-      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{82156FD1E8946E3C}" {
-     SlotTemplate InventoryStorageSlot RDG2 {
-      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{1586AC817EB4422A}" {
-     SlotTemplate InventoryStorageSlot Morphines {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{9EF252676F2763CF}" {
-     SlotTemplate InventoryStorageSlot Tourniquets {
-      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
-     }
-     NumSlots 10
-    }
-   }
-   m_fMaxWeight 10000
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 1
-  }
-  RplComponent "{5476B36C54387F41}" {
-   Enabled 1
-  }
- }
- coords 2060.088 111.226 7480.023
- angles 0 42.996 0
-}
-SCR_AIGroup AR_SNP2 : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_Snipers.et" {
- components {
-  LL_GroupCallsign "{8FD598B7D5618172}" {
-   m_iCompany 0
-   m_iPlatoon 3
-   m_iSquad 1
-  }
- }
- coords 2069.671 112.639 7470.956
- angles 0 43.122 0
-}
-GenericEntity WOLVERINE_Ammo_AR_SNP2 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
- components {
-  SCR_SoundDataComponent "{5C53391603B5CF41}" {
-   Enabled 1
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-   UseCapacityCoefficient 0
-   MaxCumulativeVolume 1000000
-   MaxItemSize 40 40 40
-   MultiSlots {
-    MultiSlotConfiguration "{B30B05C499070DD6}" {
-     SlotTemplate InventoryStorageSlot AK {
-      Prefab "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{2DFFE436D80BE1BB}" {
-     SlotTemplate InventoryStorageSlot AKTracer {
-      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{897C4D4CA456E753}" {
-     SlotTemplate InventoryStorageSlot PKP {
-      Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{C90B180ABD902435}" {
-     SlotTemplate InventoryStorageSlot VOG {
-      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{83EB4DEF03122428}" {
-     SlotTemplate InventoryStorageSlot RGD5 {
-      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{82156FD1E8946E3C}" {
-     SlotTemplate InventoryStorageSlot RDG2 {
-      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{2ED346A34A0C8CF4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{1586AC817EB4422A}" {
-     SlotTemplate InventoryStorageSlot Morphines {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{9EF252676F2763CF}" {
-     SlotTemplate InventoryStorageSlot Tourniquets {
-      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
-     }
-     NumSlots 10
-    }
-   }
-   m_fMaxWeight 10000
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 1
-  }
-  RplComponent "{5476B36C54387F41}" {
-   Enabled 1
-  }
- }
- coords 2068.576 112.639 7471.981
- angles 0 43.122 0
-}
-SCR_EditorRestrictionZoneEntity WOLVERINEFreeze1 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 1900.886 128.69 7349.293
-}
-SCR_EditorRestrictionZoneEntity WOLVERINEFreeze2 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 2055.563 110.225 7484.109
+ coords 1914.454 129.019 7341.24
+ angles 0 -144.977 0
 }

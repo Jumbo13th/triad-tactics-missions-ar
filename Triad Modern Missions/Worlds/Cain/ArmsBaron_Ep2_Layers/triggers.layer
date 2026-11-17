@@ -1,33 +1,24 @@
-GenericEntity TerminalCapture : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
- components {
-  LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
-   m_sMessage "Wolverine выбили IPSEC с терминала. Победа Wolverine"
-   m_sZoneEntityName "TerminalZone"
-   m_sZoneDisplayName "Грузовой терминал"
-   m_sAttackerFaction "WOLVERINE"
-   m_sDefenderFaction "IPSEC"
-   m_aFlagNames {
-    "TerminalFlag1"
-    "TerminalFlag2"
-    "TerminalFlag3"
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesWOLVERINE {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Wolverine понесли критические потери. Победа IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_iThreshold 5
    }
-   m_fStatPoints 20
-   m_fStatMaxPerPlayer 1
-   m_aConditions {
-    LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
-     m_sFaction "WOLVERINE"
-     m_sVersusFaction "IPSEC"
-     m_fVersusMultiplier 3
-    }
-    LL_TriggerFactionCondition "{69BD22C261674367}" {
-     m_sFaction "WOLVERINE"
-     m_iVersusNumber 8
-    }
-   }
-   m_fHoldSeconds 180
   }
+  coords 5913 200 8343
  }
- coords 5911 200 8343
+ LossesIPSEC {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "IPSec понесли критические потери. Победа Wolverine"
+    m_sFactionKey "IPSEC"
+    m_iThreshold 3
+   }
+  }
+  coords 5914 200 8343
+ }
 }
 GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
@@ -38,54 +29,27 @@ GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndT
  }
  coords 5912 200 8343
 }
-GenericEntity LossesWOLVERINE : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
- components {
-  LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-   m_sMessage "Wolverine понесли критические потери. Победа IPSec"
-   m_sFactionKey "WOLVERINE"
-   m_iThreshold 5
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ WOLVERINESupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа Wolverine. Создан четырёхкратный перевес численности над IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_sVersusFaction "IPSEC"
+    m_fSupremacyRatio 4
+   }
   }
+  coords 5915 200 8343
  }
- coords 5913 200 8343
-}
-GenericEntity WOLVERINESupremacy : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
- components {
-  LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
-   m_sMessage "Победа Wolverine. Создан четырёхкратный перевес численности над IPSec"
-   m_sFactionKey "WOLVERINE"
-   m_sVersusFaction "IPSEC"
-   m_fSupremacyRatio 4
+ IPSECSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа IPSec. Создан четырёхкратный перевес численности над Wolverine"
+    m_sFactionKey "IPSEC"
+    m_sVersusFaction "WOLVERINE"
+    m_fSupremacyRatio 4
+   }
   }
+  coords 5916 200 8343
  }
- coords 5915 200 8343
-}
-GenericEntity LossesIPSEC : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
- components {
-  LL_TriggerCriticalLoss "{69BD22C250937F93}" {
-   m_sMessage "IPSec понесли критические потери. Победа Wolverine"
-   m_sFactionKey "IPSEC"
-   m_iThreshold 3
-  }
- }
- coords 5914 200 8343
-}
-GenericEntity IPSECSupremacy : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
- components {
-  LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
-   m_sMessage "Победа IPSec. Создан четырёхкратный перевес численности над Wolverine"
-   m_sFactionKey "IPSEC"
-   m_sVersusFaction "WOLVERINE"
-   m_fSupremacyRatio 4
-  }
- }
- coords 5916 200 8343
-}
-GenericEntity TerminalFlag1 : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
- coords 5870 1.95 8300
-}
-GenericEntity TerminalFlag2 : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
- coords 5950 2.11 8360
-}
-GenericEntity TerminalFlag3 : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
- coords 5900 2.21 8420
 }
