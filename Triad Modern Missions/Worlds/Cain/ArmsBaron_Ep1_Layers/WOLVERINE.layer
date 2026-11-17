@@ -1,6 +1,6 @@
 SCR_AIGroup AR_PL1 : "{6ADFBED3CFE2F6A5}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_PlatoonHQ.et" {
  components {
-  LL_GroupCallsign "{DC327807C33D622B}" {
+  LL_GroupCallsign "{804AD7D5F11D28A8}" {
    m_iCompany 0
    m_iPlatoon 0
    m_iSquad 0
@@ -23,7 +23,7 @@ Vehicle AR_PL1_DJ781 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Va
 }
 SCR_AIGroup AR_S1 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{607219B1648A231D}" {
+  LL_GroupCallsign "{30DC6E0620F23D4D}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 0
@@ -112,7 +112,7 @@ GenericEntity WOLVERINE_Ammo_AR_S1 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/A
 }
 Turret AR_S1_NSV1 : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
  components {
-  LL_VehicleSquadLinkComponent "{F605491EC85D4928}" {
+  LL_VehicleSquadLinkComponent "{002E01A6246E7188}" {
    m_sGroupName "AR_S1"
   }
   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
@@ -147,15 +147,27 @@ Vehicle AR_S1_DJ781 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Var
  coords 6761.225 443.174 6700.17
  angles 0 -8.304 0
 }
+Vehicle AR_S1_DJ782 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AR_S1"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "WOLVERINE"
+  }
+ }
+ coords 6762.106 443.174 6693.226
+ angles 0 -11.812 0
+}
 SCR_AIGroup AR_S2 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{607219B1648A231D}" {
+  LL_GroupCallsign "{30DC6E0620F23D4D}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 1
   }
  }
- coords 6759.567 442.874 6686.89
+ coords 6760.161 442.875 6682.227
  angles 0 78.188 0
 }
 GenericEntity WOLVERINE_Ammo_AR_S2 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
@@ -233,12 +245,12 @@ GenericEntity WOLVERINE_Ammo_AR_S2 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/A
    Enabled 1
   }
  }
- coords 6759.26 442.874 6688.358
+ coords 6759.854 442.875 6683.696
  angles 0 78.188 0
 }
 Turret AR_S2_NSV1 : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
  components {
-  LL_VehicleSquadLinkComponent "{F605491EC85D4928}" {
+  LL_VehicleSquadLinkComponent "{002E01A6246E7188}" {
    m_sGroupName "AR_S2"
   }
   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
@@ -258,7 +270,7 @@ Turret AR_S2_NSV1 : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tr
    "faction affiliation" "WOLVERINE"
   }
  }
- coords 6758.851 442.874 6690.316
+ coords 6759.445 442.875 6685.653
  angles 0 -101.812 0
 }
 Vehicle AR_S2_DJ781 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
@@ -270,18 +282,30 @@ Vehicle AR_S2_DJ781 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Var
    "faction affiliation" "WOLVERINE"
   }
  }
- coords 6763.016 443.174 6686.083
+ coords 6763.61 443.175 6681.421
  angles 0 -11.812 0
+}
+Vehicle AR_S2_DJ782 : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AR_S2"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "WOLVERINE"
+  }
+ }
+ coords 6764.729 443.175 6674.525
+ angles 0 -19.956 0
 }
 SCR_AIGroup AR_SNP1 : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_Snipers.et" {
  components {
-  LL_GroupCallsign "{FC8FCA41548983FC}" {
+  LL_GroupCallsign "{8F96BDD4F1740D5B}" {
    m_iCompany 0
    m_iPlatoon 3
    m_iSquad 0
   }
  }
- coords 6761.191 442.875 6674.832
+ coords 6763.748 442.875 6665.786
  angles 0 70.044 0
 }
 GenericEntity WOLVERINE_Ammo_AR_SNP1 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
@@ -359,18 +383,18 @@ GenericEntity WOLVERINE_Ammo_AR_SNP1 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military
    Enabled 1
   }
  }
- coords 6760.679 442.875 6676.242
+ coords 6763.236 442.875 6667.196
  angles 0 70.044 0
 }
 SCR_AIGroup AR_SNP2 : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_Snipers.et" {
  components {
-  LL_GroupCallsign "{FC8FCA41548983FC}" {
+  LL_GroupCallsign "{8F96BDD4F1740D5B}" {
    m_iCompany 0
    m_iPlatoon 3
    m_iSquad 1
   }
  }
- coords 6764.681 442.875 6663.834
+ coords 6769.71 442.875 6655.892
  angles 0 54.885 0
 }
 GenericEntity WOLVERINE_Ammo_AR_SNP2 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
@@ -448,12 +472,12 @@ GenericEntity WOLVERINE_Ammo_AR_SNP2 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military
    Enabled 1
   }
  }
- coords 6763.818 442.875 6665.061
+ coords 6768.847 442.875 6657.119
  angles 0 54.885 0
 }
 SCR_AIGroup AR_S3 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{607219B1648A231D}" {
+  LL_GroupCallsign "{30DC6E0620F23D4D}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 2
@@ -542,7 +566,7 @@ GenericEntity WOLVERINE_Ammo_AR_S3 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/A
 }
 SCR_AIGroup AR_S4 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{607219B1648A231D}" {
+  LL_GroupCallsign "{30DC6E0620F23D4D}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 3
@@ -631,7 +655,7 @@ GenericEntity WOLVERINE_Ammo_AR_S4 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/A
 }
 SCR_AIGroup AR_S5 : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{607219B1648A231D}" {
+  LL_GroupCallsign "{30DC6E0620F23D4D}" {
    m_iCompany 0
    m_iPlatoon 2
    m_iSquad 0
@@ -720,7 +744,7 @@ GenericEntity WOLVERINE_Ammo_AR_S5 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/A
 }
 SCR_AIGroup AR_SNP3 : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_Snipers.et" {
  components {
-  LL_GroupCallsign "{FC8FCA41548983FC}" {
+  LL_GroupCallsign "{8F96BDD4F1740D5B}" {
    m_iCompany 0
    m_iPlatoon 3
    m_iSquad 2
@@ -808,7 +832,7 @@ GenericEntity WOLVERINE_Ammo_AR_SNP3 : "{A48EDE9CBA71B5A3}Prefabs/Props/Military
  angles 0 -42.101 0
 }
 SCR_EditorRestrictionZoneEntity WOLVERINEFreeze1 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 6760.463 442.875 6688.408
+ coords 6762.977 442.875 6684.437
 }
 SCR_EditorRestrictionZoneEntity WOLVERINEFreeze2 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 6990.56 435.985 6839.319

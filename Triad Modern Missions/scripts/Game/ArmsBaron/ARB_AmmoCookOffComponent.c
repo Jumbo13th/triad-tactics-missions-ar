@@ -13,7 +13,10 @@ class ARB_CookOff
 	//! Один взрыв серии и, если остались, заказ следующего. Статический: штабеля к этому моменту уже нет.
 	//! В очередь вызовов идут только простые значения: BaseWorld она не принимает вовсе, а список взрывов
 	//! передаётся строкой через "|" — так не зависим от того, какие ссылочные типы очередь пропускает.
-	static void Burst(vector centre, string names, int left, float radius, float height, int intervalMs)
+	//! `step` — номер взрыва в серии с нуля: по нему берётся заряд из списка, по кругу. Раньше номер считался
+	//! из остатка серии (`Count() - left`), и при серии длиннее списка это был отрицательный индекс —
+	//! «Index out of bounds» на первом же взрыве.
+	static void Burst(vector centre, string names, int left, int step, float radius, float height, int intervalMs)
 	{
 		BaseWorld world = GetGame().GetWorld();
 		if (!world || left <= 0 || names == "")
@@ -24,7 +27,7 @@ class ARB_CookOff
 		if (explosions.IsEmpty())
 			return;
 
-		ResourceName name = explosions[(explosions.Count() - left) % explosions.Count()];
+		ResourceName name = explosions[step % explosions.Count()];
 		Resource prefab = Resource.Load(name);
 		if (prefab && prefab.IsValid())
 		{
@@ -48,7 +51,7 @@ class ARB_CookOff
 
 		if (left > 1)
 			GetGame().GetCallqueue().CallLater(ARB_CookOff.Burst, intervalMs, false, centre, names,
-				left - 1, radius, height, intervalMs);
+				left - 1, step + 1, radius, height, intervalMs);
 	}
 }
 
@@ -129,7 +132,7 @@ class ARB_AmmoCookOffComponent : ScriptComponent
 			names += name;
 		}
 
-		ARB_CookOff.Burst(owner.GetOrigin(), names, m_iBursts, m_fRadius, m_fHeight, m_iIntervalMs);
+		ARB_CookOff.Burst(owner.GetOrigin(), names, m_iBursts, 0, m_fRadius, m_fHeight, m_iIntervalMs);
 	}
 
 	//------------------------------------------------------------------------------------------------

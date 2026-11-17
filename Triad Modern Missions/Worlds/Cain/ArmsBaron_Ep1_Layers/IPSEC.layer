@@ -1,6 +1,6 @@
 SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_PlatoonHQ.et" {
  components {
-  LL_GroupCallsign "{D48C246F2756E7AA}" {
+  LL_GroupCallsign "{EB8010F9B16F0C7E}" {
    m_iCompany 0
    m_iPlatoon 0
    m_iSquad 0
@@ -23,7 +23,7 @@ Vehicle AB_PL1_CROWS1 : "{2CA77F2C87229673}Prefabs/Vehicles/Wheeled/M998/M1151_a
 }
 SCR_AIGroup AB_S1 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{39F36F2C038BD99D}" {
+  LL_GroupCallsign "{694680A9E767734C}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 0
@@ -122,9 +122,21 @@ Vehicle AB_S1_M11511 : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_ar
  coords 7298.478 10.692 4283.746
  angles 0 -50.675 0
 }
+Vehicle AB_S1_LADA1 : "{5E696DD4888CE406}Prefabs/Vehicles/Wheeled/V2101/V2101_beige.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_S1"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7298.478 10.692 4283.746
+ angles 0 -50.675 0
+}
 SCR_AIGroup AB_S2 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{39F36F2C038BD99D}" {
+  LL_GroupCallsign "{694680A9E767734C}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 1
@@ -223,9 +235,21 @@ Vehicle AB_S2_M11511 : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_ar
  coords 7298.478 10.692 4283.746
  angles 0 -50.675 0
 }
+Vehicle AB_S2_SKODA1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_S2"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7298.478 10.692 4283.746
+ angles 0 -50.675 0
+}
 SCR_AIGroup AB_S3 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{39F36F2C038BD99D}" {
+  LL_GroupCallsign "{694680A9E767734C}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 2
@@ -324,9 +348,21 @@ Vehicle AB_S3_M11511 : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_ar
  coords 7298.478 10.692 4283.746
  angles 0 -50.675 0
 }
+Vehicle AB_S3_TRABANT1 : "{F69FB3BEBCF96315}Prefabs/Vehicles/Wheeled/T601/T601_grey.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_S3"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7298.478 10.692 4283.746
+ angles 0 -50.675 0
+}
 SCR_AIGroup AB_S4 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{39F36F2C038BD99D}" {
+  LL_GroupCallsign "{694680A9E767734C}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 3
@@ -425,9 +461,21 @@ Vehicle AB_S4_M11511 : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_ar
  coords 7298.478 10.692 4283.746
  angles 0 -50.675 0
 }
+Vehicle AB_S4_UAZ_BROWN1 : "{D7C51A961BF675B2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_brown.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_S4"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7298.478 10.692 4283.746
+ angles 0 -50.675 0
+}
 SCR_AIGroup AB_SNP1 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Snipers.et" {
  components {
-  LL_GroupCallsign "{033F5D056A6CAC5D}" {
+  LL_GroupCallsign "{041865728F9FDA2B}" {
    m_iCompany 0
    m_iPlatoon 3
    m_iSquad 0
@@ -526,9 +574,21 @@ Vehicle AB_SNP1_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et
  coords 7298.478 10.692 4283.746
  angles 0 -50.675 0
 }
+Vehicle AB_SNP1_VAN_BEIGE1 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_SNP1"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7298.478 10.692 4283.746
+ angles 0 -50.675 0
+}
 SCR_AIGroup AB_S5 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{39F36F2C038BD99D}" {
+  LL_GroupCallsign "{694680A9E767734C}" {
    m_iCompany 0
    m_iPlatoon 2
    m_iSquad 0
@@ -627,15 +687,27 @@ Vehicle AB_S5_M11511 : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_ar
  coords 7891.442 130.252 9054.029
  angles 0 47.283 0
 }
+Vehicle AB_S5_UAZ_TEAL1 : "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_S5"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7895.851 130.498 9058.805
+ angles 0 47.283 0
+}
 SCR_AIGroup AB_S6 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{39F36F2C038BD99D}" {
+  LL_GroupCallsign "{694680A9E767734C}" {
    m_iCompany 0
    m_iPlatoon 2
    m_iSquad 1
   }
  }
- coords 7901.674 130.338 9057.936
+ coords 7904.184 130.478 9060.655
  angles 0 -42.717 0
 }
 GenericEntity IPSEC_Ammo_AB_S6 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
@@ -713,7 +785,7 @@ GenericEntity IPSEC_Ammo_AB_S6 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoB
    Enabled 1
   }
  }
- coords 7900.572 130.338 9056.918
+ coords 7903.082 130.478 9059.637
  angles 0 -42.717 0
 }
 Vehicle AB_S6_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
@@ -725,18 +797,30 @@ Vehicle AB_S6_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" 
    "faction affiliation" "IPSEC"
   }
  }
- coords 7899.378 130.695 9062.626
+ coords 7901.888 130.835 9065.345
+ angles 0 47.283 0
+}
+Vehicle AB_S6_VAN_BLUE1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_S6"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7906.466 131.09 9070.305
  angles 0 47.283 0
 }
 SCR_AIGroup AB_S7 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{39F36F2C038BD99D}" {
+  LL_GroupCallsign "{694680A9E767734C}" {
    m_iCompany 0
    m_iPlatoon 2
    m_iSquad 2
   }
  }
- coords 7909.61 130.781 9066.533
+ coords 7914.968 131.08 9072.338
  angles 0 -42.717 0
 }
 GenericEntity IPSEC_Ammo_AB_S7 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
@@ -814,7 +898,7 @@ GenericEntity IPSEC_Ammo_AB_S7 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoB
    Enabled 1
   }
  }
- coords 7908.508 130.781 9065.515
+ coords 7913.866 131.08 9071.32
  angles 0 -42.717 0
 }
 Vehicle AB_S7_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
@@ -826,18 +910,30 @@ Vehicle AB_S7_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" 
    "faction affiliation" "IPSEC"
   }
  }
- coords 7907.314 131.137 9071.224
+ coords 7912.672 131.436 9077.029
+ angles 0 47.283 0
+}
+Vehicle AB_S7_BUH_GREY1 : "{780FA841BFE4077F}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_grey.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_S7"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7917.217 131.69 9081.952
  angles 0 47.283 0
 }
 SCR_AIGroup AB_S8 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{39F36F2C038BD99D}" {
+  LL_GroupCallsign "{694680A9E767734C}" {
    m_iCompany 0
    m_iPlatoon 2
    m_iSquad 3
   }
  }
- coords 7917.546 131.223 9075.13
+ coords 7925.685 131.677 9083.948
  angles 0 -42.717 0
 }
 GenericEntity IPSEC_Ammo_AB_S8 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
@@ -915,7 +1011,7 @@ GenericEntity IPSEC_Ammo_AB_S8 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoB
    Enabled 1
   }
  }
- coords 7916.444 131.223 9074.113
+ coords 7924.583 131.677 9082.93
  angles 0 -42.717 0
 }
 Vehicle AB_S8_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
@@ -927,18 +1023,30 @@ Vehicle AB_S8_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" 
    "faction affiliation" "IPSEC"
   }
  }
- coords 7915.25 131.58 9079.821
+ coords 7923.389 132.034 9088.639
+ angles 0 47.283 0
+}
+Vehicle AB_S8_URAL1 : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_forest.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_S8"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7928.951 132.344 9094.664
  angles 0 47.283 0
 }
 SCR_AIGroup AB_SNP2 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Snipers.et" {
  components {
-  LL_GroupCallsign "{033F5D056A6CAC5D}" {
+  LL_GroupCallsign "{041865728F9FDA2B}" {
    m_iCompany 0
    m_iPlatoon 3
    m_iSquad 1
   }
  }
- coords 7925.482 131.666 9083.728
+ coords 7938.437 132.389 9097.762
  angles 0 -42.717 0
 }
 GenericEntity IPSEC_Ammo_AB_SNP2 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
@@ -1016,7 +1124,7 @@ GenericEntity IPSEC_Ammo_AB_SNP2 : "{2C303FA30DF3D73F}Prefabs/Props/Military/Amm
    Enabled 1
   }
  }
- coords 7924.379 131.666 9082.71
+ coords 7937.335 132.389 9096.745
  angles 0 -42.717 0
 }
 Vehicle AB_SNP2_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
@@ -1028,12 +1136,24 @@ Vehicle AB_SNP2_M9981 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et
    "faction affiliation" "IPSEC"
   }
  }
- coords 7923.186 132.023 9088.418
+ coords 7936.141 132.745 9102.453
+ angles 0 47.283 0
+}
+Vehicle AB_SNP2_BUH_ORANGE1 : "{BB84BDE1707A38EB}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_orange.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "AB_SNP2"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "IPSEC"
+  }
+ }
+ coords 7940.685 132.999 9107.376
  angles 0 47.283 0
 }
 SCR_EditorRestrictionZoneEntity IPSECFreeze1 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 7300.113 10.392 4285.034
 }
-SCR_EditorRestrictionZoneEntity IPSECFreeze2 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 7908.462 130.781 9068.37
+SCR_EditorRestrictionZoneEntity IPSECFreeze2 : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 7916.064 131.104 9077.849
 }

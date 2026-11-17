@@ -1,6 +1,6 @@
 SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_PlatoonHQ.et" {
  components {
-  LL_GroupCallsign "{98182D271F208C4C}" {
+  LL_GroupCallsign "{F831FA657B83188D}" {
    m_iCompany 0
    m_iPlatoon 0
    m_iSquad 0
@@ -11,7 +11,7 @@ SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Pl
 }
 SCR_AIGroup AB_S1 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{1FF021EE5BDFCEE5}" {
+  LL_GroupCallsign "{F3A85A0651B9779B}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 0
@@ -100,7 +100,7 @@ GenericEntity IPSEC_Ammo_AB_S1 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoB
 }
 SCR_AIGroup AB_S2 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{1FF021EE5BDFCEE5}" {
+  LL_GroupCallsign "{F3A85A0651B9779B}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 1
@@ -189,7 +189,7 @@ GenericEntity IPSEC_Ammo_AB_S2 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoB
 }
 SCR_AIGroup AB_SNP1 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Snipers.et" {
  components {
-  LL_GroupCallsign "{ACDBC3C7FDD02E9C}" {
+  LL_GroupCallsign "{E1BC562C63D72FFA}" {
    m_iCompany 0
    m_iPlatoon 3
    m_iSquad 0
@@ -278,7 +278,7 @@ GenericEntity IPSEC_Ammo_AB_SNP1 : "{2C303FA30DF3D73F}Prefabs/Props/Military/Amm
 }
 SCR_AIGroup AB_SNP2 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Snipers.et" {
  components {
-  LL_GroupCallsign "{ACDBC3C7FDD02E9C}" {
+  LL_GroupCallsign "{E1BC562C63D72FFA}" {
    m_iCompany 0
    m_iPlatoon 3
    m_iSquad 1
@@ -367,7 +367,7 @@ GenericEntity IPSEC_Ammo_AB_SNP2 : "{2C303FA30DF3D73F}Prefabs/Props/Military/Amm
 }
 SCR_AIGroup AB_S3 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{1FF021EE5BDFCEE5}" {
+  LL_GroupCallsign "{F3A85A0651B9779B}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 2
@@ -456,7 +456,7 @@ GenericEntity IPSEC_Ammo_AB_S3 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoB
 }
 SCR_AIGroup AB_S4 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{1FF021EE5BDFCEE5}" {
+  LL_GroupCallsign "{F3A85A0651B9779B}" {
    m_iCompany 0
    m_iPlatoon 1
    m_iSquad 3
@@ -545,7 +545,7 @@ GenericEntity IPSEC_Ammo_AB_S4 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoB
 }
 SCR_AIGroup AB_S5 : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  components {
-  LL_GroupCallsign "{1FF021EE5BDFCEE5}" {
+  LL_GroupCallsign "{F3A85A0651B9779B}" {
    m_iCompany 0
    m_iPlatoon 2
    m_iSquad 0
@@ -634,7 +634,7 @@ GenericEntity IPSEC_Ammo_AB_S5 : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoB
 }
 SCR_AIGroup AB_SNP3 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Snipers.et" {
  components {
-  LL_GroupCallsign "{ACDBC3C7FDD02E9C}" {
+  LL_GroupCallsign "{E1BC562C63D72FFA}" {
    m_iCompany 0
    m_iPlatoon 3
    m_iSquad 2

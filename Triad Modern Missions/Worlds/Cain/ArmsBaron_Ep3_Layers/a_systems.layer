@@ -42,3 +42,21 @@ LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/
  coords 5213.396 101.13 7984.825
  m_iFreezeTime 300000
 }
+SCR_DestructibleBuildingEntity : "{05446F713779A94D}Prefabs/Structures/Military/Houses/GuardHouse_02/GuardHouse_02.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7E937D7EAFF090}" {
+   Enabled 0
+  }
+ }
+ coords 2209.581 0.794 7234.938
+ angles 0 -168.04 0
+}
+SCR_DestructibleBuildingEntity : "{8ACC8A8EB87A28FF}Prefabs/Structures/Houses/Village/House_Village_E_1I03/House_Village_E_1I03.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7AD0907FE2A911}" {
+   Enabled 0
+  }
+ }
+ coords 1888.388 0.432 7436.066
+ angles 0 153.726 0
+}
