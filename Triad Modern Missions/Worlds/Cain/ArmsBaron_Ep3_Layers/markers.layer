@@ -1,0 +1,37 @@
+PolylineShapeEntity VillaZone : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 1 0 0 0.392
+   m_OutlineColor 1 0 0 1
+   m_fOutlineWidth 7
+   m_bLineMode 0
+  }
+  LL_StatZoneComponent "{AE33A1F60E235D1A}" {
+  }
+ }
+ coords 1971.429 0 7404.286
+ Points {
+  ShapePoint "{D957EA08DA0BAE7F}" {
+   Position -111.429 0 -74.286
+  }
+  ShapePoint "{604E4A204E691748}" {
+   Position -11.429 0 -104.286
+  }
+  ShapePoint "{AED7D13A1A6B3DA7}" {
+   Position 88.571 0 -74.286
+  }
+  ShapePoint "{2D8EBF840B3C39C9}" {
+   Position 118.571 0 15.714
+  }
+  ShapePoint "{0AAB392C04ED9691}" {
+   Position 68.571 0 95.714
+  }
+  ShapePoint "{134C20ADFD166EBC}" {
+   Position -41.429 0 105.714
+  }
+  ShapePoint "{6D121B22696B363D}" {
+   Position -111.429 0 35.714
+  }
+ }
+ IsClosed 1
+}

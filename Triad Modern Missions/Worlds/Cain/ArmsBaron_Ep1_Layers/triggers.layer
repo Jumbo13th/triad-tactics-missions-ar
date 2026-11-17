@@ -1,0 +1,140 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesIPSEC {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "IPSec понесли критические потери. Победа Wolverine"
+    m_sFactionKey "IPSEC"
+    m_iThreshold 5
+   }
+  }
+  coords 6860 200 6771
+ }
+ LossesWOLVERINE {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Wolverine понесли критические потери. Победа IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_iThreshold 3
+   }
+  }
+  coords 6861 200 6771
+ }
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Время эпизода истекло. Склад уцелел. Победа Wolverine"
+   m_iSeconds 3600
+  }
+ }
+ coords 6859 200 6771
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ IPSECSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа IPSec. Создан четырёхкратный перевес численности над Wolverine"
+    m_sFactionKey "IPSEC"
+    m_sVersusFaction "WOLVERINE"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 6862 200 6771
+ }
+ WOLVERINESupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа Wolverine. Создан четырёхкратный перевес численности над IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_sVersusFaction "IPSEC"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 6863 200 6771
+ }
+}
+$grp GenericEntity : "{6FFA99AE0A5733C4}Prefabs/Props/ArmsBaron/ARB_AmmoStack_Crates.et" {
+ AmmoStack11 {
+  coords 6980.367 436.724 6754.759
+  angles 0 -39.555 0
+ }
+ AmmoStack21 {
+  coords 6881.292 435.687 6768.486
+ }
+ AmmoStack31 {
+  coords 6827.98 434.726 6826.533
+  angles 0 -47.691 0
+ }
+}
+$grp GenericEntity : "{83EFEE9CA199FF2A}Prefabs/Props/ArmsBaron/ARB_AmmoStack_Shells.et" {
+ AmmoStack12 {
+  coords 6980.597 436.724 6753.204
+  angles 0 -40.483 0
+ }
+ AmmoStack13 {
+  coords 6858.883 437.29 6665.751
+ }
+ AmmoStack22 {
+  coords 6880.014 435.688 6767.313
+  angles 0 -89.735 0
+ }
+ AmmoStack23 {
+  coords 6979.564 436.724 6756.352
+ }
+ AmmoStack32 {
+  coords 6978.109 436.724 6751.456
+  angles 0 140.817 0
+ }
+ AmmoStack33 {
+  coords 6978.494 436.724 6753.456
+  angles 0 -42.935 0
+ }
+}
+GenericEntity DepotDestroyed : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
+ components {
+  LL_TriggerDestroy "{69BD22C391CCC3CE}" {
+   m_sMessage "Все боеприпасы уничтожены. Победа IPSEC"
+   m_aTargets {
+    LL_TriggerDestroyTarget "{BFBDE9DFC8CC0556}" {
+     m_sEntityName "AmmoStack11"
+     m_sDisplayName "Штабель 1 группы 1"
+    }
+    LL_TriggerDestroyTarget "{F7E8367ED25621E8}" {
+     m_sEntityName "AmmoStack12"
+     m_sDisplayName "Штабель 2 группы 1"
+    }
+    LL_TriggerDestroyTarget "{7186539F564ECE0A}" {
+     m_sEntityName "AmmoStack13"
+     m_sDisplayName "Штабель 3 группы 1"
+    }
+    LL_TriggerDestroyTarget "{72C964851071F70F}" {
+     m_sEntityName "AmmoStack21"
+     m_sDisplayName "Штабель 1 группы 2"
+    }
+    LL_TriggerDestroyTarget "{7CD77741E4FDD4B8}" {
+     m_sEntityName "AmmoStack22"
+     m_sDisplayName "Штабель 2 группы 2"
+    }
+    LL_TriggerDestroyTarget "{5DE57B5E65147341}" {
+     m_sEntityName "AmmoStack23"
+     m_sDisplayName "Штабель 3 группы 2"
+    }
+    LL_TriggerDestroyTarget "{00658940993F6D32}" {
+     m_sEntityName "AmmoStack31"
+     m_sDisplayName "Штабель 1 группы 3"
+    }
+    LL_TriggerDestroyTarget "{BF06675B98CA633B}" {
+     m_sEntityName "AmmoStack32"
+     m_sDisplayName "Штабель 2 группы 3"
+    }
+    LL_TriggerDestroyTarget "{64F457186F07A3FD}" {
+     m_sEntityName "AmmoStack33"
+     m_sDisplayName "Штабель 3 группы 3"
+    }
+   }
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 4
+  }
+ }
+ coords 6858 440 6771
+}

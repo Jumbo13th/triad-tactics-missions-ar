@@ -1,0 +1,46 @@
+PolylineShapeEntity DepotZone : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
+ components {
+  LL_MapZoneComponent "{699CA7457093C9DF}" {
+   m_FillColor 1 0 0 0.392
+   m_OutlineColor 1 0 0 1
+   m_fOutlineWidth 7
+   m_bLineMode 0
+  }
+  LL_StatZoneComponent "{9C9590034269E74E}" {
+  }
+ }
+ coords 6765 456.458 6727
+ Points {
+  ShapePoint "{1F4C866399537D92}" {
+   Position -205 0 -207
+  }
+  ShapePoint "{41A7868CE365F3FF}" {
+   Position -65 0 -257
+  }
+  ShapePoint "{B0F4B7565F8D566A}" {
+   Position 135 0 -227
+  }
+  ShapePoint "{FC358F5CB9D29EC7}" {
+   Position 235 0 -107
+  }
+  ShapePoint "{6A089EB715565940}" {
+   Position 245 0 103
+  }
+  ShapePoint "{DC76E9B97F570988}" {
+   Position 175 0 223
+  }
+  ShapePoint "{23D8B49B67B736B1}" {
+   Position 35 0 263
+  }
+  ShapePoint "{E4D6A0D213F20EE2}" {
+   Position -115 0 213
+  }
+  ShapePoint "{C816C47ECCFE2D7A}" {
+   Position -205 0 73
+  }
+  ShapePoint "{B07E880D153DAF22}" {
+   Position -235 0 -77
+  }
+ }
+ IsClosed 1
+}
