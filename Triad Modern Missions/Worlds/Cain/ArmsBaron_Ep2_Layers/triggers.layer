@@ -1,0 +1,55 @@
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossesWOLVERINE {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "Wolverine понесли критические потери. Победа IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_iThreshold 5
+   }
+  }
+  coords 5913 200 8343
+ }
+ LossesIPSEC {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sMessage "IPSec понесли критические потери. Победа Wolverine"
+    m_sFactionKey "IPSEC"
+    m_iThreshold 3
+   }
+  }
+  coords 5914 200 8343
+ }
+}
+GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_sMessage "Подкрепление IPSEC подошло к терминалу. Победа IPSEC"
+   m_iSeconds 3600
+  }
+ }
+ coords 5912 200 8343
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ WOLVERINESupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа Wolverine. Создан четырёхкратный перевес численности над IPSec"
+    m_sFactionKey "WOLVERINE"
+    m_sVersusFaction "IPSEC"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 5915 200 8343
+ }
+ IPSECSupremacy {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Победа IPSec. Создан четырёхкратный перевес численности над Wolverine"
+    m_sFactionKey "IPSEC"
+    m_sVersusFaction "WOLVERINE"
+    m_fSupremacyRatio 4
+   }
+  }
+  coords 5916 200 8343
+ }
+}

@@ -226,6 +226,40 @@ Links:
 
 Workshop: [Triad Modern Missions](https://reforger.armaplatform.com/workshop/6AC4AF88BE9645B3)
 
+### Kolguyev Mission Requirements
+
+Kolguyev is the vanilla `Cain` map, so the map itself needs no addon. The series «Оружейный барон»
+(`ArmsBaron_Ep1…3`) runs there and uses the same Tactical Flava vehicles as the Black Box episodes
+(M-ATV, HMMWV, TIGR and the Yoyota DJ78), so the server mod list must carry them:
+
+```json
+[
+	{
+		"modId": "DEADC0DE00000003",
+		"name": "Tactical Flava - TIGR",
+		"version": "1.6.1"
+	},
+	{
+		"modId": "DEADC0DE00000005",
+		"name": "Tactical Flava - HMMWV",
+		"version": "1.6.1"
+	},
+	{
+		"modId": "DEADC0DE00000006",
+		"name": "Tactical Flava - M-ATV",
+		"version": "1.6.0"
+	}
+]
+```
+
+The UH-1H gunships of episode 2 are vanilla, and the Yoyota DJ78 comes with Triad Modern Factions' own Tactical Flava
+dependency, so nothing else is needed.
+
+Links:
+- [Tactical Flava - TIGR](https://reforger.armaplatform.com/workshop/DEADC0DE00000003)
+- [Tactical Flava - HMMWV](https://reforger.armaplatform.com/workshop/DEADC0DE00000005)
+- [Tactical Flava - M-ATV](https://reforger.armaplatform.com/workshop/DEADC0DE00000006)
+
 ### Belleau Wood Mission Requirements
 
 Missions that run on Belleau Wood require the following addons in addition to Triad Modern Missions itself:

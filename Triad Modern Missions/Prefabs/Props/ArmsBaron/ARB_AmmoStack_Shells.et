@@ -1,0 +1,16 @@
+GenericEntity : "{E17324998DE1BB87}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_pile_big.et" {
+ components {
+  ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+   m_aExplosions {
+     "{BCE4E0823FCFBCB7}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Large.et"
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+     "{BCE4E0823FCFBCB7}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Large.et"
+     "{B44691D651158B52}Prefabs/Weapons/Warheads/Fires/Fire_Ammo_Large.et"
+   }
+   m_iBursts 7
+   m_fRadius 7
+   m_fHeight 8
+   m_iIntervalMs 300
+  }
+ }
+}
