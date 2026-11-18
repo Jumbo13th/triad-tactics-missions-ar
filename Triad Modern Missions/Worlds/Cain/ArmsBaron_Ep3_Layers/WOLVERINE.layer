@@ -169,7 +169,7 @@ SCR_AIGroup AR_PL1 : "{6ADFBED3CFE2F6A5}Prefabs/Groups/OPFOR/TMF_Group_Wolverine
   LL_GroupCallsign "{FBD0FA171ED817F3}" {
    m_iCompany 0
    m_iPlatoon 0
-   m_iSquad 0
+   m_iSquad 1
   }
  }
  coords 1920.163 129.202 7337.372
@@ -210,23 +210,6 @@ $grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
   coords 1900.666 128.599 7346.279
   angles 1.369 124.328 0
  }
- AR_S1_DJ782 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "AR_S1"
-   }
-   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-     m_sFaction "WOLVERINE"
-    }
-   }
-   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-    "faction affiliation" "WOLVERINE"
-   }
-  }
-  coords 1906.787 128.806 7342.172
-  angles 1.724 123.59 -0.113
- }
  AR_S2_DJ781 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
@@ -243,23 +226,6 @@ $grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
   }
   coords 1885.14 128.162 7356.775
   angles 1.245 123.644 -0.264
- }
- AR_S2_DJ782 {
-  components {
-   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
-    m_sGroupName "AR_S2"
-   }
-   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-     m_sFaction "WOLVERINE"
-    }
-   }
-   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-    "faction affiliation" "WOLVERINE"
-   }
-  }
-  coords 1891.263 128.322 7352.671
-  angles 1.245 123.616 -0.264
  }
 }
 $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
@@ -815,7 +781,7 @@ SCR_AIGroup AR_BARON : "{B68E03F426281E71}Prefabs/Groups/OPFOR/ArmsBaron/ARB_Gro
   LL_GroupCallsign "{FBD0FA171ED817F3}" {
    m_iCompany 0
    m_iPlatoon 0
-   m_iSquad 3
+   m_iSquad 0
   }
  }
  coords 1914.454 129.019 7341.24
