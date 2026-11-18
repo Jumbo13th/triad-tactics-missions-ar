@@ -74,8 +74,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5902.008 2.157 8327.63
-  angles 0 171.023 0
+  coords 5901.684 2.156 8327.576
+  angles 0 172.946 0
  }
  IPSEC_Ammo_AB_S2 {
   components {
@@ -152,8 +152,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5890.416 2.115 8326.047
-  angles 0 171.023 0
+  coords 5890.625 2.132 8326.089
+  angles -1.831 172.226 0.156
  }
  IPSEC_Ammo_AB_SNP1 {
   components {
@@ -230,8 +230,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5878.824 2.074 8324.464
-  angles 0 171.023 0
+  coords 5879.594 2.087 8324.583
+  angles 0.131 172.233 0.937
  }
  IPSEC_Ammo_AB_S3 {
   components {
@@ -308,8 +308,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5932.762 2.219 8428.292
-  angles 0 171.735 0
+  coords 5932.149 2.163 8428.162
+  angles 6.383 171.776 0.157
  }
  IPSEC_Ammo_AB_S4 {
   components {
@@ -386,8 +386,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5921.191 2.216 8426.556
-  angles 0 171.735 0
+  coords 5921.153 2.211 8426.587
+  angles 0.523 172.475 0.078
  }
  IPSEC_Ammo_AB_S5 {
   components {
@@ -464,8 +464,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5909.621 2.214 8424.82
-  angles 0 171.735 0
+  coords 5910.096 2.171 8424.91
+  angles -0.916 171.041 0.156
  }
 }
 $grp SCR_AIGroup : "{37341E0E5F2A2B2D}Prefabs/Groups/BLUFOR/ArmsBaron/ARB_Group_IPSEC_Pilots.et" {
@@ -477,7 +477,7 @@ $grp SCR_AIGroup : "{37341E0E5F2A2B2D}Prefabs/Groups/BLUFOR/ArmsBaron/ARB_Group_
     m_iSquad 0
    }
   }
-  coords 9399 14.53 12398
+  coords 9422.137 15.146 12404.845
  }
  AB_HELI2 {
   components {
@@ -490,14 +490,6 @@ $grp SCR_AIGroup : "{37341E0E5F2A2B2D}Prefabs/Groups/BLUFOR/ArmsBaron/ARB_Group_
   coords 9449.835 14.962 12413.686
  }
 }
-$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- IPSECFreeze1 {
-  coords 5887.448 2.113 8325.61
- }
- IPSECFreeze2 {
-  coords 5920.449 2.216 8426.449
- }
-}
 SCR_AIGroup AB_SNP1 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Snipers.et" {
  components {
   LL_GroupCallsign "{36797DA45B668971}" {
@@ -506,8 +498,8 @@ SCR_AIGroup AB_SNP1 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_S
    m_iSquad 0
   }
  }
- coords 5877.342 2.074 8324.23
- angles 0 171.023 0
+ coords 5878.19 2.065 8324.392
+ angles 0 172.23 0
 }
 $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  AB_S1 {
@@ -518,8 +510,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 0
    }
   }
-  coords 5900.527 2.157 8327.396
-  angles 0 171.023 0
+  coords 5900.278 2.156 8327.402
+  angles 0 172.027 0
  }
  AB_S2 {
   components {
@@ -529,8 +521,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 1
    }
   }
-  coords 5888.934 2.115 8325.813
-  angles 0 171.023 0
+  coords 5889.245 2.125 8325.911
+  angles 0 172.131 0
  }
  AB_S3 {
   components {
@@ -540,8 +532,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 2
    }
   }
-  coords 5931.277 2.219 8428.077
-  angles 0 171.735 0
+  coords 5930.747 2.188 8427.959
+  angles 0 171.791 0
  }
  AB_S4 {
   components {
@@ -551,8 +543,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 3
    }
   }
-  coords 5919.707 2.216 8426.341
-  angles 0 171.735 0
+  coords 5919.725 2.213 8426.388
+  angles 0 171.419 0
  }
  AB_S5 {
   components {
@@ -562,8 +554,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 0
    }
   }
-  coords 5908.136 2.214 8424.605
-  angles 0 171.735 0
+  coords 5908.696 2.167 8424.689
+  angles 0 171.512 0
  }
 }
 SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_PlatoonHQ.et" {
@@ -574,8 +566,16 @@ SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Pl
    m_iSquad 0
   }
  }
- coords 5908.156 2.184 8328.438
- angles 0 171.023 0
+ coords 5907.328 2.168 8328.317
+ angles 0 172.444 0
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 5902.88 3.236 8376.1
+ }
+ {
+  coords 9428.417 14.828 12416.243
+ }
 }
 $grp Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
  IPSEC_UH1 {
@@ -592,8 +592,7 @@ $grp Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_g
     "faction affiliation" "IPSEC"
    }
   }
-  coords 9395.438 14.562 12384
-  angles 0 -180 0
+  coords 9425.553 15.575 12395.02
  }
  IPSEC_UH2 {
   components {
@@ -609,7 +608,6 @@ $grp Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_g
     "faction affiliation" "IPSEC"
    }
   }
-  coords 9459.589 14.819 12411.924
-  angles 0 -180 0
+  coords 9457.698 14.754 12413.087
  }
 }
