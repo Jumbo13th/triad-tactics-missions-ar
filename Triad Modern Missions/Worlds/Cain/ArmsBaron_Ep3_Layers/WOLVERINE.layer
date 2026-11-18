@@ -175,7 +175,7 @@ SCR_AIGroup AR_PL1 : "{6ADFBED3CFE2F6A5}Prefabs/Groups/OPFOR/TMF_Group_Wolverine
  coords 1920.163 129.202 7337.372
  angles 0 -145.833 0
 }
-$grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
+$grp Vehicle : "{FB612B76126F3E26}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_turret_Olive.et" {
  AR_PL1_DJ781 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {

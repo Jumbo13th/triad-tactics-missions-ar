@@ -74,8 +74,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5901.684 2.156 8327.576
-  angles 0 172.946 0
+  coords 5901.617 2.156 8327.529
+  angles 0 171.949 0
  }
  IPSEC_Ammo_AB_S2 {
   components {
@@ -152,8 +152,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5890.625 2.132 8326.089
-  angles -1.831 172.226 0.156
+  coords 5890.608 2.131 8326.041
+  angles -1.57 172.661 0.156
  }
  IPSEC_Ammo_AB_SNP1 {
   components {
@@ -230,8 +230,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5879.594 2.087 8324.583
-  angles 0.131 172.233 0.937
+  coords 5879.592 2.087 8324.604
+  angles 0.065 173.361 0.898
  }
  IPSEC_Ammo_AB_S3 {
   components {
@@ -308,8 +308,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5932.149 2.163 8428.162
-  angles 6.383 171.776 0.157
+  coords 5932.115 2.157 8428.224
+  angles 6.9 171.052 -0.078
  }
  IPSEC_Ammo_AB_S4 {
   components {
@@ -386,8 +386,8 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5921.153 2.211 8426.587
-  angles 0.523 172.475 0.078
+  coords 5921.156 2.211 8426.56
+  angles 0.588 172.476 0.117
  }
  IPSEC_Ammo_AB_S5 {
   components {
@@ -464,8 +464,68 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
     Enabled 1
    }
   }
-  coords 5910.096 2.171 8424.91
+  coords 5910.092 2.171 8424.932
   angles -0.916 171.041 0.156
+ }
+ IPSEC_NSVAmmo_AB_S1 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{52953EED26AB2DAE}" {
+      SlotTemplate InventoryStorageSlot NSVAmmo {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 5899.894 2.156 8324.392
+  angles 0 172.396 0
+ }
+ IPSEC_NSVAmmo_AB_S3 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000
+    MaxItemSize 40 40 40
+    MultiSlots {
+     MultiSlotConfiguration "{52953EED26AB2DAE}" {
+      SlotTemplate InventoryStorageSlot NSVAmmo {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 10000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 5929.012 2.187 8425.36
+  angles 0 171.295 0
  }
 }
 $grp SCR_AIGroup : "{37341E0E5F2A2B2D}Prefabs/Groups/BLUFOR/ArmsBaron/ARB_Group_IPSEC_Pilots.et" {
@@ -490,6 +550,61 @@ $grp SCR_AIGroup : "{37341E0E5F2A2B2D}Prefabs/Groups/BLUFOR/ArmsBaron/ARB_Group_
   coords 9449.835 14.962 12413.686
  }
 }
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 9443.436 14.855 12407.479
+}
+$grp Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
+ IPSEC_NSV_AB_S1 {
+  components {
+   LL_VehicleSquadLinkComponent "{5EC5BD212317B085}" {
+    m_sGroupName "AB_S1"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "IPSEC"
+   }
+  }
+  coords 5897.912 2.155 8324.128
+  angles 0 172.396 0
+ }
+ IPSEC_NSV_AB_S3 {
+  components {
+   LL_VehicleSquadLinkComponent "{5EC5BD212317B085}" {
+    m_sGroupName "AB_S3"
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "IPSEC"
+   }
+  }
+  coords 5927.036 2.218 8425.058
+  angles 0 171.295 0
+ }
+}
 SCR_AIGroup AB_SNP1 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Snipers.et" {
  components {
   LL_GroupCallsign "{36797DA45B668971}" {
@@ -498,8 +613,8 @@ SCR_AIGroup AB_SNP1 : "{6ADFBED334C38997}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_S
    m_iSquad 0
   }
  }
- coords 5878.19 2.065 8324.392
- angles 0 172.23 0
+ coords 5878.184 2.065 8324.44
+ angles 0 172.219 0
 }
 $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad.et" {
  AB_S1 {
@@ -510,8 +625,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 0
    }
   }
-  coords 5900.278 2.156 8327.402
-  angles 0 172.027 0
+  coords 5900.213 2.156 8327.331
+  angles 0 172.396 0
  }
  AB_S2 {
   components {
@@ -521,8 +636,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 1
    }
   }
-  coords 5889.245 2.125 8325.911
-  angles 0 172.131 0
+  coords 5889.179 2.125 8325.846
+  angles 0 172.388 0
  }
  AB_S3 {
   components {
@@ -532,8 +647,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 2
    }
   }
-  coords 5930.747 2.188 8427.959
-  angles 0 171.791 0
+  coords 5930.715 2.187 8428.004
+  angles 0 171.295 0
  }
  AB_S4 {
   components {
@@ -543,8 +658,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 3
    }
   }
-  coords 5919.725 2.213 8426.388
-  angles 0 171.419 0
+  coords 5919.728 2.213 8426.361
+  angles 0 171.619 0
  }
  AB_S5 {
   components {
@@ -554,8 +669,8 @@ $grp SCR_AIGroup : "{6ADFBED341A6E3A7}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Rifl
     m_iSquad 0
    }
   }
-  coords 5908.696 2.167 8424.689
-  angles 0 171.512 0
+  coords 5908.692 2.167 8424.712
+  angles 0 171.043 0
  }
 }
 SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_PlatoonHQ.et" {
@@ -566,16 +681,11 @@ SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Pl
    m_iSquad 0
   }
  }
- coords 5907.328 2.168 8328.317
- angles 0 172.444 0
+ coords 5907.308 2.169 8328.292
+ angles 0 172.441 0
 }
-$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- {
-  coords 5902.88 3.236 8376.1
- }
- {
-  coords 9428.417 14.828 12416.243
- }
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 5902.858 3.242 8376.156
 }
 $grp Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
  IPSEC_UH1 {

@@ -1,3 +1,39 @@
+$grp Vehicle : "{199E549208D9782B}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17_Green.et" {
+ AR_S7_TIGR_AGS1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_S7"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 6056.304 418.601 6159.399
+  angles 1.444 9.284 0.028
+ }
+ AR_S8_TIGR_AGS1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_S8"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 6059.963 418.94 6182.802
+  angles 0.049 7.853 0.056
+ }
+}
 $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_transport_Olive.et" {
  AR_S1_DJ78_TR1 {
   components {
@@ -13,8 +49,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8035.666 137.902 9166.725
-  angles -2.825 -106.388 -0.113
+  coords 8026.69 137.392 9163.974
+  angles -3.517 -106.604 0.038
  }
  AR_S2_DJ78_TR1 {
   components {
@@ -30,8 +66,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8061.211 139.246 9174.622
-  angles -1.245 -109.251 -0.226
+  coords 8053.224 138.857 9172.069
+  angles -3.242 -106.616 0.208
  }
  AR_S3_DJ78_TR1 {
   components {
@@ -47,8 +83,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8076.086 139.47 9179.771
-  angles -0.827 -109.285 0.245
+  coords 8069.113 139.372 9177.343
+  angles -0.676 -108.03 -0.339
  }
  AR_S4_DJ78_TR1 {
   components {
@@ -64,8 +100,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8130.282 137.658 9199.24
-  angles 4.808 -110.893 0.076
+  coords 8123.314 138.187 9196.6
+  angles 2.79 -110.42 -0.113
  }
  AR_SNP1_DJ78_TR1 {
   components {
@@ -81,8 +117,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8145.457 136.323 9205.055
-  angles 4.764 -112.311 -0.094
+  coords 8145.368 136.331 9205.061
+  angles 4.728 -111.823 -0.057
  }
  AR_S5_DJ78_TR1 {
   components {
@@ -98,8 +134,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6049.373 418 6114.442
-  angles 0 -21.172 0
+  coords 6042.74 417.76 6097.832
+  angles 1.076 17.942 -0.358
  }
  AR_S5_DJ78_TR2 {
   components {
@@ -115,8 +151,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6049.205 417.97 6121.572
-  angles -0.062 13.024 -0.094
+  coords 6044.903 417.888 6104.878
+  angles 0.898 15.089 0.132
  }
  AR_S6_DJ78_TR1 {
   components {
@@ -132,8 +168,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6051.003 417.965 6129.747
-  angles -0.133 11.593 0.282
+  coords 6048.968 417.976 6120.681
+  angles -0.311 12.846 -0.094
  }
  AR_S6_DJ78_TR2 {
   components {
@@ -149,8 +185,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6052.449 418.005 6136.975
-  angles 1.52 10.884 0.245
+  coords 6050.522 417.969 6127.886
+  angles 0 12.117 0
  }
  AR_S7_DJ78_TR1 {
   components {
@@ -166,8 +202,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6053.889 418.225 6145.221
-  angles 1.44 10.167 0.151
+  coords 6053.717 418.193 6143.887
+  angles 1.396 9.261 -0.094
  }
  AR_S7_DJ78_TR2 {
   components {
@@ -183,8 +219,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6055.157 418.415 6152.482
-  angles 1.582 9.445 -0.113
+  coords 6054.905 418.379 6151.162
+  angles 1.547 9.278 -0.076
  }
  AR_S8_DJ78_TR1 {
   components {
@@ -200,8 +236,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6056.58 418.629 6160.731
-  angles 1.289 9.45 0.132
+  coords 6057.586 418.8 6167.258
+  angles 1.485 9.274 -0.32
  }
  AR_S8_DJ78_TR2 {
   components {
@@ -217,8 +253,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6057.839 418.825 6167.993
-  angles 1.493 9.44 -0.301
+  coords 6058.77 418.897 6174.533
+  angles 0.364 7.853 0.057
  }
  AR_SNP2_DJ78_TR1 {
   components {
@@ -234,8 +270,8 @@ $grp Vehicle : "{30A64505F011DCBA}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 6059.199 418.911 6177.144
-  angles 0.151 7.31 0.057
+  coords 6061.246 418.94 6191.554
+  angles -0.071 9.999 -0.076
  }
 }
 $grp SCR_AIGroup : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_Snipers.et" {
@@ -247,8 +283,8 @@ $grp SCR_AIGroup : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_S
     m_iSquad 0
    }
   }
-  coords 8144.811 136.544 9199.556
-  angles 0 -21.642 0
+  coords 8144.869 136.539 9199.577
+  angles 0 -22.248 0
  }
  AR_SNP2 {
   components {
@@ -258,8 +294,8 @@ $grp SCR_AIGroup : "{6ADFBED32754E918}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_S
     m_iSquad 1
    }
   }
-  coords 6062.607 418.906 6175.797
-  angles 0 -82.69 0
+  coords 6064.613 418.938 6190.088
+  angles 0 -77.746 0
  }
 }
 $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_RifleSquad.et" {
@@ -271,8 +307,8 @@ $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_R
     m_iSquad 0
    }
   }
-  coords 8030.64 137.544 9160.115
-  angles 0 -16.767 0
+  coords 8028.738 137.433 9159.499
+  angles 0 -16.99 0
  }
  AR_S2 {
   components {
@@ -282,8 +318,8 @@ $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_R
     m_iSquad 1
    }
   }
-  coords 8056.189 138.943 9167.802
-  angles 0 -18.32 0
+  coords 8055.273 138.897 9167.59
+  angles 0 -18.086 0
  }
  AR_S3 {
   components {
@@ -293,8 +329,8 @@ $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_R
     m_iSquad 2
    }
   }
-  coords 8071.277 139.378 9172.898
-  angles 0 -19.432 0
+  coords 8071.27 139.378 9172.925
+  angles 0 -19.13 0
  }
  AR_S4 {
   components {
@@ -304,8 +340,8 @@ $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_R
     m_iSquad 3
    }
   }
-  coords 8125.572 138.171 9192.32
-  angles 0 -19.951 0
+  coords 8125.602 138.171 9192.24
+  angles 0 -19.94 0
  }
  AR_S5 {
   components {
@@ -315,8 +351,8 @@ $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_R
     m_iSquad 0
    }
   }
-  coords 6051.939 418 6116.966
-  angles 0 -81.424 0
+  coords 6047.795 417.858 6102.901
+  angles 0 -74.453 0
  }
  AR_S6 {
   components {
@@ -326,8 +362,8 @@ $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_R
     m_iSquad 1
    }
   }
-  coords 6054.724 417.948 6131.313
-  angles 0 -78.867 0
+  coords 6053.555 417.969 6126.137
+  angles 0 -78.148 0
  }
  AR_S7 {
   components {
@@ -337,8 +373,8 @@ $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_R
     m_iSquad 2
    }
   }
-  coords 6057.57 418.277 6146.879
-  angles 0 -78.16 0
+  coords 6058.011 418.36 6149.525
+  angles 0 -78.361 0
  }
  AR_S8 {
   components {
@@ -348,8 +384,8 @@ $grp SCR_AIGroup : "{6ADFBED3AFB88789}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_R
     m_iSquad 3
    }
   }
-  coords 6060.467 418.693 6162.352
-  angles 0 -80.231 0
+  coords 6062.119 418.889 6172.901
+  angles 0 -81.8 0
  }
 }
 SCR_AIGroup AR_PL1 : "{6ADFBED3CFE2F6A5}Prefabs/Groups/OPFOR/TMF_Group_Wolverine_PlatoonHQ.et" {
@@ -360,8 +396,44 @@ SCR_AIGroup AR_PL1 : "{6ADFBED3CFE2F6A5}Prefabs/Groups/OPFOR/TMF_Group_Wolverine
    m_iSquad 0
   }
  }
- coords 8020.477 136.886 9156.778
- angles 0 -18.587 0
+ coords 8020.909 136.903 9156.177
+ angles 0 -127.127 0
+}
+$grp Vehicle : "{7B4BBFD80FB91FF0}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_SPP_Green.et" {
+ AR_S5_TIGR_KORD1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_S5"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 6047.085 417.993 6112.943
+  angles 0.276 14.373 0.111
+ }
+ AR_S6_TIGR_KORD1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "AR_S6"
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "WOLVERINE"
+   }
+  }
+  coords 6052.253 417.987 6136.059
+  angles 1.314 12.117 0.056
+ }
 }
 $grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/Olive/YoyotaDJ78_PKM_Olive.et" {
  AR_PL1_DJ781 {
@@ -378,8 +450,8 @@ $grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8020.654 137.007 9161.991
-  angles -3.552 -108.598 0.151
+  coords 8018.741 136.88 9161.376
+  angles -3.284 -131.677 1.661
  }
  AR_S1_DJ781 {
   components {
@@ -395,8 +467,8 @@ $grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8028.607 137.518 9164.603
-  angles -3.446 -107.814 -0.151
+  coords 8033.739 137.802 9166.128
+  angles -2.825 -106.6 -0.076
  }
  AR_S2_DJ781 {
   components {
@@ -412,8 +484,8 @@ $grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8054.213 138.911 9172.312
-  angles -3.118 -106.394 0.019
+  coords 8060.234 139.215 9174.347
+  angles -1.991 -108.035 0.038
  }
  AR_S3_DJ781 {
   components {
@@ -429,8 +501,8 @@ $grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8069.134 139.372 9177.321
-  angles -0.685 -107.845 -0.32
+  coords 8076.074 139.47 9179.765
+  angles -0.827 -109.469 0.282
  }
  AR_S4_DJ781 {
   components {
@@ -446,8 +518,8 @@ $grp Vehicle : "{8C68D7C2EECA3069}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Variants/O
     "faction affiliation" "WOLVERINE"
    }
   }
-  coords 8123.361 138.183 9196.704
-  angles 2.869 -110.906 -0.132
+  coords 8130.243 137.665 9199.115
+  angles 4.799 -109.668 0.17
  }
 }
 $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
@@ -526,8 +598,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 8029.346 137.465 9159.71
-  angles 0 -17.824 -2.808
+  coords 8027.324 137.336 9159.067
+  angles 0.456 -16.632 -3.858
  }
  WOLVERINE_Ammo_AR_S2 {
   components {
@@ -604,8 +676,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 8054.83 138.873 9167.402
-  angles 0.131 -16.399 -2.808
+  coords 8053.859 138.824 9167.161
+  angles 0 -16.604 -2.808
  }
  WOLVERINE_Ammo_AR_S3 {
   components {
@@ -682,8 +754,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 8069.875 139.372 9172.429
-  angles -0.131 -17.848 -0.547
+  coords 8069.87 139.371 9172.453
+  angles -0.196 -18.032 -0.586
  }
  WOLVERINE_Ammo_AR_S4 {
   components {
@@ -760,8 +832,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 8124.362 138.235 9191.858
-  angles 0.065 -20.896 2.769
+  coords 8124.274 138.241 9191.746
+  angles -0.131 -20.42 2.73
  }
  WOLVERINE_Ammo_AR_SNP1 {
   components {
@@ -838,8 +910,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 8143.609 136.653 9199.073
-  angles 0.065 -22.286 4.789
+  coords 8143.56 136.658 9199.034
+  angles 0.065 -22.529 4.789
  }
  WOLVERINE_Ammo_AR_S5 {
   components {
@@ -916,8 +988,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6052.165 417.997 6116.451
-  angles 0.72 -111.174 -0.195
+  coords 6047.382 417.836 6101.502
+  angles 0.196 -73.486 -0.898
  }
  WOLVERINE_Ammo_AR_S6 {
   components {
@@ -994,8 +1066,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6054.439 417.967 6129.925
-  angles -0.065 -78.407 0.351
+  coords 6053.275 417.969 6124.748
+  angles 0 -78.599 0
  }
  WOLVERINE_Ammo_AR_S7 {
   components {
@@ -1072,8 +1144,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6057.32 418.242 6145.484
-  angles 0.131 -79.839 -0.858
+  coords 6057.783 418.315 6148.126
+  angles -0.131 -80.722 -1.561
  }
  WOLVERINE_Ammo_AR_S8 {
   components {
@@ -1150,8 +1222,8 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6060.226 418.656 6161.001
-  angles 0.196 -80.559 -1.834
+  coords 6061.897 418.875 6171.457
+  angles 0 -80.717 0
  }
  WOLVERINE_Ammo_AR_SNP2 {
   components {
@@ -1228,15 +1300,15 @@ $grp GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 6062.398 418.906 6174.306
-  angles 0.065 -81.268 -0.039
+  coords 6064.403 418.938 6188.732
+  angles 0 -81.432 0
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  WOLVERINEFreeze1 {
-  coords 8083.234 139.562 9181.603
+  coords 8082.478 139.562 9180.626
  }
  {
-  coords 6056.183 418.267 6146.556
+  coords 6054.39 418.23 6145.369
  }
 }
