@@ -1,4 +1,5 @@
 GenericEntity : "{ECC4315520263256}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_dark.et" {
+ ID "F0DBA538AC2A0552"
  components {
   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
    m_aExplosions {

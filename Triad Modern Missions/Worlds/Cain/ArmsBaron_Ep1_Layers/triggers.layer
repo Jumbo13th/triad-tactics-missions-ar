@@ -55,81 +55,907 @@ $grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et
 }
 $grp GenericEntity : "{6FFA99AE0A5733C4}Prefabs/Props/ArmsBaron/ARB_AmmoStack_Crates.et" {
  AmmoStack11 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
   coords 6980.367 436.724 6754.759
   angles 0 -39.555 0
  }
  AmmoStack21 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
   coords 6881.292 435.687 6768.486
  }
  AmmoStack31 {
-  coords 6827.98 434.726 6826.533
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6829.702 434.746 6824.966
+  angles 0 -47.691 0
+ }
+ AmmoStack2 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6977.138 436.724 6754.673
+  angles 0 -39.555 0
+ }
+ AmmoStack3 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6975.222 436.724 6753.09
+  angles 0 -39.555 0
+ }
+ AmmoStack4 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6976.258 436.724 6751.835
+  angles 0 -39.555 0
+ }
+ AmmoStack8 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6974.277 436.724 6754.234
+  angles 0 -39.555 0
+ }
+ AmmoStack9 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6973.466 436.724 6755.216
+  angles 0 -39.555 0
+ }
+ AmmoStack16 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6972.509 436.724 6756.375
+  angles 0 -39.555 0
+ }
+ AmmoStack17 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6971.327 436.724 6755.399
+  angles 0 -39.555 0
+ }
+ AmmoStack18 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6974.986 436.724 6750.969
+  angles 0 -39.555 0
+ }
+ AmmoStack19 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6973.934 436.724 6752.243
+  angles 0 -39.555 0
+ }
+ AmmoStack20 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6972.778 436.724 6753.644
+  angles 0 -39.555 0
+ }
+ AmmoStack28 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6882.425 435.687 6769.581
+  angles 0 -45.086 0
+ }
+ AmmoStack29 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6883.438 435.687 6770.597
+  angles 0 -45.086 0
+ }
+ AmmoStack30 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6884.484 435.687 6771.646
+  angles 0 -45.086 0
+ }
+ AmmoStack34 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6885.513 435.687 6772.678
+  angles 0 -45.086 0
+ }
+ AmmoStack38 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6882.03 435.687 6770.964
+  angles 0 -45.086 0
+ }
+ AmmoStack40 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6751.089 441.812 6804.711
+  angles 0 -39.555 0
+ }
+ AmmoStack45 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6743.5 441.812 6803.596
+  angles 0 -39.555 0
+ }
+ AmmoStack46 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6744.656 441.812 6802.195
+  angles 0 -39.555 0
+ }
+ AmmoStack48 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6746.98 441.812 6801.787
+  angles 0 -39.555 0
+ }
+ AmmoStack51 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6747.86 441.812 6804.625
+  angles 0 -39.555 0
+ }
+ AmmoStack53 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6743.231 441.812 6806.327
+  angles 0 -39.555 0
+ }
+ AmmoStack55 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6745.708 441.812 6800.921
+  angles 0 -39.555 0
+ }
+ AmmoStack56 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6744.999 441.812 6804.186
+  angles 0 -39.555 0
+ }
+ AmmoStack57 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6744.188 441.812 6805.168
+  angles 0 -39.555 0
+ }
+ AmmoStack58 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6745.944 441.812 6803.042
+  angles 0 -39.555 0
+ }
+ AmmoStack61 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6742.049 441.812 6805.351
+  angles 0 -39.555 0
+ }
+ AmmoStack63 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6831.125 434.726 6823.671
+  angles 0 -47.691 0
+ }
+ AmmoStack64 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6832.092 434.726 6822.791
+  angles 0 -47.691 0
+ }
+ AmmoStack65 {
+  components {
+   ARB_AmmoCookOffComponent "{D5B207C46B9AAB16}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6828.994 434.726 6822.384
   angles 0 -47.691 0
  }
 }
 $grp GenericEntity : "{83EFEE9CA199FF2A}Prefabs/Props/ArmsBaron/ARB_AmmoStack_Shells.et" {
  AmmoStack12 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
   coords 6980.597 436.724 6753.204
   angles 0 -40.483 0
  }
- AmmoStack13 {
-  coords 6858.883 437.29 6665.751
- }
  AmmoStack22 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
   coords 6880.014 435.688 6767.313
   angles 0 -89.735 0
  }
  AmmoStack23 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
   coords 6979.564 436.724 6756.352
  }
  AmmoStack32 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
   coords 6978.109 436.724 6751.456
   angles 0 140.817 0
  }
  AmmoStack33 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
   coords 6978.494 436.724 6753.456
+  angles 0 -42.935 0
+ }
+ AmmoStack5 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6976.265 436.724 6755.852
+  angles 0 -42.935 0
+ }
+ AmmoStack6 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6975.235 436.724 6756.959
+  angles 0 -42.935 0
+ }
+ AmmoStack7 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6977.995 436.724 6758.752
+  angles 0 -134.781 0
+ }
+ AmmoStack10 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6974.15 436.724 6758.125
+  angles 0 -42.935 0
+ }
+ AmmoStack14 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6976.139 436.724 6759.976
+  angles 0 -119.839 0
+ }
+ AmmoStack15 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6973.042 436.724 6759.316
+  angles 0 -42.935 0
+ }
+ AmmoStack24 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6969.146 436.724 6753.47
+  angles 0 -42.935 0
+ }
+ AmmoStack25 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6970.604 436.724 6751.903
+  angles 0 -42.935 0
+ }
+ AmmoStack26 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6971.579 436.724 6748.645
+  angles 0 -141.229 0
+ }
+ AmmoStack27 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6972.469 436.724 6749.898
+  angles 0 -135.062 0
+ }
+ AmmoStack35 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6887.236 435.687 6774.175
+  angles 0 -89.735 0
+ }
+ AmmoStack36 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6889.704 435.687 6776.005
+  angles 0 -49.52 0
+ }
+ AmmoStack37 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6888.409 435.687 6777.307
+  angles 0 -49.52 0
+ }
+ AmmoStack39 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6746.861 441.812 6809.928
+  angles 0 -119.839 0
+ }
+ AmmoStack41 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6751.319 441.812 6803.156
+  angles 0 -40.483 0
+ }
+ AmmoStack42 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6750.286 441.812 6806.304
+ }
+ AmmoStack43 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6748.831 441.812 6801.408
+  angles 0 140.817 0
+ }
+ AmmoStack44 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6749.216 441.812 6803.408
+  angles 0 -42.935 0
+ }
+ AmmoStack47 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6744.872 441.812 6808.077
+  angles 0 -42.935 0
+ }
+ AmmoStack49 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6742.301 441.812 6798.597
+  angles 0 -141.229 0
+ }
+ AmmoStack50 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6748.717 441.812 6808.704
+  angles 0 -134.781 0
+ }
+ AmmoStack52 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6745.957 441.812 6806.911
+  angles 0 -42.935 0
+ }
+ AmmoStack54 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6741.326 441.812 6801.855
+  angles 0 -42.935 0
+ }
+ AmmoStack59 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6743.191 441.812 6799.85
+  angles 0 -135.062 0
+ }
+ AmmoStack60 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6746.987 441.812 6805.804
+  angles 0 -42.935 0
+ }
+ AmmoStack62 {
+  components {
+   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
+    m_aExplosions {
+     "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
+    }
+    m_iBursts 1
+    m_fRadius 0
+    m_fHeight 1
+   }
+  }
+  coords 6743.764 441.812 6809.268
   angles 0 -42.935 0
  }
 }
 GenericEntity DepotDestroyed : "{C30939E43230ED0F}Prefabs/Triggers/LL_Trigger_Destroy.et" {
  components {
   LL_TriggerDestroy "{69BD22C391CCC3CE}" {
-   m_sMessage "Все боеприпасы уничтожены. Победа IPSEC"
+   m_sMessage "Все боеприпасы уничтожены. Победа IPSec"
    m_aTargets {
     LL_TriggerDestroyTarget "{BFBDE9DFC8CC0556}" {
-     m_sEntityName "AmmoStack11"
-     m_sDisplayName "Штабель 1 группы 1"
+     m_sEntityName "AmmoStack63"
+     m_sDisplayName "Группа штабелей 1"
     }
     LL_TriggerDestroyTarget "{F7E8367ED25621E8}" {
-     m_sEntityName "AmmoStack12"
-     m_sDisplayName "Штабель 2 группы 1"
+     m_sEntityName "AmmoStack8"
+     m_sDisplayName "Группа штабелей 2"
     }
     LL_TriggerDestroyTarget "{7186539F564ECE0A}" {
-     m_sEntityName "AmmoStack13"
-     m_sDisplayName "Штабель 3 группы 1"
+     m_sEntityName "AmmoStack30"
+     m_sDisplayName "Группа штабелей 3"
     }
     LL_TriggerDestroyTarget "{72C964851071F70F}" {
-     m_sEntityName "AmmoStack21"
-     m_sDisplayName "Штабель 1 группы 2"
-    }
-    LL_TriggerDestroyTarget "{7CD77741E4FDD4B8}" {
-     m_sEntityName "AmmoStack22"
-     m_sDisplayName "Штабель 2 группы 2"
-    }
-    LL_TriggerDestroyTarget "{5DE57B5E65147341}" {
-     m_sEntityName "AmmoStack23"
-     m_sDisplayName "Штабель 3 группы 2"
-    }
-    LL_TriggerDestroyTarget "{00658940993F6D32}" {
-     m_sEntityName "AmmoStack31"
-     m_sDisplayName "Штабель 1 группы 3"
-    }
-    LL_TriggerDestroyTarget "{BF06675B98CA633B}" {
-     m_sEntityName "AmmoStack32"
-     m_sDisplayName "Штабель 2 группы 3"
-    }
-    LL_TriggerDestroyTarget "{64F457186F07A3FD}" {
-     m_sEntityName "AmmoStack33"
-     m_sDisplayName "Штабель 3 группы 3"
+     m_sEntityName "AmmoStack56"
+     m_sDisplayName "Группа штабелей 4"
     }
    }
    m_fStatPoints 20

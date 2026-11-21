@@ -7,8 +7,9 @@ $grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescriptio
   "<gap/>"\
   "Остров Колгуев, Баренцево море."\
   "<gap/>"\
-  "Пока осноные силы были заняты диверсией на складе, две группы IPSEC выдвинулись к <link=VillaZone>резиденции</link> Радича."\
-  ""
+  "Разведка IPSec узнала, где скрывается Радич: в старой <link=VillaZone>резиденции</link> на западной оконечности острова. Резиденцию охраняет Wolverine."\
+  "<gap/>"\
+  "Две группы IPSec идут к резиденции, чтобы ликвидировать Радича."
   m_iOrder 0
  }
  Conditions {
@@ -30,20 +31,19 @@ $grp LL_MissionDescription : "{4A2582FF7C761EAE}Prefabs/Map/LL_MissionDescriptio
  Conditions_WOLVERINE {
   coords 1958 200 7405
   m_sTitle "Условности обороны, Wolverine"
-  m_sTextData "<h>Условности для Wolverine</h>"\
-  "— Радичу запрещено покидать <link=VillaZone>резиденцию</link> <hr/><h>Условия победы в эпизоде</h>"\
+  m_sTextData "<h>Условия победы в эпизоде</h>"\
   "— К концу эпизода Радич жив."\
-  "— В живых осталось пять или менее игроков IPSEC."\
-  "— Сторона Wolverine создала четырёхкратное преимущество над стороной IPSEC."
+  "— В живых осталось пять или менее игроков IPSec."\
+  "— Сторона Wolverine создала четырёхкратное преимущество над стороной IPSec."
   m_iOrder 2
  }
  Conditions_IPSEC {
   coords 1958 200 7404
-  m_sTitle "Условности атаки, IPSEC"
+  m_sTitle "Условности атаки, IPSec"
   m_sTextData "<h>Условия победы в эпизоде</h>"\
   "— Горан Радич мёртв."\
   "— В живых осталось три или менее игроков Wolverine."\
-  "— Сторона IPSEC создала четырёхкратное преимущество над стороной Wolverine."
+  "— Сторона IPSec создала четырёхкратное преимущество над стороной Wolverine."
   m_iOrder 3
  }
  Help {

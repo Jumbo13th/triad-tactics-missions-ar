@@ -23,11 +23,35 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
 GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
   LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
-   m_sMessage "Подкрепление IPSEC подошло к терминалу. Победа IPSEC"
+   m_sMessage "Подкрепление IPSec подошло к терминалу. Победа IPSec"
    m_iSeconds 3600
   }
  }
  coords 5912 200 8343
+}
+GenericEntity TerminalCapture : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
+ components {
+  LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+   m_sMessage "Wolverine захватили терминал. Победа Wolverine"
+   m_sZoneEntityName "TerminalZone"
+   m_sZoneDisplayName "Терминал"
+   m_sAttackerFaction "WOLVERINE"
+   m_sDefenderFaction "IPSEC"
+   m_fStatPoints 20
+   m_fStatMaxPerPlayer 4
+   m_aConditions {
+    LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+     m_sFaction "WOLVERINE"
+     m_sVersusFaction "IPSEC"
+     m_fVersusMultiplier 3
+    }
+    LL_TriggerFactionCondition "{69BD22C261674367}" {
+     m_sFaction "WOLVERINE"
+    }
+   }
+  }
+ }
+ coords 5917 200 8343
 }
 $grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
  WOLVERINESupremacy {

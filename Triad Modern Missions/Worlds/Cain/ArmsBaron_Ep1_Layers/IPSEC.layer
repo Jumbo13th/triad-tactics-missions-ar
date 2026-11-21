@@ -1,4 +1,4 @@
-$grp Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+$grp Vehicle : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  AB_S1_M11511 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
@@ -85,7 +85,7 @@ $grp Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB
   angles 10.429 121.725 -0.291
  }
 }
-Vehicle AB_S8_URAL1 : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_forest.et" {
+Vehicle AB_S8_M11511 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S8"
@@ -884,7 +884,7 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
   angles 0.637 26.665 -9.437
  }
 }
-Vehicle AB_PL1_CROWS1 : "{2CA77F2C87229673}Prefabs/Vehicles/Wheeled/M998/M1151_armed_CROWS_M2.et" {
+Vehicle AB_PL1_CROWS1 : "{FA9B45C30F1E5FB7}Prefabs/Vehicles/Wheeled/M998/M1151_armed_CROWS_M2_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_PL1"
@@ -901,7 +901,7 @@ Vehicle AB_PL1_CROWS1 : "{2CA77F2C87229673}Prefabs/Vehicles/Wheeled/M998/M1151_a
  coords 6769.72 28.893 4091.348
  angles 0.534 43.541 0
 }
-Vehicle AB_SNP1_VAN_BEIGE1 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+Vehicle AB_SNP1_M11511 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_SNP1"
@@ -1005,7 +1005,7 @@ $grp Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998_uncovered.e
   angles 9.3 116.811 0.247
  }
 }
-Vehicle AB_S1_LADA1 : "{5E696DD4888CE406}Prefabs/Vehicles/Wheeled/V2101/V2101_beige.et" {
+Vehicle AB_S1_M11512 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S1"
@@ -1022,7 +1022,7 @@ Vehicle AB_S1_LADA1 : "{5E696DD4888CE406}Prefabs/Vehicles/Wheeled/V2101/V2101_be
  coords 6764.456 28.817 4085.753
  angles 0.225 43.547 0.316
 }
-Vehicle AB_S2_SKODA1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+Vehicle AB_S2_M11512 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S2"
@@ -1164,7 +1164,7 @@ SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Pl
  coords 6766.761 28.906 4095.324
  angles 0 133.354 0
 }
-Vehicle AB_S7_BUH_GREY1 : "{780FA841BFE4077F}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_grey.et" {
+Vehicle AB_S7_M11511 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S7"
@@ -1181,7 +1181,7 @@ Vehicle AB_S7_BUH_GREY1 : "{780FA841BFE4077F}Prefabs/Vehicles/Wheeled/UAZ452/UAZ
  coords 7400.037 72.66 8740.847
  angles 10.176 123.11 -0.466
 }
-Vehicle AB_S5_UAZ_TEAL1 : "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et" {
+Vehicle AB_S5_M11512 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S5"
@@ -1206,7 +1206,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   coords 7399.242 72.334 8742.84
  }
 }
-Vehicle AB_SNP2_BUH_ORANGE1 : "{BB84BDE1707A38EB}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_orange.et" {
+Vehicle AB_SNP2_M11511 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_SNP2"
@@ -1223,7 +1223,7 @@ Vehicle AB_SNP2_BUH_ORANGE1 : "{BB84BDE1707A38EB}Prefabs/Vehicles/Wheeled/UAZ452
  coords 7427.68 77.977 8725.654
  angles 8.757 114.64 0.103
 }
-Vehicle AB_S4_UAZ_BROWN1 : "{D7C51A961BF675B2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_brown.et" {
+Vehicle AB_S4_M11512 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S4"
@@ -1240,7 +1240,7 @@ Vehicle AB_S4_UAZ_BROWN1 : "{D7C51A961BF675B2}Prefabs/Vehicles/Wheeled/UAZ469/UA
  coords 6735.246 28.421 4055.829
  angles 0.732 45.702 0
 }
-Vehicle AB_S3_TRABANT1 : "{F69FB3BEBCF96315}Prefabs/Vehicles/Wheeled/T601/T601_grey.et" {
+Vehicle AB_S3_M11512 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S3"
@@ -1257,7 +1257,7 @@ Vehicle AB_S3_TRABANT1 : "{F69FB3BEBCF96315}Prefabs/Vehicles/Wheeled/T601/T601_g
  coords 6745.034 28.557 4065.789
  angles 0.433 44.867 0
 }
-Vehicle AB_S6_VAN_BLUE1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+Vehicle AB_S6_M11511 : "{0AB1C9D335E37517}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_no_loot.et" {
  components {
   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
    m_sGroupName "AB_S6"

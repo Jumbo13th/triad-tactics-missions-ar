@@ -38,6 +38,21 @@ LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/
    m_iMonth 10
    m_iYear 2024
   }
+  LL_VehicleAccess "{252C93F2743A8191}" {
+   m_aCrewRoles {
+    LL_CrewRoleEntry "{D1BCD14C83CE6098}" {
+     m_sPrefab "{6ADFBED311DB0F70}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Pilot.et"
+     m_eGrants PILOT
+    }
+   }
+   m_aRestrictedVehicles {
+    LL_RestrictedVehicleEntry "{798E88D164C5F59E}" {
+     m_sPrefab "{FAA52C8EBB0EBCF7}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKTO.et"
+     m_ePilotRequires PILOT
+     m_eTurretRequires PILOT
+    }
+   }
+  }
  }
  coords 5213.396 101.13 7984.825
  m_iFreezeTime 300000

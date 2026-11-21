@@ -1,4 +1,5 @@
 GenericEntity : "{E17324998DE1BB87}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_pile_big.et" {
+ ID "F0DBA538AC2A0552"
  components {
   ARB_AmmoCookOffComponent "{D05999CC7E7FF18D}" {
    m_aExplosions {

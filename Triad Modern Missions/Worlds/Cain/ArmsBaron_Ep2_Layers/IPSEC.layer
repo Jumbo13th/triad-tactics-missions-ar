@@ -687,16 +687,11 @@ SCR_AIGroup AB_PL1 : "{6ADFBED37051C7C8}Prefabs/Groups/BLUFOR/TMF_Group_IPSec_Pl
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 5902.858 3.242 8376.156
 }
-$grp Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
- IPSEC_UH1 {
+$grp Vehicle : "{FAA52C8EBB0EBCF7}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKTO.et" {
+ IPSEC_AH6M1 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "AB_HELI1"
-   }
-   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-     m_sFaction "IPSEC"
-    }
    }
    SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
     "faction affiliation" "IPSEC"
@@ -704,15 +699,10 @@ $grp Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_g
   }
   coords 9425.553 15.575 12395.02
  }
- IPSEC_UH2 {
+ IPSEC_AH6M2 {
   components {
    LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
     m_sGroupName "AB_HELI2"
-   }
-   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-     m_sFaction "IPSEC"
-    }
    }
    SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
     "faction affiliation" "IPSEC"

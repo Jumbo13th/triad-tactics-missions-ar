@@ -32,7 +32,7 @@ GenericEntity Timer : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndT
 GenericEntity BaronKilled : "{42877F459BC30CDB}Prefabs/Triggers/LL_Trigger_DefeatGroup.et" {
  components {
   LL_TriggerDefeatGroup "{69BD22C33D35A288}" {
-   m_sMessage "Горан Радич ликвидирован. Победа IPSEC"
+   m_sMessage "Горан Радич ликвидирован. Победа IPSec"
    m_sGroupEntityName "AR_BARON"
    m_sGroupDisplayName "Горан Радич"
    m_fStatPoints 20
